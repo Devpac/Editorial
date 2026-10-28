@@ -2,6 +2,8 @@
 
 # ELLIPSIS_PROTOCOL.md — MODELO_DarkRomance v2.0
 
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
 ## PROPÓSITO
 
 SCENE_NECESSITY decide si una escena existe. Este archivo decide qué **no** se narra.
@@ -10,10 +12,10 @@ La elipsis es decisión dramática, no ausencia: un evento que ocurre fuera de c
 efectos distintos al mismo evento mostrado. Sin protocolo, el sistema narra todo —y entonces
 nada pesa— u omite sin diseño —y lo omitido aparece como agujero—.
 
-**En esta saga el archivo se invierte.** Aquí la elipsis **no es decoro** y no protege a la
+**En este género el archivo se invierte.** Aquí la elipsis **no es decoro** y no protege a la
 lectora de nada: ha venido a ver lo que otros libros esconden. El sexo se muestra. La
-violencia se muestra. El protagonista B (POV B, el narrador hermético) mata, tortura y
-manipula en página (*Variante: dark romance policial:* también pruebas). Lo que este archivo gobierna es la omisión como **arma de
+violencia se muestra. Lo que el protagonista B (POV B, el narrador hermético) hace en página
+—la violencia o la crueldad que le declare la obra— se muestra. Lo que este archivo gobierna es la omisión como **arma de
 subtexto y de ritmo**: qué se deja fuera de plano para que pese más, para que la
 protagonista A (POV A) solo pueda deducirlo, o para que el libro no se pare.
 
@@ -31,11 +33,11 @@ escena se narra?" son preguntas distintas.
 **Principio base.** Narrar es elegir, y elegir es también no elegir el resto. El material no
 narrado no desaparece: vive en NARRATIVE_CHRONOLOGY y produce efectos. Si la obra tiene a
 alguien que investiga a la protagonista A (*Variante: dark romance policial:* el
-investigador de asuntos internos), produce además un efecto jurídico: lo que no se narra es
-exactamente lo que ella no puede declarar y lo que quien la investiga no puede probar.
+perseguidor legítimo, si la obra lo tiene), produce además un efecto jurídico: lo que no se
+narra es exactamente lo que ella no puede declarar y lo que quien la investiga no puede probar.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Propósito.
-> *Qué declara aquí la obra:* quién investiga a la protagonista A y no puede probar lo que el texto no narra, si la obra lo tiene.
+> *Qué declara aquí la obra:* qué violencia o crueldad hace el protagonista B en página, y quién investiga a la protagonista A y no puede probar lo que el texto no narra, si la obra lo tiene.
 
 ---
 
@@ -58,22 +60,21 @@ Lista cerrada. No admite deliberación por escena, ni "por ritmo", ni "porque ya
 6. **El momento en que la protagonista A decide.** Si se elide, deja de ser una
    protagonista que decide y pasa a ser una protagonista a la que le pasan cosas.
 
-   **Variante: dark romance policial.** Ese momento es mentir en un informe o pasarle un
-   caso al protagonista B sabiendo cómo lo resolverá; si se elide, deja de ser una policía
-   que diseña su impunidad y pasa a ser una policía a la que le pasan cosas.
+   Ese momento es la decisión transgresora de A que declare la obra, si le declara una.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Lo que no se elide nunca.
 > *Qué declara aquí la obra:* dónde está el punto más bajo de la saga porque su violencia se mira entera, si lo tiene, dónde caen los hitos de la escala de rendición, sobre qué trata el hallazgo horizontal, si la saga tiene trama horizontal, y qué decisiones concretas de la protagonista A no se eliden.
 
 ---
 
-## LOS CUATRO USOS LEGÍTIMOS DE LA ELIPSIS EN ESTA SAGA
+## LOS CUATRO USOS LEGÍTIMOS DE LA ELIPSIS EN ESTE GÉNERO
 
 Fuera de estos cuatro, toda omisión es sospechosa y se justifica por escrito o se revierte.
 
 ### USO A — EL FUERA DE PLANO DEL PROTAGONISTA B (la negación plausible)
 
-El uso mayor, y el que define el archivo. **Lo que el protagonista B hace mientras la
+Si la obra declara negación plausible (el protagonista B actúa fuera del plano de A, y A
+necesita poder negarlo), es el uso mayor del archivo. **Lo que el protagonista B hace mientras la
 protagonista A no mira no se narra desde el POV de ella: llega por el resultado.** Y **el
 resultado llega con él**: a una escena con los dos, con él en directo o en las marcas que ella
 le lee en el cuerpo (ELIPSIS Y SUBTEXTO). La escaleta no le da a la deducción de ella un
@@ -82,9 +83,7 @@ capítulo sin él (`PAREJA_PRIMERO.md` §3, suelo de presencia).
 Ella deduce. No pregunta, o pregunta y no obtiene respuesta. Esa distancia entre el efecto
 visible y la causa no narrada es su negación plausible: **la escena que lo probaría no se ha
 escrito**. La negación plausible de la protagonista A y la elipsis del texto son el mismo objeto
-visto desde dos sitios. *Variante: dark romance policial:* **ella no pide nunca**, y esa
-distancia es la arquitectura legal de la saga: no hay inducción ni cooperación necesaria
-demostrable.
+visto desde dos sitios. Si la obra le da además un alcance jurídico, lo declara en su preset.
 
 Regla de equilibrio, para que no sea coartada del propio libro: **el fuera de plano lo es del
 POV de la protagonista A, no del libro.** El POV alterno del protagonista B existe para que
@@ -94,7 +93,7 @@ en INFORMATION_CHOREOGRAPHY). Se rompe cuando el conflicto ético lo exige: si l
 es por método, necesita que ambos —y la lectora— hayan visto lo mismo.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Uso A.
-> *Qué declara aquí la obra:* los resultados concretos por los que la protagonista A deduce lo que hizo el protagonista B, quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
+> *Qué declara aquí la obra:* si declara negación plausible (si no, «no aplica»): si B actúa fuera del plano de A, los resultados concretos por los que ella deduce lo que hizo él, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
 
 ### USO B — LA AUSENCIA
 
@@ -138,7 +137,7 @@ coordinación, las ruedas de prensa, las autopsias completas, la balística y la
 custodia paso a paso.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Uso C.
-> *Qué declara aquí la obra:* adónde van los traslados que se saltan y qué escenarios de procedimiento se narran porque en ellos ocurre otra cosa.
+> *Qué declara aquí la obra:* adónde van los traslados que se saltan y qué trámites de la trama del libro se narran porque en ellos ocurre otra cosa.
 
 ### USO D — LA MEMORIA QUE NO SE PUEDE NARRAR TODAVÍA
 
@@ -171,7 +170,8 @@ el tiempo transcurrido y es además el reenganche.
 Foco en la consecuencia, respeto del POV, peso por ausencia. De aquí cuelga el USO A.
 
 **3. INFORMATIVA.** Un hecho lo conocen los personajes y no llega a la lectora. Opera casi
-siempre en un sentido: **el protagonista B sabe y calla**, si la obra le da un secreto.
+siempre en un sentido: **quien guarda el secreto que declare la obra sabe y calla** (por
+defecto, el protagonista B), si la obra le da uno.
 Riesgo: ventana. Abierta sin material nuevo, cansa; su reloj suena en los libros que fije la
 obra (saga con la misma pareja; la forma de la saga la declara la obra: SERIES_GLUE, adenda
 de dark romance), y entre medias paga intereses.
@@ -187,13 +187,13 @@ decide no usarlo: dar el capítulo del protagonista B convierte la sospecha en c
 reserva. Reparto: la lectora va por delante de la protagonista A **casi siempre**, y por
 detrás alguna vez, para que la alternancia no sea previsible.
 
-**6. DE NEGACIÓN PLAUSIBLE** *(variante propia del género; ver USO A)*. Subtipo de escénica
-con disparador fijo: se ejecuta **siempre que la protagonista A no está presente en una
-acción ilegal del protagonista B que ella no ha pedido**. No se delibera; se aplica. Si la
+**6. DE NEGACIÓN PLAUSIBLE** *(si la obra declara negación plausible; ver USO A)*. Subtipo de
+escénica con disparador fijo: se ejecuta **siempre que la protagonista A no está presente en
+una acción transgresora del protagonista B que ella no ha pedido**. No se delibera; se aplica. Si la
 lectora duda de *qué* pasó en vez de dudar de *cómo demostrarlo*, ha fallado.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Tipos de elipsis.
-> *Qué declara aquí la obra:* qué calla el protagonista B y desde cuándo, si calla algo, dónde suena ese reloj y, si los protagonistas tienen un duelo, cómo lo vive cada uno y cuándo nombra a su muerto.
+> *Qué declara aquí la obra:* quién calla, qué y desde cuándo, si alguien calla algo, si declara la elipsis de negación plausible, dónde suena ese reloj y, si los protagonistas tienen un duelo, cómo lo vive cada uno y cuándo nombra a su muerto.
 
 ---
 
@@ -223,7 +223,7 @@ lectora duda de *qué* pasó en vez de dudar de *cómo demostrarlo*, ha fallado.
 ### RAZONES QUE NUNCA SON RAZÓN
 **Pudor** (ni sexual ni de violencia). **Proteger al protagonista B:** elidir lo que lo hace
 insoportable es blanquearlo. **Proteger a la protagonista A de su culpa:** lo que ella hace
-se ve (*Variante: dark romance policial:* su delito).
+se ve.
 **Ahorro:** "no sabía cómo escribirla" no es función dramática. **Comodidad de trama:** la
 trama del libro resuelta fuera de plano es deus ex machina aunque la resuelva el protagonista B.
 
@@ -248,20 +248,20 @@ cortando—.
 ### DESCRITO SECO
 Prosa funcional: sintaxis directa, léxico denotativo, cadencia mínima, sin digresión, dato
 concreto en lugar de imagen elaborada. Criterio: la lectora debe ver el evento, no inferirlo,
-pero cualquier estilización lo traicionaría. **Modo por defecto de la violencia ejecutada por
-el protagonista B en operación.** También es el modo de los cuerpos (*Variante: dark romance
+pero cualquier estilización lo traicionaría. **Modo por defecto de la violencia de oficio del
+protagonista B, si la obra se la da.** También es el modo de los cuerpos (*Variante: dark romance
 policial:* y de lo forense): dato, no espectáculo. Riesgos: confundirse con prosa descuidada si el contraste no se lee como
 decisión, y frialdad incongruente sin costura previa (SEAMS_AND_HINGES).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Descrito seco.
-> *Qué declara aquí la obra:* la operación canónica del protagonista B que fija la temperatura de este modo.
+> *Qué declara aquí la obra:* qué violencia o acto canónico fija la temperatura de este modo, si lo hay, y de quién es.
 
 ### DESCRITO POÉTICO
 Trabajo prosódico activo: imagen elaborada, modulación de cadencia, léxico expandido. **Uso
 restringido y contado**, reservado a dos territorios: el duelo y, si la obra tiene paletas,
 el cruce de las dos —con su máximo por libro (SENSORY_HIERARCHY)—. Riesgos: **estetización del daño**
 —embellecer la tortura es la frontera exacta entre dark romance y complacencia— y distancia
-narratorial, que en KU se paga con abandono.
+narratorial, que la lectora de lectura rápida paga con abandono.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Descrito poético.
 > *Qué declara aquí la obra:* qué duelos concretos abren este modo y, si tiene paletas, la fórmula de su cruce y cuántas veces por libro se permite.
@@ -269,17 +269,17 @@ narratorial, que en KU se paga con abandono.
 ### ELIDIDO
 La escena se omite y se invoca por consecuencia o por referencia; los criterios completos
 viven arriba. Es el cuarto modo del eje, **no el modo por defecto de ningún tipo de contenido
-de esta saga.** Criterio: la lectora gana algo al no verlo —negación plausible, ausencia o
-racionamiento—.
+de este género.** Criterio: la lectora gana algo al no verlo —negación plausible (si la obra
+la declara), ausencia o racionamiento—.
 
 ### ASIGNACIÓN POR TIPO DE CONTENIDO (contractual, no discrecional)
 
 | Contenido | Modo por defecto | Matiz |
 |---|---|---|
 | Sexo y contacto físico | **MOSTRADO** | HEAT_DISCIPLINE. Sin eufemismo anatómico |
-| Violencia del protagonista B en operación | **SECO** | Fría, táctica, sin huellas. Nunca poética |
+| Violencia de oficio del protagonista B, si la obra se la da | **SECO** | Fría. Nunca poética |
 | Violencia presenciada por la protagonista A | **MOSTRADO** | Su reacción es la escena; el daño, el escenario |
-| Tortura e interrogatorio del protagonista B | **MOSTRADO** o **SECO** según POV | Elidida solo bajo el USO A, con resultado visible |
+| Tortura e interrogatorio del protagonista B, si los tiene | **MOSTRADO** o **SECO** según POV | Elidida solo bajo el USO A, con resultado visible |
 | Cuerpos (*Variante: dark romance policial:* y escena del crimen, forense) | **SECO**, breve | El cuerpo se ve; el procedimiento posterior (*Variante: dark romance policial:* la autopsia) no se narra |
 | Duelo de la pareja por sus muertos, si los tiene | **EMOCIONAL elidido** hasta su libro; luego **POÉTICO** con medida | Escala de rendición |
 | La memoria racionada del protagonista B, si la tiene | **ELIDIDO** racionado | USO D. Entera y en su voz en su libro |
@@ -287,7 +287,7 @@ racionamiento—.
 | Secuestro y cautiverio | **MOSTRADO** desde quien lo sufre; **SECO** desde quien arrasa | La asimetría es el efecto |
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Asignación por tipo de contenido.
-> *Qué declara aquí la obra:* qué duelos y qué memoria ocupan sus filas, si los tiene, dónde se cuenta entera esa memoria y, si hay secuestro, dónde cae.
+> *Qué declara aquí la obra:* qué duelos y qué memoria ocupan sus filas, si los tiene, dónde se cuenta entera esa memoria y qué filas no aplican a su pareja.
 
 ### COHERENCIA POR TIPO, RÉGIMEN Y POV
 
@@ -326,8 +326,8 @@ ELIPSIS MAYOR [ID]:
 - CÓMO LLEGA A LA LECTORA: [POV del protagonista B / efecto visible / deducción de la
   protagonista A / nunca]
 - CÓMO LLEGA A LA PROTAGONISTA A, Y CUÁNDO: [puede no coincidir; la asimetría es el producto]
-- ¿SOBREVIVE LA NEGACIÓN PLAUSIBLE?: [¿consta que la protagonista A pidió algo? Si sí, se ha
-  roto; en la variante policial, también la arquitectura legal]
+- ¿SOBREVIVE LA NEGACIÓN PLAUSIBLE? (si la obra la declara): [¿consta que la protagonista A
+  pidió algo? Si sí, se ha roto]
 - SE ALUDE POR PRIMERA VEZ EN: […]
 - QUÉ PIERDE EL LIBRO AL NO NARRARLO: […]
 - CUÁNDO SE PAGA, SI SE PAGA: [libro y beat de la escala de rendición]
@@ -346,12 +346,11 @@ libro en libro; el resto, por libro.
 
 La elipsis bien construida es subtexto estructural: lo no dicho pesa porque no se dice. Cruce
 obligatorio con SUBTEXT_MECHANICS, con una forma recurrente aquí: **el evento elidido sigue
-presente por sus marcas físicas.** Los nudillos del protagonista B. La calma de un hombre que
-ha descargado algo. La protagonista A lo lee y elige no formular la pregunta: esa elección
-es la escena.
+presente por sus marcas físicas** (*ejemplo:* la ropa cambiada, una herida que no estaba).
+Quien no estaba lo lee y elige no formular la pregunta: esa elección es la escena.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Elipsis y subtexto.
-> *Qué declara aquí la obra:* qué rastro deja el protagonista B en el espacio de la protagonista A (de su paleta, si la tiene) y, si ella lee esas marcas por oficio, de cuál le viene.
+> *Qué declara aquí la obra:* si uno de la pareja actúa fuera del plano del otro, qué rastro deja en su espacio (de su paleta, si la tiene) y, si el otro lee esas marcas por oficio, de cuál le viene.
 
 Regla: **si un evento se elide y no deja marca en el cuerpo, en el espacio o en la rutina, no
 se ha elidido: se ha olvidado.**
@@ -415,8 +414,7 @@ la protagonista A o la violencia del protagonista B trabajen en página. Deus ex
 aunque lleve el nombre del protagonista B.
 
 **9 — QUE SALVA A LA PROTAGONISTA A.** Saltar el momento en que ella decide cruzar la línea
-(*Variante: dark romance policial:* delinquir): le quita agencia y culpa a la vez, y
-convierte su arco en accidente.
+(la que declare la obra): le quita agencia y culpa a la vez, y convierte su arco en accidente.
 
 ---
 
@@ -445,10 +443,9 @@ siguiente? Modo prohibido: vuelve a HEAT_DISCIPLINE.
 **TEST 3 — VIOLENCIA EN PÁGINA.** ¿La violencia que la protagonista A presencia se muestra
 entera? ¿Los cuerpos se ven? Si el libro esquiva el daño, ha dejado de ser dark.
 
-**TEST 4 — NEGACIÓN PLAUSIBLE.** Para cada acción ilegal del protagonista B elidida: ¿queda
-visible el resultado e invisible la petición? Si la protagonista A pide algo explícitamente,
-se ha roto la negación plausible (*Variante: dark romance policial:* y con ella la
-arquitectura legal).
+**TEST 4 — NEGACIÓN PLAUSIBLE** (si la obra la declara). Para cada acción transgresora del
+protagonista B elidida: ¿queda visible el resultado e invisible la petición? Si la
+protagonista A pide algo explícitamente, se ha roto la negación plausible.
 
 **TEST 5 — ASIMETRÍA.** ¿La lectora sabe más que la protagonista A y, si alguien la
 investiga, ella más de lo que él puede probar? Si lectora y protagonista A saben lo mismo
@@ -480,8 +477,8 @@ es un fallo de escaleta.
 antes lo que solo mueve la trama B o la horizontal; lo último que se elide es lo que cambia
 algo entre ellos.
 
-**TEST 13 — EL RESULTADO LLEGA CON ÉL.** Cada resultado de una acción elidida del
-protagonista B (USO A), ¿llega a una escena con los dos, con él en directo o en sus marcas?
+**TEST 13 — EL RESULTADO LLEGA CON ÉL** (si la obra declara el USO A). Cada resultado de una
+acción elidida del protagonista B (USO A), ¿llega a una escena con los dos, con él en directo o en sus marcas?
 El que llega en un capítulo de ella sin él es un fallo de escaleta.
 
 ---

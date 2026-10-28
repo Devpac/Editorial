@@ -478,10 +478,8 @@ VOICE_ARCHITECTURE.md se revisa:
 La sección TIEMPO VERBAL DOMINANTE de este archivo introduce
 coordinaciones específicas con archivos del catálogo donde el
 marco temporal de la voz tiene consecuencias operativas:
-- AESTHETIC_REGISTER.md: cada uno de los cinco modos
-  calibrados (presente histórico, pasado simple, pretérito
-  imperfecto, pasado compuesto, presente con saltos a
-  imperfecto) tiene compatibilidades declaradas con los
+- AESTHETIC_REGISTER.md: cada tiempo de la sección TIEMPO
+  VERBAL DOMINANTE tiene compatibilidades declaradas con los
   regímenes del inventario; la elección de tiempo y la
   elección de régimen se cruzan en la declaración global.
 - PROSODY_AND_MUSIC.md: el tiempo verbal dominante condiciona

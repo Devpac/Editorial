@@ -1,5 +1,7 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
 > Especializa la base de arriba, que sigue vigente. La adenda de intriga (AGATHA_ROSA) que
 > traía este archivo, con la ficha de voz de «la dama», está derogada y se ha retirado
 > (`PAREJA_PRIMERO.md`, §5).
@@ -35,7 +37,7 @@ rasgo al narrar, suena a otro.
    inequívocamente a su dueño; si no, se cambia.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › VOICE_ARCHITECTURE › Test de asimetría: las voces de la obra.
-> *Qué declara aquí la obra:* el rasgo de cada narrador que el test busca en la narración, quién es el hermético, si lo tiene, un ejemplo de su manuscrito y el caso que dio origen al test.
+> *Qué declara aquí la obra:* el rasgo de cada narrador que el test busca en la narración, quién es el hermético, si lo tiene, y los casos de su manuscrito que lo ilustran, cuando los haya.
 
 ### ÉL EN LA VOZ DE ELLA (comprobación de cierre) *(v2.0)*
 

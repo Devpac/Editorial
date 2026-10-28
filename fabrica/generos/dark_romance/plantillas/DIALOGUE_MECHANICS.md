@@ -2,6 +2,8 @@
 
 # DIALOGUE_MECHANICS.md — MODELO_DarkRomance v2.0
 
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
 ## PROPÓSITO
 
 El diálogo es donde la física de personaje, la física de relación
@@ -11,11 +13,13 @@ uniforme, personajes que suenan iguales, información en boca de
 quien no hablaría así.
 
 En el dark romance tiene además función de género: **la asimetría
-entre los dos narradores es el motor de todos sus diálogos**. Mal
-calibrada, no es un defecto de línea: es una avería de producto.
+entre los dos narradores es el motor de todos sus diálogos** (si la
+obra tiene un solo narrador, la asimetría es la de la pareja en
+diálogo). Mal calibrada, no es un defecto de línea: es una avería de
+producto.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Los dos narradores.
-> *Qué declara aquí la obra:* quiénes son sus dos narradores: protagonista A, la voz que habla, y el narrador hermético (protagonista B).
+> *Qué declara aquí la obra:* quiénes son sus narradores, si tiene dos: por defecto, protagonista A, la voz que habla, y el narrador hermético (protagonista B), si lo hay; o, con uno solo, quién narra.
 
 Este archivo es el manual de operación para generar diálogo vivo.
 
@@ -83,7 +87,7 @@ lo que hace, en lo que ordena y en lo que calla. Autoridad:
 ROMANCE_BEAT_MAP.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Beats de rendición pactados.
-> *Qué declara aquí la obra:* en qué libro cae cada beat de rendición y qué sentimiento puede articular en él el narrador hermético.
+> *Qué declara aquí la obra:* en qué libro cae cada beat de rendición y qué sentimiento puede articular en él el narrador hermético, si lo hay (o el protagonista que raciona su rendición, si la obra declara otro).
 
 **REGLA DE NOMBRE** (si la obra reserva un apelativo o retiene un
 nombre).
@@ -125,7 +129,7 @@ acota como turno propio: lo que hace mientras no contesta es la
 respuesta.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Cadencia.
-> *Qué declara aquí la obra:* una muestra del silencio del narrador hermético acotado como turno.
+> *Qué declara aquí la obra:* una muestra del silencio del narrador hermético acotado como turno, si lo hay.
 
 ### ALTERNANCIA
 Tres o cuatro pulsos distintos por página: turno largo, respuesta
@@ -149,13 +153,13 @@ turno se carga desde el cuerpo. Una sola cláusula. El gesto puede
 valer además como pista y contabilizarse en CLUE_LEDGER.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Atribución.
-> *Qué declara aquí la obra:* una muestra de atribución por gesto del narrador hermético, con un objeto de su mundo.
+> *Qué declara aquí la obra:* una muestra de atribución por gesto del narrador hermético, si lo hay (si no, de la voz más económica), con un objeto de su mundo.
 
 ### MECÁNICA ESPAÑOLA
 Raya al inicio de línea; raya de cierre solo si sigue atribución
-("—No vas a ir sola —dice." / "—No vas a ir sola."). La atribución
-va pospuesta: "—No vas a ir sola —dice, sin soltarme la muñeca";
-la inversa suena desusual. Cuando dos personajes alternan con
+(ejemplo: "—Esta noche no —dice." / "—Esta noche no."). La
+atribución va pospuesta: "—Esta noche no —dice, y le quita las
+llaves"; la inversa suena desusual. Cuando dos personajes alternan con
 claridad, se puede prescindir de atribución varios turnos: si se
 pierde la cuenta, restablecer.
 
@@ -176,7 +180,7 @@ rompe su economía y pone en el narrador la explicación que el
 personaje se niega a dar.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Atribución.
-> *Qué declara aquí la obra:* los marcadores de atribución que bastan para la voz del narrador hermético.
+> *Qué declara aquí la obra:* los marcadores de atribución que bastan para la voz del narrador hermético, si lo hay.
 
 Este criterio se respalda en PROSE_LINE_DISCIPLINE.md con CUOTA 2
 (-mente, donde computan los de atribución) y TIC 7 (dicendi con
@@ -210,13 +214,7 @@ línea. «Lo que nunca dice»: su veda.*
 Anclajes que no son estilo, sino canon:
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Idiolecto.
-> *Qué declara aquí la obra:* la ficha rellena de cada voz y los anclajes de canon que fija entre voces concretas.
-
-#### Variante: dark romance policial
-
-- **Protagonista A nunca pide nada explícitamente al narrador
-  hermético.** No es delicadeza, es arquitectura legal. Ella
-  **enuncia** en voz alta, sin destinatario.
+> *Qué declara aquí la obra:* la ficha rellena de cada voz y los anclajes de canon que fija entre voces concretas (entre ellos, lo que uno nunca le pide al otro, si la obra lo declara).
 
 ### HOMOGENEIDAD SOSPECHOSA
 Si todos hablan con el mismo léxico, sintaxis y longitud de frase,
@@ -254,7 +252,7 @@ Protagonista A pregunta casi siempre; con el narrador hermético
 pregunta y no obtiene, y esa frustración es el combustible.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Asimetría dialógica.
-> *Qué declara aquí la obra:* de dónde saca su ventaja el narrador hermético y con qué voz se invierte la mesa y es protagonista A quien responde.
+> *Qué declara aquí la obra:* de dónde saca su ventaja el narrador hermético, si lo hay (o quién la tiene en la pareja), y con qué voz se invierte la mesa y es protagonista A quien responde.
 
 ### QUIÉN CIERRA
 Quien dice la última palabra queda con el peso dramático. Con el
@@ -262,7 +260,7 @@ narrador hermético **cierra él**: ella se queda la réplica en la
 boca, y esa réplica no dicha es la tensión.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Asimetría dialógica.
-> *Qué declara aquí la obra:* con cuántas palabras como máximo cierra el narrador hermético y quién cierra con cada voz del elenco que se enfrenta a protagonista A.
+> *Qué declara aquí la obra:* con cuántas palabras como máximo cierra el narrador hermético, si lo hay, y quién cierra con cada voz del elenco que se enfrenta a protagonista A.
 
 ### QUIÉN IGNORA
 Ignorar una pregunta es un movimiento de poder fuerte. El narrador
@@ -296,13 +294,14 @@ El habla real no respeta turnos puros: los diálogos donde cada uno
 termina antes de que el otro empiece son artificiales.
 
 ### INTERRUPCIÓN LIMPIA
-—Puedo ir sola, sé dónde está y no necesito que—
+*Ejemplo:*
+—Puedo arreglarlo yo, solo necesito una hora y que nadie—
 —No.
 
 La raya como marca de corte. Uso canónico del género: el
 monosílabo del narrador hermético cortando el turno largo de
-protagonista A. Variante por gesto: "—Puedo ir sola, sé dónde
-está y— Él cierra la puerta del coche."
+protagonista A. Variante por gesto (ejemplo): "—Puedo arreglarlo
+yo, solo necesito una hora y— Él apaga la luz."
 
 ### SOLAPAMIENTO Y USO
 No caben dos voces a la vez, pero puede indicarse ("hablan los dos
@@ -332,12 +331,12 @@ SUBTEXT_MECHANICS.md lo cubre a fondo; aquí, los mecanismos.
 No se responde a lo que se pregunta; se habla de otra cosa. Se
 siente el salto y no se explica.
 
-Sostiene los relojes de la saga, si los tiene: lo que el narrador
-hermético sabe de la trama horizontal se administra en buena parte
-por temas esquivados.
+Sostiene los relojes de la saga, si los tiene: el secreto horizontal
+que declare la obra se administra en buena parte por temas
+esquivados de quien lo guarda.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Lo no dicho en el diálogo.
-> *Qué declara aquí la obra:* una muestra de cambio de tema y, si la saga tiene trama horizontal, qué secreto de ella se administra así.
+> *Qué declara aquí la obra:* una muestra de cambio de tema y, si la saga tiene trama horizontal, qué secreto de ella se administra así y quién lo guarda.
 
 ### EXCESO Y DEFECTO
 Hablar mucho para no decir lo importante marca al interrogado
@@ -352,7 +351,7 @@ Línea neutra, gesto significativo. La incongruencia es el
 subtexto.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Lo no dicho en el diálogo.
-> *Qué declara aquí la obra:* una muestra de gesto deslizado del narrador hermético.
+> *Qué declara aquí la obra:* una muestra de gesto deslizado del narrador hermético, si lo hay (si no, de cada voz de la pareja).
 
 En el duelo el gesto delata deseo o posesión; en interrogatorio,
 culpa o miedo. No se mezclan en el mismo gesto: contamina
@@ -378,7 +377,7 @@ desde el POV de protagonista A**, ni siquiera en capítulos de él.
 ## DIÁLOGO Y REGISTRO (por AESTHETIC_REGISTER.md)
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Diálogo y registro.
-> *Qué declara aquí la obra:* su régimen fijado y la longitud de capítulo, y la modulación de registro admitida en cada voz que no es el narrador hermético.
+> *Qué declara aquí la obra:* su régimen y la longitud de capítulo, y la modulación de registro admitida en cada voz que no es el narrador hermético (en todas, si no lo hay).
 
 Turnos breves, atribución escasa, tres o cuatro pulsos por página,
 capítulos que no admiten diálogo moroso.
@@ -396,29 +395,29 @@ hermético.
 
 ### Variante: dark romance policial
 
-Escena canónica del subgénero, y la más fácil de estropear.
+Escena opcional: si la obra la declara, es escena canónica del
+subgénero, y la más fácil de estropear.
 
-**Qué hace protagonista A.** Usa la perfilación para meterse en la
-cabeza del sospechoso: le ofrece un espejo, se muestra vulnerable
-de forma calculada y le hace creer que tiene una oportunidad. Se
-nota que es una técnica para todos menos para él.
+**Qué hace quien interroga** (protagonista A por defecto; lo
+declara la obra). Con el oficio que le declare la obra, se mete en
+la cabeza del interrogado: le ofrece un espejo, se muestra
+vulnerable de forma calculada y le hace creer que tiene una
+oportunidad. Se nota que es una técnica para todos menos para él.
 
 **Reglas duras:**
 - **Frío y calculado. Cero roce físico innecesario.** La seducción
   es psicológica o no es.
-- **Ella no siente nada.** Su defecto no se activa con los
-  sospechosos semanales: solo en los planos que declara la obra.
-- El villano de la semana **no asciende jamás** a interés
-  romántico. Es attrezzo táctico.
+- **No siente nada por el interrogado.**
+- El interrogado **no asciende jamás** a interés romántico.
 - La vulnerabilidad exhibida es real en su material y falsa en su
   propósito. Esa mezcla es lo que funciona.
-- **Nunca es escena limpia:** el narrador hermético lo ve o lo
-  escucha. Su reacción —celos, orden posterior en voz baja,
-  desaparición— es la otra mitad de la escena (en el cierre,
-  TEST 12).
+- **Nunca es escena limpia:** el otro de la pareja está en ella, en
+  directo o ocupando a quien narra. Su reacción —celos, orden
+  posterior en voz baja, desaparición— es la otra mitad de la
+  escena (en el cierre, TEST 12).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › El interrogatorio como seducción táctica.
-> *Qué declara aquí la obra:* si tiene esta escena (variante policial), el defecto de protagonista A y los planos en que sí se activa, y una muestra de la mecánica en su voz, con hueco de instancia.
+> *Qué declara aquí la obra:* si tiene esta escena, quién interroga y con qué oficio, cómo está el otro de la pareja en ella y una muestra de la mecánica en su voz, con hueco de instancia; o «no aplica».
 
 ---
 
@@ -455,17 +454,17 @@ diciéndose cosas que ambos ya saben.
 ### SOLUCIONES
 - **Un tercero que no sabe.** Un recién llegado es el canal
   legítimo. Dos o tres veces por libro.
-- **Conflicto sobre la información.** Los dos saben lo que él ha
-  hecho; ella se lo echa en cara. El conflicto justifica la
-  repetición y lo convierte en escena de pareja.
+- **Conflicto sobre la información.** Los dos saben lo que uno de
+  ellos ha hecho; el otro se lo echa en cara. El conflicto justifica
+  la repetición y lo convierte en escena de pareja.
 - **Por fragmentos.** Régimen obligatorio de la trama horizontal,
-  si la saga la tiene: lo que el narrador hermético sabe y ella no
-  se entrega por capas.
+  si la saga la tiene: el secreto horizontal que declare la obra se
+  entrega por capas a quien no lo sabe.
 - **Por omisión.** Un personaje suelta un dato y calla el que
   importa.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Gestión de información en diálogo.
-> *Qué declara aquí la obra:* quién hace de tercero que no sabe, qué secreto de la trama horizontal se entrega por capas y en qué libros (si la saga la tiene), y quién informa por omisión.
+> *Qué declara aquí la obra:* quién hace de tercero que no sabe, qué secreto de la trama horizontal se entrega por capas, quién lo guarda y en qué libros (si la saga la tiene), y quién informa por omisión.
 
 ### LO QUE NO FUNCIONA
 
@@ -496,17 +495,18 @@ o tres importan.
 
 *Variante: dark romance policial.* **Advertencia de género.** Es la
 puerta por la que se cuela la coralidad de comisaría, prohibida: el
-equipo no es protagonista colectivo. Techo: tres voces activas. La
-sala de la unidad es escenario de presión sobre protagonista A —lo
-que no puede decir delante de su equipo y de sus mandos—, nunca
-mesa de puesta en común del caso.
+equipo no es protagonista colectivo. Techo: tres voces activas. Si
+alguno de la pareja tiene equipo institucional (lo declara la obra),
+su sala es escenario de presión sobre él o ella —lo que no puede
+decir delante de su equipo y de sus mandos—, nunca mesa de puesta
+en común del caso.
 
 **Si la obra lo declara, el narrador hermético no participa en
 diálogos de grupo:** su registro es de dos personas; si hay una
 tercera, calla. Esta regla no lo saca nunca de la escena.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Diálogo de grupo.
-> *Qué declara aquí la obra:* qué alianzas se ven en sus escenas de grupo, en qué sala y delante de quién calla protagonista A, y si su narrador hermético entra en ellas.
+> *Qué declara aquí la obra:* qué alianzas se ven en sus escenas de grupo; si alguno de la pareja tiene equipo institucional, quién, en qué sala y delante de quién calla; y si su narrador hermético, si lo hay, entra en ellas.
 
 ---
 
@@ -536,9 +536,10 @@ Todos terminan sus frases. Sospechoso.
 "—...—dice él" en cada turno. Confiar en que la lectora sigue.
 
 ### ERROR 6 — PROTAGONISTA A PIDE
-*Variante: dark romance policial.* Una petición explícita al
-narrador hermético ("encárgate de él") rompe la negación
-plausible. Ella enuncia; nunca pide.
+*Si la obra declara negación plausible (ELLIPSIS_PROTOCOL, USO A).*
+Una petición explícita de quien la necesita a quien actúa por ella
+rompe la negación plausible. Lo que se dice en su lugar, si algo,
+lo declara la obra (DIALOGUE_MECHANICS › Idiolecto).
 
 ### ERROR 7 — SIMETRÍA DE VOLUMEN
 El narrador hermético contesta con tantas palabras como recibe.
@@ -558,11 +559,11 @@ ha venido por él.
 Cierres canónicos: **la orden en voz baja** sin respuesta de ella;
 **la pregunta que él no contesta**, con el silencio acotado como
 turno; **la miga**, si la saga tiene trama horizontal: una frase
-que revela que el narrador hermético sabe algo de esa trama que
-ella no sabe.
+que revela que quien guarda el secreto horizontal que declare la
+obra sabe algo de esa trama que el otro no sabe.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › El diálogo como gancho de capítulo.
-> *Qué declara aquí la obra:* cuántos capítulos tiene cada libro y, si la saga tiene trama horizontal, qué secreto de ella alimenta la miga.
+> *Qué declara aquí la obra:* cuántos capítulos tiene cada libro y, si la saga tiene trama horizontal, qué secreto de ella alimenta la miga y quién lo guarda.
 
 Prohibido cerrar en resolución cálida o en línea que desactive la
 tensión. Autoridad: SEAMS_AND_HINGES.
@@ -585,7 +586,7 @@ La que no tiene respuesta en la escena escrita delata diálogo
 intercambiable: va al acta.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Protocolo pre-escritura.
-> *Qué declara aquí la obra:* la pregunta 5 dicha con el nombre de su narrador hermético.
+> *Qué declara aquí la obra:* la pregunta 5 dicha con el nombre de su narrador hermético, si lo hay (si no, del protagonista B).
 
 ---
 
@@ -624,14 +625,14 @@ coordinando una reunión, se ha escrito novela negra.
 
 TEST 7 — RESISTENCIA Y TÁCTICA
 ¿Alguien contesta entero a la primera pregunta relevante?
-*Variante: dark romance policial:* con el sospechoso del libro,
-¿acercamiento frío y sin roce innecesario? ¿Está el narrador
-hermético mirando o escuchando?
+*Variante: dark romance policial, si la obra tiene la seducción
+táctica:* con el interrogado, ¿acercamiento frío y sin roce
+innecesario? ¿Está el otro de la pareja en la escena?
 
 TEST 8 — IMPUNIDAD
-*Variante: dark romance policial.* Buscar peticiones explícitas de
-protagonista A al narrador hermético. Una sola rompe la negación
-plausible.
+*Si la obra declara negación plausible (ELLIPSIS_PROTOCOL, USO A).*
+Buscar peticiones explícitas de quien la necesita a quien actúa por
+ella. Una sola la rompe.
 
 TEST 9 — EXPLICITUD
 En el sexo: ¿eufemismo, metáfora floral o corte por pudor? ¿Se
@@ -656,14 +657,14 @@ TEST 12 — SU SOMBRA EN LA PÁGINA DE ELLA *(v2.0)*
 La pregunta 5 del protocolo, hecha en el cierre: en un capítulo de
 protagonista A, en las escenas sin el narrador hermético, ¿dónde
 está su sombra? ¿Queda en la página de ella algún rastro de él (lo
-que ella sabe o teme que él ve u oye, un mensaje, lo que se calla
-por él)? *Variante: dark romance policial:* en la seducción
-táctica, ¿su reacción deja rastro en la página de ella o solo en el
-capítulo de él? Si no hay rastro, se anota en el acta como alarma
+que ella piensa o teme de él, un mensaje, lo que se calla por él)?
+*Si la obra tiene la seducción táctica:* ¿la reacción del otro de la
+pareja deja rastro en la página de quien interroga o solo en el
+capítulo del otro? Si no hay rastro, se anota en el acta como alarma
 de C-10 (no obliga a añadir).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Tests de funcionamiento.
-> *Qué declara aquí la obra:* el umbral de palabras del TEST 1, los nombres del TEST 4, si los tiene, y qué voces cuentan con turno largo en el TEST 6.
+> *Qué declara aquí la obra:* el umbral de palabras del TEST 1, los nombres del TEST 4, si los tiene, qué voces cuentan con turno largo en el TEST 6 y, si los tiene, qué rastro del otro (mensajes, vigilancia, lo que se calla) busca el TEST 12.
 
 ---
 

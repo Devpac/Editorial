@@ -2,13 +2,15 @@
 
 # AESTHETIC_REGISTER.md — MODELO_DarkRomance v2.0
 
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
 ## PROPÓSITO
 
 Este archivo declara el régimen estético de la saga antes de que cualquier otra capa
 opere. Sin esta declaración, archivos como SEMANTIC_OMISSION.md o
 SUBTEXT_MECHANICS.md aplican sesgos minimalistas encubiertos que aquí serían
 letales: la contención pudorosa es el reflejo que empuja el texto hacia el género
-secundario (*Variante: dark romance policial:* hacia la novela negra española) y lo
+secundario (*Variante: dark romance policial:* hacia la novela negra) y lo
 aleja del Dark Romance.
 
 Aquí no se declara *qué* se escribe —eso lo fija GENRE_CONVENTIONS.md— sino **cómo
@@ -27,10 +29,11 @@ GENRE_CONVENTIONS.md.
 
 ---
 
-## DECLARACIÓN PRIMARIA (fijada para toda la saga; no es hueco de instancia)
+## DECLARACIÓN PRIMARIA (por defecto, si la obra no declara otra; una vez declarada, para toda la saga)
 
-RÉGIMEN DOMINANTE: **POPULAR-EFICIENTE, variante dark romance** (por defecto, de
-primera persona), en **MIXTO DECLARADO por POV**: la protagonista A (POV A) y el
+RÉGIMEN DOMINANTE, por defecto (el de la obra lo declara su biblia, §21, y manda):
+**POPULAR-EFICIENTE, variante dark romance** (de primera persona), en **MIXTO
+DECLARADO por POV** si la obra tiene dos narradores: la protagonista A (POV A) y el
 protagonista B (POV B, el narrador hermético) son dos calibraciones distintas del
 mismo régimen, y el contraste entre ambas es el efecto principal del libro.
 
@@ -39,17 +42,17 @@ abstracción, diálogo) son las de un narrador hermético (B) frente a la voz qu
 (A). Si la obra no declara a B hermético, declara en su preset la calibración de
 cada voz, y las cifras y los tests de asimetría se leen con ella.
 
-TRADICIÓN DE REFERENCIA: **H.D. Carlton y J.T. Geissinger** —dark romance
-contemporáneo en primera persona, con POV del obseso—, ejecutado en español de
-España. *Referencia de ambientación, nunca de prosa:* el corpus del género
-secundario sirve para la textura de la ciudad de la obra; **su gramática narrativa
-está vetada** (ver ANTI-DETECCIÓN en GENRE_CONVENTIONS.md).
+TRADICIÓN DE REFERENCIA: la que declara la obra, ejecutada en su lengua y su variedad
+(`PRESET_<OBRA>.md` › Cabecera › Mercado y lengua). *Referencia de ambientación, nunca
+de prosa:* el corpus del género secundario sirve para la textura de la ciudad de la
+obra; **su gramática narrativa está vetada** (ver ANTI-DETECCIÓN en
+GENRE_CONVENTIONS.md). Una referencia de serialidad, si la obra la declara, lo es de
+serialidad, no de reparto entre la pareja y la trama del libro, que fija
+`PAREJA_PRIMERO.md`.
 
-**Variante: dark romance policial.** La serie *In Death* de J.D. Robb es referencia de
-serialidad (la misma pareja sostenida a lo largo de muchos libros), no de reparto entre
-la pareja y el caso, que fija `PAREJA_PRIMERO.md`. El corpus del género secundario es la
-novela negra española; su gramática vetada es la tercera persona, el pasado, la
-coralidad y el paisaje lírico.
+**Variante: dark romance policial.** El corpus del género secundario es la novela
+negra; su gramática vetada es la coralidad, el paisaje lírico y, si la obra lo
+declara, la persona y el tiempo de la novela negra de su tradición.
 
 | Campo | Valor declarado |
 |---|---|
@@ -60,7 +63,7 @@ coralidad y el paisaje lírico.
 | **Atención prosódica** | Moderada, con dos zonas altas obligatorias: **escenas explícitas** y **cierres de capítulo en gancho** |
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Declaración primaria.
-> *Qué declara aquí la obra:* el alcance de la declaración en libros, los nombres de sus dos narradores, la ciudad de su ambientación, de dónde le viene a A la explicación moderada (su oficio, su historia o su carácter) y cuántos cierres de capítulo en gancho tiene cada libro.
+> *Qué declara aquí la obra:* su régimen (o «el de por defecto») y, con dos narradores, si es mixto por POV; el alcance de la declaración en libros, sus narradores (cuántos y quiénes), la ciudad o el mundo de su ambientación, qué explicación narratorial admite cada voz y de dónde le viene, si le viene de algo (su oficio, su historia o su carácter), y cuántos cierres de capítulo en gancho tiene cada libro.
 
 ---
 
@@ -72,8 +75,8 @@ narradores. La primera persona es la señal de género más potente que existe, 
 cuesta nada: la lectora sabe qué está leyendo en el primer párrafo, antes de la
 sinopsis y antes de la portada. Un tramo fuera de la persona o del tiempo
 declarados no es un descuido de línea: rompe esa señal (*Variante: dark romance
-policial:* tercera persona o pasado equivale a novela negra española en la primera
-línea).
+policial:* si la obra veta la persona y el tiempo de la novela negra de su tradición,
+un tramo en ellos equivale a novela negra en la primera línea).
 
 **POV alterno A / B** (si la obra tiene dos narradores). Los capítulos de B son la
 droga de la saga: acceso directo a la obsesión desde dentro. La lectora sabe lo que
@@ -87,7 +90,7 @@ narrador sabe más que el POV activo, porque la ironía dramática se fabrica co
 alternancia y no con omnisciencia.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Persona, tiempo y alternancia.
-> *Qué declara aquí la obra:* su persona, su tiempo y sus narradores, el alcance de la regla en libros, el ejemplo canónico de lo que la lectora sabe antes que A y qué pasados de la pareja entran en la escena.
+> *Qué declara aquí la obra:* su persona, su tiempo y sus narradores, el alcance de la regla en libros, si veta la persona o el tiempo del género secundario, el ejemplo canónico de lo que la lectora sabe antes que A (con dos narradores) y qué pasados de la pareja entran en la escena.
 
 ---
 
@@ -104,13 +107,14 @@ impacto porque el texto lleva capítulos racionándolo.
   Techo: se queda en la escena, nunca sube a moraleja.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Voz de la protagonista A.
-> *Qué declara aquí la obra:* el tono de A y lo que tapa con él, si tapa algo, su frase y su cadencia, desde dónde analiza (su oficio, si le viene de ahí), cómo se comporta su tono en las escenas duras y su límite.
+> *Qué declara aquí la obra:* el tono de A y lo que tapa con él, si tapa algo, su frase y su cadencia, desde dónde analiza, si le viene de algo (su oficio, su historia o su carácter), cómo se comporta su tono en las escenas duras y su límite.
 
 ### VOZ DEL PROTAGONISTA B (POV B)
 
 - **Economía extrema.** Frases cortas, directas, graves. Sujeto, verbo, objeto.
   Punto.
-- Registra antes de sentir. Su hipervigilancia es sintaxis, no información.
+- Registra antes de sentir lo que declare la obra. Si le da hipervigilancia, es
+  sintaxis, no información.
 - No nombra emociones. Un capítulo suyo puede contener obsesión, celos y pánico sin
   que aparezca ninguna de las tres palabras. Si un párrafo suyo se resume en "y
   entonces comprendí que la quería", está mal escrito.
@@ -146,28 +150,28 @@ la página. Modula densidad léxica, tolerancia a la abstracción y tolerancia a
 explicación narratorial: el régimen fija el techo del territorio y la lectora
 implícita desplaza el punto operativo dentro de él.
 
-**DECLARACIÓN FIJADA:** LECTORA DE LECTURA RÁPIDA, con componente de **LECTORA DE
-RELECTURA a escala de saga**. Mujer de 20 a 40 años, lectora intensiva de Kindle
-Unlimited, consumidora de BookTok y Bookstagram. Lee en el móvil, de noche, a
-velocidad alta: exige fricción mínima por línea dentro del libro. Pero **relee la
-saga, no el párrafo**. Eso obliga a motivos recurrentes con variación libro a libro
-y sin densidad prosódica añadida.
+**DECLARACIÓN POR DEFECTO** (si la obra no declara otra): LECTORA DE LECTURA RÁPIDA,
+con componente de **LECTORA DE RELECTURA a escala de saga**. Quién es, dónde y cómo
+lee lo declara la obra (`PRESET_<OBRA>.md` › Cabecera › Mercado y lengua). La lectora
+por defecto lee deprisa: exige fricción mínima por línea dentro del libro. Pero
+**relee la saga, no el párrafo**. Eso obliga a motivos recurrentes con variación libro
+a libro y sin densidad prosódica añadida.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Lectora implícita.
-> *Qué declara aquí la obra:* a qué escenas, cuentas e hilos de la saga vuelve la lectora al releer, y qué motivos recurrentes lo sostienen.
+> *Qué declara aquí la obra:* su lectora implícita (o «la de por defecto»), a qué escenas, cuentas e hilos de la saga vuelve al releer, y qué motivos recurrentes lo sostienen.
 
 Implicaciones del perfil base: densidad léxica baja, abstracción mínima, frase
 corta o media de sintaxis directa, techo bajo para nominalizaciones, posesivos
 calcados y pasiva perifrástica. Del componente de relectura: motivos con variación
 y subtexto acumulado **entre libros**. Del perfil culto —referentes sin glosa,
-densidad alta, sintaxis larga— no se toma nada: **no se admite variante de lectora
-culta**.
+densidad alta, sintaxis larga— no se toma nada: **con la lectora por defecto, no se
+admite variante de lectora culta**.
 
 La única erudición tolerada es la técnica del género secundario, con función
 dramática (*Variante: dark romance policial:* la técnica policial).
 
-La combinación es la más rentable en KU: **lectura veloz dentro del volumen,
-memoria larga entre volúmenes.** Si el sistema de imágenes empieza a pedir
+La combinación por defecto: **lectura veloz dentro del volumen, memoria larga entre
+volúmenes.** Si el sistema de imágenes empieza a pedir
 relectura *del párrafo*, hay que reescribir.
 
 ### REGLAS DE COMPATIBILIDAD CON EL RÉGIMEN
@@ -178,14 +182,14 @@ veta:
 - Minimalista × lectura rápida: natural.
 - Expansivo × lectura rápida: **conflictiva.** Aquí, además, el expansivo es la
   puerta trasera por la que entra el paisaje lírico (*Variante: dark romance
-  policial:* el de la novela negra española).
+  policial:* el de la novela negra).
 - Barroco × relectura: natural, e irrelevante para este modelo.
-- **Popular-eficiente × lectura rápida × relectura de saga: la combinación de
-  este modelo.** Natural en su primer término; el segundo se paga con motivos
+- **Popular-eficiente × lectura rápida × relectura de saga: la combinación por
+  defecto de este modelo.** Natural en su primer término; el segundo se paga con motivos
   recurrentes y con moneda de rendición dosificada, no con densidad de línea.
 - **Cualquier régimen que imponga contención emocional como política del libro:
-  incompatible.** La contención solo existe como rasgo de una de las dos voces —la
-  de B, si es hermético—, nunca como norma general de la prosa.
+  incompatible.** La contención solo existe como rasgo de una voz —la de B, si es
+  hermético—, nunca como norma general de la prosa.
 
 La incompatibilidad declarada en este apartado se audita en TEST 11.
 
@@ -204,15 +208,15 @@ La incompatibilidad declarada en este apartado se audita en TEST 11.
 | **Oral / testimonial** (repetición, muletilla) | Solo como recurso puntual en el diálogo de los secundarios que declare la obra |
 | **Periodístico / conductual** (dato concreto) | Su frialdad emocional desactiva el género |
 
-Préstamos locales admitidos: la economía minimalista para B. Nunca como política
-del libro.
+Préstamos locales admitidos: la economía minimalista para B, si es hermético. Nunca
+como política del libro.
 
 **Variante: dark romance policial.** La jerga que el naval-decimonónico convertiría
-en espectáculo es la policial. Préstamo local admitido además: el dato conductual
-para las escenas de investigación, nunca como política del libro.
+en espectáculo es la policial. Si la obra lo declara, préstamo local admitido además
+en las escenas de investigación, nunca como política del libro.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Regímenes no declarados.
-> *Qué declara aquí la obra:* qué secundarios pueden hablar en registro oral y, si admite un préstamo local como el dato conductual, en qué escenas entra.
+> *Qué declara aquí la obra:* qué secundarios pueden hablar en registro oral, si alguno, y qué otros préstamos locales admite, si admite alguno, y en qué escenas entra cada uno.
 
 ### POPULAR-EFICIENTE — RÉGIMEN DECLARADO DE ESTE MODELO
 Principio: prosa funcional que prioriza ritmo, legibilidad y temperatura sobre
@@ -226,22 +230,21 @@ diálogo antes que desde la glosa.
 
 **VARIANTE DECLARADA — DARK ROMANCE** (por defecto, de primera persona). Tres ajustes:
 
-1. **Doble calibración por POV** (ver LA ASIMETRÍA DE VOZ). A amplía la
-   interioridad por encima de "moderada"; B la reduce por debajo del suelo del
-   régimen. Ningún otro parámetro se bifurca.
+1. **Doble calibración por POV** (con dos narradores; ver LA ASIMETRÍA DE VOZ). A
+   amplía la interioridad por encima de "moderada"; B, si es hermético, la reduce por
+   debajo del suelo del régimen. Ningún otro parámetro se bifurca.
 2. **Excepción de densidad en lo sensorial y lo corporal:** el material táctil,
    olfativo y sexual opera a densidad media-alta porque es la promesa del género.
    No es licencia para el lirismo, sino permiso para el detalle concreto.
 3. **Cero contención por decoro.** SEMANTIC_OMISSION.md opera moderadamente en lo
    factual y **queda desactivado en lo sexual y en lo violento**.
 
-Efecto sobre Capa 3: SUBTEXT_MECHANICS.md opera por escena de crisis y no como
-régimen sostenido —el subtexto entra en la cura de heridas, en el combate que se
-convierte en otra cosa, en la conversación de pareja delante de un tercero— y se
-retira después.
+Efecto sobre Capa 3: la obra declara si SUBTEXT_MECHANICS.md opera de forma sostenida
+o solo por escena de crisis; en el segundo caso, el subtexto entra en las escenas de
+crisis que declare la obra y se retira después.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Efecto sobre Capa 3.
-> *Qué declara aquí la obra:* en qué espacio se curan las heridas y ante qué tercero habla la pareja en sus escenas de crisis.
+> *Qué declara aquí la obra:* si el subtexto es sostenido o por escena de crisis y, en ese caso, qué escenas de crisis lo abren.
 
 CUOTAS DIRECTAS PARA PROSE_LINE_DISCIPLINE.md (no por extrapolación): el régimen
 se sitúa entre INTERMEDIO y MINIMALISTA. Son **alarma de cierre, nunca objetivo**
@@ -262,7 +265,7 @@ Debe sincronizarse con la sección REGLA DE EXTRAPOLACIÓN PARA REGÍMENES NO
 CALIBRADOS DIRECTAMENTE de PROSE_LINE_DISCIPLINE.md, que pasa a no listar
 POPULAR-EFICIENTE entre los regímenes derivados.
 
-### MIXTO DECLARADO (activo en este modelo)
+### MIXTO DECLARADO (activo por defecto con dos narradores, si la obra no declara otro)
 Mixto permanente: **el régimen no cambia entre secciones, cambia entre voces.** A
 y B comparten persona, tiempo, léxico y cuotas de base, y divergen en longitud de
 frase, interioridad y adverbio. El mapa está en LA ASIMETRÍA DE VOZ y no se
@@ -276,7 +279,7 @@ de A que se vuelve seco y sin interioridad— es inconsistencia, no virtuosismo.
 METÁFORA ORNAMENTAL: **NO.** Vetados el lirismo decorativo, la metáfora floral, el
 paisaje como personaje y cualquier imagen que exista para lucirse: vía de contagio
 principal de la novela de atmósfera (*Variante: dark romance policial:* la novela
-negra española).
+negra).
 METÁFORA ESTRUCTURAL: **SÍ, siempre.** Codifica la pregunta central del proyecto
 y tiene un vehículo concreto.
 
@@ -322,18 +325,17 @@ pone en la piel, la respiración, la temperatura y el dolor.
   ritmo, jamás por decoro (ELLIPSIS_PROTOCOL.md).
 - **Nada de lirismo compensatorio.** Si una frase sexual o violenta sobreviviría
   intacta en una novela de atmósfera, sobra.
-- **El contacto es información.** El combate cuerpo a cuerpo, las curas de heridas
-  (*care taking*), la proximidad forzada (*forced proximity*): por tacto, presión y
-  peso antes que por diálogo.
+- **El contacto es información.** El contacto que la obra tenga —por ejemplo, la
+  proximidad forzada (*forced proximity*) o las curas de heridas (*care taking*)—:
+  por tacto, presión y peso antes que por diálogo.
 - **Registro corporal diferenciado.** A siente desde dentro: pulso, mandíbula,
-  calor, vergüenza física. B, si es hermético, siente en magnitudes: distancias,
-  ángulos, el peso de ella, dónde está la salida. Su deseo se lee en lo que mide,
-  no en lo que confiesa.
+  calor, vergüenza física. B, si es hermético, registra antes de sentir lo que
+  declare la obra; su deseo se lee en lo que registra, no en lo que confiesa.
 - **Frontera única de decoro:** la sordidez no se estetiza. Ningún cadáver es
   hermoso y ninguna herida es poética.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Estética de lo táctil y lo corporal.
-> *Qué declara aquí la obra:* los lugares y objetos concretos en que ancla la violencia, el contacto y el registro corporal de A.
+> *Qué declara aquí la obra:* los lugares y objetos concretos en que ancla la violencia, el contacto (cuál carga, si lo tiene) y el registro corporal de cada voz.
 
 ---
 
@@ -359,23 +361,25 @@ CHAPTER_BRIEF.md distribuye la materia dentro de la extensión de capítulo.
 > *Qué declara aquí la obra:* la proporción global de diálogo, la de los capítulos de cada narrador con su porqué y la extensión de capítulo en palabras.
 
 ### PERMISO DE ABSTRACCIÓN EMOCIONAL
-**CONDICIONAL en A:** permitido cuando reflexiona sobre su propio patrón; prohibido
-en la acción directa, en el combate y en la escena explícita. **NO en B**, sin
+**CONDICIONAL en A:** permitido cuando reflexiona sobre su propio patrón, si la obra
+le declara uno; prohibido en la acción directa, en el combate y en la escena
+explícita. **NO en B**, sin
 excepción: si necesita nombrar un sentimiento, la escena está mal construida.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Patrón de A.
-> *Qué declara aquí la obra:* en qué consiste el patrón propio de A y qué personas y episodios lo encarnan.
+> *Qué declara aquí la obra:* en qué consiste el patrón propio de A y qué personas y episodios lo encarnan, o «no aplica».
 
 ### PERMISO DE METÁFORA ORNAMENTAL
 NO. Metáfora estructural siempre permitida. Ver SISTEMA DE IMÁGENES.
 
 ### PERMISO DE ANÁLISIS NARRATORIAL EXPLÍCITO
 **CONDICIONAL en A:** interpreta gestos, objetos y mentiras, pero el análisis se
-queda en la escena y nunca sube a comentario de autor ni a moraleja sobre su culpa.
-**NO en B:** decide, no argumenta.
+queda en la escena y nunca sube a comentario de autor ni a moraleja (tampoco sobre
+su culpa, si la obra le declara una). **NO en B** (si es hermético): decide, no
+argumenta.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Oficio de análisis de A.
-> *Qué declara aquí la obra:* de dónde le viene a A la licencia de interpretar (su oficio, su historia o su carácter).
+> *Qué declara aquí la obra:* qué licencia de interpretar tiene cada voz, si alguna la tiene, y de dónde le viene (su oficio, su historia o su carácter).
 
 ### TEMPERATURA DE CODA
 Fría y envenenada por diseño en saga con la misma pareja (la forma de la saga la
@@ -394,8 +398,8 @@ Antes de dar por terminado un capítulo, verificar:
 TEST 1 — PERSONA Y TIEMPO
 Abrir por cualquier página. ¿La persona y el tiempo que declara la obra? Un tramo
 narrativo fuera de ellos, fuera de diálogo, delata deslizamiento hacia el género
-secundario (*Variante: dark romance policial:* hacia la novela negra española). No
-es un descuido de línea: es un cambio de género.
+secundario (*Variante: dark romance policial:* hacia la novela negra). No es un
+descuido de línea: es un cambio de género.
 
 TEST 2 — ASIMETRÍA (con narrador hermético; si no, con la asimetría que declare la obra)
 Tres diálogos entre A y B, contando palabras por réplica. Si B iguala o
@@ -437,8 +441,7 @@ segunda respuesta tiene que ser no. Rastrear los tics de los corpus vecinos
 (GENRE_CONVENTIONS, ANTI-DETECCIÓN): los del género secundario y los tópicos de dark
 romance que la obra declara no repetir. Ninguno. *Variante: dark romance policial:*
 paisaje lírico, coralidad de comisaría, forense que explica dos páginas, POV del
-asesino en cursiva; ambientado en España, además, nombres anglosajones, capos,
-mansiones con servicio, "Daddy".
+asesino en cursiva.
 
 TEST 9 — CADENCIA AUDIBLE EN EL GANCHO
 Leer en voz alta el último párrafo de diez capítulos seguidos. ¿Cierran en gancho y
@@ -451,7 +454,8 @@ desactivado la tensión de saga y hay que reescribir el cierre.
 
 TEST 11 — COMPATIBILIDAD LECTORA IMPLÍCITA × RÉGIMEN
 Señales de deriva: párrafos que piden releerse para entenderse, referentes que
-exigen glosa, densidad prosódica que frena la lectura de madrugada en el móvil.
+exigen glosa, densidad prosódica que frena la lectura rápida (con la lectora por
+defecto; con otra, contra la que declare la obra).
 
 TEST 12 — VOZ IDENTIFICABLE POR CAPÍTULO
 Tapar el encabezado y leer tres párrafos. ¿Se sabe de quién es el capítulo? Si no,
@@ -484,7 +488,7 @@ Se consulta ANTES de:
 
 NO tiene precedencia sobre: THEMATIC_ENGINE.md (la pregunta moral sin absolución
 manda), CHARACTER_PHYSICS.md (si canon físico y estética chocan, gana el canon),
-STORY_SPINE.md (peso de pareja y apertura con B) y SERIES_ARCHITECTURE.md /
+STORY_SPINE.md (peso de pareja y apertura con la pareja) y SERIES_ARCHITECTURE.md /
 SERIES_GLUE.md (la forma de la saga y su número de volúmenes; con la misma pareja,
 sin cierre de la relación por libro). Si un archivo de Capa 1 choca con la estética
 declarada, se revisa la estética.
@@ -509,11 +513,11 @@ REVISION_PROTOCOL (voz —su pasada crítica— y filtros de línea).
 Confundir "prosa de calidad" con densidad. Aquí un párrafo bien escrito es el que
 pasa deprisa, deja marca en el cuerpo y cierra en gancho; no el que luce.
 
-El error recurrente de esta saga tiene nombre: **escribir bien hacia el lado
+El error recurrente de este género tiene nombre: **escribir bien hacia el lado
 equivocado.** La tentación no es la prosa descuidada; es la del género secundario
 —la frase que se demora en el decorado, el especialista que explica, el paisaje
 convertido en personaje—, la que sale sola en cuanto la trama del libro entra en
-escena (*Variante: dark romance policial:* la de novela negra española —la luz de la
+escena (*Variante: dark romance policial:* la de novela negra —la luz de la
 comisaría, el forense que explica—, la que sale sola en cuanto hay un cadáver en
 escena). Si una página se vuelve elegante y fría, comprobar quién la narra y qué está
 tocando. En el cierre, TEST 13.

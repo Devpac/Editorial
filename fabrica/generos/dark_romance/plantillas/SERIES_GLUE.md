@@ -2,6 +2,8 @@
 
 # SERIES_GLUE.md — MODELO_DarkRomance v2.0
 
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
 > **Plantilla de género, sin base de Intriga.** Aplica `PAREJA_PRIMERO.md`, que manda donde
 > choquen. El cuerpo que traía del modelo de Intriga (standalones con final feliz, puente cálido y
 > ganchos solo de intriga) se retiró en la v2.0 (`PAREJA_PRIMERO.md` §5; queda en el historial del
@@ -20,7 +22,7 @@ feliz:
 
 | Forma | Qué cierra cada libro | Qué queda abierto entre libros | El final feliz |
 |---|---|---|---|
-| **A. La misma pareja en muchos libros** (saga larga con trama horizontal) | La trama del libro (*Variante: dark romance policial:* el caso), su pregunta de pareja y su calor | La relación (lo que él todavía no ha revelado: un peldaño más de la escala de rendición, nunca el último) y la trama horizontal | Al final de la saga, a la manera del género: juntos, no limpios |
+| **A. La misma pareja en muchos libros** (saga larga, con trama horizontal si la tiene) | La trama del libro (*Variante: dark romance policial:* el caso), su pregunta de pareja y su calor | La relación (lo que la pareja todavía no se ha revelado —quién raciona, lo declara la obra—: un peldaño más de la escala de rendición, nunca el último) y la trama horizontal, si la tiene | Al final de la saga, a la manera del género: juntos, no limpios |
 | **B. Dúo o trilogía de una pareja** | En los libros que no son el último, su pregunta de pareja (sin final feliz) y, si la hay, una trama propia | La relación, en su punto más alto de daño o de deseo | En el último libro |
 | **C. Parejas rotativas en un mundo compartido** (familia, clan, club, academia) | La pareja del libro, con su final feliz (o feliz por ahora), y su trama | El mundo, su amenaza de fondo y la pareja siguiente | En cada libro, para su pareja |
 
@@ -35,14 +37,14 @@ libro **es una herramienta del género**. Sus límites:
    respuesta no es un final feliz: cambia lo que son el uno para el otro y abre la pregunta del
    libro siguiente. Un cliffhanger que tapa un libro sin pago es una estafa, y la lectora lo reseña.
 2. **Se abre la relación, no la trama del libro.** Lo que queda en vilo es una pregunta de la
-   relación: qué son el uno para el otro, qué sabe ella de él, qué ha hecho él. Una pieza grande de
+   relación: qué son el uno para el otro, qué sabe cada uno del otro, qué ha hecho uno de ellos. Una pieza grande de
    la trama horizontal puede ir con ella, nunca en su lugar. Nunca quién era el culpable del libro.
 3. **El gancho de cierre de libro se declara al diseñar el libro** (biblia, diseño del libro;
    BRIEFING, declaración de instancia) y no se improvisa en el último capítulo.
-4. **Sin reinicio.** El libro siguiente arranca donde lo dejó el anterior: lo que él ya entregó en
-   la escala de rendición no se retira sin causa en página, y lo que ella ya sabe no se olvida.
-5. **Se raciona lo que él revela, no la intensidad.** De un libro a otro pasa la confesión (el
-   peldaño siguiente); el choque, el deseo, el contacto y el calor están en todos los libros, con
+4. **Sin reinicio.** El libro siguiente arranca donde lo dejó el anterior: lo que ya se entregó en
+   la escala de rendición no se retira sin causa en página, y lo que ya se sabe no se olvida.
+5. **Se raciona lo que la pareja se revela, no la intensidad** (quién raciona, lo declara la
+   obra). De un libro a otro pasa la confesión (el peldaño siguiente); el choque, el deseo, el contacto y el calor están en todos los libros, con
    sus suelos (`PAREJA_PRIMERO.md` §4).
 
 ## LA FORMA C: PAREJAS ROTATIVAS EN UN MUNDO COMPARTIDO
@@ -138,7 +140,7 @@ En la forma C, además:
   accidente.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › SERIES_GLUE › Forma de la saga.
-> *Qué declara aquí la obra:* su forma (A, B o C), cuántos libros, qué cierra cada libro y qué deja abierto, dónde cae el final feliz y si cada libro es autónomo.
+> *Qué declara aquí la obra:* su forma (A, B o C), cuántos libros, qué cierra cada libro y qué deja abierto (quién raciona lo que se revela y si hay trama horizontal), dónde cae el final feliz y si cada libro es autónomo.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › SERIES_GLUE › Puente entre libros.
 > *Qué declara aquí la obra:* cómo pasa de un libro al siguiente (gancho de cierre, tiempo entre libros, epílogo-puente) y, si los tiene, los libros que cierran un arco con una puerta de salida limpia.
