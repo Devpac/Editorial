@@ -1,4 +1,4 @@
-<!-- MODELO_DarkRomance v2.0 — SUBTEXT_MECHANICS: base agnóstica v7 (verbatim) + adenda de dark romance (v2.0) -->
+<!-- Fábrica v3.0 — SUBTEXT_MECHANICS: base de oficio + adenda de dark romance (v2.0) -->
 
 # SUBTEXT_MECHANICS.md
 

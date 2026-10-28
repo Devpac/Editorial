@@ -1,4 +1,4 @@
-<!-- MODELO_DarkRomance v2.0 — RESEARCH_LEDGER: base agnóstica v7 (verbatim) + adenda de dark romance (v2.0) -->
+<!-- Fábrica v3.0 — RESEARCH_LEDGER: base de oficio + adenda de dark romance (v2.0) -->
 
 # RESEARCH_LEDGER.md
 

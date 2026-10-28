@@ -1,4 +1,4 @@
-# ORQUESTADOR.md — la ventana principal (MODELO_DarkRomance v2.0)
+# ORQUESTADOR.md — la ventana principal (Fábrica v3.0)
 
 > Archivo de **modelo** (vale para cualquier obra). Define el rol de la ventana que dirige una
 > obra de principio a fin: la biblia, el preset, las escaletas, los capítulos, el cierre de cada
@@ -35,7 +35,7 @@ línea de lo que va a hacer y empieza.
 
 **(a) Obra nueva**
 
-> Eres el orquestador de una obra nueva con el MODELO_DarkRomance. Autorizo conectar con acceso
+> Eres el orquestador de una obra nueva con la fábrica de Editorial. Autorizo conectar con acceso
 > de escritura el repo de GitHub `[usuario/repo-de-la-obra]` (vacío) y el del modelo
 > `[usuario/repo-del-modelo]` (solo lectura). Lee `ORQUESTADOR.md` y `LEEME.md` del modelo y
 > empieza por la fase 0. Mi idea, en bruto: [premisa, subgénero, lo que quiero]. Mi criterio de

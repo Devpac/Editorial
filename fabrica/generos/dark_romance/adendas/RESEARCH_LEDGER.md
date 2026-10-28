@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
 
 > Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: la investigación sirve a la pareja, y la de
 > la trama B se dimensiona para caber en el techo de lo que no es pareja (por defecto, como mucho el

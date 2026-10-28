@@ -1,4 +1,4 @@
-# PLANTILLA_CUADERNO.md — el cuaderno del orquestador (MODELO_DarkRomance v2.0)
+# PLANTILLA_CUADERNO.md — el cuaderno del orquestador (Fábrica v3.0)
 
 > Archivo de **modelo**. Cada obra tiene un `CUADERNO_<OBRA>.md` en la raíz de su repo, que solo
 > escribe el orquestador (`ORQUESTADOR.md`, §9). Es lo primero que lee un relevo. Corto: una o dos

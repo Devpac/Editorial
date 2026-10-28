@@ -1,6 +1,6 @@
-<!-- MODELO_DarkRomance v2.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: nació en el modelo de Intriga (AGATHA_ROSA: standalones con final feliz y parejas rotativas); adenda de dark romance con las tres formas de saga el 22-10-2026 (v1.3); v2.0, «la pareja primero» (PAREJA_PRIMERO.md): fuera el cuerpo de Intriga, el 23-10-2026. -->
+<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: nació en el modelo de Intriga (AGATHA_ROSA: standalones con final feliz y parejas rotativas); adenda de dark romance con las tres formas de saga el 22-10-2026 (v1.3); v2.0, «la pareja primero» (PAREJA_PRIMERO.md): fuera el cuerpo de Intriga, el 23-10-2026. -->
 
-# SERIES_GLUE.md — MODELO_DarkRomance v2.0
+# SERIES_GLUE.md — Fábrica v3.0
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 

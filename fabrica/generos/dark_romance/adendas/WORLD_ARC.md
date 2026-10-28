@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
 
 > Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: la pareja es la trama A y el mundo, como
 > mucho, el escenario de la trama B. La base agnóstica de arriba sigue vigente para la obra que

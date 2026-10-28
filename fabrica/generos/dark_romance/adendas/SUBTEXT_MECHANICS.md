@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 

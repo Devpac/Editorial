@@ -1,4 +1,4 @@
-<!-- MODELO_DarkRomance v2.0 — SYSTEM_ORCHESTRATION: base agnóstica v7 (verbatim) + ADENDA DE GÉNERO (dark romance; los valores de la obra viven en PRESET_<OBRA>.md) al final. Decisión: ESPECIALIZA. Ver LEEME.md -->
+<!-- Fábrica v3.0 — SYSTEM_ORCHESTRATION: base de oficio + ADENDA DE GÉNERO (dark romance; los valores de la obra viven en PRESET_<OBRA>.md) al final. Decisión: ESPECIALIZA. Ver LEEME.md -->
 
 # SYSTEM_ORCHESTRATION.md
 

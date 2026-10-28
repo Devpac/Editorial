@@ -1,4 +1,4 @@
-# PLANTILLA_LIBRO.md — los archivos de trabajo de cada libro (MODELO_DarkRomance v2.0)
+# PLANTILLA_LIBRO.md — los archivos de trabajo de cada libro (Fábrica v3.0)
 
 > Archivo de **modelo**. La forma de los tres archivos que lleva cada libro además de sus escaletas
 > y capítulos: `libro_NN/continuidad.md`, `libro_NN/plan_lectora.md` y

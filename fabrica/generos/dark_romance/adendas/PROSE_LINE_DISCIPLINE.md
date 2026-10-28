@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
 
 > Especializa la base de arriba, que sigue vigente; donde choquen, gana esta adenda. Los tics
 > anti-LLM de la base se comprueban en el cierre (OPERACIÓN C), nunca como prescripción previa.

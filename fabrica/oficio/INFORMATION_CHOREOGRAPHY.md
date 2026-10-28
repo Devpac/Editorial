@@ -1,4 +1,4 @@
-<!-- MODELO_DarkRomance v2.0 — INFORMATION_CHOREOGRAPHY: base agnóstica v7 (verbatim) + adenda de dark romance (v2.0) -->
+<!-- Fábrica v3.0 — INFORMATION_CHOREOGRAPHY: base de oficio + adenda de dark romance (v2.0) -->
 
 # INFORMATION_CHOREOGRAPHY.md
 

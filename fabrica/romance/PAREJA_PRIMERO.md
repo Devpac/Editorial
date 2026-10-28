@@ -1,4 +1,4 @@
-# PAREJA_PRIMERO.md — el principio rector del MODELO_DarkRomance v2.0
+# PAREJA_PRIMERO.md — el principio rector de la Fábrica v3.0
 
 > Archivo de **modelo** (v2.0, 22-10-2026). Manda sobre cualquier plantilla en lo que regula: el peso de la
 > pareja frente a la trama del libro. Nace de un diagnóstico de la primera obra, que encontró la causa en el

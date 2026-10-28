@@ -1,4 +1,4 @@
-# PLANTILLA_PRESET.md — el preset de una obra (MODELO_DarkRomance v2.0)
+# PLANTILLA_PRESET.md — el preset de una obra (Fábrica v3.0)
 
 > Archivo de **modelo**. Cada obra tiene un `PRESET_<OBRA>.md` en la raíz de su repo con **los
 > valores que leen las plantillas de género**: fichas, voces, idiolectos y tics vigilados, paletas,
@@ -62,27 +62,41 @@ la lectora externa de `PROTOCOLO_LECTURA.md` §8, que sale del público lector.
 
 ## SYSTEM_ORCHESTRATION
 
-La adenda de género apunta aquí sin nombre de sección. Declara:
+La adenda de género apunta aquí por el nombre de cada ranura. Declara:
 
 - **Extensión, persona y narradores:** palabras por libro y por capítulo; persona, tiempo y
-  alternancia; dónde está el régimen estético de la biblia (sus medidas son siempre alarma de
-  cierre: PROSE_LINE_DISCIPLINE, adenda).
+  alternancia; si hay más de un narrador, el reparto entre ellos, medido por libro
+  (`PAREJA_PRIMERO.md` §3, «Voces»); dónde está el régimen estético de la biblia (sus medidas son
+  siempre alarma de cierre: PROSE_LINE_DISCIPLINE, adenda).
 - **Instancia y canon oculto:** el nombre del archivo de la biblia; qué partes guardan canon oculto;
-  el criterio para la investigación sin informante; referencias heredadas de un modelo anterior.
-- **Doble hélice:** el peso de la pareja (adenda §5, «La pareja es la trama A»; la ranura conserva
-  su nombre de la v1.3): objetivo, suelo y unidad, de la biblia §14 🔒.
-- **Narradores y cierre:** cuál es el narrador hermético y cuál el irónico (si los hay); las paletas
-  de cada uno; los contadores de la obra y su techo; los datos de la trama horizontal que el calendario
-  vigila.
-- **Tics vigilados:** la muletilla de cada narrador y las imágenes de oficio que se racionan.
+  el criterio para la investigación sin informante; y, si la biblia cita archivos de un modelo
+  anterior, a qué archivo de este corresponde cada uno (por defecto, «no aplica»).
+- **Peso de la pareja:** objetivo, suelo y unidad, de la biblia §14 🔒 (por defecto, los de
+  `PAREJA_PRIMERO.md` §2); los suelos de su §3 que la obra sube y, si el autor baja alguno, cuál y
+  por qué; y la cuota de ganchos de pareja si se aparta de la de §3 (adenda §5, «La pareja es la
+  trama A»; C-7 y C-10).
+- **Narradores y cierre:** cuál es el narrador hermético y cuál el irónico (si los hay); el rasgo
+  que cada narrador lleva también en la narración (C-6); las paletas de cada narrador, si las tiene
+  (C-3); los contadores de la obra y su techo; los datos de la trama horizontal que el calendario
+  vigila (C-5).
+- **Tics vigilados:** los tics propios que la biblia raciona, si los tiene (la muletilla de un
+  narrador, las imágenes de un oficio o de un campo…), cada uno con su techo por capítulo y dónde
+  pesa (C-9b); o «no aplica».
 - **Lectora tipo:** el perfil de lectora (de la biblia).
-- **Gancho y primer capítulo:** cómo abre cada libro.
+- **Gancho y primer capítulo:** cómo abre cada libro (las reglas duras de apertura de la biblia,
+  si las tiene: adenda §6); y, si la obra declara cierres de descarga, cuáles y con qué tope (por
+  defecto, ninguno: todos los cierres empujan a pasar página, adenda §5 y C-7).
 
 ## PROTOCOLO_LECTURA
 
 - **Descripción para lectoras:** persona, tiempo y narradores, una línea cada uno.
 - **Lectora tipo:** el perfil que se pega en los encargos (`PROTOCOLO_LECTURA.md` §5).
-- **Lectura externa:** subgénero, título de la saga y preguntas propias de la obra.
+- **Lectura externa:** subgénero, título de la saga y preguntas propias de la obra: las del
+  capítulo (§5) y las de la pareja (§8, punto 3), con los nombres de la obra. El perfil de la
+  lectora externa está en › Cabecera › Mercado y lengua.
+- **Listón de comparaciones:** la marca de comparación de la lengua de la obra, su listón por 1.000
+  palabras y cómo se mide (`PROTOCOLO_LECTURA.md` §1 y §2; por defecto, en español, «como» por
+  debajo de unas 5 por 1.000, con la expresión de §2).
 - **Numeración:** si la escaleta y el libro publicado difieren, cómo.
 - **La otra trama:** cómo se nombra la trama B en palabras de lectora («la investigación», «la
   mafia»…), lo que los encargos piden como [LA OTRA TRAMA] (`PROTOCOLO_LECTURA.md` §5, §6 bis y §8).
@@ -100,14 +114,14 @@ con lo que la plantilla pide que se declare).
 - **Declaración fundacional de la obra.** Su frase fundacional y a qué lectoras no hay que venderle el libro.
 - **Posicionamiento de la obra.** Frente a qué vecino de género se posiciona y cómo encarna su pareja cada atributo de la tabla.
 - **Pilares en la obra.** Su firma sensorial, si la tiene, cuántos libros señaliza, y quién cruza las líneas con quién.
-- **Convenciones en la obra.** Su peso de pareja y sus suelos, si sube alguno (si el autor baja alguno, la decisión de la biblia que lo autoriza), el número y la longitud de sus capítulos, de qué trata su trama horizontal y qué sabe la lectora antes que la protagonista.
-- **La inversión clave de la obra.** Cómo rompe su protagonista la convención, qué oficio concreto conserva y en qué libros se hace evidente la inversión.
-- **Peligros en la obra.** Con qué formación seduce tácticamente su protagonista, en qué planos se activa su defecto y en qué libros descubre la vigilancia y la vuelve a su favor.
-- **Pecados propios de la obra.** Qué nombre de él reserva y hasta qué libro, y qué recursos racionados tiene (mezcla de paletas, gesto de vulnerabilidad, apodo) con su techo por libro, si los tiene.
-- **Expectativas en la obra.** Con qué destreza física gana sus batallas su protagonista.
+- **Convenciones en la obra.** Su peso de pareja y sus suelos, si sube alguno (si el autor baja alguno, la decisión de la biblia que lo autoriza), el número y la longitud de sus capítulos, sus cierres de descarga con su tope, si los tiene, de qué trata su trama horizontal y qué sabe la lectora antes que la protagonista.
+- **La inversión clave de la obra.** Qué convención del género secundario rompe y cómo, qué conserva de él para que el mundo sea creíble y dónde se hace evidente la inversión (en saga, en qué libro, y en cuál se vuelve irreversible).
+- **Peligros en la obra.** Cómo gestiona los dos peligros: si la protagonista se acerca a terceros, con quién y de qué forma (y con qué oficio o formación, si lo usa) y por qué medio lo ve o lo sabe el otro; si su defecto tiene condiciones, en qué terrenos se activa; y, si uno de los dos vigila al otro, con qué medios, cuándo lo descubre el vigilado y qué hace con ello (en saga, en qué libros), o «no aplica».
+- **Pecados propios de la obra.** Qué nombre de un protagonista reserva y hasta qué libro, si reserva alguno; qué recursos racionados tiene, si los tiene, con lo que significa cada uno y su techo por libro; y cómo cierra al protagonista peligroso, si no es saga con la misma pareja.
+- **Expectativas en la obra.** Cómo gana sus batallas la protagonista (inteligencia, físico, poder social…) y cada cuánto entrega algo suyo el hermético, si lo hay.
 - **Oscuridad propia de la obra.** De qué está hecha su oscuridad, qué tópicos de dark romance no repite (su anti-firma de género) y cómo actúa su antagonista de saga, si lo tiene.
-- **Marca y clasificación de la obra.** El nombre de la saga, su fórmula de títulos y sus categorías.
-- **Tests en la obra.** Su peso de pareja, su número de capítulos y el techo de sus recursos racionados, si los tiene.
+- **Marca y clasificación de la obra.** El nombre de la saga, su fórmula de títulos y sus categorías en el canal que declara (`PRESET_<OBRA>.md` › Cabecera › Mercado y lengua).
+- **Tests en la obra.** Su peso de pareja, su número de capítulos, el techo de sus recursos racionados, si los tiene, la forma de acercamiento a terceros que audita el TEST 9 y la regla de impunidad que audita el TEST 10, si la tiene, con lo que la sostiene y lo que la rompe.
 - **Relación con otros archivos en la obra.** Su peso de pareja, su extensión y la horquilla de sus capítulos, y la voz de cada protagonista.
 
 ## CHARACTER_PHYSICS
@@ -116,83 +130,83 @@ con lo que la plantilla pide que se declare).
 - **Tipos de personaje.** Quiénes son protagonista A y protagonista B, en cuántas capas se reparte el transversal, si lo tiene, cuántos forman el elenco fijo, qué personajes son bisagra y qué extensión y cuota de relación protege el máximo de tres fichas.
 - **Tipos de antagonismo.** Cuántos tipos de antagonismo superpone la saga y quién o qué encarna cada uno.
 - **Registro de mecanismos de presión.** Qué condicionantes estructurales presionan a la pareja, cómo se manifiestan sobre ella y quién los encarna en escena.
-- **Caso híbrido.** Si la saga tiene un antagonista con cuerpo que opera como sociedad, durante qué libros, y qué obliga a resolver con la cabeza y no con la violencia.
+- **Caso híbrido.** Si la saga tiene un antagonista con cuerpo que opera como sociedad, quién es, durante qué libros y qué herramienta de la pareja deja inútil, o «no aplica».
 - **Compatibilidad entre tipos.** Qué tipos ocupan el puesto secundario permanente y el terciario por arco.
-- **Ficha A1 — protagonista A.** La ficha completa y cerrada de protagonista A, campo por campo, con sus cifras vinculantes y el libro de cada fase.
+- **Ficha A1 — protagonista A.** La ficha completa y cerrada de protagonista A, campo por campo, con sus cifras vinculantes, los planos de su defecto (cuántos y cuáles) y el libro de cada fase.
 - **Ficha A2 — protagonista B.** La ficha completa y cerrada de protagonista B, campo por campo, con sus cifras vinculantes y el libro de cada peldaño.
-- **Reglas duras del canon.** Cuáles de estas reglas tiene y con qué valores: la señal corporal de protagonista A y su estado de control; la señal física que delata el deseo de B; la asimetría verbal, con el idiolecto de cada uno; si a A la subestiman, su cuota de combate con carga sexual por libro y el contraste de envergadura, si lo hay; y cuántas mezclas de paletas caben en un volumen, si tiene paletas.
-- **Plantilla B — antagonista.** Los mecanismos de la pareja que el antagonista invierte, las franjas entre las que rota el antagonista del libro y, si protagonista B lo vigila, por qué medio lo ve.
-- **Antagonista transversal.** Cuántas capas tiene el antagonista transversal, con sus libros, quién o qué es cada una, su tipo y lo que obliga, y la ficha de quien lo encarna.
+- **Reglas duras del canon.** Qué reglas duras de canon tiene, si alguna, cada una con su número, lo que fija, cuándo se usa y su techo; y, si la tiene, la señal física que delata el deseo de un protagonista (R2).
+- **Plantilla B — antagonista.** Los mecanismos de la pareja que el antagonista invierte, las franjas entre las que rota el antagonista del libro y qué papel tiene en la pareja (por ejemplo, si catalizan celos, cómo y por qué medio lo sabe el otro), si tiene alguno.
+- **Antagonista transversal.** Si lo tiene, cuántas capas tiene el antagonista transversal, con sus libros, quién o qué es cada una, su tipo y lo que obliga, y la ficha de quien lo encarna; o «no aplica».
 - **Elenco fijo.** Quiénes forman el elenco fijo, con su edad, su función dura, lo que ilumina de la pregunta central y su bomba.
-- **Regla de oro de Asuntos Internos.** Si tiene un investigador que cerca a la pareja, qué miembro del elenco fijo es.
+- **Regla de oro del perseguidor legítimo.** Si tiene un adversario moral que persigue a la pareja con razón, quién es, a quién persigue y por qué tiene razón, o «no aplica».
 - **Personajes-bisagra.** Quiénes son los personajes-bisagra, con su edad, su frecuencia de aparición, su función dura y su estado.
 - **Registro de coste acumulado.** Qué amenaza acumulativa suma una pieza en cada volumen, si la tiene, y sobre qué misterio de la trama horizontal cae la miga de pan; la columna de pareja sale de su escala de rendición (ROMANCE_BEAT_MAP).
 - **Instrucción operativa.** El verbo que resume el mecanismo de cada protagonista y el ejemplo canónico de peldaño entregado antes de tiempo.
-- **Síntomas verbales del colapso.** Con qué rasgos de idiolecto colapsa cada protagonista, qué nombra B en voz alta solo al colapsar, si lo tiene, y en qué libro cae la crisis.
+- **Síntomas verbales del colapso.** Quién colapsa hacia arriba y quién hacia abajo, si tiene esa asimetría; con qué rasgos de idiolecto colapsa cada protagonista; qué nombra el hermético en voz alta solo al colapsar, si lo tiene; y en qué libro cae la crisis.
 - **Test de tres preguntas.** El libro de la crisis y la marca de idiolecto que identifica a cada protagonista.
-- **Rango de la excepción.** El nombre del protagonista hermético al que se aplica la última frase.
-- **Tests de funcionamiento.** Los tests con los nombres, los planos y las cifras de cada herida y, si los tiene, la señal corporal, la señal del deseo de B, las marcas y el contador de mezclas de la saga.
+- **Rango de la excepción.** Quién es su protagonista hermético, si lo tiene, al que se aplica la última frase; o «no aplica».
+- **Tests de funcionamiento.** Los tests con los nombres, los planos y las cifras de cada herida y, si los tiene, sus reglas duras de canon, la señal del deseo, las marcas, el contador de mezclas y el adversario moral de la saga.
 - **Cruces POV × ejes del arco de mundo.** Si WORLD_ARC está activo, los ejes de mundo y su intensidad para cada protagonista por tramos de libros, el cruce revelador canónico, el libro en que la crisis coincide con el pico de un eje y, si los tiene, los arcos de la saga y sus puertas de salida.
 - **Relación con otros archivos.** Los mecanismos que chocan en la pareja, el peso de pareja, la extensión de la saga y, si las tiene, las columnas de serie que se actualizan en cada capítulo.
 
 ## RELATIONSHIP_PHYSICS
 
-- **La relación central.** Su pareja, la clase y la reciprocidad de la relación, cómo se reparte entre los dos la asimetría, las dos heridas, el tercero que no forma triángulo, si lo tiene, las transgresiones no consentidas concretas y las decisiones de su biblia que lo ratifican.
+- **La relación central.** Su pareja, la clase y la reciprocidad de la relación, su eje de asimetría y cómo se reparte entre los dos, las dos heridas y si son la misma, el tercero que no forma triángulo, si lo tiene, las transgresiones no consentidas concretas, si las tiene, y las decisiones de su biblia que lo ratifican.
 
 ## DIALOGUE_MECHANICS
 
-- **Los dos narradores.** Quiénes son sus dos narradores: protagonista A, la voz que habla, y el narrador hermético (protagonista B).
+- **Los dos narradores.** Quiénes son sus narradores, si tiene dos: por defecto, protagonista A, la voz que habla, y el narrador hermético (protagonista B), si lo hay; o, con uno solo, quién narra.
 - **Los tres campos.** Quién ocupa cada campo (la pareja del duelo, qué voces se interrogan entre sí y qué personajes del elenco fijo forman el roce).
 - **La asimetría de la pareja.** La ficha rellena de los dos registros, la proporción del choque entre ambos y una muestra de calibración correcta.
-- **Beats de rendición pactados.** En qué libro cae cada beat de rendición y qué sentimiento puede articular en él el narrador hermético.
+- **Beats de rendición pactados.** En qué libro cae cada beat de rendición y qué sentimiento puede articular en él el narrador hermético, si lo hay (o el protagonista que raciona su rendición, si la obra declara otro).
 - **Regla de nombre.** Si los tiene, qué apelativo sale de una sola boca y qué nombre se retiene hasta un beat de rendición (quién puede decirlo, desde cuándo y qué efecto tiene en la escena).
 - **Cadencia.** Qué otras voces tienen derecho al turno largo y con qué función.
-- **Cadencia.** Una muestra del silencio del narrador hermético acotado como turno.
-- **Atribución.** Una muestra de atribución por gesto del narrador hermético, con un objeto de su mundo.
-- **Atribución.** Los marcadores de atribución que bastan para la voz del narrador hermético.
-- **Idiolecto.** La ficha rellena de cada voz y los anclajes de canon que fija entre voces concretas.
-- **Asimetría dialógica.** De dónde saca su ventaja el narrador hermético y con qué voz se invierte la mesa y es protagonista A quien responde.
-- **Asimetría dialógica.** Con cuántas palabras como máximo cierra el narrador hermético y quién cierra con cada voz del elenco que se enfrenta a protagonista A.
+- **Cadencia.** Una muestra del silencio del narrador hermético acotado como turno, si lo hay.
+- **Atribución.** Una muestra de atribución por gesto del narrador hermético, si lo hay (si no, de la voz más económica), con un objeto de su mundo.
+- **Atribución.** Los marcadores de atribución que bastan para la voz del narrador hermético, si lo hay.
+- **Idiolecto.** La ficha rellena de cada voz y los anclajes de canon que fija entre voces concretas (entre ellos, lo que uno nunca le pide al otro, si la obra lo declara).
+- **Asimetría dialógica.** De dónde saca su ventaja el narrador hermético, si lo hay (o quién la tiene en la pareja), y con qué voz se invierte la mesa y es protagonista A quien responde.
+- **Asimetría dialógica.** Con cuántas palabras como máximo cierra el narrador hermético, si lo hay, y quién cierra con cada voz del elenco que se enfrenta a protagonista A.
 - **Interrupción y solapamiento.** Quién corta desde fuera (quién avisa, quién escribe en el peor momento), cuánto dura su *edging* y su muestra de corte por gesto.
-- **Lo no dicho en el diálogo.** Una muestra de cambio de tema y, si la saga tiene trama horizontal, qué secreto de ella se administra así.
-- **Lo no dicho en el diálogo.** Una muestra de gesto deslizado del narrador hermético.
+- **Lo no dicho en el diálogo.** Una muestra de cambio de tema y, si la saga tiene trama horizontal, qué secreto de ella se administra así y quién lo guarda.
+- **Lo no dicho en el diálogo.** Una muestra de gesto deslizado del narrador hermético, si lo hay (si no, de cada voz de la pareja).
 - **Lo no dicho en el diálogo.** Qué gesto físico de protagonista A es su marca de vulnerabilidad, si la tiene.
-- **Diálogo y registro.** Su régimen fijado y la longitud de capítulo, y la modulación de registro admitida en cada voz que no es el narrador hermético.
-- **El interrogatorio como seducción táctica.** Si tiene esta escena (variante policial), el defecto de protagonista A y los planos en que sí se activa, y una muestra de la mecánica en su voz, con hueco de instancia.
+- **Diálogo y registro.** Su régimen y la longitud de capítulo, y la modulación de registro admitida en cada voz que no es el narrador hermético (en todas, si no lo hay).
+- **El interrogatorio como seducción táctica.** Si tiene esta escena, quién interroga y con qué oficio, cómo está el otro de la pareja en ella y una muestra de la mecánica en su voz, con hueco de instancia; o «no aplica».
 - **Diálogo durante el sexo.** Cómo se le rompe en la cama el registro a protagonista A y, si los tiene, qué apelativo y qué nombre cambian la temperatura de la escena.
-- **Gestión de información en diálogo.** Quién hace de tercero que no sabe, qué secreto de la trama horizontal se entrega por capas y en qué libros (si la saga la tiene), y quién informa por omisión.
+- **Gestión de información en diálogo.** Quién hace de tercero que no sabe, qué secreto de la trama horizontal se entrega por capas, quién lo guarda y en qué libros (si la saga la tiene), y quién informa por omisión.
 - **Gestión de información en diálogo.** Un contraejemplo de diálogo «como sabes» con datos de su propio mundo.
-- **Diálogo de grupo.** Qué alianzas se ven en sus escenas de grupo, en qué sala y delante de quién calla protagonista A, y si su narrador hermético entra en ellas.
+- **Diálogo de grupo.** Qué alianzas se ven en sus escenas de grupo; si alguno de la pareja tiene equipo institucional, quién, en qué sala y delante de quién calla; y si su narrador hermético, si lo hay, entra en ellas.
 - **Errores frecuentes.** Qué voces tienen la elocuencia, y ninguna más.
-- **El diálogo como gancho de capítulo.** Cuántos capítulos tiene cada libro y, si la saga tiene trama horizontal, qué secreto de ella alimenta la miga.
-- **Protocolo pre-escritura.** La pregunta 5 dicha con el nombre de su narrador hermético.
-- **Tests de funcionamiento.** El umbral de palabras del TEST 1, los nombres del TEST 4, si los tiene, y qué voces cuentan con turno largo en el TEST 6.
+- **El diálogo como gancho de capítulo.** Cuántos capítulos tiene cada libro y, si la saga tiene trama horizontal, qué secreto de ella alimenta la miga y quién lo guarda.
+- **Protocolo pre-escritura.** La pregunta 5 dicha con el nombre de su narrador hermético, si lo hay (si no, del protagonista B).
+- **Tests de funcionamiento.** El umbral de palabras del TEST 1, los nombres del TEST 4, si los tiene, qué voces cuentan con turno largo en el TEST 6 y, si los tiene, qué rastro del otro (mensajes, vigilancia, lo que se calla) busca el TEST 12.
 - **Relación con otros archivos.** Las mismas dependencias dichas con los nombres de su pareja y, si lo tiene, de su nombre retenido.
 
 ## VOICE_ARCHITECTURE
 
 - **Declaración de voz.** Su persona, su tiempo y sus narradores, la regla de su canon que fija la asimetría verbal y en qué sección de su biblia se dice cuánta explicación narratorial admite cada voz.
-- **Test de asimetría: las voces de la obra.** El rasgo de cada narrador que el test busca en la narración, quién es el hermético, si lo tiene, un ejemplo de su manuscrito y el caso que dio origen al test.
+- **Test de asimetría: las voces de la obra.** El rasgo de cada narrador que el test busca en la narración, quién es el hermético, si lo tiene, y los casos de su manuscrito que lo ilustran, cuando los haya.
 
 ## AESTHETIC_REGISTER
 
 - **Propósito.** Cuántos libros tiene la saga y, si las tiene, qué paletas la sostienen.
-- **Declaración primaria.** El alcance de la declaración en libros, los nombres de sus dos narradores, la ciudad de su ambientación, de dónde le viene a A la explicación moderada (su oficio, su historia o su carácter) y cuántos cierres de capítulo en gancho tiene cada libro.
-- **Persona, tiempo y alternancia.** Su persona, su tiempo y sus narradores, el alcance de la regla en libros, el ejemplo canónico de lo que la lectora sabe antes que A y qué pasados de la pareja entran en la escena.
-- **Voz de la protagonista A.** El tono de A y lo que tapa con él, si tapa algo, su frase y su cadencia, desde dónde analiza (su oficio, si le viene de ahí), cómo se comporta su tono en las escenas duras y su límite.
+- **Declaración primaria.** Su régimen (o «el de por defecto») y, con dos narradores, si es mixto por POV; el alcance de la declaración en libros, sus narradores (cuántos y quiénes), la ciudad o el mundo de su ambientación, qué explicación narratorial admite cada voz y de dónde le viene, si le viene de algo (su oficio, su historia o su carácter), y cuántos cierres de capítulo en gancho tiene cada libro.
+- **Persona, tiempo y alternancia.** Su persona, su tiempo y sus narradores, el alcance de la regla en libros, si veta la persona o el tiempo del género secundario, el ejemplo canónico de lo que la lectora sabe antes que A (con dos narradores) y qué pasados de la pareja entran en la escena.
+- **Voz de la protagonista A.** El tono de A y lo que tapa con él, si tapa algo, su frase y su cadencia, desde dónde analiza, si le viene de algo (su oficio, su historia o su carácter), cómo se comporta su tono en las escenas duras y su límite.
 - **Voz del protagonista B.** Qué registra B antes de sentir y de dónde le viene la hipervigilancia, si la tiene; qué señal física delata su deseo, si la obra se la da; y qué nombres y apelativos reserva, si reserva alguno, con el libro en que aparece cada uno.
 - **Medidas de la asimetría.** Las cifras de longitud de frase y de réplica de cada narrador.
-- **Lectora implícita.** A qué escenas, cuentas e hilos de la saga vuelve la lectora al releer, y qué motivos recurrentes lo sostienen.
-- **Regímenes no declarados.** Qué secundarios pueden hablar en registro oral y, si admite un préstamo local como el dato conductual, en qué escenas entra.
-- **Efecto sobre Capa 3.** En qué espacio se curan las heridas y ante qué tercero habla la pareja en sus escenas de crisis.
+- **Lectora implícita.** Su lectora implícita (o «la de por defecto»), a qué escenas, cuentas e hilos de la saga vuelve al releer, y qué motivos recurrentes lo sostienen.
+- **Regímenes no declarados.** Qué secundarios pueden hablar en registro oral, si alguno, y qué otros préstamos locales admite, si admite alguno, y en qué escenas entra cada uno.
+- **Efecto sobre Capa 3.** Si el subtexto es sostenido o por escena de crisis y, en ese caso, qué escenas de crisis lo abren.
 - **Metáfora estructural.** La pregunta central que codifica su metáfora, el vehículo concreto que la lleva (un oficio, un objeto, un lugar) y su relación con el título de la saga, si la tiene.
 - **Doble paleta.** Si la tiene, la paleta de cada narrador sentido por sentido y su significado, la fórmula con que se nombra la mezcla y su máximo de apariciones por libro.
 - **Motivos fijos.** Sus motivos fijos —rasgos, objetos, marcas y lugares— y lo único que significa cada uno.
-- **Estética de lo táctil y lo corporal.** Los lugares y objetos concretos en que ancla la violencia, el contacto y el registro corporal de A.
+- **Estética de lo táctil y lo corporal.** Los lugares y objetos concretos en que ancla la violencia, el contacto (cuál carga, si lo tiene) y el registro corporal de cada voz.
 - **Longitud de frase por voz.** La referencia y el rango de longitud de frase de cada narrador.
 - **Proporción de diálogo por voz.** La proporción global de diálogo, la de los capítulos de cada narrador con su porqué y la extensión de capítulo en palabras.
-- **Patrón de A.** En qué consiste el patrón propio de A y qué personas y episodios lo encarnan.
-- **Oficio de análisis de A.** De dónde le viene a A la licencia de interpretar (su oficio, su historia o su carácter).
+- **Patrón de A.** En qué consiste el patrón propio de A y qué personas y episodios lo encarnan, o «no aplica».
+- **Oficio de análisis de A.** Qué licencia de interpretar tiene cada voz, si alguna la tiene, y de dónde le viene (su oficio, su historia o su carácter).
 - **Tests.** Los rangos con que mide TEST 3, la mezcla y el máximo que cuenta TEST 5, si tiene paletas, y el motivo fijo que audita.
 - **Relación con otros archivos.** El máximo de mezclas que recibe SENSORY_HIERARCHY, si tiene paletas, los escenarios cuya densidad regula WORLD_TEXTURE, el peso de pareja de STORY_SPINE, el número de volúmenes y el adjetivo con que GENRE_CONVENTIONS sugiere la voz de A.
 - **Error común.** Qué escenario suyo es el que más tienta a convertirse en personaje.
@@ -201,17 +215,17 @@ con lo que la plantilla pide que se declare).
 
 - **Régimen estético.** En qué sección de su biblia vive el régimen estético que gobierna las cuotas 1–8.
 - **Anti-firma.** De qué tradiciones o corpus huye su prosa y en qué sección de su biblia lo declara.
-- **Medidas observadas.** Las medidas de sus capítulos de referencia, una columna por capítulo con su narrador, y la variación de un narrador que no es alarma.
-- **Las dos voces.** Cuál de sus narradores es el hermético, si lo tiene, y cuándo habla, y qué explicación narratorial, qué manera de perfilar y qué metáfora ornamental admite cada voz.
-- **TIC 4: glosa y remate.** Qué narrador es el irónico y cuál el hermético, si los tiene, la sección de su biblia con el idiolecto, y los ejemplos de su manuscrito de glosa cortada, de remate de idiolecto y de regla de trabajo.
+- **Medidas observadas.** Las medidas de sus capítulos de referencia, una columna por capítulo con su narrador, la variación de un narrador que no es alarma y, si no vale el de por defecto, el umbral de comparaciones por 1.000 de cada voz.
+- **Las voces.** Cuál de sus narradores es el hermético, si lo tiene, y cuándo habla, y qué explicación narratorial, qué manera de perfilar y qué metáfora ornamental admite cada voz.
+- **TIC 4: glosa y remate.** Qué narrador es el irónico y cuál el hermético, si los tiene, la sección de su biblia con el idiolecto, la forma del remate de idiolecto del irónico, qué frases conserva el hermético porque son su forma de pensar, y los ejemplos de su manuscrito de glosa cortada, de remate y de esas frases.
 
 ## HEAT_DISCIPLINE
 
-- **Propósito en la obra.** Cuántos libros tiene la saga sobre la que se dosifica el calor, quién es el hombre cuya rendición se raciona (su narrador hermético, si lo tiene) y de qué documento sale la regla de la moneda escasa.
-- **Contacto en la obra.** Dónde ocurren las curas y qué gestos de contacto propios de su pareja cargan como el sexo.
+- **Propósito en la obra.** Cuántos libros tiene la saga sobre la que se dosifica el calor, quién es el protagonista cuya rendición se raciona (su narrador hermético, si lo tiene) y de qué documento sale la regla de la moneda escasa.
+- **Contacto en la obra.** Qué contacto que no es sexo carga como el sexo en su pareja (si tiene curas, dónde ocurren; si tiene combate, cuál) y qué gestos propios cuentan como escena con carga.
 - **Corte en la obra.** De qué sección de su biblia salen sus herramientas de *edging*, quién corta y cuánto dura su tramo de *edging*.
 - **Ritmo de consumación y escala de rendición.** Qué pasa entre los dos, en lo físico y en lo emocional, en cada uno de sus primeros libros (o en cada tramo del libro, con parejas rotativas), si adelanta algún suelo de calor (o el autor retrasa alguno, con la decisión de su biblia), desde cuándo rige el refuerzo intermitente y dónde cae cada entrega de la escala de rendición.
-- **Consentimiento en la obra.** Qué sección y qué decisión de su biblia fijan las familias de actos de su pareja.
+- **Consentimiento en la obra.** Qué transgresiones no consentidas concretas tiene, si alguna, quién las comete y quién las descubre, el acercamiento a terceros que regula, si lo tiene, y qué sección y qué decisión de su biblia fijan las familias de actos de su pareja.
 - **Señales y contadores.** Cada señal de calor de su pareja, si las tiene, qué anuncia y su techo por libro.
 - **Tests en la obra.** Qué señales y contadores vigila el TEST 5, si los tiene.
 - **Relación con la biblia de la obra.** Qué secciones de su biblia alimentan este archivo.
@@ -220,28 +234,28 @@ con lo que la plantilla pide que se declare).
 
 - **Propósito en la obra.** El nombre de la saga, su género secundario, su pareja y su peso de pareja.
 - **Principio operativo en la obra.** Quiénes son los dos protagonistas que la escena del género secundario pone en tensión.
-- **Beats en la obra.** Cuántos libros tiene la saga; el porcentaje de cada beat de pareja en sus libros, si adelanta algún suelo (o el autor retrasa alguno, con la decisión de su biblia); y, si los tiene, cuáles son sus dos paletas, de qué trata su trama horizontal y quién cerca a la pareja.
-- **Escalera de rendición de la obra.** En qué libro (o, si la escalera cabe en un libro, en qué tramo) cae cada peldaño de la rendición de él, hasta la entrega mayor, y el ritmo de consumación de cada libro dentro de los suelos (HEAT_DISCIPLINE).
-- **Puntos de cruce en la obra.** De qué trata la miga de pan horizontal de su protagonista, si la saga tiene trama horizontal, y quién detona en él los instintos posesivos.
+- **Beats en la obra.** Cuántos libros tiene la saga; el porcentaje de cada beat de pareja en sus libros, si adelanta algún suelo (o el autor retrasa alguno, con la decisión de su biblia); y, si los tiene, sus paletas, de qué trata su trama horizontal, quién o qué cerca a la pareja y cómo usa la pareja la trama B en la escalada.
+- **Escalera de rendición de la obra.** Quién se rinde, en qué libro (o, si la escalera cabe en un libro, en qué tramo) cae cada peldaño de su rendición, hasta la entrega mayor, y el ritmo de consumación de cada libro dentro de los suelos (HEAT_DISCIPLINE).
+- **Puntos de cruce en la obra.** Cómo cruza su pareja las dos tramas (qué hace uno con el otro que mueve la trama B, y qué líneas cruzan y qué destapa eso), de qué trata la miga de pan horizontal de su protagonista, si la saga tiene trama horizontal, y quién detona los instintos posesivos del protagonista posesivo, si lo hay.
 - **Umbrales en la obra.** Quién abre la primera página y, si la saga tiene trama horizontal, de qué trata la pista que se audita.
 - **Tests en la obra.** Sobre qué o quién es la información firme que exige la miga, si la saga tiene trama horizontal, y quién confiesa en la escala de rendición.
 
 ## ELLIPSIS_PROTOCOL
 
-- **Propósito.** Quién investiga a la protagonista A y no puede probar lo que el texto no narra, si la obra lo tiene.
+- **Propósito.** Qué violencia o crueldad hace el protagonista B en página, y quién investiga a la protagonista A y no puede probar lo que el texto no narra, si la obra lo tiene.
 - **Lo que no se elide nunca.** Dónde está el punto más bajo de la saga porque su violencia se mira entera, si lo tiene, dónde caen los hitos de la escala de rendición, sobre qué trata el hallazgo horizontal, si la saga tiene trama horizontal, y qué decisiones concretas de la protagonista A no se eliden.
-- **Uso A.** Los resultados concretos por los que la protagonista A deduce lo que hizo el protagonista B, quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
+- **Uso A.** Si declara negación plausible (si no, «no aplica»): si B actúa fuera del plano de A, los resultados concretos por los que ella deduce lo que hizo él, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
 - **Uso B.** Si tiene una ausencia larga del protagonista B, cuánto dura (dentro del tope, o la decisión de su biblia que lo pasa) y dónde cae (después de la primera consumación), y desde dónde se sustituye por otras retiradas.
-- **Uso C.** Adónde van los traslados que se saltan y qué escenarios de procedimiento se narran porque en ellos ocurre otra cosa.
+- **Uso C.** Adónde van los traslados que se saltan y qué trámites de la trama del libro se narran porque en ellos ocurre otra cosa.
 - **Uso D.** Cuál es la memoria racionada del protagonista B, si la tiene, dónde se cuenta entera y con qué fragmentos asoma antes; cuál es la herida de fondo de la protagonista A y por qué astillas llega.
-- **Tipos de elipsis.** Qué calla el protagonista B y desde cuándo, si calla algo, dónde suena ese reloj y, si los protagonistas tienen un duelo, cómo lo vive cada uno y cuándo nombra a su muerto.
+- **Tipos de elipsis.** Quién calla, qué y desde cuándo, si alguien calla algo, si declara la elipsis de negación plausible, dónde suena ese reloj y, si los protagonistas tienen un duelo, cómo lo vive cada uno y cuándo nombra a su muerto.
 - **Cuándo elidir.** En qué espacio transcurre la domesticidad de la pareja, clandestina o no.
-- **Descrito seco.** La operación canónica del protagonista B que fija la temperatura de este modo.
+- **Descrito seco.** Qué violencia o acto canónico fija la temperatura de este modo, si lo hay, y de quién es.
 - **Descrito poético.** Qué duelos concretos abren este modo y, si tiene paletas, la fórmula de su cruce y cuántas veces por libro se permite.
-- **Asignación por tipo de contenido.** Qué duelos y qué memoria ocupan sus filas, si los tiene, dónde se cuenta entera esa memoria y, si hay secuestro, dónde cae.
+- **Asignación por tipo de contenido.** Qué duelos y qué memoria ocupan sus filas, si los tiene, dónde se cuenta entera esa memoria y qué filas no aplican a su pareja.
 - **Coherencia por tipo.** Cuántos libros abarca la consistencia y en qué libros cae típicamente la escena que rompe el régimen.
 - **Elipsis mayores permanentes.** Cuántas y cuáles son sus elipsis mayores permanentes, si las tiene, y en qué libros se abren y se cierran.
-- **Elipsis y subtexto.** Qué rastro deja el protagonista B en el espacio de la protagonista A (de su paleta, si la tiene) y, si ella lee esas marcas por oficio, de cuál le viene.
+- **Elipsis y subtexto.** Si uno de la pareja actúa fuera del plano del otro, qué rastro deja en su espacio (de su paleta, si la tiene) y, si el otro lee esas marcas por oficio, de cuál le viene.
 - **Elipsis y ritmo.** La extensión de sus capítulos en palabras.
 - **Tests.** Quién investiga a la protagonista A en el test de asimetría, si alguien la investiga, y qué memoria audita el test de racionamiento, si la tiene.
 - **Relación con otros archivos.** Cuántas elipsis mayores permanentes pasan de un libro a otro, quién completa la asimetría de INFORMATION_CHOREOGRAPHY y el techo de cruces de paleta por libro, si los tiene.
@@ -250,24 +264,24 @@ con lo que la plantilla pide que se declare).
 
 - **Cabecera: escala de la saga y trama horizontal.** Cuántos libros tiene la saga y, si tiene trama horizontal, qué hecho de ella tiene que moverse en cada libro.
 - **Propósito: las capas y la firma en la obra.** Si los tiene, sobre qué hecho trata su trama horizontal, cuántos relojes lleva y a qué distancia suenan, y qué antagonista deja firma y con qué rastro.
-- **La regla rectora en la obra.** Quién es su narrador hermético y cuánto calla, qué sabe de antes y qué reloj mueve esa ocultación, si lo mueve, la causa propia habitual de sus señuelos y, en la variante policial, dónde fija su biblia la arquitectura legal y por qué vías llega una pista sin petición.
+- **La regla rectora en la obra.** Si un narrador oculta información, quién es y cuánto calla, qué sabe de antes y qué reloj mueve esa ocultación, si lo mueve; la causa propia habitual de sus señuelos; y, si tiene una regla de impunidad, dónde la fija su biblia y por qué vías llega una pista sin romperla.
 - **Registro de pistas verdaderas: ficha, tabla y figura de la obra.** Qué vías de cobro tiene (en la variante policial, qué instituciones) y qué precio concreto tiene cada cobro, su tabla de pistas verdaderas y, si la tiene, su figura propia de pista con la frecuencia de uso.
-- **Presupuesto de pistas a la escala de la obra.** La extensión y el número de capítulos de cada libro y su peso de pareja.
-- **Pistas falsas: tabla y señuelo de la obra.** Sus señuelos de ejemplo (a quién incriminan, causa propia, siembra y desmentido) y cómo formula las reglas del señuelo que apunta a protagonista B.
-- **Coartadas: tabla de la obra.** Las coartadas de ejemplo de sus sospechosos y cómo se rellena la fila fija de protagonista B.
-- **Sospechosos: tabla, reparto y veto de la obra.** Sus sospechosos de ejemplo, su reparto de páginas y el defecto de protagonista A que no se activa con los sospechosos, con los planos en que sí.
+- **Presupuesto de pistas a la escala de la obra.** La extensión y el número de capítulos de cada libro, su peso de pareja, su techo de pistas verdaderas por libro y el punto del manuscrito después del cual no se siembra.
+- **Pistas falsas: tabla y señuelo de la obra.** Su techo de señuelos por libro; sus señuelos de ejemplo (a quién incriminan, causa propia, siembra y desmentido); y, si el protagonista peligroso es sospechable, si un señuelo apunta a él en cada libro y cómo formula sus reglas, o «no aplica».
+- **Coartadas: tabla de la obra.** Las coartadas de ejemplo de sus sospechosos y, si el protagonista peligroso es sospechoso recurrente, si lleva fila fija en la tabla y cómo se rellena.
+- **Sospechosos: tabla, reparto y veto de la obra.** Sus sospechosos de ejemplo, su techo de sospechosos activos por libro (y si cuenta aparte al protagonista peligroso, si es sospechoso recurrente) y su reparto de páginas.
 - **La pista-espejo en la obra.** Dónde fija su biblia la regla del espejo, su ejemplo de pista-espejo y, si lo tiene, qué reloj recibe la pieza del coste.
 - **La obligación de miga en la obra.** Si la saga tiene trama horizontal, sobre qué hecho de ella descubre protagonista A una pista en cada libro, y qué escena fija suya es también condición de entrega.
-- **Test del objeto: ejemplos de la obra.** Sus ejemplos de lo que es miga y lo que no, y dónde guarda protagonista A los objetos.
-- **Los canales de miga en la obra.** Qué guarda protagonista B y cómo lo obtuvo, si es canal; en la variante policial, qué deja ver el papel institucional de su antagonista; si lo tiene, qué personaje del elenco tiene acceso a los cuerpos o a los papeles (en la variante policial, su forense), cuándo ve y calla y qué migas técnicas aporta; y qué miembros del elenco pueden soltar datos.
-- **Ficha de miga en la obra.** Los nombres de sus canales y, en la variante policial, los modos en que una miga le llega a protagonista A sin pedirla.
+- **Test del objeto: ejemplos de la obra.** Sus ejemplos de lo que es miga y lo que no.
+- **Los canales de miga en la obra.** Qué canales de miga tiene y cómo se reparten a lo largo de la saga; si un protagonista guarda parte de la trama horizontal, qué guarda y cómo lo obtuvo; si lo tiene, qué personaje del elenco tiene acceso técnico, cuándo ve y calla y qué migas aporta; qué miembros del elenco pueden soltar datos y con qué techo; y, si su antagonista de saga tiene papel institucional, qué deja ver ese papel.
+- **Ficha de miga en la obra.** Los nombres de sus canales y, si tiene regla de impunidad, los modos en que una miga llega sin romperla.
 - **Registro acumulado de migas de la obra.** La miga de cada libro de la saga, con su canal y lo que abre, y en negrita lo que su biblia fija como canon.
 - **Reparto de migas por arco en la obra.** Si los tiene, qué libros forman cada arco, en qué capa compone cada uno la trama horizontal y qué piezas concretas entrega.
 - **Los relojes de la obra.** Si los tiene, cuántos relojes lleva la saga, qué cuenta cada uno, su ID y los libros en que empieza y suena.
-- **Ficha de tic en la obra.** Cuál de sus relojes es el contable, si tiene uno, y qué piezas se cuentan en él.
-- **Registro de tics y reglas de los relojes de la obra.** Los tics ya puestos en cada reloj y cuáles de sus relojes son el invisible y el contable, si los tiene, con sus libros y su ejemplo de cuenta en voz alta.
+- **Ficha de tic en la obra.** Cuál de sus relojes se cuenta en voz alta, si alguno, y qué piezas se cuentan en él.
+- **Registro de tics y reglas de los relojes de la obra.** Los tics ya puestos en cada reloj y, si los tiene, las reglas propias de cada reloj (cómo se siembra y si se cuenta en voz alta), con sus libros y su ejemplo.
 - **El antagonista de la firma en la obra.** Si lo tiene, quién es el antagonista de saga que deja firma, en qué libros actúa, en qué consiste su método y qué capacidad de la pareja hace falta contra él.
-- **Ficha y reglas de firma en la obra.** Qué gesto compone la firma de su antagonista, en qué libro se revela, quién puede notarla y cuáles son sus dos primeros hechos firmados, con sus rasgos.
+- **Ficha y reglas de firma en la obra.** Qué gesto compone la firma de su antagonista, en qué libro se revela, quién puede notarla y cuáles son sus hechos firmados canónicos, si los tiene, con sus rasgos.
 - **Calendario de datos horizontales en la obra.** De quién son los datos que protagonista A ya sabe y su ejemplo de dato aplazado a su capítulo, con la frase con que se alude antes.
 - **Vetos de contabilidad en la obra.** Qué nombres e implicaciones tienen libro asignado y sus ejemplos de cada veto.
 - **Errores comunes en la obra.** Los nombres, libros y cifras con que formula estos errores.
@@ -280,7 +294,7 @@ con lo que la plantilla pide que se declare).
 - **Condicionalidad en la obra.** La extensión de cada entrega y, si los tiene, cuántos relojes lleva su briefing de saga y cuál es el reloj que cerca a su pareja.
 - **Canon heredado.** El valor fijo de cada fila de la tabla y la sección de su biblia de la que sale.
 - **Reglas de actualización en la obra.** Cuántos volúmenes tiene la saga y, si lo tiene, cuál es el reloj que cerca a su pareja, que se vuelca al cerrar cada libro.
-- **Declaración de instancia en la obra.** Sus arcos y, si las tiene, sus puertas de salida; un ejemplo canónico de tema y de trama derivada; los hitos de su escala de rendición; su lista de no negociables por libro y, si los tiene, de dónde salen sus migas y cuál es el reloj que cerca a su pareja.
+- **Declaración de instancia en la obra.** Sus arcos y, si las tiene, sus puertas de salida; un ejemplo canónico de tema y de trama derivada; quién descubre la miga y quién entrega en la escala de rendición, con sus hitos; qué activa en la pareja el antagonista del libro además de su presión, si la obra lo declara; su lista de no negociables por libro y, si los tiene, de dónde salen sus migas y cuál es el reloj que cerca a su pareja.
 - **Decisiones y pendientes en la obra.** Qué decisiones deja abiertas su canon, qué datos suyos rozan el canon y qué pendientes horizontales tiene, con su libro.
 - **Bloques específicos de la obra.** Si los tiene, sus relojes con el libro en que arranca y suena cada uno, su techo de mezclas de paletas y de qué trata su inventario de migas; y los términos de su glosario.
 - **Integración operativa en la obra.** Qué peso de pareja declara, cuáles son sus no negociables y, si los tiene, cuál es el reloj que cerca a su pareja y cuáles sus dos paletas.
@@ -289,32 +303,44 @@ con lo que la plantilla pide que se declare).
 
 ## SCALE_CALIBRATION
 
-- **Declaración de escala.** La extensión por libro, el número y la banda de palabras de sus capítulos, su peso de pareja (objetivo y suelo, si sube alguno) y las cifras y excepciones del libro en curso.
+- **Declaración de escala.** La extensión por libro, el número y la banda de palabras de sus capítulos, su peso de pareja (objetivo y suelo, si cambia alguno, y su porqué si lo baja) y las cifras y excepciones del libro en curso.
 - **Capítulo de una escena.** Si sus capítulos son de una escena, el techo y el suelo de su banda y la escaleta que fija el suelo.
 
 ## CHAPTER_BRIEF
 
-- **Gancho de cierre.** La decisión de su biblia que fija el cierre en gancho sin excepción.
+- **Gancho de cierre.** Si sus cierres son todos en gancho (por defecto) o declara cierres de descarga, cuáles y con qué tope, y la decisión de su biblia que lo fija.
 
 ## CONTINUITY_PHYSICS
 
-- **Casos del registro 13.** Los casos de su manuscrito que ilustran la comprobación de huecos sin narrar y el error de horas que dio origen al registro.
+- **Casos del registro 13.** Los casos de su manuscrito que ilustran la comprobación, cuando los haya, o «no aplica».
 
 ## SEAMS_AND_HINGES
 
-- **Gancho sin excepción.** La sección de su biblia que ratifica el gancho en todos los capítulos.
+- **Gancho en todos los cierres.** Si sus cierres son todos en gancho (por defecto) o declara cierres de descarga, cuáles y con qué tope, y la sección de su biblia que lo ratifica.
 - **Costura entre capítulos.** Quiénes son los narradores cuya alternancia hace de costura, si la tiene.
 
 ## TENSION_MECHANICS
 
 - **La amenaza dentro de la pareja.** Cuál de los dos protagonistas es la fuente posesiva de peligro.
-- **Catálogo de torturas.** En qué sección de su biblia está el catálogo de torturas al que pertenecen esas descargas falsas.
+- **Catálogo de torturas.** Si lo tiene, en qué sección de su biblia está su catálogo de torturas y qué descargas falsas admite, o «no aplica».
 
 ## SERIES_ARCHITECTURE
 
-- **Declaración de la saga.** Su número de libros y de arcos, la pregunta central, la escala de rendición con el libro de cada peldaño (si la tiene), sus deudas de serie y relojes con su libro de pago, y dónde declara cada libro su arco de pareja y qué hace que el anterior no podía hacer.
+- **Declaración de la saga.** Su número de libros y de arcos, la pregunta central, quién raciona su rendición y la escala de rendición con sus peldaños y el libro de cada uno (si la tiene), cómo se mide el arco del otro, sus deudas de serie y relojes con su libro de pago, y dónde declara cada libro su arco de pareja y qué hace que el anterior no podía hacer.
 
 ## SERIES_GLUE
 
-- **Forma de la saga.** Su forma (A, B o C), cuántos libros, qué cierra cada libro y qué deja abierto, dónde cae el final feliz y si cada libro es autónomo.
+- **Forma de la saga.** Su forma (A, B o C), cuántos libros, qué cierra cada libro y qué deja abierto (quién raciona lo que se revela y si hay trama horizontal), dónde cae el final feliz y si cada libro es autónomo.
 - **Puente entre libros.** Cómo pasa de un libro al siguiente (gancho de cierre, tiempo entre libros, epílogo-puente) y, si los tiene, los libros que cierran un arco con una puerta de salida limpia.
+
+## SUBPLOT_ARCHITECTURE
+
+- **Trama B.** Si cada libro tiene trama B propia o va «sin trama B propia», qué es y dónde se cierra: en el libro (por defecto), en el arco o en la saga (SERIES_GLUE, forma de la saga).
+
+## THEMATIC_ENGINE
+
+- **Evolución de la pregunta.** La formulación inicial, media y final de la pregunta de pareja de cada libro escrito o diseñado, o dónde la declara su biblia.
+
+## WORLD_TEXTURE
+
+- **Léxico y glosario.** La época y los oficios de su léxico, el tecnicismo que admite, la densidad de sus escenarios y su estrategia de glosario, o «por defecto» si sigue los de esta adenda.

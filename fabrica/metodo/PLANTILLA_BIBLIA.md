@@ -1,4 +1,4 @@
-# PLANTILLA_BIBLIA.md — la biblia de una saga (MODELO_DarkRomance v2.0)
+# PLANTILLA_BIBLIA.md — la biblia de una saga (Fábrica v3.0)
 
 > Archivo de **modelo**. Es la forma de la biblia que escriben las ventanas B1, B2 y B3 en la fase 1
 > (`ORQUESTADOR.md`, §2.1). **No es una lista para rellenar a ciegas:** cada sección dice qué

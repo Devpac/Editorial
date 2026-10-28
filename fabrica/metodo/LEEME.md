@@ -1,4 +1,4 @@
-# LÉEME — MODELO_DarkRomance v2.0
+# LÉEME — Fábrica v3.0
 
 Este repo tiene dos cosas: **el modelo** (un método para escribir sagas de dark romance con
 ventanas de IA) y **una obra** que se está escribiendo con él.
