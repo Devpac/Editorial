@@ -3,8 +3,8 @@
 > Archivo de **modelo**. La forma de los tres archivos que lleva cada libro además de sus escaletas
 > y capítulos: `libro_NN/continuidad.md`, `libro_NN/plan_lectora.md` y
 > `libro_NN/historial_lecturas.md`. Los abre el orquestador en la fase 3b (`ORQUESTADOR.md`, §2);
-> el historial, antes, con la primera lectura del libro. Salen de cómo se llevaron en el primer
-> libro de la primera obra del modelo, vaciados. Ninguno prescribe prosa: registran lo que hay.
+> el historial, antes, con la primera lectura del libro. Ninguno prescribe prosa: registran lo que
+> hay.
 
 ---
 
@@ -54,10 +54,12 @@ cuenta después del borrador (C-7, C-8 y C-10), con la unidad de PAREJA_PRIMERO.
 por fila, y bloquea el cierre como el registro 13:
 | Cap. | POV | Presencia del otro, en palabras (en escena · en directo · ocupando a quien narra) | Cara a cara (sí / no · capítulos seguidos sin los dos en escena) | Peso de pareja del capítulo (%) | Entre ellos: qué cambia (y el peldaño, si se mueve) | Calor (contacto con carga · edging · beso · escena explícita · nada) | Gancho (de pareja / de trama B) |
 Y al pie, por bloque de cuatro capítulos y acumulado del libro: el peso de pareja medio, ponderado
-por palabras (objetivo 80 %, suelo 70 %); con dos narradores, la parte de cada voz (ninguna por
-debajo del 40 % del libro); el calor (desde el contacto con carga, los capítulos seguidos sin
-escena con carga: nunca más de cuatro, HEAT_DISCIPLINE, suelo de calor); y los ganchos de pareja
-(por bloque, al menos dos de cuatro; en el libro, al menos dos de cada tres).
+por palabras (objetivo 80 %, suelo 70 %, o los que declare el preset); con más de un narrador,
+la parte de cada voz (contra el reparto que declare la obra); el calor (desde el contacto con
+carga, los capítulos seguidos sin escena con carga: nunca más de cuatro, HEAT_DISCIPLINE, suelo
+de calor); y los ganchos de pareja
+(por bloque, al menos dos de cuatro; en el libro, al menos dos de cada tres: los suelos de
+PAREJA_PRIMERO.md §3, o los que declare el preset).
 
 ## 7. Pendientes de prosa (para la pasada final, no ahora)
 

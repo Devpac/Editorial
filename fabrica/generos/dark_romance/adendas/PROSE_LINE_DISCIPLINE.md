@@ -1,11 +1,7 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Especializa la base de arriba, que sigue vigente; donde choquen, gana esta adenda. La adenda de
-> intriga (AGATHA_ROSA) que traía este archivo, con la tabla de cuotas de «la dama» y su
-> vocabulario vetado, está derogada y se ha retirado (`PAREJA_PRIMERO.md`, §5); de ella quedan
-> aquí, como alarma, las definiciones de medida y el tecnicismo denso. Los tics anti-LLM de la
-> base se comprueban en el cierre (OPERACIÓN C), nunca como prescripción previa.
-> v1.1 · 21-10-2026; v2.0 · 23-10-2026.
+> Especializa la base de arriba, que sigue vigente; donde choquen, gana esta adenda. Los tics
+> anti-LLM de la base se comprueban en el cierre (OPERACIÓN C), nunca como prescripción previa.
 
 ### LAS CUOTAS 1–8, SIEMPRE ALARMA DE CIERRE *(v2.0)*
 
@@ -34,37 +30,37 @@ La lista negra de la prosa es la anti-firma de la biblia.
 > **Valores de la obra →** `PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE › Anti-firma.
 > *Qué declara aquí la obra:* de qué tradiciones o corpus huye su prosa y en qué sección de su biblia lo declara.
 
-*(v2.0)* El **tecnicismo denso** (forense, legal o clínico) es alarma de cierre, no veto: el pasaje
-que la lectora tendría que descifrar se mira en la OPERACIÓN C. ¿Lo pide la escena, o solo expone
-la trama B?
+*(v2.0)* El **tecnicismo denso** (el de la trama B: forense, legal, financiero, mágico…) es
+alarma de cierre, no veto: el pasaje que la lectora tendría que descifrar se mira en la
+OPERACIÓN C. ¿Lo pide la escena, o solo expone la trama B?
 
 ### MEDIDAS OBSERVADAS, NO CUOTAS
 
-No existe estilometría propia de Dark Romance (la que anunciaba el NEXT del 08-08-2026 no
-se hizo). En su lugar, la obra declara las medidas de los capítulos que fijan la voz de su
-libro 1, escritos con este modelo *(v2.0: los mejor puntuados de cada narrador en la lectura,
-OPERACIÓN C.5)*. **Sirven de alarma en la OPERACIÓN C, no de objetivo al escribir**: un
+No hay estilometría propia del género. En su lugar, la obra declara las medidas de los capítulos
+que fijan la voz de su libro 1, escritos con este modelo *(v2.0: los mejor puntuados de cada
+narrador en la lectura, OPERACIÓN C.5)*. **Sirven de alarma en la OPERACIÓN C, no de objetivo al escribir**: un
 capítulo nuevo muy lejos de esta franja se mira; no se corrige por número.
 
-| Medida | Cap. [N] ([narrador]) | Cap. [N] ([narrador], [tipo de capítulo]) *(v1.2)* | Cap. [N] ([narrador]) |
-|---|---|---|---|
-| Palabras | | | |
-| Palabras por frase | | | |
-| Frases de 4 palabras o menos | | | |
-| Diálogo | | | |
-| Comparaciones con «como» (como si, como quien, como un…) por 1.000 | | | |
-| Palabras por párrafo | | | |
+| Medida | Cap. [N] ([narrador]) | … (una columna por capítulo de referencia) |
+|---|---|---|
+| Palabras | | |
+| Palabras por frase | | |
+| Frases de 4 palabras o menos | | |
+| Diálogo | | |
+| Comparaciones con «como» (como si, como quien, como un…) por 1.000 | | |
+| Palabras por párrafo | | |
 
 Si la obra declara que un tipo de capítulo mueve una medida de un narrador, esa variación
 no es alarma por sí sola.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE › Medidas observadas.
-> *Qué declara aquí la obra:* las medidas de sus capítulos de referencia, una columna por capítulo con su narrador, y la variación de un narrador que no es alarma.
+> *Qué declara aquí la obra:* las medidas de sus capítulos de referencia, una columna por capítulo con su narrador, la variación de un narrador que no es alarma y, si no vale el de por defecto, el umbral de comparaciones por 1.000 de cada voz.
 
-Si un capítulo pasa de ≈5 comparaciones por 1.000, la lectura editorial revisa cada una:
+Si un capítulo pasa del umbral de comparaciones por 1.000 de su voz (el que declare la obra; por
+defecto, ≈5), la lectura editorial revisa cada una:
 ¿la imagen sale de la cabeza del narrador o está puesta para sonar a literatura?
 
-**Cómo se miden** *(v2.0; definiciones de la adenda de intriga retirada)*:
+**Cómo se miden** *(v2.0)*:
 
 - **Palabras por frase:** sobre el capítulo entero, no sobre una muestra.
 - **Frases de 4 palabras o menos:** su parte del total de frases del capítulo.
@@ -81,7 +77,7 @@ tolerada del narrador hermético, si la obra lo tiene, es **cero**. La explicaci
 la metáfora ornamental de cada voz las fija el régimen estético de la biblia, que manda sobre
 AESTHETIC_REGISTER.
 
-> **Valores de la obra →** `PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE › Las dos voces.
+> **Valores de la obra →** `PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE › Las voces.
 > *Qué declara aquí la obra:* cuál de sus narradores es el hermético, si lo tiene, y cuándo habla, y qué explicación narratorial, qué manera de perfilar y qué metáfora ornamental admite cada voz.
 
 ### TIC 4 EN EL POV DEL NARRADOR IRÓNICO: GLOSA FRENTE A REMATE *(v1.2)*
@@ -91,16 +87,15 @@ con una pregunta: **¿añade algo que el párrafo no había dado, o repite en ab
 ya se ha visto?**
 
 - **Glosa** (se corta): explica la escena o el personaje que la escena ya mostró.
-- **Remate de idiolecto** (se queda): giro irónico seco, en párrafo propio, que cambia el
-  ángulo (biblia, idiolecto del narrador).
+- **Remate de idiolecto** (se queda): el giro que declara el idiolecto del narrador (biblia;
+  su forma, en el preset), que cambia el ángulo.
 
 En el POV del narrador hermético (si la obra lo tiene): se corta toda frase que explique
-**lo visto** o lo que siente. Se conservan la que enuncia **una regla de trabajo** antes de
-actuar y *(v2.0)* la que enuncia **una regla que se impone respecto al otro**: es su forma de
-pensar, no una glosa.
+**lo visto** o lo que siente. Se conserva la frase que su biblia declara como su forma de
+pensar (cuál, en el preset): es su forma de pensar, no una glosa.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE › TIC 4: glosa y remate.
-> *Qué declara aquí la obra:* qué narrador es el irónico y cuál el hermético, si los tiene, la sección de su biblia con el idiolecto, y los ejemplos de su manuscrito de glosa cortada, de remate de idiolecto y de regla de trabajo.
+> *Qué declara aquí la obra:* qué narrador es el irónico y cuál el hermético, si los tiene, la sección de su biblia con el idiolecto, la forma del remate de idiolecto del irónico, qué frases conserva el hermético porque son su forma de pensar, y los ejemplos de su manuscrito de glosa cortada, de remate y de esas frases.
 
 ### LO QUE NO COMPUTA COMO TIC *(v2.0)*
 

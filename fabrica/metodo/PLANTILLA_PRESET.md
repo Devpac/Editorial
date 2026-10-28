@@ -17,13 +17,13 @@
   commit.
 - **Es contrato de canon** para las ventanas de capítulo: el NEXT dice qué secciones leer.
 - **Si una ranura no aplica** a la obra (por ejemplo, una sola voz narradora, o ningún apodo
-  racionado), se escribe «no aplica» y por qué; no se deja vacía. Las descripciones de abajo salen
-  de la primera obra del modelo: dicen qué decidir, no qué responder.
-- **Ningún recurso es obligatorio por estar en una ranura.** Muchas nombran recursos que tuvo la
-  primera obra (dos paletas y su mezcla racionada, una señal física de él que delata su deseo, un
-  apodo o un nombre reservado, una ausencia larga, un investigador que persigue a la protagonista,
-  relojes de saga, una miga por libro, una firma del antagonista). Si la biblia de la obra no lo
-  tiene, la ranura dice «no aplica»: **no se inventa un equivalente para rellenarla**. Lo que la
+  racionado), se escribe «no aplica» y por qué; no se deja vacía. Las descripciones de abajo dicen
+  qué decidir, no qué responder.
+- **Ningún recurso es obligatorio por estar en una ranura.** Muchas nombran recursos que una obra
+  puede tener o no (paletas sensoriales y su mezcla, señales, apodos o nombres racionados, una
+  ausencia larga, alguien que cerca a la pareja, relojes de saga, migas, la firma de un
+  antagonista). Si la biblia de la obra no lo tiene, la ranura dice «no aplica»: **no se inventa
+  un equivalente para rellenarla**. Lo que la
   obra tenga y ninguna ranura prevea se apunta en la sección de la plantilla más cercana, con un
   `###` nuevo, y se avisa al orquestador.
 - **Lo que vale para un solo libro se rotula con su libro** («Antagonista del libro 1», «libro 1:
@@ -35,11 +35,30 @@
 Obra y saga; subgénero declarado; forma de la saga (SERIES_GLUE, adenda de dark romance: la misma
 pareja en muchos libros, dúo o trilogía, o parejas rotativas); narradores (cuántos, quién es cada
 uno en una línea); número de libros previsto; versión de la biblia de la que sale; regla «manda la
-biblia»; y la **correspondencia de roles**: una tabla que dice quién es en la obra cada rol que
-nombran las plantillas (protagonista A, protagonista B, narrador hermético, narradora irónica,
-antagonista del libro, antagonista de saga, la herida de cada uno, el espacio propio, los recursos
-racionados), con «no aplica» en los que no tenga. Con parejas rotativas, la tabla lleva una
-columna por libro (la pareja de cada uno) y las fichas de cada pareja entran al abrir su libro.
+biblia»; y dos ranuras que las plantillas citan como «`PRESET_<OBRA>.md` › Cabecera › <ranura>»
+(en el preset de la obra, la cabecera va bajo `## Cabecera` y cada ranura lleva su `###`):
+
+### Correspondencia de roles
+
+Una tabla que dice quién es en la obra cada rol que nombran las plantillas, con «no aplica» en los
+que no tenga: protagonista A y protagonista B, y los géneros de la pareja (las plantillas dicen
+«ella» y «él» por A y B mientras la obra no declare otra cosa); quién narra (cada narrador y su
+parte del libro, si hay más de uno); quién es el narrador hermético y quién el irónico, si alguno
+lo es; quién raciona su rendición o su confesión (la escala de rendición); quién da miedo; quién
+vigila, si alguien vigila; quién guarda el secreto de la trama horizontal, si lo hay; en la
+variante policial, quién está del lado de la ley; y el antagonista del libro, el de saga, la
+herida de cada uno, el espacio propio y los recursos racionados. Con parejas rotativas, la tabla
+lleva una columna por libro (la pareja de cada uno) y las fichas de cada pareja entran al abrir
+su libro.
+
+### Mercado y lengua
+
+Lo que las plantillas no repiten y leen de aquí (de la biblia, §4 y §5), con su valor por defecto
+cuando la obra no declara otro: lengua y variedad (por defecto, español de España); plataforma y
+canal (por defecto, Amazon KDP con Kindle Unlimited), con los datos de catálogo que pide el canal;
+público lector (por defecto, lectora de dark romance: mujer de 20 a 40 años, de KU, BookTok y
+Bookstagram); precio (por defecto, 3,99 €); comparables y tradición de referencia; y el perfil de
+la lectora externa de `PROTOCOLO_LECTURA.md` §8, que sale del público lector.
 
 ## SYSTEM_ORCHESTRATION
 

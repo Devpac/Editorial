@@ -2,6 +2,8 @@
 
 # BRIEFING.md — MODELO_DarkRomance v2.0
 
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
 > **v2.0 · la pareja primero.** Rige `PAREJA_PRIMERO.md`: la pareja es la trama A de cada libro. La
 > compuerta dura del bloque de libro es su arco de pareja (campo 2 bis); la miga, compuerta blanda.
 
@@ -11,7 +13,7 @@ Archivo de servicio: no diseña, no ejecuta, no revisa. Registra el estado opera
 
 Su función principal aquí: **es la hoja de arranque de cada libro**. En la saga con la misma pareja (la forma de la saga la declara la obra: SERIES_GLUE, adenda de dark romance), las novelas comparten pareja, elenco, escenario y trama horizontal, así que ya no pregunta quién protagoniza, dónde ocurre ni hacia dónde va la trama horizontal: **eso se hereda de la biblia y no se vuelve a decidir**; con parejas rotativas se hereda el mundo y la pareja de cada libro se declara en su bloque. Lo que pide, libro a libro, es la capa de instancia: número y arco, tema emocional de la relación, el arco de pareja del libro, la trama del libro que se deriva de él (*Variante: dark romance policial:* el caso), la miga de pan sobre la trama horizontal (si la saga la tiene), la posición en la escala de rendición, el estado del reloj que cerca a la pareja (si la saga lo tiene: una amenaza que se acerca y suma una pieza en cada libro), el antagonista del libro (*Variante: dark romance policial:* el villano de la semana) y el gancho de cierre.
 
-Sin él, una saga larga padece dos fricciones: la clásica —cada ventana arranca reconstruyendo qué se hizo antes— y una peor, propia de la saga: las ventanas **redeciden canon**. Reinventan cómo huele él, mueven la edad de ella, adelantan a un libro anterior el peldaño que la escala de rendición reserva (lo que él revela; el contacto y el calor no se reservan: tienen suelo en cada libro, `PAREJA_PRIMERO.md` §4).
+Sin él, una saga larga padece dos fricciones: la clásica —cada ventana arranca reconstruyendo qué se hizo antes— y una peor, propia de la saga: las ventanas **redeciden canon**. Reinventan cómo huele él, mueven la edad de ella, adelantan a un libro anterior el peldaño que la escala de rendición reserva (lo que revela quien raciona su confesión; el contacto y el calor no se reservan: tienen suelo en cada libro, `PAREJA_PRIMERO.md` §4).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › BRIEFING › Propósito en la obra.
 > *Qué declara aquí la obra:* cuántos libros comparten su canon, cuál es el reloj que cerca a su pareja, si lo tiene, y qué canon suyo se redecide con más facilidad.
@@ -43,12 +45,12 @@ Esta tabla cierra preguntas, no las abre. Ningún briefing de libro declara nada
 |---|---|---|
 | Pareja (saga con la misma pareja) | [los dos protagonistas: nombre, edad y oficio] | [sección de la biblia] |
 | Elenco | [el elenco fijo y los recurrentes de fuera de él] | [sección de la biblia] |
-| Escenario | [base, territorio oscuro y, si lo tiene, espacio propio] | [sección de la biblia] |
+| Escenario | [los escenarios recurrentes, como la obra los organice, y, si lo tiene, el espacio propio] | [sección de la biblia] |
 | Trama horizontal (si la saga la tiene) | [los misterios y los antagonistas que atraviesan la saga] | [secciones de la biblia] |
 | Género y arbitraje | Dark Romance con [la ambientación del subgénero que declara la obra]. Ganan la relación, la tensión, la oscuridad | GENRE_CONVENTIONS |
 | Persona y POV | [la persona, el tiempo y la alternancia de POV que fija la biblia] | [sección de la biblia] |
-| Extensión y reparto | [palabras por libro · capítulos y su horquilla · peso de pareja: objetivo y suelo, como poco los de `PAREJA_PRIMERO.md` §2] | [secciones de la biblia] |
-| Apertura | Con él o con su vigilancia. Nunca con la trama del libro (*Variante: dark romance policial:* nunca con un cadáver) | [sección de la biblia] |
+| Extensión y reparto | [palabras por libro · capítulos y su horquilla · peso de pareja: objetivo y suelo, como poco los de `PAREJA_PRIMERO.md` §3] | [secciones de la biblia] |
+| Apertura | [cómo abre cada libro, según la biblia §14: con la pareja (los dos, o uno mira al otro)]. Nunca con la trama del libro (*Variante: dark romance policial:* nunca con un cadáver) | [sección de la biblia] |
 | Cierre | Trama del libro cerrada y pregunta de pareja del libro contestada (campo 2 bis). En la saga con la misma pareja, relación abierta: **prohibido registrar un final feliz cerrado por libro** | SERIES_GLUE |
 
 **Regla dura:** si una ventana cree que está "decidiendo" algo de esta lista, no decide: rompe canon. Se detiene y consulta la biblia.
@@ -96,10 +98,10 @@ Un briefing desactualizado es peor que su ausencia: genera falsa confianza, y en
    **2 bis. ARCO DE PAREJA DEL LIBRO** *(v2.0)*. Va primero, antes que el tema emocional y que la trama del libro, que se elige para provocarlo. Cinco piezas, concretas y con su % del libro cuando lo tienen: **la pregunta de pareja** (la versión que el libro agota y contesta en página, y lo que cambia entre ellos para contestarla, de dónde a dónde; en la saga con la misma pareja, sin final feliz: THEMATIC_ENGINE y SERIES_GLUE, adendas); **la transgresión** (la línea que uno cruza por el otro, o contra él, y que ya no se deshace); **el momento oscuro** (lo que se rompe entre ellos: la crisis de la pareja de ROMANCE_BEAT_MAP); **el pago de calor** (qué pasa entre los cuerpos en este libro y dónde, dentro de los suelos de HEAT_DISCIPLINE); **el cara a cara** (el primero, como tarde al 10 %, y el tope de la ausencia, si la obra declara una: ELLIPSIS_PROTOCOL, uso B). **Compuerta dura: sin este campo relleno, el libro no se abre.**
 2. **TEMA EMOCIONAL DE LA RELACIÓN.** Una línea, sin adornos, en presente. Se rellena después del arco de pareja (2 bis), antes que la trama, y no se toca después.
 3. **La trama del libro, derivada del tema** (*Variante: dark romance policial:* el caso). La versión monstruosa del punto 2. Se declara junto a la frase que explica el espejo. Si el espejo no se puede enunciar en una frase, la trama está mal elegida. Y se declara como motor de la pareja: qué choque, qué proximidad forzada y qué obstáculo pone entre ellos para mover el arco del 2 bis (`PAREJA_PRIMERO.md` §5). Si no los junta ni los enfrenta, está mal elegida aunque el espejo funcione.
-4. **La miga de pan sobre la trama horizontal** (si la saga la tiene). Qué descubre ella aquí, concreto y tangible, y de dónde sale la pista. **Compuerta blanda:** si falta, el libro se abre igual, la miga pasa a la Sección 4 como pendiente con plazo (antes de escaletar el bloque en que cae) y el libro no se entrega sin ella (GENRE_CONVENTIONS, regla 9).
-5. **Posición en la escala de rendición.** Qué entrega él que no hubiera entregado antes. Hitos fijos: los que declara la obra, cada uno con su libro (o con su tramo, si la escalera cabe en un libro). Si la escalera se reparte en varios libros, en los volúmenes intermedios el peldaño es menor, pero existe y se especifica. Es lo único de la pareja que se reserva para otro libro: el choque, el deseo, el contacto y el calor no bajan en los intermedios (campo 2 bis; `PAREJA_PRIMERO.md` §4).
+4. **La miga de pan sobre la trama horizontal** (si la saga la tiene). Qué descubre aquí quien la persigue (la obra lo declara), concreto y tangible, y de dónde sale la pista. **Compuerta blanda:** si falta, el libro se abre igual, la miga pasa a la Sección 4 como pendiente con plazo (antes de escaletar el bloque en que cae) y el libro no se entrega sin ella (GENRE_CONVENTIONS, regla 9).
+5. **Posición en la escala de rendición.** Qué entrega quien raciona su confesión (la obra lo declara) que no hubiera entregado antes. Hitos fijos: los que declara la obra, cada uno con su libro (o con su tramo, si la escalera cabe en un libro). Si la escalera se reparte en varios libros, en los volúmenes intermedios el peldaño es menor, pero existe y se especifica. Es lo único de la pareja que se reserva para otro libro: el choque, el deseo, el contacto y el calor no bajan en los intermedios (campo 2 bis; `PAREJA_PRIMERO.md` §4).
 6. **Estado del reloj que cerca a la pareja** (si la saga lo tiene). Desde el libro en que arranca: qué pieza suma en este libro y si ella lo sabe. La lectora lleva la cuenta; el briefing también.
-7. **El antagonista del libro, como attrezzo** (*Variante: dark romance policial:* el villano de la semana, como attrezzo táctico). Qué presión pone sobre la pareja y qué celos activa en él. Ningún antagonista asciende a interés romántico. *Variante: dark romance policial:* los celos le llegan por su vigilancia, y se anota que el acercamiento de ella es frío, psicológico y sin roce innecesario.
+7. **El antagonista del libro, como attrezzo** (*Variante: dark romance policial:* el villano de la semana, como attrezzo táctico). Qué presión pone sobre la pareja. Ningún antagonista asciende a interés romántico.
 8. **Gancho de cierre.** En la saga con la misma pareja, cliffhanger emocional: una pregunta de la relación que el libro deja viva (una pista grande de la trama horizontal puede ir con ella, no en su lugar); en otra forma, el cierre que declare la obra (SERIES_GLUE). Se declara en el arranque; no se improvisa en el último capítulo.
 
 **Comprobación de los no negociables de la obra.** Antes de cerrar la sección se marca dónde caen los que la obra declara obligatorios en cada libro.
@@ -107,7 +109,7 @@ Un briefing desactualizado es peor que su ausencia: genera falsa confianza, y en
 Cierra la metadata: fase (diseño, escritura, revisión), versión del modelo y fecha.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › BRIEFING › Declaración de instancia en la obra.
-> *Qué declara aquí la obra:* sus arcos y, si las tiene, sus puertas de salida; un ejemplo canónico de tema y de trama derivada; los hitos de su escala de rendición; su lista de no negociables por libro y, si los tiene, de dónde salen sus migas y cuál es el reloj que cerca a su pareja.
+> *Qué declara aquí la obra:* sus arcos y, si las tiene, sus puertas de salida; un ejemplo canónico de tema y de trama derivada; quién descubre la miga y quién entrega en la escala de rendición, con sus hitos; qué activa en la pareja el antagonista del libro además de su presión, si la obra lo declara; su lista de no negociables por libro y, si los tiene, de dónde salen sus migas y cuál es el reloj que cerca a su pareja.
 
 ### Sección 2 — Estado del catálogo
 
@@ -138,7 +140,7 @@ Una frase: "La ventana siguiente debe [acción concreta], consultando [archivos 
 
 - **Tablero de los relojes de la saga** (saga con la misma pareja). El bloque más útil de la saga: cada reloj que declara la obra (libro en que arranca → libro en que suena), con su estado tras el libro en curso.
 - **Contador de paleta** (si la obra raciona la mezcla de dos paletas). Cuántas veces se han mezclado. **Máximo: el que declara la obra por libro.** Se lleva aquí porque es una cuota de volumen entero que ninguna ventana de capítulo puede vigilar sola. Autoridad: SENSORY_HIERARCHY.
-- **Inventario de migas entregadas** (si la saga tiene trama horizontal). Todo lo que ella sabe ya sobre la trama horizontal. Evita repetir descubrimiento y evita el estancamiento.
+- **Inventario de migas entregadas** (si la saga tiene trama horizontal). Todo lo que sabe ya de la trama horizontal quien la persigue. Evita repetir descubrimiento y evita el estancamiento.
 - **Glosario operativo.** Los términos técnicos de la obra.
 - **Registro de fricciones.** Lo que rozó en producción; lo procesa después PROTOCOLO_CAPTURA_APRENDIZAJE.
 
@@ -170,7 +172,7 @@ Añadir y quitar bloques es decisión autoral. Los dos primeros, si la saga los 
 
 - **TEST 1 — ORDEN.** ¿El arco de pareja (2 bis) y el tema emocional están escritos antes que la trama del libro, y el espejo cabe en una frase? Si el bloque empieza por la trama (*Variante: dark romance policial:* por el crimen), se ha invertido la regla del espejo (GENRE_CONVENTIONS, regla 2).
 - **TEST 2 — MIGA** (si la saga tiene trama horizontal). ¿El campo 4 trae un descubrimiento concreto y tangible sobre la trama horizontal, o una promesa vaga? Vago equivale a vacío: queda como pendiente con plazo (compuerta blanda) y el libro no se entrega sin ella.
-- **TEST 3 — RENDICIÓN.** ¿El campo 5 nombra algo que él no había entregado antes? Si no, la moneda real de la saga no circula en este volumen.
+- **TEST 3 — RENDICIÓN.** ¿El campo 5 nombra algo que quien raciona su confesión no había entregado antes? Si no, la moneda real de la saga no circula en este volumen.
 - **TEST 4 — EL RELOJ QUE CERCA A LA PAREJA** (si la saga lo tiene). Desde el libro en que arranca, ¿hay pieza nueva, y cuadra con el peso acumulado del briefing de saga?
 - **TEST 5 — CANON REDECIDIDO.** ¿Alguna entrada de la Sección 3 decide algo que la tabla de canon heredado da por cerrado? Se borra y se consulta la biblia.
 - **TEST 6 — ATTREZZO.** ¿El antagonista del libro se declara por la presión que ejerce sobre la pareja, o se le ha escrito química propia? Lo segundo rompe el contrato.
@@ -190,7 +192,7 @@ Añadir y quitar bloques es decisión autoral. Los dos primeros, si la saga los 
 
 **`PAREJA_PRIMERO.md`.** Manda en el peso de la pareja y en los suelos que aplica el campo 2 bis.
 
-**SYSTEM_ORCHESTRATION.md.** Capa 0: declara cuándo se consulta y cuándo se actualiza el briefing. **GENRE_CONVENTIONS.md** fija el contrato que la Sección 1 aplica —apertura con él, peso de pareja con sus suelos, escena limpia prohibida, gancho en todos los capítulos—.
+**SYSTEM_ORCHESTRATION.md.** Capa 0: declara cuándo se consulta y cuándo se actualiza el briefing. **GENRE_CONVENTIONS.md** fija el contrato que la Sección 1 aplica —apertura con la pareja, peso de pareja con sus suelos, escena limpia prohibida, gancho en todos los capítulos—.
 
 **CLUE_LEDGER.md.** Lleva al detalle las pistas de la trama del libro y las migas horizontales; el briefing guarda solo el titular: qué se descubrió y en qué libro.
 

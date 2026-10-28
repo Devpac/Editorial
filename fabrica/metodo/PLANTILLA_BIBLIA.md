@@ -1,10 +1,10 @@
 # PLANTILLA_BIBLIA.md — la biblia de una saga (MODELO_DarkRomance v2.0)
 
 > Archivo de **modelo**. Es la forma de la biblia que escriben las ventanas B1, B2 y B3 en la fase 1
-> (`ORQUESTADOR.md`, §2.1). Sale de la estructura de la biblia de la primera obra del modelo,
-> vaciada. **No es una lista para rellenar a ciegas:** cada sección dice qué decide y por qué lo
-> necesita el resto del modelo. Lo marcado 🔒 lo decide el autor (o lo aprueba); lo demás, la
-> ventana por delegación, con su línea en el Anexo A. Desde la v2.0, la pareja es la trama A
+> (`ORQUESTADOR.md`, §2.1). **No es una lista para rellenar a ciegas:** cada sección dice qué
+> decide y por qué lo necesita el resto del modelo. Lo que lleva «si la obra lo tiene» se escribe
+> «no aplica» cuando la saga no lo tiene: no se inventa para rellenarlo. Lo marcado 🔒 lo decide
+> el autor (o lo aprueba); lo demás, la ventana por delegación, con su línea en el Anexo A. Desde la v2.0, la pareja es la trama A
 > (`PAREJA_PRIMERO.md`): la biblia fija su peso (§14 🔒) y cada libro empieza por su pregunta (§19).
 
 ---
@@ -43,46 +43,56 @@
    equivalente y la anti-firma; o «no aplica». Pasa al preset.
 3. **Posicionamiento** 🔒 — Frente a los géneros vecinos (p. ej., romantic suspense): qué se hace
    aquí que allí no, y qué no se hace nunca.
-4. **Público y comparables** — Comparables a los que se apunta y de los que se huye; **perfil de la
-   lectora** (edad, plataforma, qué busca, qué la hace abandonar). De aquí sale la lectora tipo de
-   `PROTOCOLO_LECTURA.md` §5.
-5. **Marca** 🔒 — Nombre de la saga, fórmula de títulos, título en Amazon, keywords (7), categorías,
+4. **Público y comparables** — Lengua y variedad, canal de publicación y precio; comparables a los
+   que se apunta y de los que se huye; **perfil de la lectora** (edad, plataforma, qué busca, qué
+   la hace abandonar). De aquí sale la lectora tipo de `PROTOCOLO_LECTURA.md` §5. Pasa al preset
+   (Cabecera › Mercado y lengua; si la obra no declara otro, valen los valores por defecto que da
+   esa ranura).
+5. **Marca** 🔒 — Nombre de la saga, fórmula de títulos, los datos de catálogo que pide el canal
+   de publicación que declare la obra (título y subtítulo de tienda, palabras clave, categorías),
    dirección de portada, **advertencias de contenido**.
 6. **Protagonista A** 🔒 — Datos duros; cronología verificada (y absoluta de la saga, año a año);
-   descripción física; personalidad; refugio sensorial (su oficio u objeto); **el defecto** (el que
-   la lectora le perdona y la saga explota); el trauma motor; el idiolecto.
+   descripción física; personalidad; su refugio sensorial (un oficio, un objeto, un lugar), si lo
+   tiene; **el defecto** (el que la lectora le perdona y la saga explota); el trauma motor; el
+   idiolecto.
 7. **Protagonista B** 🔒 — Ficha técnica; perfil físico y estética; anclaje sensorial; personalidad y
    comportamiento; los tropos que activa (y por qué venden); **el pasado**; el idiolecto.
-8. **El sistema de trauma** — Lo que cada uno carga, cómo se tocan las dos heridas (el nexo, si lo
-   hay), el remate y la **regla de migas** (cuánto se revela y cuándo).
-9. **Elenco fijo** — Pocos (seis como mucho), cada uno con función, voz y destino. Notas de uso.
-10. **El antagonista de la saga** 🔒 — Por capas o arcos, con su identidad y cuándo se revela.
-11. **Lo que sostiene y lo que cerca a la protagonista** — En una saga policial, la arquitectura
-    legal (quién la protege, quién la persigue, cómo sobrevive su carrera); en otros subgéneros, su
-    equivalente (la familia, el clan, la institución).
-12. **Escenario y logística** — Base, territorio oscuro, espacios recurrentes, y el **espacio
-    propio** de la pareja o de la protagonista (el que se carga de sentido a lo largo de la saga).
+8. **El sistema de trauma** — Lo que cada uno carga y cómo se tocan las dos heridas (el nexo, si lo
+   hay). Si la saga tiene trama horizontal que sale de ellas: el remate y la **regla de migas**
+   (cuánto se revela y cuándo).
+9. **Elenco fijo** — Pocos (el número lo fija la obra, con su porqué), cada uno con función, voz y
+   destino. Notas de uso.
+10. **El antagonista de la saga** 🔒 (si la obra lo tiene) — Su identidad y cuándo se revela; por
+    capas o arcos, si los tiene.
+11. **Lo que sostiene y lo que cerca a la protagonista** (o a la pareja) — Qué la sostiene y qué la
+    amenaza en su mundo (la familia, el clan, la institución, la ley), y quién la persigue, si
+    alguien la persigue.
+12. **Escenario y logística** — Los escenarios recurrentes, como la obra los organice, y el
+    **espacio propio** de la pareja o de un protagonista, si lo tiene (el que se carga de sentido a
+    lo largo de la saga).
 13. **Los relojes de la saga** (si los tiene) — Las cuentas atrás que corren por debajo de los
     libros, con el libro en que empieza y en el que suena cada una.
 14. **Las reglas duras** 🔒 — Las que no se discuten. **El peso de la pareja** *(v2.0)*, con
     número, suelo y unidad: por defecto, los de `PAREJA_PRIMERO.md` (objetivo 80 % y suelo 70 %, por
     bloque de cuatro capítulos y por libro, en palabras medidas con su §2; lo que no es pareja, como
     mucho el 30 %, sin mínimo), y los suelos de género de su §3 que la obra sube; bajar cualquiera del suelo es
-    decisión del autor, con su porqué aquí. Y persona y tiempo, uno o dos narradores y su reparto (con
-    dos, ninguno por debajo del 40 %), cómo se abre cada libro, qué espejo hay entre la trama del
+    decisión del autor, con su porqué aquí. Y persona y tiempo, cuántos narradores y su reparto
+    (con más de uno, el que declare la obra), cómo se abre cada libro, qué espejo hay entre la trama del
     libro y la pareja. Pasan al preset.
 
 ## PARTE II — ARQUITECTURA DE LA SAGA (ventana B2)
 
 15. **Tropos y peligros del género para esta obra** — Cómo se gestionan aquí los peligros conocidos
-    (`GENRE_CONVENTIONS.md`), qué comportamientos oscuros son canónicos en el protagonista B, cómo
+    (`GENRE_CONVENTIONS.md`), qué comportamientos oscuros son canónicos en quien da miedo
+    (protagonista B por defecto), cómo
     funciona la tensión sin consumar, pecados capitales y tests de género.
 16. **El refuerzo intermitente** 🔒 — Cómo evoluciona el conflicto a lo largo de la saga; **ritmo
     de consumación por libro** (qué pasa en el cuerpo y qué en lo emocional, libro a libro);
-    **la escala de rendición** (lo que él entrega y en qué libro: es la moneda escasa); giros,
-    inversiones, catálogo de torturas y **regla de mortalidad**.
-17. **Estructura interna de cada libro** — Los no negociables de cada volumen; la malla de mundos y
-    tipos de conflicto, y su rotación.
+    **la escala de rendición** (lo que entrega quien raciona su confesión, y en qué libro: es la
+    moneda escasa); los giros, y, si la obra los tiene, sus inversiones, su catálogo de torturas
+    (las descargas falsas del anhelo) y su regla de mortalidad.
+17. **Estructura interna de cada libro** — Los no negociables de cada volumen; si cada libro cambia
+    de escenario o de tipo de conflicto, la malla y su rotación.
 18. **La forma de la saga y sus arcos** 🔒 — La forma (`SERIES_GLUE.md`, adenda de dark romance:
     la misma pareja en muchos libros, dúo o trilogía, o parejas rotativas en un mundo compartido):
     qué cierra cada libro, qué deja abierto y dónde cae el final feliz. Los bloques de libros, con
@@ -123,7 +133,7 @@
     (es de la pareja: THEMATIC_ENGINE, adenda).
 27. **El arco de mundo** — Ejes del mundo y su evolución.
 28. **Las capas del mundo y su jerarquía sensorial** — Qué se ve, se oye, se huele en cada capa, y
-    **las paletas de cada narrador** (pasan al preset).
+    las paletas de cada narrador, si las tiene (pasan al preset).
 29. **El idiolecto** — Cómo habla cada narrador y cada personaje fijo; tics propios (pasan al preset
     como «tics vigilados»).
 30. **El género declarado y las leyes del mundo** — El **contrato de género** con los campos que pide

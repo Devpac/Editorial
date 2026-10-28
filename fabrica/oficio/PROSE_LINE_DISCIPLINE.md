@@ -1,4 +1,4 @@
-<!-- MODELO_DarkRomance v2.0 — PROSE_LINE_DISCIPLINE: base agnóstica v7 (verbatim) + adenda de dark romance (v2.0) -->
+<!-- MODELO_DarkRomance v2.0 — PROSE_LINE_DISCIPLINE: base de oficio + adenda de dark romance (v2.0) -->
 
 # PROSE_LINE_DISCIPLINE.md
 
@@ -427,11 +427,10 @@ desde aquí**. Tiene calibración directa documentada en
 AESTHETIC_REGISTER.md como entrada del INVENTARIO DE REGÍMENES, con
 cuotas explícitas para las ocho cuotas de este archivo (CUOTAS 1 y 2
 ajustadas al alza en rango INTERMEDIO; CUOTAS 3, 4, 6, 7, 8 en rango
-MINIMALISTA; CUOTA 5 en rango INTERMEDIO). La calibración directa la
-introdujo la cirugía v7.1 (ventana 6) tras detectar que el
-tratamiento por extrapolación subdotaba al régimen y producía cuotas
-inconsistentes con su corpus de referencia (Lehane, Pelecanos, Flynn,
-thrillers nórdicos en su rama eficiente).
+MINIMALISTA; CUOTA 5 en rango INTERMEDIO): el tratamiento por
+extrapolación subdotaba al régimen y producía cuotas inconsistentes
+con su corpus de referencia (Lehane, Pelecanos, Flynn, thrillers
+nórdicos en su rama eficiente).
 
 ---
 
@@ -701,8 +700,8 @@ inercia, se sustituye por término más concreto del campo semántico.
 "Tejido emocional" → la emoción sin metáfora textil.
 
 Esta lista debe revisarse con periodicidad porque los aidiolectos de
-los modelos cambian. v7.x debe actualizar el inventario cuando los
-modelos vigentes muden de tics.
+los modelos cambian. El inventario se actualiza cuando los modelos
+vigentes muden de tics (PROTOCOLO_CAPTURA_APRENDIZAJE).
 
 ### TIC 9 — EM-DASH / RAYA INTERCALADA OVERKILL
 
@@ -798,8 +797,8 @@ oral-minimalista, Rulfo oral-minimalista, Pérez-Reverte
 naval-decimonónico, Lezama barroco) requieren medición directa de
 corpus que aún no se ha hecho. Las cuotas actuales son punto de
 partida; los proyectos creativos que instancien este archivo y midan
-sus referentes pueden afinar y devolver el aprendizaje al modelo
-agnóstico v7 a través del PROTOCOLO_CAPTURA_APRENDIZAJE.
+sus referentes pueden afinar y devolver el aprendizaje al modelo a
+través del PROTOCOLO_CAPTURA_APRENDIZAJE.
 
 ---
 
@@ -989,7 +988,7 @@ cuotas para regímenes específicos del español (Marías, Saer,
 Onetti, Rulfo, Pérez-Reverte, Lezama y otros) requieren medición
 directa de corpus.
 
-Pasos recomendados para versiones futuras (v7.1, v7.2, ...):
+Pasos recomendados para versiones futuras:
 
 1. **Medición de corpus de referencia.** Tomar veinte páginas
    representativas de cada autor de referencia, pasarlas por POS
@@ -1025,11 +1024,9 @@ Pasos recomendados para versiones futuras (v7.1, v7.2, ...):
 
 ## RELACIÓN CON OTROS ARCHIVOS
 
-PROSE_LINE_DISCIPLINE.md dialoga con diecisiete archivos del catálogo
-v7.1, organizados por nivel de criticidad de la coordinación. La lista
-recoge el estado del catálogo tras la cirugía v7.1 (ventanas 2 a 7.5)
-que integró este archivo en el sistema mediante notas de redirección
-recíprocas en los archivos huéspedes.
+PROSE_LINE_DISCIPLINE.md dialoga con diecisiete archivos del catálogo,
+organizados por nivel de criticidad de la coordinación, mediante notas
+de redirección recíprocas en los archivos huéspedes.
 
 ### CRÍTICO
 
@@ -1044,7 +1041,7 @@ o introduce excepción legítima sobre las reglas de este archivo.
   POPULAR-EFICIENTE está calibrado directamente en AESTHETIC_REGISTER
   (entrada del INVENTARIO DE REGÍMENES con cuotas explícitas para las
   ocho cuotas), no se extrapola desde aquí. El campo LECTOR IMPLÍCITO
-  añadido por la cirugía v7.1 puede modular tolerancia operativa a
+  puede modular tolerancia operativa a
   ciertas cuotas (lector culto admite cuotas más altas en hedge y
   nominalización si la voz es reflexiva; lector de lectura rápida exige
   disciplina más estricta en techo de adjetivación y de longitud). El
@@ -1059,8 +1056,7 @@ o introduce excepción legítima sobre las reglas de este archivo.
   nombra, musicalidad, tiempo verbal dominante) declaran explícitamente
   el rasgo y su función. La sección IDIOLECTO Y SOBREESCRITURA DE
   CUOTAS GLOBALES de aquel archivo es la sede formal de la
-  sobreescritura. La sección TIEMPO VERBAL DOMINANTE añadida por la
-  cirugía v7.1 modula cadencia y por tanto cuotas locales en ciertos
+  sobreescritura. La sección TIEMPO VERBAL DOMINANTE modula cadencia y por tanto cuotas locales en ciertos
   casos (la voz en presente histórico tiende a cuotas más bajas de
   CUOTA 4; la voz en pluscuamperfecto como marco tiende a cuotas más
   altas de CUOTA 5). La distinción tic LLM versus rasgo de idiolecto
@@ -1135,8 +1131,7 @@ las cuotas y los anti-tics en pasadas de revisión.
   silencio con prosa floja.
 
 - **ELLIPSIS_PROTOCOL.md** (paralelo en Capa 3, modula por modo
-  elegido). La sección TRATAMIENTO DE CONTENIDO CARGADO añadida por la
-  cirugía v7.1 declara cuatro modos (MOSTRADO, ELIDIDO, DESCRITO SECO,
+  elegido). La sección TRATAMIENTO DE CONTENIDO CARGADO declara cuatro modos (MOSTRADO, ELIDIDO, DESCRITO SECO,
   DESCRITO POÉTICO) con coordinación con régimen estético. El modo
   elegido modula la prosa: DESCRITO SECO impone cuotas estrictas de
   CUOTA 1, CUOTA 3 y TIC 1; DESCRITO POÉTICO admite cuotas más altas
@@ -1180,7 +1175,7 @@ las cuotas y los anti-tics en pasadas de revisión.
   (cadencia de opening commercial). Coordinación: la diagnosis
   estructural de las juntas reside en SEAMS; la cuantificación de los
   tics que las juntas activan reside aquí. La sección PARATEXTO
-  añadida por la cirugía v7.1 (títulos de capítulo, epígrafes,
+  (títulos de capítulo, epígrafes,
   dedicatorias, notas de autor, glosarios, mapas, índices) declara
   función de cada paratexto sin tocar cuotas, que se aplican igualmente
   a la prosa paratextual con disciplina que la del cuerpo principal.
@@ -1202,7 +1197,7 @@ las cuotas y los anti-tics en pasadas de revisión.
   PASADA 4 (trabajo de línea) invoca este archivo con énfasis en los
   tests cuantitativos. PASADA 1 (revisión por libro) verifica
   coherencia con régimen declarado. La sección FEEDBACK EXTERNO
-  añadida por la cirugía v7.1 declara que el procesamiento de
+  declara que el procesamiento de
   comentarios externos no contamina el manuscrito directamente; la
   pasada de prosa que reciba comentarios cruza con este archivo en
   PASADA 4 con cuotas vigentes según AESTHETIC_REGISTER.
@@ -1217,8 +1212,7 @@ regímenes característicos por convención.
   La REGLA 3 de no-repetición léxica en párrafo de este archivo admite
   excepción cuando la repetición sea declarada como motivo recurrente
   en THEMATIC_ENGINE (caso de palabras-clave que sostienen el motor
-  temático). La sección SISTEMA DE IMÁGENES añadida por la cirugía
-  v7.1 introduce campos visuales sostenedores que pueden incluir
+  temático). La sección SISTEMA DE IMÁGENES introduce campos visuales sostenedores que pueden incluir
   léxico repetido legítimo. La declaración explícita en
   THEMATIC_ENGINE legitima la repetición; la repetición no declarada
   computa como tic.
@@ -1247,83 +1241,6 @@ WORLD_TEXTURE y SCENE_SHAPE, alimenta a SEAMS_AND_HINGES en zonas de
 alta exposición, alimenta a REVISION_PROTOCOL en PASADA 4 (trabajo de
 línea) y PASADA 1 (coherencia con régimen).
 
-### MODIFICACIONES APLICADAS EN OTROS ARCHIVOS DEL CATÁLOGO
-
-La integración de este archivo en el catálogo v7.1 produjo
-modificaciones quirúrgicas aplicadas en ventanas 2, 3, 4, 6, 7 y 7.5
-de la cirugía. La lista de modificaciones efectivamente aplicadas
-queda registrada en CIRUGIA_v7_REPORTE.md como traza histórica. Las
-modificaciones cubren los siguientes archivos huéspedes:
-
-- **AESTHETIC_REGISTER.md**: TEST 2 con redirección a este archivo
-  para cuantificación detallada (ventana 2); entrada POPULAR-EFICIENTE
-  en INVENTARIO DE REGÍMENES con cuotas directas explícitas para las
-  ocho cuotas (ventana 6); LECTOR IMPLÍCITO con implicaciones sobre
-  tolerancia operativa (ventana 6).
-- **PROSODY_AND_MUSIC.md**: COMIENZOS DE FRASE con redirección a
-  REGLA 1 de este archivo (ventana 2).
-- **SEMANTIC_OMISSION.md**: FILTRO 4 con redirección a CUOTA 2
-  (ventana 2).
-- **DIALOGUE_MECHANICS.md**: ADVERBIOS EN ATRIBUCIÓN con redirección
-  a TIC 7 y CUOTA 2; cláusula sobre muletillas declaradas como
-  idiolecto del personaje (ventana 2).
-- **SUBTEXT_MECHANICS.md**: coordinación operativa en escenas de alta
-  carga emocional con disciplina extra de prosa (ventana 2).
-- **SENSORY_HIERARCHY.md**: SINESTESIAS Y CRUCES SENSORIALES con
-  redirección a TIC 1 y TIC 2; EL DETALLE REVELADOR con conexión a
-  DOCTRINA DE PRIMACÍA NOMINAL Y VERBAL; entrada en RELACIÓN CON
-  OTROS ARCHIVOS (ventana 3).
-- **VOICE_ARCHITECTURE.md**: IDIOLECTO Y SOBREESCRITURA DE CUOTAS
-  GLOBALES como cierre de FICHA POR VOZ (ventana 3); TIEMPO VERBAL
-  DOMINANTE con cinco modos y modulación de cadencia (ventana 7.5).
-- **CHARACTER_PHYSICS.md**: precedencia contextual sobre este archivo
-  en momento de colapso; SÍNTOMAS VERBALES DEL COLAPSO con TEST DE
-  TRES PREGUNTAS y RANGO DE LA EXCEPCIÓN; entrada en RELACIÓN CON
-  OTROS ARCHIVOS (ventana 3); TIPOS DE ANTAGONISMO con cinco tipos y
-  cruce a la regla de excepción (ventana 6).
-- **SCALE_CALIBRATION.md**: CALIBRACIÓN DE CUOTAS DE PROSA SOBRE LA
-  DENSIDAD DE FONDO en PACING POR ESCALA; entrada en RELACIÓN CON
-  OTROS ARCHIVOS (ventana 4).
-- **WORLD_TEXTURE.md**: COORDINACIÓN OPERATIVA CON
-  PROSE_LINE_DISCIPLINE en DENSIDAD PERMITIDA con ejemplo operativo;
-  entrada en RELACIÓN CON OTROS ARCHIVOS (ventana 4).
-- **SCENE_SHAPE.md**: MODULACIÓN DE CUOTAS LOCALES DE PROSA en MAPA
-  DE DENSIDAD DE LA ESCENA con asignación por momento; entrada en
-  RELACIÓN CON OTROS ARCHIVOS (ventana 4).
-- **SEAMS_AND_HINGES.md**: ÚLTIMA PÁGINA con redirección a TIC 4 y
-  TIC 5; ERROR 1 con redirección a TIC 10; ERROR 3 con redirección a
-  TIC 4 y TIC 5; entrada en RELACIÓN CON OTROS ARCHIVOS (ventana 4);
-  PARATEXTO con siete elementos paratextuales y disciplina de prosa
-  paratextual (ventana 7.5).
-- **CHAPTER_BRIEF.md**: CUOTAS DE PROSA DE LÍNEA Y SOBREESCRITURA
-  LOCAL en DISTRIBUCIÓN DE MATERIA con cuatro casos formalizados;
-  entrada en RELACIÓN CON OTROS ARCHIVOS (ventana 4).
-- **REVISION_PROTOCOL.md**: este archivo añadido a la lista de
-  invocados en PASADA 4 con énfasis en tests cuantitativos; PASADA 1
-  con verificación de coherencia con régimen declarado (ventana 2 o 4
-  según secuencia documentada en reporte); FEEDBACK EXTERNO con
-  procesamiento de comentarios sin contaminar manuscrito y cruce con
-  PASADA 4 (ventana 7).
-- **THEMATIC_ENGINE.md**: SISTEMA DE IMÁGENES como operación distinta
-  de motivos recurrentes; coordinación bidireccional con
-  SENSORY_HIERARCHY (ventana 6).
-- **ELLIPSIS_PROTOCOL.md**: TRATAMIENTO DE CONTENIDO CARGADO con
-  cuatro modos (MOSTRADO, ELIDIDO, DESCRITO SECO, DESCRITO POÉTICO) y
-  coordinación con régimen estético (ventana 7.5).
-
-### PENDIENTES DIFERIDOS
-
-Las añadiduras ergonómicas heredadas de ventanas 5, 6, 7 y 7.5
-(verificación recíproca en SENSORY_HIERARCHY sobre alimentación de
-SISTEMA DE IMÁGENES, enriquecimiento de RELACIÓN CON OTROS ARCHIVOS
-en REVISION_PROTOCOL e INFORMATION_CHOREOGRAPHY tras FEEDBACK EXTERNO
-e IRONÍA DRAMÁTICA, enriquecimiento de RELACIÓN CON OTROS ARCHIVOS en
-VOICE_ARCHITECTURE, SEAMS_AND_HINGES y ELLIPSIS_PROTOCOL tras las
-secciones añadidas en ventana 7.5) quedan diferidas al barrido global
-de ventana 10 (auditoría de coherencia global), conforme a directiva
-del autor humano sobre máximo media carga por ventana y a la regla de
-preservación de capacidad operativa para ventana 9.
-
 ---
 
 ## ORIGEN HISTÓRICO
@@ -1342,15 +1259,13 @@ modulación por régimen, no contaminación de plantillas) para
 integrar la disciplina de línea en el sistema sin romper la
 disciplina operativa del proyecto.
 
-Este archivo no se modifica durante el uso de proyectos creativos.
-Si la práctica revela mejoras necesarias, se actualizan en el
-proyecto agnóstico v7 mediante revisión controlada, conforme a la
-Regla 1 del proyecto v7. Las instancias concretas de este archivo
-en proyectos creativos sí se modifican libremente con cuotas
-custom, listas custom, anclajes a autores específicos del proyecto.
+Si la práctica revela mejoras necesarias, se hacen conforme a
+`LEEME.md` §4 (regla del fork) y llegan por el
+PROTOCOLO_CAPTURA_APRENDIZAJE. Los valores de cada obra (cuotas
+propias, listas propias, anclajes a sus autores) no se escriben aquí:
+van a su preset (`PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE).
 
-Fin de PROSE_LINE_DISCIPLINE.md, plantilla 31 del catálogo
-agnóstico v7.
+Fin de PROSE_LINE_DISCIPLINE.md.
 
 
 ---

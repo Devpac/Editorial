@@ -1,10 +1,11 @@
 # PLANTILLA_ESCALETA.md — escaleta y escaleta ampliada de un libro (MODELO_DarkRomance v2.0)
 
 > Archivo de **modelo**. La parte 1 es la escaleta del libro (ventana E1, fase 2); la parte 2, la
-> escaleta ampliada (ventanas A1, A2…, fase 3). Sale de cómo se escalonó el primer libro de la
-> primera obra del modelo, vaciado. Los **tests** del final los aplica la auditoría, no quien
-> escribe: son lo que las lectoras echaron de menos en aquel libro. Desde la v2.0, la escaleta es
-> de la pareja (`PAREJA_PRIMERO.md`): cada ficha empieza por «Entre ellos» y estima su peso.
+> escaleta ampliada (ventanas A1, A2…, fase 3). Los **tests** del final los aplica la auditoría,
+> no quien escribe. Desde la v2.0, la escaleta es de la pareja (`PAREJA_PRIMERO.md`): cada ficha
+> empieza por «Entre ellos» y estima su peso.
+>
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
 ---
 
@@ -15,7 +16,8 @@
 - Título del libro y número en la saga.
 - **Extensión**: palabras (horquilla), número de capítulos, capítulos de una escena o de varias,
   suelo y techo por capítulo y excepciones (el capítulo largo del pico, el más hablado).
-- **Persona, tiempo y narradores**: reparto entre narradores (con dos, ninguno por debajo del 40 %);
+- **Persona, tiempo y narradores**: reparto entre narradores (con más de uno, el que declare la
+  obra: `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles);
   capítulos partidos (empieza uno y termina el otro).
 - **Peso de la pareja**: el declarado (biblia §14 🔒 y preset; por defecto, objetivo 80 % y suelo
   70 % por bloque de cuatro capítulos y por libro, en palabras medidas con `PAREJA_PRIMERO.md` §2)
@@ -31,8 +33,8 @@
 Una frase-tema entre comillas, sobre los dos. **Entre ellos:** de dónde a dónde van en este
 libro; qué no consigue clasificar ella de él (o al revés) y por qué; quién gana y qué le cuesta al
 otro. Las heridas que corren por debajo. **La droga del libro**: la asimetría de información que hace que la
-lectora mire con uno lo que el otro no sabe. Después, la trama del libro (*Variante: dark romance
-policial:* el caso) en una línea: qué los junta, qué los enfrenta y qué los separa.
+lectora mire con uno lo que el otro no sabe (con un solo narrador, lo que la lectora sabe y quien
+narra no). Después, la trama del libro (*Variante: dark romance policial:* el caso) en una línea: qué los junta, qué los enfrenta y qué los separa.
 
 ### 2. La pregunta que tira del libro
 
@@ -122,17 +124,18 @@ ficha, sin borrar nada: `*vN (A-NN, origen):* …`. La nota manda sobre lo anter
 
 ## TESTS DE ESCALETA (auditoría de las fases 2 y 3)
 
-Salen de lo que las lectoras pidieron en el primer libro del modelo. Los mira la editora de
+Los mira la editora de
 desarrollo; la lectora tipo los confirma en su lectura de plan. Los suelos son los de
 `PAREJA_PRIMERO.md` §3, o los que la obra suba en su preset; bajarlos es decisión del autor (biblia
 §14 🔒). Lo que falla se reescaleta antes de encargar.
 
 1. **El capítulo 1 promete la pareja**: los dos están, o uno mira al otro, o hay tensión entre
    ellos. Un capítulo 1 que solo promete trama es la muestra de un thriller.
-2. **La muestra gratuita engancha** (más o menos el primer 10 % del libro, unos tres o cuatro
+2. **La muestra gratuita engancha** (la del canal que declare la obra, `PRESET_<OBRA>.md` ›
+   Cabecera › Mercado y lengua; más o menos el primer 10 % del libro, unos tres o cuatro
    capítulos): dentro de ella están el primer cara a cara (test 3) y algún momento de pareja con
    cuerpo (una mirada que pesa, una distancia que se rompe), y su peso de pareja no baja del suelo
-   (test 15). Dos capítulos seguidos de trámite (comisaría, oficina, taller, familia) al principio
+   (test 15). Dos capítulos seguidos de trámite (el trabajo, la casa, la familia) al principio
    hacen abandonar la muestra.
 3. **Primer cara a cara pronto**: los dos protagonistas, en la misma escena y con diálogo, en el
    primer 10 % del libro (un prólogo en pleno pico cuenta).
@@ -146,12 +149,14 @@ desarrollo; la lectora tipo los confirma en su lectura de plan. Los suelos son l
    nunca más de cuatro capítulos seguidos sin una escena con carga (ventana móvil, no bloques
    fijos) y, desde la primera escena explícita, de calor o *edging* (HEAT_DISCIPLINE, calendario
    de calor y TEST 6).
-6. **Él da miedo en página**, no solo en la ficha: algún capítulo suyo muestra lo que podría hacer y
-   lo que se contiene.
-7. **Ganchos sin excepción, y de pareja**: cada «Cierra con» tira del siguiente, y son de pareja
+6. **Quien da miedo lo da en página** (protagonista B por defecto; lo declara la obra), no solo en
+   la ficha: algún capítulo suyo muestra lo que podría hacer y lo que se contiene.
+7. **Ganchos sin excepción, y de pareja**: cada «Cierra con» tira del siguiente (por defecto, sin
+   excepción; la obra puede declarar cierres de descarga con su tope), y son de pareja
    (lo que dejan abierto es entre ellos, incluido el gancho de la trama B que cae sobre la pareja:
    SEAMS_AND_HINGES, adenda) al menos dos de cada tres por libro (objetivo, tres de cada cuatro) y
-   al menos dos de cuatro por bloque de cuatro capítulos (objetivo, tres de cuatro).
+   al menos dos de cuatro por bloque de cuatro capítulos (objetivo, tres de cuatro), o los que
+   declare el preset.
 8. **Escenas espejo** (el mismo momento contado por los dos narradores): se planean como **un
    detalle compartido** y lo que el otro no vio; nunca como la misma escena contada dos veces.
 9. **El género secundario cabe en una línea** (*Variante: dark romance policial:* el
@@ -185,4 +190,5 @@ libros). Y se suman:
     funde con otra), si están los dos y su peso estimado; cada bloque de cuatro capítulos y el libro
     apuntan al objetivo (80 %) y no bajan del suelo (70 %), o de lo que declare la obra (biblia §14
     🔒). Un bloque por debajo no se encarga.
-16. **Voces**: con dos narradores, ninguno por debajo del 40 % del libro.
+16. **Voces**: con más de un narrador, el reparto que declare la obra (`PRESET_<OBRA>.md` ›
+    Cabecera › Correspondencia de roles).
