@@ -2,9 +2,8 @@
 
 > Archivo de **modelo** (vale para cualquier obra). Define el rol de la ventana que dirige una
 > obra de principio a fin: la biblia, el preset, las escaletas, los capítulos, el cierre de cada
-> libro y el paso al siguiente. Nace de cómo se hizo el primer libro de la primera obra del
-> modelo desde su cap. 3 (octubre de 2026): una ventana que no escribe la obra, sino que la
-> encarga, la hace leer por quien no la ha escrito, la corrige con cortes y lleva la memoria.
+> libro y el paso al siguiente: una ventana que no escribe la obra, sino que la encarga, la hace
+> leer por quien no la ha escrito, la corrige con cortes y lleva la memoria.
 > Desde la v2.0, la pareja es la trama A de cada libro y de cada capítulo: `PAREJA_PRIMERO.md`
 > manda en su peso.
 
@@ -40,28 +39,33 @@ línea de lo que va a hacer y empieza.
 > de escritura el repo de GitHub `[usuario/repo-de-la-obra]` (vacío) y el del modelo
 > `[usuario/repo-del-modelo]` (solo lectura). Lee `ORQUESTADOR.md` y `LEEME.md` del modelo y
 > empieza por la fase 0. Mi idea, en bruto: [premisa, subgénero, lo que quiero]. Mi criterio de
-> delegación: 1.º el disfrute de la lectora, 2.º la coherencia de la saga, 3.º la calidad
-> literaria. Todo en español.
+> delegación: [el que trae el modelo por defecto / el mío: …]. Todo en [LENGUA].
 
 **(b) Libro nuevo de una saga que ya existe**
 
 > Eres el orquestador de `[OBRA]`. Autorizo conectar con acceso de escritura el repo
 > `[usuario/repo]`. Lee `LEEME.md`, `ORQUESTADOR.md` y `CUADERNO_[OBRA].md`. El libro [N-1] está
 > cerrado; empieza el libro [N] por el paso al libro siguiente (§2.7). Mi criterio de siempre.
-> Todo en español.
+> Todo en [LENGUA].
 
 **(c) Relevo** (el orquestador anterior se quedó sin contexto)
 
 > Eres el orquestador de `[OBRA]` y tomas el relevo de otra ventana. Autorizo conectar con acceso
 > de escritura el repo `[usuario/repo]`. Lee `LEEME.md`, `ORQUESTADOR.md` y `CUADERNO_[OBRA].md`, y
 > después `NEXT.md` y el último `capNN_lectura_editorial.md`. Dime en qué punto estamos y sigue.
-> Mi criterio de siempre. Todo en español.
+> Mi criterio de siempre. Todo en [LENGUA].
 
 **Primeros pasos, siempre:** clonar, `git log` de las últimas entradas, leer `PAREJA_PRIMERO.md` y
 el cuaderno de la obra (fase, último encargo cerrado, próximo paso, decisiones permanentes del
 autor) y comprobar si hay trabajo de una ventana de trabajo subido y sin auditar (§4.2). Si el
 prompt del autor y el cuaderno no dicen lo mismo de dónde estamos, manda el autor: el orquestador
 pone el cuaderno al día y lo dice en su primera línea.
+
+**Criterio de delegación y «manda la lectora».** Cada obra los declara en `CUADERNO_<OBRA>.md` §2,
+y todo el método los lee de allí («mi criterio de siempre» es ese). Si la obra no declara otros,
+valen estos, por defecto: **1.º el disfrute de la lectora, 2.º la coherencia de la saga, 3.º la
+calidad literaria**; y cuando editora y lectora tipo discrepan, **manda la lectora**. `[LENGUA]`
+es la de `PRESET_<OBRA>.md` › Cabecera › Mercado y lengua.
 
 ---
 
@@ -86,8 +90,8 @@ entra por la fase 1b (preset desde su biblia) o por la 2, según lo que traiga.
 ### 2.0 Arranque de la obra (fase 0)
 
 1. El autor crea el repo vacío en GitHub y da acceso. El orquestador copia en él los **archivos del
-   modelo** (lista en `LEEME.md`, «Qué es modelo y qué es obra») y nada de ninguna otra obra, y
-   reescribe la §1 del `LEEME.md` copiado («La obra activa») con los nombres de la obra nueva.
+   modelo** (lista en `LEEME.md`, «Qué es modelo y qué es obra») y nada de ninguna otra obra; la
+   obra activa la dice su cuaderno, no el `LEEME.md`.
    **Nombre de trabajo:** hasta que haya título, `<OBRA>` es un nombre de trabajo que el autor
    aprueba con la ficha de premisa (en mayúsculas y con guiones bajos en los nombres de archivo:
    `CUADERNO_<OBRA>.md`, `PRESET_<OBRA>.md`); si después cambia, se renombran los archivos y se
@@ -100,7 +104,9 @@ entra por la fase 1b (preset desde su biblia) o por la 2, según lo que traiga.
    bloque de cuatro capítulos y por libro, en palabras medidas con su §2; bajarlo del suelo es
    decisión suya), nivel de calor y cuándo llega la primera consumación (con los suelos de aquel
    archivo, §3), líneas rojas (contenidos que no quiere), extensión por libro, persona y tiempo, si
-   quiere uno o dos narradores, y su criterio de delegación.
+   quiere uno o dos narradores, su pareja (géneros, quién narra, quién raciona su rendición:
+   `PAREJA_PRIMERO.md`, «Roles»), su mercado y lengua (`PRESET_<OBRA>.md` › Cabecera › Mercado y
+   lengua) y su criterio de delegación (se le propone el de §1; va a `CUADERNO_<OBRA>.md` §2).
 3. Escribe la **ficha de premisa** (una página: la pareja, **su pregunta y qué cambia entre ellos**
    en el libro 1 y en la saga; **el reparto** 🔒, con número, suelo y unidad; tesis; la trama del
    libro, como lo que los junta, los enfrenta o los separa; subgénero, forma de la saga, promesa de
@@ -111,8 +117,8 @@ entra por la fase 1b (preset desde su biblia) o por la 2, según lo que traiga.
 
 Se escribe en **tres ventanas**, una por parte de `PLANTILLA_BIBLIA.md`: **B1 fundación** (tesis,
 pilares y variante del subgénero, mercado, marca, pareja, trauma, elenco, antagonista, escenario,
-relojes, reglas duras y el peso de la pareja 🔒), **B2 arquitectura de la saga** (peligros del
-género para esta obra, refuerzo intermitente, ritmo de consumación y escala de rendición, estructura de cada libro, forma
+relojes si los tiene, reglas duras y el peso de la pareja 🔒), **B2 arquitectura de la saga** (tropos y
+peligros del género para esta obra, refuerzo intermitente, ritmo de consumación y escala de rendición, estructura de cada libro, forma
 de la saga y arcos, tabla de títulos, diseño del libro 1, extensión) y **B3 régimen** (estético,
 idiolectos, contrato de género declarado, calendario de fábula, mundo, principio de serie). Cada ventana parte de la ficha de premisa y de
 lo ya aprobado; lo que decide va al Anexo A como A-NN con fecha y origen.
@@ -170,8 +176,8 @@ vivos (paso 3 de la base); el orquestador pone al día en `continuidad.md` el es
 migas (CLUE_LEDGER). Lo que baje del suelo se arregla reescaletando el bloque siguiente (nota vN),
 nunca en lo escrito.
 Cuando el libro tiene escritos los cuatro o cinco primeros capítulos, hace una **lectura de la
-muestra gratuita** (la lectora tipo lee esos capítulos como si fueran la muestra de Amazon:
-¿compraría?) y actúa sobre el arranque antes de seguir.
+muestra gratuita** (la lectora tipo lee esos capítulos como si fueran la muestra gratuita de la
+plataforma de la obra: ¿compraría?) y actúa sobre el arranque antes de seguir.
 
 **En el libro 2 y siguientes**, la lectura de los primeros capítulos lleva como referencia los
 últimos publicados del libro anterior y, si la obra declara cada libro autónomo, otra lectora
@@ -210,12 +216,13 @@ relevo). Ninguna ventana del libro nuevo se lanza antes.
    de publicación aprobado. Lo que falte se termina antes.
 2. **Volcado de saga** (lo exige `BRIEFING.md`, regla F, en las sagas con trama horizontal):
    - en `libro_<N-1>/continuidad.md`, la sección «Estado al cerrar el libro» (`PLANTILLA_LIBRO.md`):
-     dónde está cada uno, qué sabe cada uno y qué sabe la lectora, objetos y aparatos en juego,
-     contadores de saga, peldaño de la escala alcanzado, deudas y relojes con su libro siguiente;
-   - en el preset, las ranuras que llevan la cuenta de la saga (registro de migas, relojes, escala
-     alcanzada, contadores de saga);
-   - en la biblia, una fila del Anexo A, «Cierre del libro N-1», con una línea por reloj y por
-     deuda de serie.
+     dónde está cada uno, qué sabe cada uno y qué sabe la lectora, objetos en juego,
+     contadores de saga, peldaño de la escala alcanzado, deudas y relojes (si los hay) con su libro
+     siguiente;
+   - en el preset, las ranuras que llevan la cuenta de la saga (registro de migas, relojes si los
+     hay, escala alcanzada, contadores de saga);
+   - en la biblia, una fila del Anexo A, «Cierre del libro N-1», con una línea por reloj (si los
+     hay) y por deuda de serie.
 3. **Lo que espera la lectora del libro siguiente.** Si la lectura completa no lo preguntó, una
    lectora tipo lee los últimos capítulos con una sola pregunta más: «¿Comprarías el siguiente? ¿Qué
    tiene que pasar en él para que no lo sueltes?». Va al plan de la lectora del libro cerrado, en
@@ -232,7 +239,7 @@ relevo). Ninguna ventana del libro nuevo se lanza antes.
    §7) y los sube al repo de la obra; las ventanas de trabajo no los buscan.
 6. **El autor** (§7): si tiene notas propias para el libro nuevo, van a la biblia como A-NN antes
    del diseño; si no, el diseño se hace por delegación, dentro de la tabla de títulos de la biblia.
-7. **`LEEME.md` §1 y cuaderno:** libro N en curso, `libro_NN/` en el índice, fase 2a. Los códigos
+7. **Cuaderno:** libro N en curso, `libro_NN/` en el índice, fase 2a. Los códigos
    de ventana del libro nuevo llevan su número delante (L2-D1, L2-E1, L2-A1, L2-C01…), y se apunta
    en el cuaderno.
 8. **NEXT del diseño** (D1) y commit: «Libro N-1 cerrado; puente al libro N».
@@ -265,7 +272,7 @@ recomendada.
   (E1, §2.3).
 - Diseño y escaleta pueden ir en **una sola ventana**, en dos partes, si el autor prefiere aprobarlo
   todo junto; por defecto van separados, porque una trama mal elegida se arregla barato en el diseño
-  y caro en cuarenta fichas.
+  y caro en todas las fichas.
 
 ---
 
@@ -283,8 +290,8 @@ recomendada.
 > [CÓDIGO] de [OBRA]. Autorizo conectar con acceso de escritura el repo de GitHub
 > `[usuario/repo]` y trabajar en la rama main. Clónalo, lee el LEEME y el NEXT.md y ejecútalo tal
 > cual; commit y push en main. No mires otras ramas, otros repos ni conversaciones pasadas sobre
-> esta obra. Decide por delegación con mi criterio de siempre: 1.º el disfrute de la lectora,
-> 2.º la coherencia de la saga, 3.º la calidad literaria. Todo en español.
+> esta obra. Decide por delegación con mi criterio de siempre: [el de `CUADERNO_<OBRA>.md` §2,
+> copiado tal cual]. Todo en [LENGUA].
 
 - Si el encargo es una **prueba a ciegas** (dos versiones del mismo capítulo, por ejemplo para probar
   un cambio del modelo), la segunda ventana trabaja en una rama propia que sale del commit anterior
@@ -327,17 +334,19 @@ decide con lo que vuelve.
 | Libro entero | Lectora tipo · editora · correctora · externas | §3, §5, §7, §8 | Correcciones de cierre y reescrituras |
 
 **Reglas de decisión:**
-- Cuando editora y lectora discrepan, **manda la lectora** (criterio 1.º).
+- Cuando editora y lectora discrepan, decide lo que declare el cuaderno (§2), o el valor por
+  defecto (§1).
 - Lo que señalan **tres lecturas o más** es un problema confirmado: se corrige también en lo ya
   escrito.
 - Listón de un capítulo: editora ≥ 7,5; si la lectora tipo baja de 6, se revisa aunque la editora
   apruebe. Si después de los cortes sigue por debajo, va a reescritura (§6). **Y el peso de
   pareja** *(v2.0)*: el que estima la editora, junto al del acta (C-10), con la unidad de
-  `PAREJA_PRIMERO.md` §2; por debajo del objetivo (80 %), alarma al plan de la lectora y a la
-  escaleta del bloque siguiente; si el bloque baja del suelo (70 %), se reescaleta el bloque
+  `PAREJA_PRIMERO.md` §2; por debajo del objetivo (el de `PAREJA_PRIMERO.md` o el que declare el
+  preset; por defecto, 80 %), alarma al plan de la lectora y a la escaleta del bloque siguiente;
+  si el bloque baja del suelo (por defecto, 70 %), se reescaleta el bloque
   siguiente, nunca la prosa, y el capítulo va a reescritura solo si la lectura lo pide.
-- La lectora tipo es exigente y oscila alrededor de un punto entre lecturas: se mira su **orden**
-  (qué capítulo engancha más y cuál menos), no un número suelto.
+- De la lectora tipo se mira su **orden** (qué capítulo engancha más y cuál menos), no un número
+  suelto; cómo puntúa en esta obra frente a las demás lecturas se apunta en el cuaderno (§5).
 
 ---
 
@@ -384,7 +393,7 @@ decide con lo que vuelve.
 
 ## 8. Cómo informa al autor
 
-Después de cada encargo, en español y corto:
+Después de cada encargo, en la lengua de la obra y corto:
 
 1. **Qué ha salido**: las notas (editora, lectora tipo), el peso de pareja (el del acta y el de la
    lectura) y lo que más les gusta, con una o dos citas.
@@ -421,7 +430,7 @@ El orquestador mantiene al día, y sube con cada encargo cerrado:
 
 **El briefing de saga** que pide `BRIEFING.md` no es un archivo aparte: lo forman el cuaderno (dónde
 estamos), la sección «Estado al cerrar el libro» de cada `continuidad.md` y las ranuras del preset
-que llevan la cuenta de la saga (migas, relojes, escala, contadores). Las ventanas de capítulo lo
+que llevan la cuenta de la saga (migas, relojes si los hay, escala, contadores). Las ventanas de capítulo lo
 alimentan solo a través de `continuidad.md`; el resto lo vuelca el orquestador.
 
 Commit y push al cerrar cada paso, con un mensaje que diga qué cambió. Nunca se fuerza un push.

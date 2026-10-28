@@ -1,25 +1,24 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen y deroga la adenda de Intriga que traía este
-> archivo: lo primero que registra la fábula es lo de la pareja. La base agnóstica de arriba sigue
-> vigente.
+> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: lo primero que registra la fábula es lo de la
+> pareja. La base agnóstica de arriba sigue vigente.
 
 ### 1. EL EVENTO QUE MÁS PESA ES EL NUDO DE LA PAREJA
 
 Especializa HISTORIA DE CADA RELACIÓN y EL EVENTO DETONANTE PRE-NARRATIVO. El evento pre-narrativo
 que más pesa es el del nudo de la pareja (RELATIONSHIP_PHYSICS): lo que pasó entre ellos antes del
 capítulo 1, o lo que uno hizo y el otro ignora. Se registra con el detalle máximo de la base y,
-además, con la versión que conoce cada narrador, lo que calla cada uno (CLUE_LEDGER, regla 3) y el
+además, con la versión que conoce cada uno, lo que calla cada uno (CLUE_LEDGER, regla 3) y el
 evento de capa 2 en que se revela cada capa de la verdad: la confesión se dosifica
 (`PAREJA_PRIMERO.md` §4).
 
 ### 2. CAPA 3: LO QUE EL OTRO HACE FUERA DE ESCENA
 
 Especializa NARRATIVA INVISIBLE. La capa 3 registra, con fecha y hora, lo que cada protagonista hace
-fuera de escena en los capítulos del otro: lo que el otro vigila, deduce o ignora
-(ELLIPSIS_PROTOCOL, uso A). Y, de la trama B, los movimientos del antagonista que la sostienen
-(*Variante: dark romance policial:* también los de sospechosos y señuelos, base de las coartadas de
-CLUE_LEDGER).
+fuera de escena mientras la página es del otro (con dos narradores, en los capítulos del otro): lo
+que el otro deduce o ignora y, si la obra tiene vigilancia, lo que vigila (ELLIPSIS_PROTOCOL, uso
+A). Y, de la trama B, los movimientos del antagonista que la sostienen (*Variante: dark romance
+policial:* también los de sospechosos y señuelos, base de las coartadas de CLUE_LEDGER).
 
 ### 3. EL AISLAMIENTO DEL CLÍMAX ES PROXIMIDAD FORZADA
 

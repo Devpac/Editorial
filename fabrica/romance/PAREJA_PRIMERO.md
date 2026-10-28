@@ -1,12 +1,8 @@
 # PAREJA_PRIMERO.md — el principio rector del MODELO_DarkRomance v2.0
 
 > Archivo de **modelo** (v2.0, 22-10-2026). Manda sobre cualquier plantilla en lo que regula: el peso de la
-> pareja frente a la trama del libro. Nace de la primera obra del modelo: diseñado con la v1.3, su libro 1
-> daba un 39 % de pareja (los doce primeros capítulos, un 26 %), los dos protagonistas coincidían en escena en
-> 9 de 47 capítulos, y las lectoras lo leían como «80 % novela negra y 20 % romance». Un diagnóstico de nueve
-> lecturas sin contexto encontró la causa en el modelo, no en la prosa: había nacido de uno de intriga, las
-> adendas de intriga seguían mandando en muchas plantillas, y para la pareja había más de una docena de techos
-> y ningún suelo.
+> pareja frente a la trama del libro. Nace de un diagnóstico de la primera obra, que encontró la causa en el
+> modelo, no en la prosa: para la pareja había más de una docena de techos y ningún suelo.
 
 ---
 
@@ -51,7 +47,7 @@ con su porqué en la biblia.
 | Primer beso o equivalente | Como tarde, al 45 % |
 | Primera escena explícita | Como tarde, al 60 % |
 | Calor | Desde el contacto con carga, nunca más de cuatro capítulos seguidos sin una escena con carga (ventana móvil, no bloques fijos); desde la primera escena explícita, de calor o *edging* |
-| Voces (si hay dos narradores) | Ninguno por debajo del 40 % del libro |
+| Voces (si hay dos narradores) | El reparto entre narradores que declare la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), medido por libro |
 | Ganchos | De pareja: por libro, al menos dos de cada tres cierres (objetivo: tres de cada cuatro); por bloque de cuatro capítulos, al menos dos (objetivo: tres); cuenta el de la trama B que cae sobre la pareja |
 | Trama B | Sin mínimo. Lo que no es pareja (trama B, trama horizontal y elenco cuando su página no es de pareja), como mucho el 30 % del libro; la trama B, con sus mecanismos (pistas, señuelos, sospechosos, procedimiento), se dimensiona para caber en ese techo y se cierra en el libro |
 
@@ -70,8 +66,7 @@ que se tocan.
   moneda entre ellos. El dato de la trama B que puede llegar dentro de una escena de pareja, llega ahí.
 - **Cada ficha de escaleta empieza por «Entre ellos»** (qué cambia entre los dos en ese capítulo) y estima su
   peso de pareja; la trama B va después, como presión sobre eso.
-- **Las adendas de intriga (AGATHA_ROSA) quedan derogadas en todo el catálogo.** Una plantilla tiene, como
-  mucho, su cuerpo de oficio y una adenda de dark romance; no se apilan capas.
+- **Una plantilla tiene, como mucho, su cuerpo de oficio y una adenda de género;** no se apilan capas.
 - **Las plantillas de prosa no cambian,** salvo para quitar lo heredado de la intriga que enfriaba a la pareja.
 
 ## 6. Lo que no cambia
@@ -79,3 +74,12 @@ que se tocan.
 **La regla del fork.** Nada de este archivo es una instrucción de prosa. Se aplica en el diseño (biblia,
 preset y escaleta: qué pasa y en qué orden) y en las comprobaciones de cierre y de lectura, después del
 borrador. Quien escribe lo hace libre, con la ficha delante y las reglas como oído de fondo.
+
+## 7. Roles
+
+La fábrica nombra a la pareja como **protagonista A** y **protagonista B**. Por defecto, «ella» y «él» son A
+y B, en la forma más común del género: ella narra y él es el narrador hermético que raciona su rendición.
+Cada obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles: los géneros de los
+dos, quién narra, quién es hermético o irónico (si alguno), quién raciona su rendición, quién vigila (si
+alguien) y, en la *Variante: dark romance policial*, quién está del lado de la ley. Donde su pareja no sea la de por defecto, «ella» y «él» se leen como A y B, y cada papel, como lo
+declara la obra.

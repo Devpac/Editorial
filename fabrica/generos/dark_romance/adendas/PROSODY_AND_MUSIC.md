@@ -1,9 +1,8 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Especializa la base de arriba, que sigue vigente. La adenda de intriga (AGATHA_ROSA) que
-> traía este archivo, con su gancho de intriga obligatorio, está derogada y se ha retirado
-> (`PAREJA_PRIMERO.md`, §5). El nivel de atención prosódica lo declara
-> `AESTHETIC_REGISTER.md`: moderada, alta en la escena explícita y en el cierre de capítulo.
+> Especializa la base de arriba, que sigue vigente. El nivel de atención prosódica lo declara
+> `AESTHETIC_REGISTER.md` (DECLARACIÓN PRIMARIA, por defecto) o, si la obra declara otro, su
+> preset (`PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Declaración primaria).
 
 ### EL GANCHO
 

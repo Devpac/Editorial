@@ -1,7 +1,7 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen y deroga la adenda de Intriga que traía este
-> archivo: los hechos que más pesan son los de la pareja. La base agnóstica de arriba sigue vigente.
+> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: los hechos que más pesan son los de la pareja.
+> La base agnóstica de arriba sigue vigente.
 
 ### 1. LOS HECHOS DE PAREJA SON DE RANGO TEMÁTICO
 
@@ -25,8 +25,8 @@ obra (SCALE_CALIBRATION).
 Los hechos de la trama del libro y de la trama horizontal (pistas, señuelos, migas, datos
 horizontales; *Variante: dark romance policial:* coartadas y sospechosos) se llevan solo en
 CLUE_LEDGER. Aquí se anotan, con su ID de allí, solo los de doble rango, que también son de pareja
-(la pista-espejo, el señuelo que apunta a protagonista B, lo que protagonista B sabe y calla), y aquí
-se declara su consecuencia para la pareja.
+(si la obra los tiene: la pista-espejo, el señuelo que apunta a uno de los dos, lo que uno sabe y le
+calla al otro), y aquí se declara su consecuencia para la pareja.
 
 ### 4. TESTS (se suman a los de la base)
 

@@ -1,6 +1,8 @@
-<!-- MODELO_DarkRomance v2.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: convertida desde el modelo agnóstico v7 el 08-08-2026; separada de la obra el 22-10-2026; v2.0, «la pareja primero» (PAREJA_PRIMERO.md), el 22-10-2026. -->
+<!-- MODELO_DarkRomance v2.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
 
 # CHARACTER_PHYSICS.md — MODELO_DarkRomance v2.0
+
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
 ## PROPÓSITO
 
@@ -37,7 +39,7 @@ Cuatro tipos, y no todos necesitan la misma ficha.
 
 - **PROTAGONISTA (física completa, Plantilla A).** Deseo doble, herida,
   mecanismo, coste, arco de defensa. Hay **dos**: protagonista A y protagonista
-  B, los dos POV. En una saga con la misma pareja son **fijos y para siempre**:
+  B (los dos POV, si la obra tiene dos narradores). En una saga con la misma pareja son **fijos y para siempre**:
   ninguno se sustituye ni rota.
 - **ANTAGONISTA (física especular, Plantilla B).** Comparte pregunta con los
   protagonistas y la resuelve con el mecanismo opuesto. Se instancia **por
@@ -91,12 +93,12 @@ en escena. Vinculante:
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Registro de mecanismos de presión.
 > *Qué declara aquí la obra:* qué condicionantes estructurales presionan a la pareja, cómo se manifiestan sobre ella y quién los encarna en escena.
 
-**EL CASO HÍBRIDO** (si la saga lo tiene). […] *Un antagonista con cuerpo que
-opera como sociedad: cómo actúa, durante qué libros y qué herramienta de la
-pareja deja inútil.*
+**EL CASO HÍBRIDO** (si la saga lo tiene; es una opción, no una exigencia). […]
+*Un antagonista con cuerpo que opera como sociedad: cómo actúa, durante qué libros
+y qué herramienta de la pareja deja inútil.*
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Caso híbrido.
-> *Qué declara aquí la obra:* si la saga tiene un antagonista con cuerpo que opera como sociedad, durante qué libros, y qué obliga a resolver con la cabeza y no con la violencia.
+> *Qué declara aquí la obra:* si la saga tiene un antagonista con cuerpo que opera como sociedad, quién es, durante qué libros y qué herramienta de la pareja deja inútil, o «no aplica».
 
 ### COMPATIBILIDAD ENTRE TIPOS — DECLARACIÓN CANÓNICA
 
@@ -128,10 +130,10 @@ aparato del género secundario como escenario. Si el tipo dominante se desplaza 
 individual, se corrige aquí, no allí.
 
 El interno concentra la pregunta moral en dos cuerpos y exige polaridad
-interior: ambos protagonistas contienen las dos respuestas, no una cada uno. El
-de sociedad obliga a que la pregunta **no se resuelva empíricamente**: el
-sistema no se derrota, se sobrevive. Por eso no hay absolución al cerrar el
-volumen y la coda va envenenada por diseño.
+interior: ambos protagonistas contienen las dos respuestas, no una cada uno. Si la
+obra declara antagonismo de sociedad, obliga a que la pregunta **no se resuelva
+empíricamente**: el sistema no se derrota, se sobrevive, y no hay absolución al
+cerrar el volumen.
 
 ---
 
@@ -146,7 +148,7 @@ flota.
 ### FICHA A1 — PROTAGONISTA A (cerrada)
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Ficha A1 — protagonista A.
-> *Qué declara aquí la obra:* la ficha completa y cerrada de protagonista A, campo por campo, con sus cifras vinculantes y el libro de cada fase.
+> *Qué declara aquí la obra:* la ficha completa y cerrada de protagonista A, campo por campo, con sus cifras vinculantes, los planos de su defecto (cuántos y cuáles) y el libro de cada fase.
 
 **Datos duros.** […] *Edad al inicio del libro 1, oficio y antigüedad,
 formación, entrenamiento físico, secretos, referencia visual.*
@@ -165,28 +167,28 @@ registrado en NARRATIVE_CHRONOLOGY.*
 **MECANISMO DE DEFENSA — "[…]".** […] *Cómo opera, en qué terreno es impecable y
 en cuál se le desajusta la brújula, qué lo dispara.*
 
-**Los tres planos obligatorios (regla dura).** El defecto **no puede activarse
+**Los planos del defecto (regla dura).** El defecto **no puede activarse
 solo con protagonista B**: si solo se activa con uno, no es un patrón
-psicológico. Se manifiesta en tres, y **los planos 1 y 2 entran como eco**: dentro
-de una escena de pareja (a menudo, interrumpiéndola), en lo que él ve de ella en
-directo o en lo que ella le calla. No tienen capítulos propios sin el otro
+psicológico. Se manifiesta en más de un plano además de B (cuántos y cuáles, los
+declara la obra), y **los planos que no son B entran como eco**: dentro
+de una escena de pareja (a menudo, interrumpiéndola), en lo que el otro ve en
+directo o en lo que se le calla. No tienen capítulos propios sin el otro
 (`PAREJA_PRIMERO.md` §3, suelo de presencia).
 
 1. **Plano 1 — […].** *Fuera de la pareja y con menos en juego.*
-2. **Plano 2 — […].** *Otro terreno, también con menos en juego.*
-3. **Plano 3 — PROTAGONISTA B.** La versión sin diluir. Funciona porque la
-   lectora ya ha visto asomar el patrón en los otros dos planos, con menos en
+2. **Plano […] — […].** *Otro terreno, también con menos en juego, si la obra lo declara.*
+3. **Último plano — PROTAGONISTA B.** La versión sin diluir. Funciona porque la
+   lectora ya ha visto asomar el patrón en los otros planos, con menos en
    juego.
 
-**Variante: dark romance policial.** **Prohibición asociada (regla dura). El
-defecto de protagonista A no se activa con los sospechosos semanales.** Con ellos
-opera en modo táctico: seducción fría y calculada, acercamiento puramente
-psicológico, cero roce innecesario y ni un gramo de deseo real. Un villano que
-despierte su defecto rompe el contrato con la lectora —infidelidad emocional— y
-hunde el libro.
+**Prohibición asociada (regla dura). El defecto de protagonista A no se activa
+con el antagonista del libro** (*Variante: dark romance policial:* con los
+sospechosos) **ni con ningún tercero al que se acerque** (GENRE_CONVENTIONS,
+PELIGRO 1): ni un gramo de deseo real. Un tercero que despierte su defecto rompe
+el contrato con la lectora —infidelidad emocional— y hunde el libro.
 
-**COSTE DEL MECANISMO.** […] *Qué capa de la persona que juró ser le cuesta
-cada activación, en qué libro, y qué papel lo demuestra.*
+**COSTE DEL MECANISMO.** […] *Qué le cuesta cada activación, en qué libro, y qué
+hecho o prueba lo demuestra.*
 
 **ARCO DE DEFENSA (vinculante; distribución multivolumen en saga con la misma
 pareja; con parejas rotativas, las cuatro fases caben en el libro de la pareja).**
@@ -211,8 +213,8 @@ bajo la mirada de él); paleta por sentidos: olfato; tacto; sonido; color.*
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Ficha A2 — protagonista B.
 > *Qué declara aquí la obra:* la ficha completa y cerrada de protagonista B, campo por campo, con sus cifras vinculantes y el libro de cada peldaño.
 
-**Datos duros.** […] *Edad y diferencia con protagonista A, de dónde viene y cómo
-salió, oficio actual, código, nombre por el que se le conoce.*
+**Datos duros.** […] *Edad y diferencia con protagonista A, de dónde viene,
+oficio actual, código, nombres por los que se le conoce, si importa.*
 
 **Física visible (vinculante).** […] **Si la obra declara un contraste de
 envergadura con protagonista A**, es contraste de poder: parece que podría
@@ -241,8 +243,9 @@ protagonista A entra en su radar.*
 lo íntimo.*
 
 **ARCO DE DEFENSA = ESCALA DE RENDICIÓN (vinculante; multivolumen en saga con la
-misma pareja, dentro del libro con parejas rotativas).** En esta saga el sexo no
-es la moneda escasa: la rendición de él sí. Cada peldaño se paga una sola vez y no
+misma pareja, dentro del libro con parejas rotativas).** El sexo no es la moneda
+escasa: la rendición sí, la del protagonista que declare la obra (por defecto, él;
+si se rinde A, la escala va en su ficha). Cada peldaño se paga una sola vez y no
 se repite. La escala raciona la confesión (lo que él dice y entrega de sí), no el
 contacto: el deseo, el contacto y el sexo tienen su suelo en cada libro
 (`PAREJA_PRIMERO.md` §4).
@@ -261,48 +264,37 @@ Autoridad de trazado: ROMANCE_BEAT_MAP.
 
 ## REGLAS DURAS DE ESCRITURA DEL CANON
 
-Cinco reglas que no dependen del libro ni del beat. Se auditan en PASADA 2 de
+Una regla de oficio que vale siempre (R2) y las reglas duras de canon que declare
+la obra (R1 y de R3 en adelante), que no dependen del libro ni del beat. Se auditan en PASADA 2 de
 REVISION_PROTOCOL.
 
-**R1 — LA SEÑAL CORPORAL DE PROTAGONISTA A MARCA SIEMPRE VULNERABILIDAD (si la obra la declara).**
-En el trabajo y en su refugio, si lo tiene, su estado es el de control: […]. **Cuando la señal
-aparece, la escena está declarando que está expuesta.** No se usa gratis ni como
-bordado descriptivo. Si en revisión aparece en una escena donde ella tiene el
-control, se retira la señal o se reescribe la escena.
+**R2 — NADIE VE SU PROPIA CARA.** Ningún narrador ve su propia cara ni su propia
+mirada: eso es oficio y vale siempre. Si la obra declara una señal física que
+delata el deseo de un protagonista —en la mirada, en la voz, en las manos—, se
+describe desde el POV del otro; quien la tiene no la ve ni la nombra. En sus
+capítulos esa señal no existe: se le nota en lo que hace, en lo que deja de hacer
+y en lo que ve el otro cuando le toca. Si es narrador hermético, autodescribir el
+deseo desde dentro = personaje blandido.
 
-**R2 — LA SEÑAL FÍSICA DEL DESEO DE PROTAGONISTA B SE DESCRIBE DESDE EL POV DE ELLA.**
-Ningún narrador ve su propia cara ni su propia mirada: eso es oficio y vale
-siempre. Si la obra declara una señal física de protagonista B que delata su
-deseo —en la mirada, en la voz, en las manos—, se describe desde el POV de A; él
-no la ve ni la nombra. Él tiene capítulos —son la droga de la saga—, pero en ellos
-esa señal no existe: se le nota en lo que hace, en lo que deja de hacer y en lo
-que ve protagonista A cuando le toca. Si es narrador hermético, autodescribir el
-deseo desde dentro de protagonista B = personaje blandido.
-
-**R3 — ASIMETRÍA VERBAL (si la obra la declara).**
-Ella […] *su idiolecto y lo que tapa con él*. Él […] *el suyo*. Si la obra
-declara a protagonista B narrador hermético, **lo que dice ella rebota contra él,
-y cuando él por fin habla tiene el doble de impacto.** Esa asimetría es el motor
-de todos sus diálogos, no un adorno: si protagonista B iguala el volumen de
-palabras de protagonista A, la escena está rota. Prohibido que explique lo que
-siente: eso se paga en la escala de rendición.
-
-**R4 — LA FALSA FRAGILIDAD SE USA, NO SE COMENTA (si la obra la declara).**
-Si la obra declara que a protagonista A la subestiman, eso es una ventaja
-operativa suya, y el texto **no la defiende**: ninguna narración aclara que es
-más fuerte de lo que parece. Lo demuestra la acción —el cuerpo a cuerpo, si la
-obra lo tiene, con la cuota de escenas de combate con carga sexual por libro que
-declare—, no el narrador. Si la obra declara un contraste de envergadura con
-protagonista B, se juega en bloqueo, altura de la mirada y espacio ocupado,
-nunca en adjetivos.
-
-**R5 — LA MEZCLA DE LAS DOS PALETAS, RACIONADA POR LIBRO (si la obra las tiene).**
-Si la obra declara una paleta por narrador, mezclar las dos en un mismo párrafo
-señala que la tensión va a estallar. Es una bala de calibre grande y solo hay […]
-por volumen. Recuento: SENSORY_HIERARCHY.
+**R1, R3 Y SIGUIENTES — LAS REGLAS DURAS DE CANON QUE DECLARE LA OBRA.** Cada una con su
+nombre, lo que fija, cuándo se usa y su techo, si lo tiene; se escriben en la
+ficha de la obra y se auditan igual. Ejemplos de forma (no son obligatorias):
+- *Una señal corporal racionada:* un gesto de un protagonista que solo aparece
+  cuando está expuesto; si aparece donde tiene el control, se retira o se
+  reescribe la escena.
+- *Una asimetría verbal:* si un protagonista es narrador hermético, lo que dice el
+  otro rebota contra él, y cuando por fin habla tiene el doble de impacto; si
+  iguala el volumen de palabras del otro, la escena está rota y lo que siente se
+  paga en la escala de rendición.
+- *Una ventaja que se usa y no se comenta:* lo que la obra declare de un
+  protagonista (que lo subestimen, un contraste físico) lo demuestra la acción,
+  nunca la narración ni los adjetivos.
+- *Una señal sensorial racionada por libro:* si la obra tiene paletas, su mezcla
+  señala que la tensión va a estallar, con el techo por volumen que declare.
+  Recuento: SENSORY_HIERARCHY.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Reglas duras del canon.
-> *Qué declara aquí la obra:* cuáles de estas reglas tiene y con qué valores: la señal corporal de protagonista A y su estado de control; la señal física que delata el deseo de B; la asimetría verbal, con el idiolecto de cada uno; si a A la subestiman, su cuota de combate con carga sexual por libro y el contraste de envergadura, si lo hay; y cuántas mezclas de paletas caben en un volumen, si tiene paletas.
+> *Qué declara aquí la obra:* qué reglas duras de canon tiene, si alguna, cada una con su número, lo que fija, cuándo se usa y su techo; y, si la tiene, la señal física que delata el deseo de un protagonista (R2).
 
 ---
 
@@ -333,15 +325,12 @@ antagonista.
 consecutivos: […]. Dos volúmenes seguidos con la misma franja abaratan la serie.
 
 **PROHIBICIÓN DURA.** El antagonista del libro **no asciende nunca a interés
-romántico real**. *Variante: dark romance policial:* el villano de la semana es
-atrezo táctico y catalizador de celos: protagonista A lo trabaja en frío,
-protagonista B lo ve y pierde la cabeza. El efecto se obtiene sin que ella cruce
-la línea.
+romántico real** (GENRE_CONVENTIONS, PELIGRO 1).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Plantilla B — antagonista.
-> *Qué declara aquí la obra:* los mecanismos de la pareja que el antagonista invierte, las franjas entre las que rota el antagonista del libro y, si protagonista B lo vigila, por qué medio lo ve.
+> *Qué declara aquí la obra:* los mecanismos de la pareja que el antagonista invierte, las franjas entre las que rota el antagonista del libro y qué papel tiene en la pareja (por ejemplo, si catalizan celos, cómo y por qué medio lo sabe el otro), si tiene alguno.
 
-### ANTAGONISTA TRANSVERSAL — por capas (canon cerrado)
+### ANTAGONISTA TRANSVERSAL — por capas (canon cerrado; si la saga lo tiene)
 
 | Capa | Libros | Quién | Tipo de antagonismo | Qué obliga |
 |---|---|---|---|---|
@@ -351,7 +340,7 @@ Si quien lo encarna tiene cuerpo oculto: ficha B completa desde el libro en que
 se revela; antes, presencia sin cara.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Antagonista transversal.
-> *Qué declara aquí la obra:* cuántas capas tiene el antagonista transversal, con sus libros, quién o qué es cada una, su tipo y lo que obliga, y la ficha de quien lo encarna.
+> *Qué declara aquí la obra:* si lo tiene, cuántas capas tiene el antagonista transversal, con sus libros, quién o qué es cada una, su tipo y lo que obliga, y la ficha de quien lo encarna; o «no aplica».
 
 ---
 
@@ -368,19 +357,16 @@ relación con la pregunta central e **idiolecto** (muletilla, sintaxis, léxico)
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Elenco fijo.
 > *Qué declara aquí la obra:* quiénes forman el elenco fijo, con su edad, su función dura, lo que ilumina de la pregunta central y su bomba.
 
-**Variante: dark romance policial, si la obra tiene un investigador que cerca a la
-pareja** (por ejemplo, de Asuntos Internos; si no lo tiene, no se inventa:
-ningún recurso es obligatorio, `PLANTILLA_PRESET.md`, reglas). **REGLA DE ORO:
-ESE INVESTIGADOR TIENE RAZÓN.** Ni burócrata mezquino ni corrupto ni obstáculo
-administrativo: **es un buen policía persiguiendo a una delincuente real**, y esa
-delincuente es la protagonista. Es la conciencia de la lectora encarnada y el
-único hombre que desarma a protagonista A **intelectualmente**, lo que pone a
-protagonista B igual de nervioso que un rival. **Nunca es interés romántico: eso
-lo abarataría** y rompería la prohibición de infidelidad emocional. Escribirlo
-torpe, ridículo o venal destruye la arquitectura moral de la saga.
+**Si la obra tiene un adversario moral legítimo** (alguien que persigue a la pareja
+con razón; *Variante: dark romance policial:* por ejemplo, un investigador; si no lo
+tiene, no se inventa: ningún recurso es obligatorio, `PLANTILLA_PRESET.md`, reglas).
+**REGLA DE ORO: ESE PERSEGUIDOR TIENE RAZÓN.** Se escribe competente, íntegro y
+con razón: ni mezquino ni corrupto ni obstáculo de trámite. **Nunca es interés
+romántico: eso lo abarataría** y rompería la prohibición de infidelidad emocional.
+Escribirlo torpe, ridículo o venal destruye la arquitectura moral de la saga.
 
-> **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Regla de oro de Asuntos Internos.
-> *Qué declara aquí la obra:* si tiene un investigador que cerca a la pareja, qué miembro del elenco fijo es.
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Regla de oro del perseguidor legítimo.
+> *Qué declara aquí la obra:* si tiene un adversario moral que persigue a la pareja con razón, quién es, a quién persigue y por qué tiene razón, o «no aplica».
 
 ### PERSONAJES-BISAGRA
 
@@ -399,7 +385,7 @@ torpe, ridículo o venal destruye la arquitectura moral de la saga.
 [Se actualiza en CONTINUITY_PHYSICS.md por cada personaje con física completa.]
 
 FORMATO — PERSONAJE: [nombre] · LIBRO: [n] · CAPÍTULO X: [qué coste pagó, qué
-se perdió, qué documento existe ahora].
+se perdió, qué hecho o prueba existe ahora].
 
 El coste acumulado es el vector real del arco: sin registro, un personaje puede
 perder tres cosas en cinco capítulos y seguir igual. El registro lleva siempre una
@@ -448,22 +434,22 @@ prosa neutra serían tics corregibles: adjetivos en cascada, mitigación adverbi
 constante, ternarios obsesivos, frases-resumen que glosan lo que el personaje no
 acaba de aceptar. **El colapso no suena igual en los dos protagonistas, y
 confundirlos es el error más caro del modelo.** Cada uno colapsa desde su
-idiolecto; si la obra declara la asimetría verbal de R3, en direcciones
-contrarias:
+idiolecto; si la obra declara una asimetría verbal (un irónico frente a un
+hermético), en direcciones contrarias:
 
-- **PROTAGONISTA A colapsa hacia arriba.** Su idiolecto se descontrola: habla más
-  rápido, más larga, y lo que tapaba con él deja de taparse. Aquí sí aplican los
-  síntomas clásicos.
-- **PROTAGONISTA B colapsa hacia abajo, y una sola frase de más ya es el
+- **El protagonista irónico o locuaz colapsa hacia arriba.** Su idiolecto se
+  descontrola: habla más rápido, más largo, y lo que tapaba con él deja de
+  taparse. Aquí sí aplican los síntomas clásicos.
+- **El hermético colapsa hacia abajo, y una sola frase de más ya es el
   colapso.** Su economía es tan cerrada que la excepción se mide en unidades
-  mínimas: una frase larga donde siempre hubo tres palabras, una primera persona
-  del plural, algo que nunca nombra dicho en voz alta. **Un párrafo explicativo
-  en boca de protagonista B no es colapso: es un fallo de escritura.** Y está
+  mínimas: una frase larga donde siempre hubo tres palabras, algo que nunca nombra
+  dicho en voz alta (qué, lo declara la obra). **Un párrafo explicativo
+  en su boca no es colapso: es un fallo de escritura.** Y está
   tasado: solo cabe en los peldaños de la escala de rendición o en el libro de la
   crisis.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Síntomas verbales del colapso.
-> *Qué declara aquí la obra:* con qué rasgos de idiolecto colapsa cada protagonista, qué nombra B en voz alta solo al colapsar, si lo tiene, y en qué libro cae la crisis.
+> *Qué declara aquí la obra:* quién colapsa hacia arriba y quién hacia abajo, si tiene esa asimetría; con qué rasgos de idiolecto colapsa cada protagonista; qué nombra el hermético en voz alta solo al colapsar, si lo tiene; y en qué libro cae la crisis.
 
 ### TEST DE TRES PREGUNTAS
 
@@ -482,20 +468,20 @@ se mantiene. Un no: es aplicación robótica justificada a posteriori y se corri
 Opera **por escena**, no por capítulo ni por bloque. En cuanto el personaje
 vuelve al mecanismo o adopta su primer movimiento de FASE 4, la prosa regresa a
 las cuotas estándar. Una excepción que se prolonga se vuelve rasgo permanente y
-debe declararse en VOICE_ARCHITECTURE como idiolecto. En protagonista B, una
-excepción sostenida equivale a haberlo blanqueado.
+debe declararse en VOICE_ARCHITECTURE como idiolecto. En el protagonista hermético,
+si lo hay, una excepción sostenida equivale a haberlo blanqueado.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Rango de la excepción.
-> *Qué declara aquí la obra:* el nombre del protagonista hermético al que se aplica la última frase.
+> *Qué declara aquí la obra:* quién es su protagonista hermético, si lo tiene, al que se aplica la última frase; o «no aplica».
 
 ---
 
 ## TESTS DE FUNCIONAMIENTO
 
-**TEST 1 — EL DEFECTO EN SUS TRES PLANOS.** ¿El patrón de protagonista A asoma en
-los planos 1 y 2, como eco dentro de las escenas de pareja o bajo la mirada de él,
-y llega sin diluir con protagonista B? Sin eco de los otros dos planos, el defecto
-no es un patrón; con capítulos propios de los planos 1 y 2 sin el otro, se han
+**TEST 1 — EL DEFECTO EN SUS PLANOS.** ¿El patrón de protagonista A asoma en
+los planos que declara la obra, como eco dentro de las escenas de pareja o bajo la
+mirada del otro, y llega sin diluir con protagonista B? Sin eco de los otros planos,
+el defecto no es un patrón; con capítulos propios de esos planos sin el otro, se han
 comido páginas de la pareja.
 
 **TEST 2 — CONTAMINACIÓN CON EL ANTAGONISTA DEL LIBRO.** Con el antagonista del
@@ -503,22 +489,22 @@ libro (*Variante: dark romance policial:* el villano de la semana, el sospechoso
 ¿protagonista A siente algo real, se enternece o se le activa el defecto? Si sí,
 se ha roto la prohibición y con ella el contrato con la lectora.
 
-**TEST 3 — ASIMETRÍA VERBAL** (si la obra la declara, R3). Contar palabras por
-réplica en cada escena de pareja: ¿lo que dice protagonista A rebota contra la
-economía de protagonista B, o él habla de más? Más explicaciones de sentimientos
+**TEST 3 — ASIMETRÍA VERBAL** (si la obra la declara entre sus reglas duras). Contar
+palabras por réplica en cada escena de pareja: ¿lo que dice el locuaz rebota contra la
+economía del hermético, o el hermético habla de más? Más explicaciones de sentimientos
 que las pactadas en la escala: revertir.
 
-**TEST 4 — LA SEÑAL CORPORAL** (si la obra la declara). Cada aparición de la
-señal corporal de protagonista A, ¿marca vulnerabilidad? Si alguna es
-decorativa, se retira o se reescribe.
+**TEST 4 — LAS REGLAS DURAS DE CANON** (si la obra las declara). Cada regla de la
+obra, ¿se cumple con su valor y su techo? Una señal racionada que
+aparece decorativa se retira o se reescribe.
 
-**TEST 5 — LA SEÑAL DEL DESEO DE B.** ¿Algún capítulo de protagonista B describe
-su propia cara o su propia mirada, o la señal física que la obra le declara para
-el deseo, si la tiene? Reescribir desde el POV de ella. Si es narrador hermético,
-¿glosa su deseo desde dentro? También se reescribe.
+**TEST 5 — NADIE VE SU PROPIA CARA (R2).** ¿Algún capítulo describe la cara o la
+mirada de quien narra, o la señal física que la obra le declara para el deseo, si
+la tiene? Reescribir desde el POV del otro. Si es narrador hermético, ¿glosa su
+deseo desde dentro? También se reescribe.
 
 **TEST 6 — COSTE LEGIBLE.** Cada 3–5 capítulos: ¿qué ha perdido cada uno y qué
-papel lo demuestra? "Nada concreto" = mecanismo en vacío.
+hecho o prueba lo demuestra? "Nada concreto" = mecanismo en vacío.
 
 **TEST 7 — DISTANCIA DESEO-DEFENSA.** ¿Están separados el deseo superficial y
 el profundo? Si coinciden, no hay arco; si son infinitamente distantes, hay
@@ -531,10 +517,9 @@ profundo antes del libro de la crisis, es ruptura.
 **TEST 9 — ANCLAJE DE HERIDA.** ¿Cada herida invocada tiene evento en
 NARRATIVE_CHRONOLOGY con sus cifras canónicas, las de su ficha?
 
-**TEST 10 — EL INVESTIGADOR DE ASUNTOS INTERNOS.** **Variante: dark romance
-policial.** ¿Tiene razón en este libro, escrito competente, íntegro y sin
-resquicio romántico? Un investigador ridiculizado es una protagonista sin
-adversario moral.
+**TEST 10 — EL ADVERSARIO MORAL** (si la obra lo tiene). ¿Tiene razón en este
+libro, escrito competente, íntegro y sin resquicio romántico? Un perseguidor
+ridiculizado es una pareja sin adversario moral.
 
 **TEST 11 — ECONOMÍA DE FICHAS.** ¿Más de tres físicas completas vivas? ¿Algún
 secundario del elenco fijo ha empezado a desarrollar arco?
@@ -550,7 +535,7 @@ callan); si están juntos y esa parte solo mueve la trama B, cuenta como trama B
 en el peso de pareja, que se mide en palabras.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Tests de funcionamiento.
-> *Qué declara aquí la obra:* los tests con los nombres, los planos y las cifras de cada herida y, si los tiene, la señal corporal, la señal del deseo de B, las marcas y el contador de mezclas de la saga.
+> *Qué declara aquí la obra:* los tests con los nombres, los planos y las cifras de cada herida y, si los tiene, sus reglas duras de canon, la señal del deseo, las marcas, el contador de mezclas y el adversario moral de la saga.
 
 ---
 
@@ -614,7 +599,7 @@ pareja, ausencia de cierre romántico por libro.
 **SE ACTUALIZA EN:** OPERACIÓN C (cada capítulo: coste, el peso de pareja
 —TEST 13— y las columnas del registro de coste) · OPERACIÓN D (la de cierre del
 libro: el arco progresa y no se gasta un peldaño fuera de escala) · PASADA 2 del
-REVISION_PROTOCOL (arcos, reglas R1–R5, tests 1–13).
+REVISION_PROTOCOL (arcos, R2 y las reglas duras de canon que declare la obra, tests 1–13).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Relación con otros archivos.
 > *Qué declara aquí la obra:* los mecanismos que chocan en la pareja, el peso de pareja, la extensión de la saga y, si las tiene, las columnas de serie que se actualizan en cada capítulo.

@@ -2,10 +2,10 @@
 
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Especializa la plantilla agnóstica de arriba, que se conserva **verbatim** (base v7,
-> comprobada línea a línea contra el original el 21-10-2026). Esta adenda **sustituye
-> entera** a la adenda AGATHA_ROSA que el archivo traía del MODELO_Intriga_v1.0 y que no
-> se convirtió el 08-08-2026. Donde base y género choquen, gana el género. En el peso de la
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
+> Especializa la plantilla agnóstica de arriba, que se conserva **verbatim** (base v7) salvo
+> en lo que deroga §0. Donde base y género choquen, gana el género. En el peso de la
 > pareja manda `PAREJA_PRIMERO.md` (v2.0).
 > DECISIÓN: ESPECIALIZA. **Es de género:** vale para cualquier saga de dark romance; los valores
 > de la obra (nombres, paletas, contadores, extensión) viven en su preset, `PRESET_<OBRA>.md`
@@ -19,13 +19,25 @@ Esta adenda rige el trabajo de las **ventanas de trabajo** que escriben los cap�
 previas (biblia, preset, escaletas) tienen sus plantillas (`PLANTILLA_BIBLIA.md`,
 `PLANTILLA_PRESET.md`, `PLANTILLA_ESCALETA.md`) y se encargan igual, con `PLANTILLA_NEXT.md`.
 
+**Lo que la base dice de los traspasos entre ventanas y aquí no rige:**
+- **El NEXT** tiene las ocho secciones de `PLANTILLA_NEXT.md`, no las seis de la base, y **lo
+  escribe el orquestador**, no la ventana saliente (`ORQUESTADOR.md` §3). `NEXT.md` es el encargo
+  vivo de la obra; la plantilla es `PLANTILLA_NEXT.md`. Donde la base manda «emitir NEXT» al
+  cerrar una ventana (AUTONOMÍA Y DECISIÓN, SECUENCIA COMPLETA, TRANSICIÓN ENTRE VENTANAS), la
+  ventana de trabajo deja su acta o su informe y el orquestador escribe el NEXT siguiente.
+- **BRIEFING** no es un archivo aparte que cada ventana lea al arrancar y actualice al cerrar: el
+  briefing de saga lo forman el cuaderno, el estado de cierre de cada `continuidad.md` y las
+  ranuras de saga del preset (`ORQUESTADOR.md` §9), y `BRIEFING.md` es la plantilla de género de
+  la declaración de cada libro. Una ventana de trabajo arranca con el LEEME y el NEXT; lo demás
+  que lee, se lo dice el NEXT.
+- **`MODELO_AGNOSTICO_v7_APERTURA.md`** no forma parte de la fábrica: la referencia de la base a
+  su SECCIÓN 11 queda sin efecto. Los tres sesgos que la base nombra se leen como aviso, y su
+  adaptación local es legítima cuando está formulada.
+
 ### 1. PRECEDENCIA SOBRE LAS ADENDAS HEREDADAS *(v2.0)*
 
-**Las adendas de Intriga (AGATHA_ROSA) quedan derogadas en todo el catálogo**
-(`PAREJA_PRIMERO.md` §5), también en lo que no contradicen al género. Rige una **lista
-blanca**: de cada plantilla valen su cuerpo agnóstico (oficio válido), su adenda de dark
-romance y lo que esta cite expresamente de la de Intriga; nada más. La adenda de Intriga que
-siga en un archivo es traza, no regla. Con ellas caen, por si asoman:
+**De cada plantilla rigen su cuerpo de oficio y su adenda de género; nada más**
+(`PAREJA_PRIMERO.md` §5). No rige ninguna capa heredada de otro modelo. Caen, por si asoman:
 
 - el final feliz cerrado por libro (HEA/HFN) y la coda cálida, salvo en la forma de saga
   de parejas rotativas (SERIES_GLUE, adenda de dark romance; la forma la declara la obra);
@@ -72,7 +84,7 @@ INFORMATION_CHOREOGRAPHY, CLUE_LEDGER) se lleva en la instancia del libro:
 **Antes y después de escribir.** Antes de escribir se lee la obra (biblia, escaleta,
 capítulos anteriores, `continuidad.md`) y las plantillas de género con su sección del preset
 **como contrato de canon**. Los protocolos previos de las plantillas (por ejemplo, el protocolo
-de cierre de DIALOGUE_MECHANICS, antes «pre-escritura») y los filtros de CAPA 3 (SEMANTIC_OMISSION,
+de cierre de DIALOGUE_MECHANICS) y los filtros de CAPA 3 (SEMANTIC_OMISSION,
 SUBTEXT_MECHANICS, SENSORY_HIERARCHY, PROSE_LINE_DISCIPLINE, VOICE_ARCHITECTURE) **se leen
 después del borrador**, en el cierre.
 
@@ -105,14 +117,14 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
 
 - **`PAREJA_PRIMERO.md`** *(v2.0)* — al frente del catálogo: la pareja es la trama A de cada
   libro y de cada capítulo. Manda sobre cualquier plantilla en el peso de la pareja (cómo se
-  mide, §2; objetivo 80 % y suelo 70 %) y en los suelos de género (§3). No es instrucción de
+  mide, §2; por defecto, objetivo 80 % y suelo 70 %) y en los suelos de género (§3). No es instrucción de
   prosa: se aplica en el diseño y en las comprobaciones de cierre y de lectura (§6).
 - **ROMANCE_BEAT_MAP.md** — CAPA 1, con prioridad sobre STORY_SPINE *(v2.0)*: la columna de
   cada libro (los beats de la pareja, con su % y su suelo), el calendario de calor y la escala
   de rendición a lo largo de la saga; STORY_SPINE trenza sobre ella la trama B.
 - **CLUE_LEDGER.md** — CAPA 2 transversal: pistas de la trama del libro
   (*Variante: dark romance policial:* del caso), dimensionadas para caber en el techo de lo que
-  no es pareja (el 30 %), migas de pan de la trama horizontal (si la hay), la firma del
+  no es pareja (por defecto, el 30 %), migas de pan de la trama horizontal (si la hay), la firma del
   antagonista de saga (si la hay) y **calendario de datos horizontales**.
 - **HEAT_DISCIPLINE.md** — CAPA 3: explicitud plena, cortes dramáticos y no de pudor,
   ritmo de consumación y consentimiento por familia de actos (reescrita en la v1.1); en la
@@ -145,11 +157,12 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
   - **C-2 Frase-resumen.** TIC 4 de PROSE_LINE_DISCIPLINE. En el POV del narrador hermético
     (si la obra lo tiene: `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), todo párrafo o remate que
     explique lo que significa algo **se corta**: observa y decide, no interpreta. Se quedan
-    dos: la frase que enuncia una regla de trabajo antes de actuar y la que enuncia una regla
-    que se impone respecto al otro (PROSE_LINE_DISCIPLINE, adenda, TIC 4). En el del
-    narrador irónico, la glosa se corta y el remate de idiolecto se queda.
-  - **C-3 Paleta del POV.** El narrador del capítulo trae su paleta (la de cada narrador:
-    `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION). El olor del entorno no cuenta como paleta. Los
+    las excepciones que declara su idiolecto (preset; PROSE_LINE_DISCIPLINE, adenda, TIC 4).
+    En el del narrador irónico (si la obra lo tiene), la glosa se corta y el remate de
+    idiolecto se queda.
+  - **C-3 Paleta del POV.** Si la obra declara paletas por narrador
+    (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), el narrador del capítulo trae la suya (lo que
+    pone el entorno no cuenta como paleta). Los
     contadores de la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), dentro de su techo.
   - **C-4 Horas y cifras.** Registro 13 de CONTINUITY_PHYSICS: la aritmética de horas,
     duraciones y cifras cuadra con el propio capítulo y con los anteriores.
@@ -159,28 +172,28 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
     sin dato.
   - **C-6 Asimetría de voces.** Test de VOICE_ARCHITECTURE (adenda Dark Romance): cada
     narrador lleva su rasgo también en la narración, no solo en el diálogo (el que la obra le
-    declara en `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION); las voces se distinguen con el nombre
-    tapado.
-  - **C-7 Gancho.** El capítulo cierra empujando a pasar página, sin excepción (§5). *(v2.0)*
+    declara en `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION); si hay dos narradores, las voces se
+    distinguen con el nombre tapado.
+  - **C-7 Gancho.** El capítulo cierra empujando a pasar página (§5: por defecto, todos los
+    cierres; la obra puede declarar cierres de descarga con su tope). *(v2.0)*
     Y se anota si es de pareja (lo que deja abierto es entre ellos, o el gancho de la trama B
     que cae sobre los dos o sobre uno por el otro: SEAMS_AND_HINGES, adenda), con la cuenta en
-    `continuidad.md`: por libro, objetivo tres de cada cuatro y suelo dos de cada tres; por
-    bloque de cuatro capítulos, objetivo tres de cuatro y suelo dos de cuatro
-    (`PAREJA_PRIMERO.md` §3). Por debajo del suelo, alarma en el acta, que avisa a la escaleta
-    del bloque siguiente.
+    `continuidad.md`, contra los suelos de `PAREJA_PRIMERO.md` §3 o los que declare el preset
+    (por defecto: por libro, objetivo tres de cada cuatro y suelo dos de cada tres; por
+    bloque de cuatro capítulos, objetivo tres de cuatro y suelo dos de cuatro). Por debajo del
+    suelo, alarma en el acta, que avisa a la escaleta del bloque siguiente.
   - **C-8 Pudor y calendario de calor.** Tests 1, 3 y 6 de HEAT_DISCIPLINE *(v2.0: el 6,
     calor tardío)*: ¿algún beat de calor pasa de su suelo, o, desde el contacto con carga, van
     más de cuatro capítulos seguidos sin escena con carga (ventana móvil, no bloques fijos)? El
     calor que llega tarde no se arregla en la prosa: alarma en el acta y se reescaleta el
     bloque siguiente.
-  - **C-9 Lo que la lectora ya ha leído** *(v1.2.2)*. (a) **Espejos entre POV:** si el
-    capítulo pasa por un lugar o un momento ya narrado desde el otro POV, comparte con él
-    **un detalle como mucho** (el que hace la ironía); lo demás es lo que el otro no vio. Lo
-    que la lectora ya ha leído no se vuelve a describir. (b) **Tics de idiolecto:** los tics vigilados de la
-    obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION): la muletilla de un narrador, una vez
-    por capítulo como mucho y no en todos; las imágenes de su oficio aplicadas a personas,
-    muertos o emociones, dos por capítulo como mucho y solo donde pesan (régimen estético de
-    la biblia). (c) **Motivos que vuelven** (un chiste, un objeto, una frase
+  - **C-9 Lo que la lectora ya ha leído** *(v1.2.2)*. (a) **Espejos entre POV** (si hay dos
+    narradores): si el capítulo pasa por un lugar o un momento ya narrado desde el otro POV,
+    comparte con él **un detalle como mucho** (el que hace la ironía); lo demás es lo que el
+    otro no vio. Lo que la lectora ya ha leído no se vuelve a describir. (b) **Tics de
+    idiolecto:** los tics vigilados de la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), cada
+    uno dentro del techo que declara la obra y solo donde pesa (régimen estético de la
+    biblia). (c) **Motivos que vuelven** (un chiste, un objeto, una frase
     hecha de un secundario): la segunda vez tiene que cambiar algo; si no, se corta. Se
     corrige cortando.
   - **C-10 Peso de la pareja** *(v1.2.2; v2.0)*. Con la unidad de `PAREJA_PRIMERO.md` §2
@@ -189,14 +202,14 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
     «Entre ellos» de la ficha. Va a `continuidad.md` (registro 12 de CONTINUITY_PHYSICS), con
     el acumulado del bloque y del libro. **El registro 12 bloquea el cierre**, como el 13: sin
     la fila contada y, si un suelo se rompe, sin su salida anotada en el acta, el capítulo no
-    se cierra. Por debajo del objetivo (80 %), del capítulo o del bloque, **alarma**; si el
-    bloque cerrado baja del suelo (70 %), **se reescaleta el bloque siguiente, nunca la
-    prosa**. En la misma línea del acta (✔, o la que da alarma), las comprobaciones de pareja que otras
+    se cierra. Por debajo del objetivo (el de `PAREJA_PRIMERO.md` §2 o el que declare el
+    preset; por defecto, 80 %), del capítulo o del bloque, **alarma**; si el bloque cerrado baja
+    del suelo (por defecto, 70 %), **se reescaleta el bloque siguiente, nunca la prosa**. En la misma línea del acta (✔, o la que da alarma), las comprobaciones de pareja que otras
     plantillas mandan aquí: la tensión dominante (TENSION_MECHANICS, TEST 7), «nosotros dos»
     (CHARACTER_PHYSICS, TEST 13), el vector (RELATIONSHIP_PHYSICS, TEST 6), el hecho de
     pareja (INFORMATION_CHOREOGRAPHY, TEST 6), qué cambia entre ellos y la copresencia
-    (SCENE_NECESSITY, TESTS 7 y 8) y, en un capítulo de la protagonista A, él en su voz, en
-    sus sentidos, en su análisis y en su página (adendas de VOICE_ARCHITECTURE y
+    (SCENE_NECESSITY, TESTS 7 y 8) y, en un capítulo de la protagonista A, el protagonista B en
+    su voz, en sus sentidos, en su análisis y en su página (adendas de VOICE_ARCHITECTURE y
     SENSORY_HIERARCHY; AESTHETIC_REGISTER, TEST 13; DIALOGUE_MECHANICS, TEST 12) y el deseo
     que acaba en la trama del libro (SUBTEXT_MECHANICS, adenda). No obliga a añadir: lo que se
     anota es la cuenta y la salida, que es reescaletar el bloque siguiente, nunca tocar la
@@ -232,8 +245,8 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
     6. **Avisos** para los capítulos siguientes (al plan de la lectora y al NEXT).
   - **Correctora de continuidad** *(v1.2.2)*: si las correcciones tocan más de un capítulo,
     relee el tramo un agente sin contexto (§7 del protocolo).
-  - **Criterio:** 1.º el disfrute de la lectora de dark romance, 2.º la coherencia de la
-    saga, 3.º la calidad literaria.
+  - **Criterio:** el criterio de delegación de la obra (`CUADERNO_<OBRA>.md` §2; por defecto,
+    el de `ORQUESTADOR.md` §1).
   - **Prohibido:** reescribir el capítulo entero; convertir la crítica en prescripciones
     para el capítulo siguiente (va como fricción al NEXT y, si es de catálogo, a la
     plantilla que corresponda).
@@ -241,7 +254,8 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
     la saga (el perfil de lectora de la biblia), sin contexto,
     con los capítulos anteriores. Da una nota de **enganche**, dice dónde saltaría líneas y
     qué parte del capítulo es romance.
-    Cuando editora y lectora discrepan, **manda la lectora** (criterio 1.º).
+    Cuando editora y lectora discrepan, decide lo que declare `CUADERNO_<OBRA>.md` §2 (o el
+    valor por defecto, `ORQUESTADOR.md` §1).
   - **Lectura externa** *(v1.2.2)*: cada tramo de unos siete capítulos, el autor puede
     pasarlo a lectoras de otros modelos con el encargo de `PROTOCOLO_LECTURA.md` §8. Lo que
     señalan tres lecturas o más (externas y propias) es un problema confirmado y se corrige
@@ -271,7 +285,7 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
       declarado (biblia B1 🔒, preset y escaleta) y el de las actas (C-10); si difieren,
       manda esta medida. Con él, los suelos de §3 de aquel archivo en lo escrito (presencia,
       cara a cara, calor —capítulos seguidos sin escena con carga—, voces, ganchos y el techo
-      de lo que no es pareja, el 30 %). Bloque por
+      de lo que no es pareja, por defecto el 30 %), o los que declare el preset. Bloque por
       debajo del suelo: se reescaleta el siguiente. Libro por debajo: no se entrega
       (GENRE_CONVENTIONS, regla 1).
 
@@ -280,21 +294,20 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
 Sustituye a la doble hélice con reparto libre. La pareja es la **trama A** de cada libro y de
 cada capítulo; la trama del libro, la **trama B** (`PAREJA_PRIMERO.md` §1). ROMANCE_BEAT_MAP
 traza la columna y STORY_SPINE trenza la trama B sobre ella. El peso de la pareja tiene
-número, suelo y unidad: objetivo 80 % y suelo 70 %, por bloque de cuatro capítulos y por
+número, suelo y unidad: por defecto, objetivo 80 % y suelo 70 %, por bloque de cuatro capítulos y por
 libro, en palabras medidas con `PAREJA_PRIMERO.md` §2; lo que no es pareja (trama B, trama
 horizontal y elenco cuando su página no es de pareja), como mucho el 30 %, sin mínimo; la
 trama horizontal y el elenco no tienen cuota propia (GENRE_CONVENTIONS, regla 1). La obra lo
 declara en la biblia (B1, 🔒) y en el preset (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION):
-puede subirlo; bajarlo del suelo es decisión del autor. De los ganchos, al menos dos de cada
+puede subirlo; bajarlo del suelo es decisión del autor. De los ganchos, por defecto al menos dos de cada
 tres son de pareja (C-7); el emocional es el más valioso.
 
-**Sin excepción:** ningún capítulo cierra en imagen estática de personaje. (Se ensayó una
-excepción en la v1.1 y la primera obra la retiró por criterio de la lectora.)
+**Por defecto, sin excepción:** ningún capítulo cierra en imagen estática de personaje. La obra
+puede declarar cierres de descarga, con su tope (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION).
 
 ### 6. EL PRIMER CAPÍTULO DE CADA LIBRO
 
-Además de abrir como manden las reglas duras de la obra (por ejemplo, en el policial, no con un
-cadáver), el capítulo 1 **contiene la promesa de la pareja**: el otro protagonista visto, presente
+Además de abrir como manden las reglas duras que declare la obra, el capítulo 1 **contiene la promesa de la pareja**: el otro protagonista visto, presente
 o en tensión con el narrador. Un capítulo 1 que solo promete la trama del libro es una muestra
 gratuita de thriller (GENRE_CONVENTIONS, TEST 1). Del libro 2 en adelante, además, cobra el gancho
 con que cerró el libro anterior y arranca en su estado (SERIES_GLUE, adenda, TEST A3).
@@ -312,45 +325,31 @@ Cuando un capítulo se escribe para compararlo con otra versión:
 ### 8. REGISTRO DE LA ADENDA
 
 v2.0 · 22-10-2026: **«la pareja primero»** (`PAREJA_PRIMERO.md`, al frente del catálogo, §3).
-La pareja es la trama A y sale la doble hélice con reparto libre (§5); las adendas AGATHA_ROSA
-quedan derogadas en todo el catálogo, con lista blanca (§1); el brief empieza por qué cambia
-entre ellos (§4); C-7 cuenta los ganchos de pareja, C-8 suma el calor tardío y C-10 mide el
-peso de pareja con la unidad de `PAREJA_PRIMERO.md` §2 y recoge en una línea las
-comprobaciones de pareja de las demás plantillas; D-19 se degrada, entra D-21 y una OPERACIÓN
-D corta acompaña cada lectura externa. En las plantillas de fase: el reparto 🔒 desde la ficha
-de premisa y la biblia (B1), la pregunta de la pareja y «Entre ellos» al frente del diseño, la
-escaleta y el NEXT, suelos en los tests de escaleta y lecturas que dicen cuánto es romance.
-Origen: el libro 1 de la primera obra, diseñado con la v1.3, se leía como novela negra con
-romance, y nueve lecturas sin contexto hallaron la causa en el modelo (`PAREJA_PRIMERO.md`,
-cabecera). Cambia el diseño, no la escritura: no añade instrucciones antes de escribir.
-Entró en `main` el 28-10-2026 por decisión del autor, sin la prueba a ciegas prevista (a su
-juicio, iba claramente mejor); la v1.3 queda en la rama `modelo-v1.3-final`.
+La pareja es la trama A y sale la doble hélice con reparto libre (§5); fuera las adendas de
+otro modelo (§1); el brief empieza por qué cambia entre ellos (§4); C-7 cuenta los ganchos de
+pareja, C-8 suma el calor tardío y C-10 mide el peso de pareja con la unidad de
+`PAREJA_PRIMERO.md` §2 y recoge en una línea las comprobaciones de pareja de las demás
+plantillas; D-19 se degrada, entra D-21 y una OPERACIÓN D corta acompaña cada lectura externa.
+En las plantillas de fase: el reparto 🔒 desde la ficha de premisa y la biblia (B1), la pregunta
+de la pareja y «Entre ellos» al frente del diseño, la escaleta y el NEXT, suelos en los tests de
+escaleta y lecturas que dicen cuánto es romance. Cambia el diseño, no la escritura: no añade
+instrucciones antes de escribir.
 
 v1.3 · 22-10-2026: §0 (orquestador y ventanas de trabajo, con `ORQUESTADOR.md` y las
 plantillas de fase); **separación de obra y modelo**: la adenda y las plantillas de género ya
-no llevan valores de ninguna obra, que pasan a su preset (`PRESET_<OBRA>.md`). Tres pruebas a
-ciegas (seguir la primera obra, empezar una saga nueva de otro subgénero, pasar al libro 2)
-dieron: lo que faltaba para otro subgénero (la variante, en GENRE_CONVENTIONS), para otra forma de
-saga (adendas de dark romance de SERIES_GLUE y SERIES_ARCHITECTURE: la misma pareja, dúo o parejas
-rotativas; §1 y D-20 condicionados a la forma), para el libro siguiente (`ORQUESTADOR.md` §2.7 y
-§2.8, diseño de cada libro en la biblia, tests y encargos de lectura de libro siguiente,
-`PLANTILLA_LIBRO.md`) y los restos de la primera obra que quedaban como reglas de género (ahora
-condicionales, con su valor en el preset). Solo añade comprobaciones y formas de declarar; no
-añade instrucciones antes de escribir.
+no llevan valores de ninguna obra, que pasan a su preset (`PRESET_<OBRA>.md`); la variante del
+subgénero (GENRE_CONVENTIONS); las tres formas de saga (adendas de dark romance de SERIES_GLUE y
+SERIES_ARCHITECTURE; §1 y D-20 condicionados a la forma); el libro siguiente (`ORQUESTADOR.md`
+§2.7 y §2.8, diseño de cada libro en la biblia, tests y encargos de lectura de libro siguiente,
+`PLANTILLA_LIBRO.md`). Solo añade comprobaciones y formas de declarar; no añade instrucciones
+antes de escribir.
 
 v1.2.2 · 21-10-2026: C-9 (espejos entre POV, tics y motivos que vuelven) y C-10 (peso de la
-relación) en el cierre; lectura externa en C.5. Origen: tres lecturas externas de los siete
-primeros capítulos de la primera obra (otros modelos), que coincidían entre sí y con la
-lectora tipo: escenas espejo contadas dos veces, una muletilla de la narradora siete veces,
-demasiadas imágenes de oficio y la relación por debajo del caso. Va directa a `main` porque
-solo añade comprobaciones de cierre que cortan.
+relación) en el cierre; lectura externa en C.5. Solo añade comprobaciones de cierre que cortan.
 
-v1.2.1 · 21-10-2026: gancho sin excepción, por el plan de la lectora de la primera obra.
+v1.2.1 · 21-10-2026: gancho en todos los cierres.
 
 v1.2 · 21-10-2026: §7 (pruebas a ciegas); TIC 4 de la narradora irónica en
-PROSE_LINE_DISCIPLINE; huecos sin narrar en el registro 13 de CONTINUITY_PHYSICS. Origen: las
-fricciones del acta del primer capítulo escrito con el modelo y su lectura editorial.
+PROSE_LINE_DISCIPLINE; huecos sin narrar en el registro 13 de CONTINUITY_PHYSICS.
 
-v1.1 · 21-10-2026. Origen: los errores de los dos primeros borradores de la primera obra
-(08-08-2026), que el modelo cometió por saltarse el cierre y que solo cazó una lectura
-editorial externa.
+v1.1 · 21-10-2026: cierre obligatorio (OPERACIÓN C, con acta) y lectura editorial (C.5).

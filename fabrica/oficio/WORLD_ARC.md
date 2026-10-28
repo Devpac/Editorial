@@ -60,7 +60,7 @@ El arco de mundo se descompone en ejes. Un eje es dimensión específica del mun
 
 ## ARCO DEL MUNDO POR LIBRO
 
-Para cada libro de la saga, el archivo declara el estado del mundo al inicio, las manifestaciones del arco durante el libro, y el estado al cierre. La declaración cubre los cinco a seis ejes (los que apliquen) en cada libro.
+Para cada libro de la saga, el archivo declara el estado del mundo al inicio, las manifestaciones del arco durante el libro, y el estado al cierre. La declaración cubre los ejes declarados (los que apliquen) en cada libro.
 
 **Estado por libro.** Configuración del mundo al inicio del libro. Descripción concreta de cómo se presenta cada eje al lector que abre ese volumen. Para libros posteriores al primero, esta declaración debe coherer con el estado al cierre del libro anterior, asegurando continuidad multivolumen.
 

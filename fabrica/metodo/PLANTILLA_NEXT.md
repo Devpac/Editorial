@@ -2,10 +2,9 @@
 
 > Archivo de modelo (v2.0, 22-10-2026). Lo usa el orquestador (`ORQUESTADOR.md`, §3) para
 > encargar cualquier trabajo: un tramo de biblia, el preset, una escaleta, un capítulo, una
-> reescritura o la pasada final. Sale de una prueba: una ventana sin contexto recibió el repo con
-> «continúa con lo que toque», encontró sola la tarea (LEEME → NEXT) y puntuó la autosuficiencia
-> con un 8/10. Lo que le faltó está resuelto aquí. Todo NEXT se escribe con estas secciones, en
-> este orden; la §8 dice qué cambia en cada fase.
+> reescritura o la pasada final. Una ventana sin contexto que recibe el repo con «continúa con lo
+> que toque» tiene que encontrar sola la tarea (LEEME → NEXT) y poder hacerla sin preguntar. Todo
+> NEXT se escribe con estas secciones, en este orden; la §8 dice qué cambia en cada fase.
 
 ## 1. Cabecera
 
@@ -28,7 +27,7 @@ Una ventana que llega a mitad de trabajo salta las partes hechas.
 ## 3. Lecturas, en dos tiempos
 
 - **Antes de escribir** (obra y contrato): `LEEME.md`; la adenda Dark Romance de
-  `SYSTEM_ORCHESTRATION.md`; los capítulos anteriores (siempre el último de cada POV);
+  `SYSTEM_ORCHESTRATION.md`; los capítulos anteriores (siempre el último de cada narrador);
   `continuidad.md`; la ficha del capítulo en las dos escaletas; las secciones de la biblia que
   toca (con número); las plantillas de género que toca **y su sección del preset**
   (`PRESET_<OBRA>.md` › <PLANTILLA>), **como contrato de canon**.
@@ -36,7 +35,7 @@ Una ventana que llega a mitad de trabajo salta las partes hechas.
   VOICE_ARCHITECTURE, TIC 4 de PROSE_LINE_DISCIPLINE, registro 13 de CONTINUITY_PHYSICS,
   HEAT_DISCIPLINE, SEMANTIC_OMISSION, SUBTEXT_MECHANICS, SENSORY_HIERARCHY), el protocolo
   de cierre de DIALOGUE_MECHANICS y C-9 y C-10 de la adenda de SYSTEM_ORCHESTRATION (espejos
-  entre POV, tics, peso de la pareja).
+  entre POV si hay dos narradores, tics, peso de la pareja).
 - Una línea siempre: «Las cifras y listas de las plantillas son comprobación de cierre, no
   objetivo; las reglas de prosa son oído de fondo» (desde la v2.0, las medidas de prosa son
   siempre alarma de cierre, nunca cuota: PROSE_LINE_DISCIPLINE, adenda).
@@ -49,7 +48,7 @@ Una ventana que llega a mitad de trabajo salta las partes hechas.
   enfrenta o los separa. Qué, nunca cómo; el peso de pareja se mide después del borrador (C-10).
 - **Tiempo y lugar**, con la hora de entrada y cómo se enlaza con el capítulo anterior (si
   hay espera o hueco, cuánto, y que no se dice en página si no hace falta).
-- **Lo que la protagonista no sabe y no puede intuir.**
+- **Lo que el narrador del capítulo no sabe y no puede intuir.**
 - **Vetos de canon oculto** que el capítulo tienta especialmente: los dos o tres datos que la
   biblia guarda para un capítulo o un libro posterior y que esta escena pone al alcance de la
   mano (un nombre, una causa, una fecha).
@@ -57,7 +56,8 @@ Una ventana que llega a mitad de trabajo salta las partes hechas.
   libre) y qué se escribe sin detalle.
 - **Plan de la lectora** que toca a ese capítulo (`libro_NN/plan_lectora.md` y notas «vN» de
   las escaletas).
-- **Cierre** que pide la escaleta (gancho, sin excepción).
+- **Cierre** que pide la escaleta (gancho; por defecto, en todos los cierres, salvo los de
+  descarga que declare la obra).
 - **Comprobaciones extra** del cierre (fechas, contadores, datos horizontales; y los de pareja:
   capítulos seguidos sin cara a cara, peso acumulado del bloque).
 
@@ -68,8 +68,9 @@ siguiente; tocar plantillas, biblia o escaleta.
 
 ## 6. Criterio
 
-1.º disfrute de la lectora de dark romance, 2.º coherencia, 3.º calidad. Ante una sección 🔒:
-no se para, elige lo que no altere canon y lo anota en el acta.
+El criterio de delegación de la obra, copiado tal cual de `CUADERNO_<OBRA>.md` §2 (o el de por
+defecto, `ORQUESTADOR.md` §1). Ante una sección 🔒: no se para, elige lo que no altere canon y lo
+anota en el acta.
 
 ## 7. Verificación al cierre
 

@@ -1,11 +1,14 @@
 # PROTOCOLO_LECTURA.md — cómo se lee un capítulo antes de darlo por bueno
 
 > Archivo de servicio del modelo (v2.0, 22-10-2026; genérico: los datos de la obra que usan
-> los encargos están en su preset, `PRESET_<OBRA>.md` › PROTOCOLO_LECTURA). Desarrolla la OPERACIÓN C.5 de la
+> los encargos están en su preset, `PRESET_<OBRA>.md` › PROTOCOLO_LECTURA, y en su cabecera:
+> › Cabecera › Mercado y lengua, para `[LENGUA]`, `[PLATAFORMA Y PÚBLICO]`, `[PRECIO]`, `[SU RED]` y
+> `[PERFIL DE LECTORA EXTERNA]`; › Cabecera › Correspondencia de roles, para `[PROTAGONISTA A]` y
+> `[PROTAGONISTA B]`). Desarrolla la OPERACIÓN C.5 de la
 > adenda de `SYSTEM_ORCHESTRATION.md` (§4), las pruebas a ciegas (§7) y la lectura externa con
 > otros modelos (§8 de este archivo). Contiene los
-> **encargos literales** que se usaron en la primera obra del modelo, para que cualquier ventana
-> los repita igual. Cada lectora es un agente nuevo, **sin contexto**: no ha escrito nada,
+> **encargos literales**, para que cualquier ventana los repita igual: lo que va entre corchetes
+> se rellena desde el preset. Cada lectora es un agente nuevo, **sin contexto**: no ha escrito nada,
 > no conoce el modelo ni la biblia, y solo lee los archivos que se le dan.
 
 ---
@@ -22,31 +25,33 @@
 | **Correctora de coherencia** *(v1.3)* | Correctora sin contexto | Biblia, preset, escaletas; y tras cortes en varios capítulos | Contradicciones, quién sabe qué, huecos, techos y suelos (§6 bis y §7) |
 | **Lectura externa** *(v1.2.2)* | Lectoras de otros modelos, que pasa el autor | Cada ~7 capítulos y el libro entero | Problemas confirmados por tres lecturas o más; cuánto es romance (§8) |
 
-**Cuando editora y lectora discrepan, manda la lectora** (criterio 1.º del autor: el disfrute
-de la lectora).
+**Cuando editora y lectora discrepan**, decide lo que declare la obra en `CUADERNO_<OBRA>.md` §2
+(o el valor por defecto, `ORQUESTADOR.md` §1).
 
-**Listón para dar un capítulo por bueno:** nota global de la editora ≥ 7,5 y comparaciones
-con «como» (como si, como quien, como un…) por debajo de unas 5 por 1.000 palabras. La nota
+**Listón para dar un capítulo por bueno:** nota global de la editora ≥ 7,5 y la marca de
+comparación de la lengua de la obra por debajo de su listón (`PRESET_<OBRA>.md` ›
+PROTOCOLO_LECTURA › Listón de comparaciones; por defecto, en español, comparaciones con «como»
+—como si, como quien, como un…— por debajo de unas 5 por 1.000 palabras). La nota
 de enganche de la lectora se registra siempre; si baja de 6, el capítulo se revisa aunque
 la editora lo apruebe. **El peso de pareja** *(v2.0)* también se registra siempre: el que
 estima la editora, junto al del acta (C-10), con la unidad de `PAREJA_PRIMERO.md` §2. Por
-debajo del objetivo (80 %), alarma al plan de la lectora y a la escaleta del bloque siguiente;
-si el bloque baja del suelo (70 %), se reescaleta el bloque siguiente, nunca la prosa, y el
+debajo del objetivo (el de `PAREJA_PRIMERO.md` o el que declare el preset; por defecto, 80 %),
+alarma al plan de la lectora y a la escaleta del bloque siguiente; si el bloque baja del suelo
+(por defecto, 70 %), se reescaleta el bloque siguiente, nunca la prosa, y el
 capítulo va a reescritura solo si la lectura lo pide.
 
 ## 2. Cómo se prepara el paquete
 
 Una carpeta nueva por lectura, en el scratchpad de la ventana, con **solo** esto:
 
-- `referencia_capN.md`: los capítulos anteriores ya cerrados (como mínimo los dos últimos y
-  el último del otro POV; mejor todos los del tramo), **numerados como se publican** (si la
+- `referencia_capN.md`: los capítulos anteriores ya cerrados (como mínimo los dos últimos y,
+  si hay dos narradores, el último del otro POV; mejor todos los del tramo), **numerados como se publican** (si la
   escaleta y el libro difieren —un capítulo fundido, por ejemplo—, el cuaderno de la obra dice cómo).
 - `ficha_capN.md`: la ficha del capítulo en `escaletaAmpliada.md` (no para la lectora tipo).
 - El texto o los textos a leer.
 - **Cabeceras:** se quita el título del libro y el número de escaleta, pero **se deja la línea del
-  narrador** (`### <NARRADOR>`), como en el libro publicado. Sin ella la lectora no sabe cómo se
-  llama el narrador que nadie nombra: en la primera obra del modelo, la lectora tipo llevaba ocho
-  capítulos sin saber el nombre del protagonista porque se le había quitado (v1.2.2).
+  narrador** (`### <NARRADOR>`), como en el libro publicado. Sin ella la lectora puede no saber
+  quién narra, ni cómo se llama un narrador al que nadie nombra en página.
 - En pruebas a ciegas: `texto_A.md` y `texto_B.md`, y la segunda editora los recibe
   **intercambiados**.
 - **Primeros capítulos de un libro 2 o siguiente:** la referencia son los tres o cuatro últimos
@@ -57,7 +62,8 @@ Una carpeta nueva por lectura, en el scratchpad de la ventana, con **solo** esto
 Nada de actas, briefs, biblia ni plantillas: la lectora lee como lectora, no como
 verificadora de un plan.
 
-Para medir las comparaciones con «como», en la carpeta del texto:
+Para medir las comparaciones con «como» (español, el valor por defecto; con otra lengua, la
+marca y la expresión que declare el preset), en la carpeta del texto:
 
 ```python
 import re; t=open('texto.md',encoding='utf-8').read()
@@ -67,8 +73,8 @@ print(round(1000*c/w,1))
 
 ## 3. Encargo a la editora (un capítulo)
 
-> Eres editora de ficción comercial en español, especializada en dark romance para lectoras
-> de Kindle Unlimited y BookTok. Lee SOLO los archivos de `[CARPETA]` y nada más del sistema.
+> Eres editora de ficción comercial en [LENGUA], especializada en dark romance para
+> [PLATAFORMA Y PÚBLICO]. Lee SOLO los archivos de `[CARPETA]` y nada más del sistema.
 >
 > - `referencia_cap1.md` a `referencia_cap[N-1].md`: capítulos ya publicados ([DESCRIPCIÓN
 >   PARA LECTORAS: persona, tiempo y narradores, cada uno con una línea; está en
@@ -76,15 +82,14 @@ print(round(1000*c/w,1))
 > - `ficha_cap[N].md`: lo que el cap. [N] tiene que hacer.
 > - `candidato_cap[N].md`: el capítulo propuesto, en la voz de [NARRADOR].
 >
-> Evalúa el candidato de 1 a 10 (decimales) en: disfrute de la lectora de dark romance (¿engancha?, ¿repone el anhelo?, ¿el cierre empuja a pasar página?); pareja (¿qué cambia entre los dos?; y estima qué parte del capítulo, en %, es de pareja: los dos en escena y algo pasa entre ellos (choque, deseo, miedo, control, lo que se callan) —si están juntos y esa parte solo mueve la trama B, cuenta como trama B—, uno con el otro en directo o quien narra ocupado con el otro; un recuerdo de pasada no cuenta); continuidad de voz con los capítulos anteriores del mismo POV; cumplimiento de la ficha y coherencia con los anteriores [en especial: lo que deba cuadrar en este capítulo —horas, quién sabe qué, la escena que el otro narrador ya contó—]; repeticiones: ¿cuenta otra vez cosas que la lectora ya leyó, o solo lo que el otro narrador no vio?; calidad de prosa (imágenes que salen del personaje frente a imágenes puestas para sonar literarias, frases que explican lo ya mostrado, tics de IA, ritmo); y nota global, comparada con el nivel de los publicados (dales también una nota de referencia).
+> Evalúa el candidato de 1 a 10 (decimales) en: disfrute de la lectora de dark romance (¿engancha?, ¿repone el anhelo?, ¿el cierre empuja a pasar página?); pareja (¿qué cambia entre los dos?; y estima qué parte del capítulo, en %, es de pareja: los dos en escena y algo pasa entre ellos (choque, deseo, miedo, control, lo que se callan) —si están juntos y esa parte solo mueve la trama B, cuenta como trama B—, uno con el otro en directo o quien narra ocupado con el otro; un recuerdo de pasada no cuenta); continuidad de voz con los capítulos anteriores del mismo POV; cumplimiento de la ficha y coherencia con los anteriores [en especial: lo que deba cuadrar en este capítulo —horas, quién sabe qué, la escena que el otro narrador ya contó—]; repeticiones: ¿cuenta otra vez cosas que la lectora ya leyó [con dos narradores: o solo lo que el otro narrador no vio]?; calidad de prosa (imágenes que salen del personaje frente a imágenes puestas para sonar literarias, frases que explican lo ya mostrado, tics de IA, ritmo); y nota global, comparada con el nivel de los publicados (dales también una nota de referencia).
 >
-> Después: los tres mejores momentos y los tres peores (con cita), errores de coherencia concretos, y como máximo tres correcciones mínimas para publicarlo (cortar antes que añadir; sin tocar la voz). Sé severa y concreta. Español, máximo 600 palabras.
+> Después: los tres mejores momentos y los tres peores (con cita), errores de coherencia concretos, y como máximo tres correcciones mínimas para publicarlo (cortar antes que añadir; sin tocar la voz). Sé severa y concreta. En [LENGUA], máximo 600 palabras.
 
 ## 4. Encargo a la editora (prueba a ciegas, dos versiones)
 
-> Eres editora de ficción comercial en español, especializada en dark romance para lectoras
-> de Kindle Unlimited y BookTok (mujeres de 20 a 40 años). Lee SOLO los archivos de
-> `[CARPETA]` y nada más del sistema.
+> Eres editora de ficción comercial en [LENGUA], especializada en dark romance para
+> [PLATAFORMA Y PÚBLICO]. Lee SOLO los archivos de `[CARPETA]` y nada más del sistema.
 >
 > - `referencia_cap*.md`: los capítulos ya publicados de la novela. Fijan la voz y el listón.
 > - `ficha_cap[N].md`: lo que el capítulo [N] tiene que hacer según la escaleta.
@@ -95,7 +100,7 @@ print(round(1000*c/w,1))
 >
 > Evalúa cada candidato de 1 a 10 (decimales) en: 1. Disfrute de la lectora de dark romance; 2. Continuidad de voz con los capítulos anteriores del mismo POV; 3. Cumplimiento de la ficha y coherencia con los anteriores [añadir lo que deba cuadrar en especial]; 4. Calidad de prosa; 5. Nota global, comparada con el nivel de los publicados.
 >
-> Después: cuál prefieres y por qué (tres razones con citas cortas), dos mejores y dos peores momentos de cada texto (con cita), errores de coherencia concretos, y si alguno podría publicarse tal cual o qué le falta. Sé severa y concreta. Responde en español, máximo 750 palabras.
+> Después: cuál prefieres y por qué (tres razones con citas cortas), dos mejores y dos peores momentos de cada texto (con cita), errores de coherencia concretos, y si alguno podría publicarse tal cual o qué le falta. Sé severa y concreta. Responde en [LENGUA], máximo 750 palabras.
 
 Se lanzan **dos** editoras a la vez, la segunda con A y B intercambiados. Gana el texto que
 prefieran las dos; si discrepan, se miran las notas globales y la de la lectora tipo.
@@ -103,8 +108,9 @@ prefieran las dos; si discrepan, se miran las notas globales y la de la lectora 
 ## 5. Encargo a la lectora tipo (capítulo o tramo)
 
 El perfil sale del perfil de lectora de la biblia y se copia en `PRESET_<OBRA>.md` ›
-PROTOCOLO_LECTURA. El de abajo es el de una saga de dark romance para Kindle Unlimited y BookTok;
-se cambian las autoras y la plataforma si la obra apunta a otro sitio.
+PROTOCOLO_LECTURA. El de abajo es el genérico de dark romance para el mercado por defecto
+(Kindle Unlimited y BookTok); se cambian las autoras y la plataforma si la obra apunta a otro
+sitio (`PRESET_<OBRA>.md` › Cabecera › Mercado y lengua).
 
 > Eres una lectora de 31 años que lee unos ocho libros de dark romance al mes en Kindle
 > Unlimited (Penelope Douglas, Rina Kent, H.D. Carlton, Ana Huang) y comenta en BookTok. No
@@ -114,17 +120,17 @@ se cambian las autoras y la plataforma si la obra apunta a otro sitio.
 > primera línea de cada uno dice quién narra), luego `candidato_cap[N].md` (el siguiente).
 > Ignora la ficha si la hay.
 >
-> Cuéntame con sinceridad, en español y en primera persona, en un máximo de 400 palabras:
+> Cuéntame con sinceridad, en [LENGUA] y en primera persona, en un máximo de 400 palabras:
 > - Del 1 al 10, ¿cuánto te ha enganchado el cap. [N]? ¿Y los anteriores, cada uno?
 > - ¿Sientes ya la química/obsesión que buscas en el género? ¿En qué frases exactas?
 > - ¿En qué momento, si alguno, te has aburrido, has saltado líneas o has sentido que te
 >   contaban otra vez algo que ya habías leído?
 > - A ojo, ¿qué porcentaje del capítulo es romance y qué porcentaje es [LA OTRA TRAMA, en
 >   palabras de lectora: «la investigación», «la mafia»…]?
-> - [Siempre que [PROTAGONISTA B] no esté en escena en el capítulo:] ¿Has echado de menos a
->   [PROTAGONISTA B]?
-> - [Una pregunta del capítulo, si la hay: «¿Te da miedo él?», «¿Te ha molestado algo de cómo
->   reacciona [PROTAGONISTA A]?».]
+> - [Siempre que el protagonista que no narra ([PROTAGONISTA B] en un capítulo de
+>   [PROTAGONISTA A]) no esté en escena en el capítulo:] ¿Has echado de menos a [ese protagonista]?
+> - [Una pregunta del capítulo, si la hay. Ejemplos: «¿Te da miedo [PROTAGONISTA B]?», «¿Te ha
+>   molestado algo de cómo reacciona [PROTAGONISTA A]?».]
 > - ¿Seguirías leyendo? ¿Lo recomendarías? ¿Qué le falta para que no puedas soltarlo?
 
 Las dos lecturas (editora y lectora tipo) se lanzan **a la vez**, como agentes nuevos y
@@ -136,7 +142,7 @@ separados, sobre el mismo paquete.
 > (`[archivo del plan]`) y, para saber qué viene después, las fichas de la escaleta de los
 > capítulos [X a Y].
 >
-> Cuéntame con sinceridad, en español y en primera persona, en un máximo de 400 palabras:
+> Cuéntame con sinceridad, en [LENGUA] y en primera persona, en un máximo de 400 palabras:
 > 1. ¿El plan resuelve lo que te aburría y lo que echabas en falta? ¿Qué punto te convence más y cuál menos?
 > 2. [La escena nueva más importante]: ¿es lo que querías? ¿Qué tendría que pasar en ella para que la subrayes?
 > 3. ¿Hay algo en los capítulos que vienen que todavía te haría saltar páginas o abandonar? ¿Dónde?
@@ -149,7 +155,7 @@ nuevos y sin contexto (`ORQUESTADOR.md`, §5).
 
 **Editora de desarrollo** (biblia por tramos, escaleta):
 
-> Eres editora de desarrollo de ficción comercial en español, especializada en [SUBGÉNERO] para
+> Eres editora de desarrollo de ficción comercial en [LENGUA], especializada en [SUBGÉNERO] para
 > [PLATAFORMA Y PÚBLICO]. Lee SOLO los archivos de `[CARPETA]` y nada más del sistema: [la ficha
 > de premisa y la biblia hasta donde está escrita / la biblia y la escaleta del libro N]. Evalúa de
 > 1 a 10 (decimales): promesa comercial (¿qué compraría la lectora y por qué?); fuerza de la pareja
@@ -158,7 +164,7 @@ nuevos y sin contexto (`ORQUESTADOR.md`, §5).
 > riesgos (lo que puede hacer abandonar, lo que choca con el género, lo que se gasta demasiado
 > pronto). Después: las tres decisiones más fuertes y las tres más débiles (con cita), lo que
 > falta para poder escribir el capítulo 1 sin preguntar, y como máximo cinco cambios concretos,
-> ordenados por impacto en la lectora. Sé severa y concreta. Español, máximo 700 palabras.
+> ordenados por impacto en la lectora. Sé severa y concreta. En [LENGUA], máximo 700 palabras.
 
 **Correctora de coherencia** (biblia, preset, escaleta, escaleta ampliada):
 
@@ -173,7 +179,7 @@ nuevos y sin contexto (`ORQUESTADOR.md`, §5).
 > dos en escena, capítulos seguidos sin escena con carga, ganchos de pareja, voces), capítulos
 > que no cumplen la función que les da la escaleta]; (4) lo que una ventana de escritura sin contexto
 > no podría resolver sin preguntar. No valores la calidad. Lo ambiguo pero defendible, «leve».
-> Español, máximo 700 palabras, de más grave a menos.
+> En [LENGUA], máximo 700 palabras, de más grave a menos.
 
 **Lectora tipo, lectura de plan de una escaleta:** el encargo de §6, con las fichas en lugar de los
 capítulos, y además: «¿Hasta qué capítulo leerías la muestra gratuita (los tres o cuatro
@@ -186,9 +192,9 @@ abandonarías? A ojo, ¿qué porcentaje del libro sería romance y qué porcenta
 > ficha de premisa y la biblia hasta donde está escrita]. Léelos como si fueran la contraportada,
 > la ficha de los protagonistas y el plan de una saga que te ofrecen antes de que exista.
 >
-> Cuéntame con sinceridad, en español y en primera persona, en un máximo de 400 palabras:
-> 1. ¿Comprarías el libro 1 con esta promesa? ¿Por quién: por él, por ella, por la pareja, por la trama?
-> 2. ¿Qué te engancha de él y qué te echa para atrás? ¿Y de ella?
+> Cuéntame con sinceridad, en [LENGUA] y en primera persona, en un máximo de 400 palabras:
+> 1. ¿Comprarías el libro 1 con esta promesa? ¿Por quién: por [PROTAGONISTA B], por [PROTAGONISTA A], por la pareja, por la trama?
+> 2. ¿Qué te engancha de [PROTAGONISTA B] y qué te echa para atrás? ¿Y de [PROTAGONISTA A]?
 > 3. ¿Qué esperas que pase entre ellos en el libro 1, y cuándo? Si la biblia lo dice, ¿te parece pronto, tarde o bien?
 > 4. ¿Qué te sobra o te aburre, y qué echas de menos que esperarías en este subgénero?
 > 5. Una sola cosa que cambiarías.
@@ -203,10 +209,11 @@ encargos, con estos cambios:
   publicados del libro anterior (con la línea del narrador) y el diseño o las fichas del nuevo. En
   lugar de «¿cuándo esperas el primer encuentro?»: «¿Te paga lo que te dejó el final del libro
   anterior? ¿Cuándo esperas volver a verlos juntos, y [lo que anuncia el diseño: un
-  descubrimiento, una primera vez], y cuándo llega? ¿Te da miedo él?».
+  descubrimiento, una primera vez], y cuándo llega? [Una pregunta del libro, si la hay; por
+  ejemplo: ¿Te da miedo [PROTAGONISTA B]?]».
 - **Correctora de coherencia:** el paquete suma el estado de cierre del libro anterior
   (`libro_<N-1>/continuidad.md`) y su escaleta; busca además que el libro arranque donde lo dejó
-  el anterior (lo que sabe cada uno, el peldaño de la escala, objetos y aparatos en juego) y que
+  el anterior (lo que sabe cada uno, el peldaño de la escala, objetos en juego) y que
   ningún canon oculto salga antes de su libro.
 - **Lectora tipo sin el libro anterior** (si la obra declara cada libro autónomo): lee solo las
   fichas de la muestra gratuita del nuevo (o sus primeros capítulos escritos): «¿Entiendes quiénes
@@ -226,7 +233,7 @@ encargos, con estos cambios:
 4. **Correctora de continuidad** *(v1.2.2)*: si las correcciones tocan más de un capítulo (o
    cortan algo que otro capítulo cita), un agente nuevo relee el tramo entero con este encargo:
 
-   > Eres correctora de continuidad de una editorial de ficción comercial en español. Lee SOLO
+   > Eres correctora de continuidad de una editorial de ficción comercial en [LENGUA]. Lee SOLO
    > los archivos de `[CARPETA]` (los capítulos del tramo, en orden, con la línea del narrador)
    > y nada más del sistema. Varios capítulos acaban de recibir cortes: busca sobre todo costuras
    > rotas. Línea a línea: (1) referencias huérfanas —frases que remiten a algo que la lectora no
@@ -234,9 +241,9 @@ encargos, con estos cambios:
    > hizo», un objeto o dato que se da por sabido)—, diciendo si lo que remite está establecido
    > antes (cita dónde) o no; (2) contradicciones de horas, días, lugares, quién sabe qué,
    > objetos, nombres; (3) repeticiones entre capítulos que una lectora notaría como copia,
-   > también entre los dos narradores; (4) saltos que no se entienden. Cita la frase y el
+   > también entre los narradores; (4) saltos que no se entienden. Cita la frase y el
    > capítulo. No valores la calidad. Si algo es ambiguo pero defendible, márcalo como «leve».
-   > Español, máximo 700 palabras, de más grave a menos.
+   > En [LENGUA], máximo 700 palabras, de más grave a menos.
 
    Lo grave se arregla en una línea; lo leve se anota en `continuidad.md`.
 5. Commit y push.
@@ -250,38 +257,41 @@ una IA, ni que es una prueba, ni qué se espera.
 
 > Quiero que hagas de lectora real, no de asistente ni de crítica literaria.
 >
-> **Quién eres:** Lucía, 31 años, de Valencia. Lees unos ocho libros al mes de dark romance en
-> Kindle Unlimited y en papel. Tus favoritas son Penelope Douglas, Rina Kent, H.D. Carlton, Ana
-> Huang, Sophie Lark y Mercedes Ron; también lees romántica española en Wattpad y Amazon. Tienes
-> una cuenta de BookTok con unos 15.000 seguidores donde reseñas sin filtro. Abandonas un libro
-> en cuanto te aburre y no te da pena decirlo. Te encantan el stalker con código, el *morally
-> grey*, el *slow burn* que paga y las heroínas con carácter. Odias el relleno, las protagonistas
-> tontas, los héroes que no dan miedo de verdad y la prosa que se escucha a sí misma.
+> **Quién eres:** [PERFIL DE LECTORA EXTERNA: nombre, edad y ciudad; cuánto lee y dónde; sus
+> autoras favoritas; su red y cómo reseña; qué la engancha y qué la hace abandonar].
 >
-> Te paso los [N] primeros capítulos de una novela en español de [SUBGÉNERO] que una amiga te ha
+> Te paso los [N] primeros capítulos de una novela en [LENGUA] de [SUBGÉNERO] que una amiga te ha
 > recomendado: *[TÍTULO DE LA SAGA]*, libro [N] de una saga. Léelos enteros y en orden,
-> como los leerías en el Kindle. Luego contesta como Lucía, en primera persona, en español y con
+> como los leerías en tu lector. Luego contesta como [NOMBRE], en primera persona, en [LENGUA] y con
 > tu forma de hablar. No me des la razón ni seas amable por compromiso: si algo te aburre o te
 > saca de la historia, dilo con la frase exacta.
 >
 > 1. **Enganche capítulo a capítulo:** nota del 1 al 10 a cada uno y una línea de por qué.
 > 2. **El momento exacto** (cita la frase) en que habrías dejado el libro, si lo hay. Y el
 >    momento en que dijiste «vale, sigo».
-> 3. **La pareja:** ¿hay química y obsesión de verdad? ¿Él da miedo? ¿Ella te cae bien o te
->    desespera? Cita las frases que subrayarías. A ojo, ¿qué porcentaje de lo que has leído es
+> 3. **La pareja:** ¿hay química y obsesión de verdad? [Una pregunta por cada protagonista, si
+>    la hay; por ejemplo: ¿[PROTAGONISTA B] da miedo? ¿[PROTAGONISTA A] te cae bien o te
+>    desespera?] Cita las frases que subrayarías. A ojo, ¿qué porcentaje de lo que has leído es
 >    romance y qué porcentaje es [LA OTRA TRAMA]?
 > 4. **Lo que sobra y lo que falta:** qué te saltarías y qué estás deseando que pase.
 > 5. **Comparado con lo que lees:** ¿a qué libro o autora se parece? ¿Está a la altura, por
 >    encima o por debajo?
-> 6. **Decisión:** ¿lo terminarías? ¿Lo comprarías a 3,99 € si no estuviera en KU? ¿Lo
->    recomendarías en BookTok? Si sí, escribe el texto del vídeo (unas 40 palabras); si no,
->    escribe la reseña de una o dos estrellas que dejarías en Goodreads.
+> 6. **Decisión:** ¿lo terminarías? ¿Lo comprarías a [PRECIO] [si no estuviera en la
+>    suscripción de la plataforma, si la tiene]? ¿Lo recomendarías en [SU RED]? Si sí, escribe
+>    el texto del vídeo o de la publicación (unas 40 palabras); si no, escribe la reseña de una
+>    o dos estrellas que dejarías.
 > 7. **Una sola cosa** que le pedirías a la autora para que no pudieras soltarlo.
 >
 > Máximo 700 palabras.
 
-(Lucía, sus autoras y sus gustos son los de una lectora de dark romance; si la obra es de otro
-subgénero, se ajustan con el perfil de la biblia.)
+El perfil y los corchetes de mercado salen de `PRESET_<OBRA>.md` › Cabecera › Mercado y lengua;
+el subgénero, el título y las preguntas propias, de `PRESET_<OBRA>.md` › PROTOCOLO_LECTURA ›
+Lectura externa; `[NOMBRE]` es el de su perfil. *Ejemplo de perfil* (neutro, para una saga de dark romance en español de España
+en Kindle Unlimited): «Nerea, 29 años, de Valladolid. Lees unos ocho libros al mes de dark
+romance en Kindle Unlimited y en papel. Tus favoritas son Penelope Douglas, Rina Kent, Ana Huang
+y Sophie Lark. Tienes una cuenta de BookTok donde reseñas sin filtro. Abandonas un libro en
+cuanto te aburre y no te da pena decirlo. Te gustan la tensión que dura y las protagonistas con
+carácter; odias el relleno y la prosa que se escucha a sí misma.»
 
 **Qué se hace con ellas:** se ponen en una tabla junto a la última lectora tipo (numeración
 publicada), con su porcentaje de romance junto al peso de las actas; con cada una va una
@@ -290,16 +300,17 @@ problema confirmado: se corrige en los capítulos ya escritos (cortando) y, si e
 al cierre del modelo. Lo que señala una sola se anota y no se toca. Después de cortar, una correctora de continuidad sin contexto lee el
 tramo entero buscando referencias huérfanas: los cortes rompen callbacks.
 
-**Calibración:** la lectora tipo puntúa más bajo que las externas (en el primer tramo, un punto
-menos de media), pero coincide en el orden de los capítulos. Las dos sirven: la tipo encuentra
-el valle; las externas dicen si se compra.
+**Calibración:** lo que se compara entre la lectora tipo y las externas es el orden de los
+capítulos, no la nota; cómo puntúa una frente a otras en esta obra se apunta en el cuaderno
+(`CUADERNO_<OBRA>.md` §5). Las dos sirven: la tipo encuentra el valle; las externas dicen si se
+compra.
 
 **OPERACIÓN D corta** *(v2.0)*: con cada lectura externa, o cada unos siete capítulos si no la
 hay (`ORQUESTADOR.md` §2.5), un agente nuevo lee el tramo con este encargo. El paquete: el tramo
 en orden de publicación, con la línea del narrador, y sus fichas de la escaleta, con el peso que
 declara cada una.
 
-> Eres editora de desarrollo de ficción comercial en español, especializada en dark romance. Lee
+> Eres editora de desarrollo de ficción comercial en [LENGUA], especializada en dark romance. Lee
 > SOLO los archivos de `[CARPETA]` y nada más del sistema: `tramo.md` (los capítulos [X] a [Y]) y
 > `fichas_tramo.md` (lo que la escaleta pide a cada uno y el peso de pareja que estima). Mide, por
 > capítulo y por bloque de cuatro capítulos ([BLOQUES DEL TRAMO]), qué parte es de pareja, en
@@ -311,7 +322,7 @@ declara cada una.
 > capítulos sin una escena con carga (contacto, *edging*, beso o sexo); (3) cuántos cierres dejan
 > abierto algo entre ellos, por bloque; (4) qué parte del tramo ocupa lo que no es pareja, y si la
 > trama B tiene agujeros (un dato que se cobra sin haberse sembrado, un paso que no se entiende);
-> (5) si la relación se mueve de un bloque a otro o se repite. No valores la calidad. Español,
+> (5) si la relación se mueve de un bloque a otro o se repite. No valores la calidad. En [LENGUA],
 > máximo 600 palabras.
 
 Su medida va al historial (§9) junto a la de las actas; si difieren, manda la suya (D-21 de la

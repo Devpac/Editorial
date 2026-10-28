@@ -13,11 +13,16 @@
 - **Fase:** <0–5> · **Libro:** <N> · **Último encargo cerrado:** <código> (<qué>, commit <hash>)
 - **Próximo encargo:** <código> — <qué>. Su NEXT está en `NEXT.md` (o: «por escribir»).
 - **Pendiente de auditar:** <nada | código subido y sin leer>.
+- **Rama de trabajo:** <`main` | la que sea>. **Encargo vivo:** `NEXT.md`.
 
 ## 2. Decisiones permanentes del autor
-Con sus palabras y la fecha. Ejemplos de lo que va aquí: su criterio de delegación; si manda la
-lectora; permisos permanentes («mueve sin miedo»); el esfuerzo de las ventanas; prioridades
-(«quiero ventas y lectoras»); líneas rojas.
+Con sus palabras y la fecha. Lo leen el orquestador, los NEXT y los prompts de lanzamiento.
+- **Criterio de delegación:** <el orden en que se decide por delegación; si el autor no declara
+  otro: «por defecto (`ORQUESTADOR.md` §1)»>.
+- **Cuando editora y lectora tipo discrepan:** <quién manda; si no declara otro: «por defecto
+  (`ORQUESTADOR.md` §1)»>.
+- Otras: permisos permanentes (p. ej., «puedes mover lo 🔒 si mejora la muestra»); el esfuerzo de
+  las ventanas; prioridades (p. ej., «primero que enganche, luego lo demás»); líneas rojas.
 
 ## 3. Estado de la obra
 - Biblia: versión <vX.Y>, última decisión <A-NN>.
@@ -34,7 +39,7 @@ Lo que está decidido pero sin hacer, o preguntado y sin respuesta: <lista corta
 
 ## 5. Notas del libro en curso
 Lo que no cabe en el plan de la lectora ni en la continuidad y el relevo necesita saber (p. ej.,
-«la lectora tipo puntúa un punto por debajo de las externas»; «el cap. X se fundió con el Y»).
+cómo puntúa la lectora tipo frente a las externas en esta obra; «el cap. X se fundió con el Y»).
 
 ## 6. Índice de archivos de la obra
 - `<obra>_biblia.md` · `PRESET_<OBRA>.md` · `NEXT.md`
