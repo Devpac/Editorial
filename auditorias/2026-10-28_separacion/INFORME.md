@@ -2,7 +2,7 @@
 
 **Auditoría de separación entre el MODELO_DarkRomance v2.0 (la fábrica) y *Madera y Pólvora* (el producto)**
 Repo auditado: `Devpac/Dark`, rama `main`, commit `5d2bd13` (A110, biblia v4.14), 28-10-2026. También el repo `Devpac/maquetador` (`817ddb0`).
-Método: un control mecánico (nombres, archivos citados, ranuras del preset) y seis lectoras sin contexto que leyeron enteros, línea a línea, los 48 archivos que el `LEEME.md` declara de modelo. Cada una tenía delante la huella de la obra (la tabla de roles del preset, los nombres y los rasgos). Sus lecturas están en `revisores/`.
+Método: un control mecánico (nombres, archivos citados, ranuras del preset) y seis lectoras sin contexto que leyeron enteros, línea a línea, los 47 archivos que el `LEEME.md` declara de modelo. Cada una tenía delante la huella de la obra (la tabla de roles del preset, los nombres y los rasgos). Sus lecturas están en `revisores/`.
 
 ---
 
@@ -10,7 +10,7 @@ Método: un control mecánico (nombres, archivos citados, ranuras del preset) y 
 
 **Todavía no.** La fábrica está limpia en la superficie y contaminada por dentro.
 
-- **En la superficie, sí.** En los 48 archivos de fábrica casi no aparecen nombres de la obra: ni Mara, ni Cruz, ni Salvat, ni Valdefuentes. El mecanismo del preset funciona: hay 172 punteros «Valores de la obra →» y todos llevan a una ranura que existe en `PLANTILLA_PRESET.md` y en el preset de la obra. Las bases de oficio (la parte v7 de cada plantilla) están limpias. Archivos que valen tal cual: `PLANTILLA_LIBRO`, `SCENE_SHAPE`, `VOICE_ARCHITECTURE` y casi todo `PLANTILLA_ESCALETA`.
+- **En la superficie, sí.** En los 47 archivos de fábrica casi no aparecen nombres de la obra: ni Mara, ni Cruz, ni Salvat, ni Valdefuentes. El mecanismo del preset funciona: hay 172 punteros «Valores de la obra →» y todos llevan a una ranura que existe en `PLANTILLA_PRESET.md` y en el preset de la obra. Las bases de oficio (la parte v7 de cada plantilla) están limpias. Archivos que valen tal cual: `PLANTILLA_LIBRO`, `SCENE_SHAPE`, `VOICE_ARCHITECTURE` y casi todo `PLANTILLA_ESCALETA`.
 - **Por dentro, no.** Las lectoras encontraron unos **250 hallazgos**. Casi ninguno es un nombre. Son **decisiones de diseño de *Madera y Pólvora* escritas como reglas del género o del subgénero**: se les quitó el nombre y se dejó el rol. Una saga nueva que clone el repo heredaría, sin saberlo, la trama de esta.
 - **En el repo, no.** Fábrica y obra conviven en la misma raíz, sin carpetas. Para empezar otra saga hay que borrar a mano lo que diga la lista del `LEEME.md`, y esa lista ya se queda corta (no menciona `informes/`). El maquetador tiene el mismo problema.
 
@@ -20,7 +20,7 @@ Método: un control mecánico (nombres, archivos citados, ranuras del preset) y 
 
 | | Fábrica | Obra |
 |---|---|---|
-| Dónde | Raíz de `Dark` (48 archivos) | Raíz de `Dark` (biblia, preset, cuaderno, NEXT) + `libro_01/`, `informes/`, `Referencia_Dark Romance/` |
+| Dónde | Raíz de `Dark` (47 archivos) | Raíz de `Dark` (biblia, preset, cuaderno, NEXT) + `libro_01/`, `informes/`, `Referencia_Dark Romance/` |
 | Separación | Solo una lista en `LEEME.md` §2 | Ídem |
 
 - **`LEEME.md` es de la fábrica, pero su §1 guarda el estado de la obra:** la escaleta vigente, A99, las ramas archivadas. Cada mejora del modelo obliga a fusionarlo a mano.
