@@ -13,7 +13,7 @@ esos beats: el detonante, los puntos de giro, las escaladas, el punto medio, la 
 son momentos entre los dos. La trama B no protagoniza ninguna fase: las presiona.
 
 El peso de pareja que tiene que dar la columna (por defecto, objetivo 80 % y suelo 70 %, o los que
-declare el preset: `PAREJA_PRIMERO.md` §2, y los suelos de su §3) y cómo se mide:
+declare el preset: `PAREJA_PRIMERO.md` §2 (y los suelos de su §3)) y cómo se mide:
 GENRE_CONVENTIONS, regla 1, y `PAREJA_PRIMERO.md` §2.
 
 ### 2. LA TRAMA B: CUATRO O CINCO BEATS TRENZADOS SOBRE LA COLUMNA
@@ -51,7 +51,7 @@ la trama B, la columna es de la trama B: reabrir el spine.
 
 TEST 5 — PESO POR TERCIO. Con el peso que estima cada ficha (escaleta) y con el medido (OPERACIÓN
 D): ¿cada tercio del libro apunta al objetivo de pareja y no baja del suelo (por defecto, 80 % y
-70 %: los de `PAREJA_PRIMERO.md` §2, y los suelos de su §3, o los del preset)? Por bloque de cuatro capítulos
+70 %: los de `PAREJA_PRIMERO.md` §2 (y los suelos de su §3) o los del preset)? Por bloque de cuatro capítulos
 rigen los umbrales de ROMANCE_BEAT_MAP. Lo que falla en lo escrito no se arregla en la prosa: se
 reescaleta el bloque siguiente.
 

@@ -37,7 +37,7 @@ de pareja de los contadores del libro (`PLANTILLA_LIBRO.md`).
 |---|---|---|---|---|---|---|---|
 
 **Al pie, por bloque de cuatro capítulos y acumulado del libro:** el peso de pareja medio, ponderado
-por palabras (los de `PAREJA_PRIMERO.md` §2, y los suelos de su §3, o los que declare el preset; por defecto, objetivo
+por palabras (los de `PAREJA_PRIMERO.md` §2 (y los suelos de su §3) o los que declare el preset; por defecto, objetivo
 80 %, suelo 70 %); con más de un narrador, la parte de cada voz (y su suelo, si la obra declara
 uno); el calor (desde el contacto con carga, los capítulos seguidos sin
 escena con carga: nunca más de cuatro, HEAT_DISCIPLINE, suelo de calor); y los ganchos de pareja
