@@ -21,7 +21,7 @@ Recibe de GENRE_CONVENTIONS (regla 7, explicitud plena), de ELLIPSIS_PROTOCOL (m
 para sexo y contacto) y de ROMANCE_BEAT_MAP (beats de calor y escala de rendición).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › HEAT_DISCIPLINE › Propósito en la obra.
-> *Qué declara aquí la obra:* cuántos libros tiene la saga sobre la que se dosifica el calor, quién es el protagonista cuya rendición se raciona (su narrador hermético, si lo tiene) y de qué documento sale la regla de la moneda escasa.
+> *Qué declara aquí la obra:* cuántos libros tiene la saga sobre la que se dosifica el calor, quién es el protagonista cuya rendición se raciona (su narrador hermético, si lo tiene, el que declara › Cabecera › Correspondencia de roles) y de qué documento sale la regla de la moneda escasa.
 
 ---
 
@@ -86,7 +86,7 @@ suelos en ningún libro**; lo que avanza de un libro a otro es lo emocional:
 |---|---|---|
 | [N] | [qué pasa entre los cuerpos en ese libro, dentro de los suelos] | [qué sabe ella de él, o qué cambia entre los dos] |
 
-Si la obra lo declara, desde el libro que declare, refuerzo intermitente por encima de los
+Desde el libro (o el tramo) que declare la obra, refuerzo intermitente por encima de los
 suelos: la recompensa no es siempre sexo (la que declare la obra: por ejemplo, un trauma
 contado).
 Escala de rendición: [entrega] ([libro]) → [entrega] ([libro]) → … → [la entrega mayor]

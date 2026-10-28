@@ -4,7 +4,7 @@
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
-> **v2.0 · la pareja primero.** Rige `PAREJA_PRIMERO.md`: la trama del libro es la trama B. Sus
+> Rige `PAREJA_PRIMERO.md`: la trama del libro es la trama B. Sus
 > mecanismos (pistas, señuelos, sospechosos, coartadas) tienen techo y caben en el de lo que no es
 > pareja (trama B, trama horizontal y elenco cuando su página no es de pareja: como mucho el 30 %
 > del libro, sin mínimo); su estado se pone al día en la auditoría (OPERACIÓN D), no en cada
@@ -73,8 +73,8 @@ por omisión (por defecto, con dos POV, el del narrador hermético, si la obra l
 2. **La reinterpretación no reescribe.** Cada pista que sostiene una inversión debe poder
    releerse con el sentido nuevo sin contradecir una sola palabra de lo ya escrito. Si
    sostenerla exige cambiar un hecho ya narrado, es trampa.
-3. **El narrador que oculta (si lo hay) no oculta lo que HACE; oculta lo que SABE.** Regla
-   nuclear. Los capítulos de su POV muestran íntegramente sus actos en escena y la
+3. **Ningún narrador oculta lo que HACE; el que oculta (si lo hay) oculta solo lo que SABE.**
+   Regla nuclear. Los capítulos de cada POV muestran íntegramente sus actos en escena y la
    lectora los conoce mucho antes que el otro protagonista. Lo que sí puede retener su POV es lo
    que sabe de antes: eso es memoria, no percepción presente, y su ocultación puede ser el
    motor de un reloj de saga. **Usar el POV de ese narrador para esconder una acción de
@@ -132,7 +132,7 @@ manuscrito ya no se siembra (solo ecos y cobros), lo declara la obra a su escala
 la pareja no se negocia: si una pista no cabe, sobra la pista.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Presupuesto de pistas a la escala de la obra.
-> *Qué declara aquí la obra:* la extensión y el número de capítulos de cada libro, su peso de pareja, su techo de pistas verdaderas por libro y el punto del manuscrito después del cual no se siembra.
+> *Qué declara aquí la obra:* la extensión y el número de capítulos de cada libro, su peso de pareja, su techo de pistas verdaderas por libro y el punto del manuscrito después del cual no se siembra y dónde empieza su tramo final.
 
 ---
 
@@ -225,7 +225,7 @@ producto que hunde el proyecto.
 
 ## LA OBLIGACIÓN
 
-**Si la saga tiene trama horizontal, en cada libro protagonista A (o quien declare la obra) descubre una pista real
+**Si la saga tiene trama horizontal, en cada libro protagonista A (o quien declare la obra en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles) descubre una pista real
 y tangible sobre esa trama.** Nada de estancamiento, nada de dar vueltas en círculos, nada de "cada vez
 está más cerca". La trama horizontal es lo que hace que la lectora compre el volumen
 siguiente, y la lectora de saga detecta el relleno en dos capítulos.
@@ -234,7 +234,7 @@ siguiente, y la lectora de saga detecta el relleno en dos capítulos.
 condición de entrega, igual que las escenas fijas que exige la obra o el gancho de cierre.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › La obligación de miga en la obra.
-> *Qué declara aquí la obra:* si la saga tiene trama horizontal, sobre qué hecho de ella descubre protagonista A una pista en cada libro, y qué escena fija suya es también condición de entrega.
+> *Qué declara aquí la obra:* si la saga tiene trama horizontal, sobre qué hecho de ella se descubre una pista en cada libro, y qué escena fija suya es también condición de entrega.
 
 ## TEST DEL OBJETO: qué es una miga y qué no
 
@@ -487,8 +487,8 @@ en el tramo final tiene siembra registrada antes del punto de corte que declara 
 **TEST 5 — RELECTURA SIN CONTRADICCIÓN.** Releer cada pista con el sentido final. ¿Choca
 con algo ya escrito? Si sí, no es inversión: es trampa.
 
-**TEST 6 — LA REGLA DEL NARRADOR QUE OCULTA** (si lo hay). ¿Algún capítulo de su POV oculta una
-**acción** suya en escena? Si sí, corregir: su POV solo puede callar lo que sabe, nunca lo
+**TEST 6 — LA REGLA DEL NARRADOR QUE OCULTA.** ¿Algún capítulo, de cualquier POV, oculta una
+**acción** de su narrador en escena? Si sí, corregir: un POV solo puede callar lo que sabe, nunca lo
 que hace.
 
 **TEST 7 — PISTA-ESPEJO DECLARADA.** ¿Existe la declaración de cruce con el tema

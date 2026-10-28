@@ -63,13 +63,13 @@ declara, la persona y el tiempo de la novela negra de su tradición.
 | **Atención prosódica** | Moderada, con dos zonas altas obligatorias: **escenas explícitas** y **cierres de capítulo en gancho** |
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Declaración primaria.
-> *Qué declara aquí la obra:* su régimen (o «el de por defecto») y, con dos narradores, si es mixto por POV; el alcance de la declaración en libros, sus narradores (cuántos y quiénes), la ciudad o el mundo de su ambientación, qué explicación narratorial admite cada voz y de dónde le viene, si le viene de algo (su oficio, su historia o su carácter), y cuántos cierres de capítulo en gancho tiene cada libro.
+> *Qué declara aquí la obra:* su régimen (o «el de por defecto») y, con dos narradores, si es mixto por POV; el alcance de la declaración en libros, sus narradores (cuántos y quiénes), la ciudad o el mundo de su ambientación, qué explicación narratorial admite cada voz y de dónde le viene, si le viene de algo (su oficio, su historia o su carácter), cuántos cierres de capítulo en gancho tiene cada libro y su atención prosódica, si se aparta de la tabla.
 
 ---
 
 ## PERSONA, TIEMPO Y ALTERNANCIA (no negociable)
 
-**La persona, el tiempo y los narradores que declara la obra, sin excepción, en toda
+**La persona, el tiempo y los narradores que declara la obra, siempre, en toda
 la saga.** En dark romance, lo habitual es primera persona, presente y dos
 narradores. La primera persona es la señal de género más potente que existe, y no
 cuesta nada: la lectora sabe qué está leyendo en el primer párrafo, antes de la
@@ -113,7 +113,7 @@ impacto porque el texto lleva capítulos racionándolo.
 
 - **Economía extrema.** Frases cortas, directas, graves. Sujeto, verbo, objeto.
   Punto.
-- Registra antes de sentir lo que declare la obra. Si le da hipervigilancia, es
+- Registra antes de sentir (qué registra, lo declara la obra). Si le da hipervigilancia, es
   sintaxis, no información.
 - No nombra emociones. Un capítulo suyo puede contener obsesión, celos y pánico sin
   que aparezca ninguna de las tres palabras. Si un párrafo suyo se resume en "y
@@ -204,7 +204,7 @@ La incompatibilidad declarada en este apartado se audita en TEST 11.
 | **Minimalista** (frase corta, subtexto por omisión) | La elipsis por omisión choca con la explicitud obligatoria; solo la voz de B lo roza |
 | **Expansivo** (frase larga, digresión) | Frena la página y es la puerta del paisaje lírico |
 | **Naval-decimonónico** (léxico técnico denso) | Convierte la jerga técnica en espectáculo |
-| **Barroco / tropical** (sintaxis cultista) | Incompatible con la lectura en móvil |
+| **Barroco / tropical** (sintaxis cultista) | Incompatible con la lectura rápida |
 | **Oral / testimonial** (repetición, muletilla) | Solo como recurso puntual en el diálogo de los secundarios que declare la obra |
 | **Periodístico / conductual** (dato concreto) | Su frialdad emocional desactiva el género |
 
@@ -212,8 +212,8 @@ Préstamos locales admitidos: la economía minimalista para B, si es hermético.
 como política del libro.
 
 **Variante: dark romance policial.** La jerga que el naval-decimonónico convertiría
-en espectáculo es la policial. Si la obra lo declara, préstamo local admitido además
-en las escenas de investigación, nunca como política del libro.
+en espectáculo es la policial. Si la obra lo declara, préstamo local admitido además:
+el dato conductual (periodístico) en las escenas de investigación, nunca como política del libro.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Regímenes no declarados.
 > *Qué declara aquí la obra:* qué secundarios pueden hablar en registro oral, si alguno, y qué otros préstamos locales admite, si admite alguno, y en qué escenas entra cada uno.
@@ -239,12 +239,12 @@ diálogo antes que desde la glosa.
 3. **Cero contención por decoro.** SEMANTIC_OMISSION.md opera moderadamente en lo
    factual y **queda desactivado en lo sexual y en lo violento**.
 
-Efecto sobre Capa 3: la obra declara si SUBTEXT_MECHANICS.md opera de forma sostenida
-o solo por escena de crisis; en el segundo caso, el subtexto entra en las escenas de
-crisis que declare la obra y se retira después.
+Efecto sobre Capa 3: por defecto, SUBTEXT_MECHANICS.md opera por escena de crisis, no
+como régimen sostenido: el subtexto entra en las escenas de crisis que declare la obra y
+se retira después. La obra puede declarar otro régimen.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Efecto sobre Capa 3.
-> *Qué declara aquí la obra:* si el subtexto es sostenido o por escena de crisis y, en ese caso, qué escenas de crisis lo abren.
+> *Qué declara aquí la obra:* qué escenas de crisis abren el subtexto o, si declara otro régimen (sostenido), cuál.
 
 CUOTAS DIRECTAS PARA PROSE_LINE_DISCIPLINE.md (no por extrapolación): el régimen
 se sitúa entre INTERMEDIO y MINIMALISTA. Son **alarma de cierre, nunca objetivo**
@@ -329,8 +329,8 @@ pone en la piel, la respiración, la temperatura y el dolor.
   proximidad forzada (*forced proximity*) o las curas de heridas (*care taking*)—:
   por tacto, presión y peso antes que por diálogo.
 - **Registro corporal diferenciado.** A siente desde dentro: pulso, mandíbula,
-  calor, vergüenza física. B, si es hermético, registra antes de sentir lo que
-  declare la obra; su deseo se lee en lo que registra, no en lo que confiesa.
+  calor, vergüenza física. B, si es hermético, registra antes de sentir (qué
+  registra, lo declara la obra); su deseo se lee en lo que registra, no en lo que confiesa.
 - **Frontera única de decoro:** la sordidez no se estetiza. Ningún cadáver es
   hermoso y ninguna herida es poética.
 
@@ -483,12 +483,12 @@ Se consulta ANTES de:
 | WORLD_TEXTURE.md | Densidad de los escenarios de la obra, bajo el umbral del paisaje lírico |
 | PROSODY_AND_MUSIC.md | Atención moderada, alta en escena explícita y en cierre de capítulo |
 | PROSE_LINE_DISCIPLINE.md | Régimen y doble calibración por POV, de los que deriva sus ocho cuotas |
-| HEAT_DISCIPLINE.md | Léxico corporal y prohibición del eufemismo; **ya no recibe de ELLIPSIS_PROTOCOL ningún modo elidido obligatorio** |
+| HEAT_DISCIPLINE.md | Léxico corporal y prohibición del eufemismo; **no recibe de ELLIPSIS_PROTOCOL ningún modo elidido obligatorio** |
 | ELLIPSIS_PROTOCOL.md | Elipsis por ritmo y por subtexto, nunca por decoro |
 
 NO tiene precedencia sobre: THEMATIC_ENGINE.md (la pregunta moral sin absolución
 manda), CHARACTER_PHYSICS.md (si canon físico y estética chocan, gana el canon),
-STORY_SPINE.md (peso de pareja y apertura con la pareja) y SERIES_ARCHITECTURE.md /
+STORY_SPINE.md (peso de pareja y apertura con el protagonista peligroso y la promesa de la pareja: GENRE_CONVENTIONS, regla 3) y SERIES_ARCHITECTURE.md /
 SERIES_GLUE.md (la forma de la saga y su número de volúmenes; con la misma pareja,
 sin cierre de la relación por libro). Si un archivo de Capa 1 choca con la estética
 declarada, se revisa la estética.

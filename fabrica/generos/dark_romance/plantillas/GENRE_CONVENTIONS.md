@@ -44,8 +44,8 @@ AESTHETIC_REGISTER.
   excusa para que choquen y la causa de la proximidad forzada), la credibilidad de mundo y
   el motor de escenarios. Las reglas marcadas
   «Variante: dark romance policial» rigen solo cuando la obra declara ese subgénero.
-  **Otro subgénero escribe su variante:** la biblia (fase 1, `PLANTILLA_BIBLIA.md`,
-  «Variante del subgénero») recorre, regla por regla, las que llevan marca de variante y
+  **Otro subgénero escribe su variante:** la biblia (fase 1, `PLANTILLA_BIBLIA.md` §2)
+  recorre, regla por regla, las que llevan marca de variante y
   dice qué es en su subgénero la trama del libro, la escena limpia, el antagonista del
   libro, la impunidad, la anti-firma…; el preset la copia
   (`PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Variante del subgénero). Una regla con marca
@@ -122,10 +122,10 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
 
 ## LOS CINCO PILARES DEL SUBGÉNERO
 
-1. **La Protagonista Ancla.** Una protagonista joven, atractiva y brillante
-   (*Variante: dark romance policial:* uno de los dos está del lado de la ley; quién, lo
-   declara la obra) que genera comunidad y
-   fidelidad, pero con una vida afectiva y sexual visceral y magnética.
+1. **La Protagonista Ancla.** Una protagonista joven, atractiva y brillante que genera
+   comunidad y fidelidad, pero con una vida afectiva y sexual visceral y magnética.
+   *Variante: dark romance policial:* uno de los dos está del lado de la ley; quién, lo
+   declara la obra.
 2. **Estructura Dual (romance + adrenalina), con jerarquía.** La catarsis y el calor del
    Dark Romance, con la trama B como fuente de peligro y de proximidad
    (*Variante: dark romance policial:* el caso pone a la pareja en peligro y la obliga a
@@ -176,20 +176,21 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
    Cada libro fija primero su tema emocional; **la trama del libro**
    (*Variante: dark romance policial:* el caso) **se elige después** y es su versión
    monstruosa. Nunca al revés.
-3. **Apertura con él, no con la trama del libro** (*Variante: dark romance policial:* no
-   con el cadáver). La lectora debe verlo a él —o sentirlo observando— antes de entrar en
+3. **Apertura con el protagonista peligroso (por defecto, él), no con la trama del libro**
+   (*Variante: dark romance policial:* no con el cadáver). La lectora debe verlo —o sentirlo
+   observando— antes de entrar en
    la trama del libro (*Variante: dark romance policial:* antes de saber que hay un
    muerto; el cuerpo puede llegar en la página tres). Y el capítulo 1 **contiene la
    promesa de la pareja**: el otro protagonista visto, presente o en tensión con el
-   narrador. Abrir con él solo, sin ella, promete thriller.
+   narrador. Abrir con él solo, sin el otro, promete thriller.
 4. **Primera persona y POV alterno ella / él, por defecto.** Es la señal de género más
    potente que existe y no cuesta nada: la lectora sabe qué está leyendo en el primer
    párrafo, antes de la sinopsis y antes de la portada. Los capítulos de él dan acceso
    directo a la obsesión desde dentro; la lectora sabe lo que él ha hecho mucho antes que
    ella. La persona, el tiempo (presente o pasado) y si hay uno o dos narradores los fija
-   la biblia (🔒, decisión del autor); lo que fije rige sin excepción. Con dos narradores,
-   el reparto entre las voces lo declara la obra (`PRESET_<OBRA>.md` › Cabecera ›
-   Correspondencia de roles).
+   la biblia (🔒, decisión del autor); lo que fije rige siempre. Con dos narradores,
+   el reparto entre las voces lo declara la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION ›
+   Extensión, persona y narradores).
 5. **Prohibición de la escena limpia.** Una escena que solo avanza la trama del libro
    (*Variante: dark romance policial:* una escena de investigación que solo avanza el caso),
    sin ser página de pareja (regla 1; con una sombra que no ocupa a quien narra no basta, y
@@ -198,8 +199,9 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
    contrato: con el cupo lleno, o si cabe en una línea, no es una escena, es un párrafo de
    resumen, o se funde en una escena de pareja.
 6. **Gancho en todos los capítulos, por defecto.** Capítulos en el número y la
-   horquilla de palabras que declara la obra, cada uno cerrado en gancho; la obra puede
-   declarar cierres de descarga, con su tope. **Al menos dos
+   horquilla de palabras que declara la obra, cada uno cerrado en gancho, salvo los cierres
+   de descarga que declare la obra en › SEAMS_AND_HINGES › Gancho en todos los cierres,
+   con su tope. **Al menos dos
    de cada tres ganchos son de pareja**, los más valiosos (`PAREJA_PRIMERO.md` §3, o la
    proporción que declare el preset); los demás pueden ser de la trama B. Autoridad:
    SEAMS_AND_HINGES.
@@ -220,7 +222,7 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
     abierto es el mundo y la pareja siguiente.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Convenciones en la obra.
-> *Qué declara aquí la obra:* su peso de pareja y sus suelos, si sube alguno (si el autor baja alguno, la decisión de la biblia que lo autoriza), el número y la longitud de sus capítulos, sus cierres de descarga con su tope, si los tiene, de qué trata su trama horizontal y qué sabe la lectora antes que la protagonista.
+> *Qué declara aquí la obra:* su peso de pareja y sus suelos, si sube alguno (si el autor baja alguno, la decisión de la biblia que lo autoriza), el número y la longitud de sus capítulos, de qué trata su trama horizontal y qué sabe la lectora antes que la protagonista.
 
 ---
 
@@ -284,8 +286,8 @@ terreno (*Variante: dark romance policial:* si es quien investiga), no puede pas
 tiempo sin darse cuenta: parecería incompetente.
 
 **Convención:** el vigilado lo descubre en el momento que declara la obra, y lo *dark* es lo
-que hace al descubrirlo: no lo detiene ni huye; **decide** (consentirlo, tolerarlo, volverlo
-a su favor). La vigilancia es una transgresión no consentida y no sexual
+que hace al descubrirlo: no lo detiene ni huye; **decide**, y la obsesión del otro lo atrae
+en vez de espantarlo (consentirlo, volverlo a su favor). La vigilancia es una transgresión no consentida y no sexual
 (HEAT_DISCIPLINE, consentimiento). Qué medios usa, cuándo lo descubre y qué hace con ello,
 lo declara la obra.
 
@@ -313,9 +315,9 @@ lo declara la obra.
   tensión de saga.
 - La protagonista como damisela en apuros, o rescatada de forma que anule su agencia.
 - **La protagonista genuinamente atraída por un tercero.** Infidelidad emocional: vetada.
-- *Saga con la misma pareja:* **el protagonista peligroso redimido, blanqueado o convertido
-  en buen chico.** (En un dúo o un libro único, el cierre puede pedir otra cosa: lo declara
-  la obra.)
+- **El protagonista peligroso redimido, blanqueado o convertido en buen chico.** Vetado en
+  cualquier forma de saga: el final feliz no lo blanquea; sigue siendo peligroso, ahora para
+  los demás.
 - El protagonista hermético, si la obra lo declara, explicando sus sentimientos con
   verborrea. Rompe su economía del lenguaje.
 - Describir desde el POV de un narrador lo que solo se ve desde fuera (su mirada, su
@@ -335,13 +337,13 @@ lo declara la obra.
   signifiquen lo que la obra les asigna.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Pecados propios de la obra.
-> *Qué declara aquí la obra:* qué nombre de un protagonista reserva y hasta qué libro, si reserva alguno; qué recursos racionados tiene, si los tiene, con lo que significa cada uno y su techo por libro; y cómo cierra al protagonista peligroso, si no es saga con la misma pareja.
+> *Qué declara aquí la obra:* qué nombre de un protagonista reserva y hasta qué libro, si reserva alguno; qué recursos racionados tiene, si los tiene, con lo que significa cada uno y su techo por libro.
 
 ---
 
 ## EXPECTATIVAS ESTRUCTURALES DE LA LECTORA
 
-Capítulos cortos con gancho y ritmo creciente, diseñados para lectura compulsiva en móvil;
+Capítulos cortos con gancho y ritmo creciente, diseñados para lectura compulsiva;
 el otro protagonista en todos los capítulos, contacto con carga antes del 20 % y beso antes
 de la mitad (los suelos que lo aseguran: `PAREJA_PRIMERO.md` §3); tensión sexual que no baja
 de intensidad aunque la pareja ya se haya consumado; un hombre
@@ -378,11 +380,8 @@ categorías de la tienda.
 
 **b) Tópicos del dark romance que la obra no quiere repetir.** Cada obra declara su
 anti-firma de género: los tópicos de dark romance que no usa porque no son de su mundo o
-porque su subgénero ya los ha gastado. *Variante: dark romance policial ambientado en
-España:* el dark romance importado —mafia italoamericana o *bratva*, capos,
-*billionaires*, nombres anglosajones, campus universitario americano, "Daddy", la mansión
-con personal de servicio, el matrimonio forzado por contrato—. Un subgénero que vive de
-alguno de esos tropos (mafia, *bully*) no los veta: declara qué versión gastada de ellos
+porque su subgénero ya los ha gastado. Un subgénero que vive de
+alguno de los tropos del género (mafia, *bully*) no los veta: declara qué versión gastada de ellos
 evita. De qué está hecha la oscuridad de la saga lo declara la obra.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Oscuridad propia de la obra.
@@ -414,7 +413,7 @@ evita. De qué está hecha la oscuridad de la saga lo declara la obra.
 
 ## TESTS DE FUNCIONAMIENTO
 
-- **TEST 1 — PRIMERA PÁGINA Y PRIMER CAPÍTULO.** ¿Aparece él, o su presencia o su amenaza, antes que
+- **TEST 1 — PRIMERA PÁGINA Y PRIMER CAPÍTULO.** ¿Aparece el protagonista peligroso (por defecto, él), o su presencia o su amenaza, antes que
   la trama del libro? (*Variante: dark romance policial:* ¿antes que el muerto? Si el
   libro abre en escena del crimen, se ha escrito novela negra.) Y al cerrar el capítulo 1:
   ¿hay ya promesa de la pareja (el otro visto, presente o en tensión)? Si el capítulo 1
@@ -447,7 +446,8 @@ evita. De qué está hecha la oscuridad de la saga lo declara la obra.
 - **TEST 9 — SIN ATRACCIÓN POR TERCEROS.** En cada escena de ella con el antagonista del
   libro u otro tercero al que se acerca, ¿hay atracción real o roce innecesario? Si sí, se
   ha roto el PELIGRO 1. (La forma de acercamiento que declare la obra se audita con ella.)
-- **TEST 10 — IMPUNIDAD** *(si la obra declara una regla que la sostiene)*. ¿Se ha roto esa
+- **TEST 10 — IMPUNIDAD** *(si la obra declara una regla que la sostiene; en la variante
+  policial, la del protagonista que se salta la ley)*. ¿Se ha roto esa
   regla en este libro?
 - **TEST 11 — ANTI-FIRMA.** ¿Reaparece algún tic del corpus del género secundario
   (*Variante: dark romance policial:* de novela negra) o de los tópicos de dark romance

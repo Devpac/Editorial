@@ -4,8 +4,7 @@
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
-> Reescrita en la v2.0 con la pareja como trama A (`PAREJA_PRIMERO.md`, que manda en el peso de
-> la pareja). DECISIÓN: SUSTITUYE.
+> La pareja es la trama A (`PAREJA_PRIMERO.md`, que manda en el peso de la pareja).
 
 ## PROPÓSITO
 
@@ -50,7 +49,7 @@ autor, con su porqué en la biblia.
 
 | Beat | Posición por defecto | Suelo (como tarde) |
 |---|---|---|
-| **Apertura con él.** Él, o su presencia o su amenaza, antes que la trama B; el capítulo 1 promete la pareja (GENRE_CONVENTIONS, regla 3) | 0–5 % | Capítulo 1 |
+| **Apertura con el protagonista peligroso (por defecto, él).** Él, o su presencia o su amenaza, antes que la trama B; el capítulo 1 promete la pareja (GENRE_CONVENTIONS, regla 3) | 0–5 % | Capítulo 1 |
 | **Primer cara a cara.** Los dos en la misma escena (un prólogo que adelanta una escena de los dos cuenta) | 0–10 % | 10 % |
 | **Contacto con carga.** El primer roce que pesa (el que tenga la obra: combate, cura, proximidad forzada…) | 10–20 % | 20 % |
 | **Lo que los ata.** Una decisión de uno de los dos (no soltar al otro, vigilarlo, no delatarlo, aceptar un trato) los deja pegados; la trama B pone la excusa | 15–30 % | — |

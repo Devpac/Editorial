@@ -73,15 +73,15 @@ Fuera de estos cuatro, toda omisión es sospechosa y se justifica por escrito o 
 
 ### USO A — EL FUERA DE PLANO DEL PROTAGONISTA B (la negación plausible)
 
-Si la obra declara negación plausible (el protagonista B actúa fuera del plano de A, y A
-necesita poder negarlo), es el uso mayor del archivo. **Lo que el protagonista B hace mientras la
+Siempre que el protagonista B actúe fuera del plano de A, es el uso mayor del archivo. **Lo que el protagonista B hace mientras la
 protagonista A no mira no se narra desde el POV de ella: llega por el resultado.** Y **el
 resultado llega con él**: a una escena con los dos, con él en directo o en las marcas que ella
 le lee en el cuerpo (ELIPSIS Y SUBTEXTO). La escaleta no le da a la deducción de ella un
 capítulo sin él (`PAREJA_PRIMERO.md` §3, suelo de presencia).
 
-Ella deduce. No pregunta, o pregunta y no obtiene respuesta. Esa distancia entre el efecto
-visible y la causa no narrada es su negación plausible: **la escena que lo probaría no se ha
+Ella deduce. No pregunta, o pregunta y no obtiene respuesta. Si la obra declara negación
+plausible (A necesita poder negarlo), esa distancia entre el efecto visible y la causa no
+narrada es su negación plausible: **la escena que lo probaría no se ha
 escrito**. La negación plausible de la protagonista A y la elipsis del texto son el mismo objeto
 visto desde dos sitios. Si la obra le da además un alcance jurídico, lo declara en su preset.
 
@@ -93,7 +93,7 @@ en INFORMATION_CHOREOGRAPHY). Se rompe cuando el conflicto ético lo exige: si l
 es por método, necesita que ambos —y la lectora— hayan visto lo mismo.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Uso A.
-> *Qué declara aquí la obra:* si declara negación plausible (si no, «no aplica»): si B actúa fuera del plano de A, los resultados concretos por los que ella deduce lo que hizo él, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
+> *Qué declara aquí la obra:* si B actúa fuera del plano de A (si no, «no aplica»), los resultados concretos por los que ella deduce lo que hizo él; si declara negación plausible, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
 
 ### USO B — LA AUSENCIA
 
@@ -359,7 +359,8 @@ se ha elidido: se ha olvidado.**
 
 ## ELIPSIS Y RITMO
 
-Con capítulos de la extensión que fija la obra y gancho obligatorio en todos, la elipsis es
+Con capítulos de la extensión que fija la obra y gancho en todos (salvo los cierres de descarga
+que declare la obra en › SEAMS_AND_HINGES › Gancho en todos los cierres), la elipsis es
 la herramienta de ritmo primaria: casi todos los cortes de capítulo son elipsis cortas.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Elipsis y ritmo.
@@ -477,7 +478,7 @@ es un fallo de escaleta.
 antes lo que solo mueve la trama B o la horizontal; lo último que se elide es lo que cambia
 algo entre ellos.
 
-**TEST 13 — EL RESULTADO LLEGA CON ÉL** (si la obra declara el USO A). Cada resultado de una
+**TEST 13 — EL RESULTADO LLEGA CON ÉL** (siempre que el protagonista B actúe fuera del plano de A). Cada resultado de una
 acción elidida del protagonista B (USO A), ¿llega a una escena con los dos, con él en directo o en sus marcas?
 El que llega en un capítulo de ella sin él es un fallo de escaleta.
 
@@ -501,8 +502,7 @@ quien la investiga, si alguien la investiga), CLUE_LEDGER (lo elidido no puede s
 diseñan juntos).
 
 **Coordinaciones del TRATAMIENTO DE CONTENIDO CARGADO:**
-- **HEAT_DISCIPLINE:** relación **invertida** respecto al modelo anterior. Este archivo ya
-  **no** le transfiere ningún modo ELIDIDO obligatorio ni umbral de corte: HEAT_DISCIPLINE
+- **HEAT_DISCIPLINE:** este archivo **no** le transfiere ningún modo ELIDIDO obligatorio ni umbral de corte: HEAT_DISCIPLINE
   tiene autoridad plena sobre qué se muestra del contenido sexual, con qué vocabulario y con
   qué calibración por libro, y de aquí solo recibe que el ELIDIDO no es su modo por defecto y
   que la elipsis pudorosa es error (ERROR 6).

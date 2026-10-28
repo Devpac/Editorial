@@ -169,7 +169,7 @@ en cuál se le desajusta la brújula, qué lo dispara.*
 
 **Los planos del defecto (regla dura).** El defecto **no puede activarse
 solo con protagonista B**: si solo se activa con uno, no es un patrón
-psicológico. Se manifiesta en más de un plano además de B (cuántos y cuáles, los
+psicológico. Se manifiesta en al menos un plano además de B (cuántos y cuáles, los
 declara la obra), y **los planos que no son B entran como eco**: dentro
 de una escena de pareja (a menudo, interrumpiéndola), en lo que el otro ve en
 directo o en lo que se le calla. No tienen capítulos propios sin el otro
@@ -472,7 +472,7 @@ debe declararse en VOICE_ARCHITECTURE como idiolecto. En el protagonista hermét
 si lo hay, una excepción sostenida equivale a haberlo blanqueado.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Rango de la excepción.
-> *Qué declara aquí la obra:* quién es su protagonista hermético, si lo tiene, al que se aplica la última frase; o «no aplica».
+> *Qué declara aquí la obra:* si la última frase se le aplica (si tiene protagonista hermético: quién es, lo declara › Cabecera › Correspondencia de roles); o «no aplica».
 
 ---
 

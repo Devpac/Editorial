@@ -19,7 +19,7 @@ diálogo). Mal calibrada, no es un defecto de línea: es una avería de
 producto.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › DIALOGUE_MECHANICS › Los dos narradores.
-> *Qué declara aquí la obra:* quiénes son sus narradores, si tiene dos: por defecto, protagonista A, la voz que habla, y el narrador hermético (protagonista B), si lo hay; o, con uno solo, quién narra.
+> *Qué declara aquí la obra:* quiénes son sus narradores, si tiene dos: por defecto, protagonista A, la voz que habla, y el narrador hermético (protagonista B), si lo hay (quién es, lo declara › Cabecera › Correspondencia de roles); o, con uno solo, quién narra.
 
 Este archivo es el manual de operación para generar diálogo vivo.
 
@@ -163,7 +163,7 @@ llaves"; la inversa suena desusual. Cuando dos personajes alternan con
 claridad, se puede prescindir de atribución varios turnos: si se
 pierde la cuenta, restablecer.
 
-**Tiempo verbal:** el que fija la obra, sin excepción, también en
+**Tiempo verbal:** el que fija la obra, siempre, también en
 la acotación. Una acotación en otro tiempo es error de régimen, no
 de estilo. Autoridad: VOICE_ARCHITECTURE.
 
@@ -550,7 +550,9 @@ contando.
 
 ## EL DIÁLOGO COMO GANCHO DE CAPÍTULO
 
-Los capítulos cierran en gancho **sin excepción**, y la última
+Los capítulos cierran en gancho **por defecto** (salvo los cierres de
+descarga que declare la obra en › SEAMS_AND_HINGES › Gancho en
+todos los cierres), y la última
 línea de diálogo es la herramienta más eficaz. **El gancho
 emocional vale más que el de trama:** una frase del narrador
 hermético pesa más que un hallazgo de la trama, porque la lectora
@@ -566,7 +568,7 @@ obra sabe algo de esa trama que el otro no sabe.
 > *Qué declara aquí la obra:* cuántos capítulos tiene cada libro y, si la saga tiene trama horizontal, qué secreto de ella alimenta la miga y quién lo guarda.
 
 Prohibido cerrar en resolución cálida o en línea que desactive la
-tensión. Autoridad: SEAMS_AND_HINGES.
+tensión, salvo en esos cierres de descarga. Autoridad: SEAMS_AND_HINGES.
 
 ---
 
@@ -648,7 +650,8 @@ Todos los cierres de capítulo, con línea de diálogo o sin ella:
 Cuenta también el gancho de la trama B que cae sobre la pareja
 (sobre los dos, o sobre uno por el otro). Por libro, objetivo tres
 de cada cuatro y suelo dos de cada tres; por bloque, objetivo tres
-de cuatro y suelo dos de cuatro (`PAREJA_PRIMERO.md`, §3). Por
+de cuatro y suelo dos de cuatro (`PAREJA_PRIMERO.md`, §3, o los que
+declare el preset). Por
 debajo del suelo, el libro se desliza hacia el género secundario:
 alarma en el acta (C-7), que avisa a la escaleta del bloque
 siguiente.
