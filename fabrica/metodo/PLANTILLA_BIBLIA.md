@@ -4,8 +4,11 @@
 > (`ORQUESTADOR.md`, §2.1). **No es una lista para rellenar a ciegas:** cada sección dice qué
 > decide y por qué lo necesita el resto del modelo. Lo que lleva «si la obra lo tiene» se escribe
 > «no aplica» cuando la saga no lo tiene: no se inventa para rellenarlo. Lo marcado 🔒 lo decide
-> el autor (o lo aprueba); lo demás, la ventana por delegación, con su línea en el Anexo A. Desde la v2.0, la pareja es la trama A
-> (`PAREJA_PRIMERO.md`): la biblia fija su peso (§14 🔒) y cada libro empieza por su pregunta (§19).
+> el autor (o lo aprueba); lo demás, la ventana por delegación, con su línea en el Anexo A. Desde
+> la v2.0, la pareja es la trama A (`PAREJA_PRIMERO.md`): la biblia fija su peso (§14 🔒) y cada
+> libro empieza por su pregunta (§19).
+>
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
 ---
 
@@ -76,8 +79,10 @@
     número, suelo y unidad: por defecto, los de `PAREJA_PRIMERO.md` (objetivo 80 % y suelo 70 %, por
     bloque de cuatro capítulos y por libro, en palabras medidas con su §2; lo que no es pareja, como
     mucho el 30 %, sin mínimo), y los suelos de género de su §3 que la obra sube; bajar cualquiera del suelo es
-    decisión del autor, con su porqué aquí. Y persona y tiempo, cuántos narradores y su reparto
-    (con más de uno, el que declare la obra), cómo se abre cada libro, qué espejo hay entre la trama del
+    decisión del autor, con su porqué aquí. Y quién es cada rol de la pareja (protagonista A y B,
+    sus géneros, quién narra, quién raciona su confesión…: `PRESET_<OBRA>.md` › Cabecera ›
+    Correspondencia de roles), persona y tiempo, cuántos narradores y su reparto (con más de uno,
+    el que declare la obra), cómo se abre cada libro, qué espejo hay entre la trama del
     libro y la pareja. Pasan al preset.
 
 ## PARTE II — ARQUITECTURA DE LA SAGA (ventana B2)
