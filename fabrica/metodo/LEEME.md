@@ -86,7 +86,7 @@ mínimas y canon a la biblia. Lo dirige un **orquestador** que no escribe la obr
 | v1.0 | 08-08-2026 | Conversión del modelo de Intriga (base agnóstica v7) a dark romance |
 | v1.1 | 21-10-2026 | Cierre obligatorio (OPERACIÓN C, con acta) y lectura editorial (C.5); reglas de género en las plantillas de cada capítulo |
 | v1.2 | 21-10-2026 | Pruebas a ciegas; glosa frente a remate en la narradora irónica; huecos sin narrar |
-| v1.2.1 | 21-10-2026 | Lectora tipo en cada capítulo (manda la lectora, por defecto); gancho en todos los cierres |
+| v1.2.1 | 21-10-2026 | Lectora tipo en cada capítulo (manda la lectora); gancho sin excepción |
 | v1.2.2 | 21-10-2026 | C-9 (espejos entre POV, tics, motivos que vuelven) y C-10 (peso de la relación); lectura externa con otros modelos; correctora de continuidad tras cortes |
 | v1.3 | 22-10-2026 | **Orquestador** (`ORQUESTADOR.md`) y plantillas de fase (biblia, preset, escaleta, cuaderno, archivos del libro); **separación de obra y modelo**: las plantillas son de género y los valores de cada obra viven en su preset; variante del subgénero y tres formas de saga; paso al libro siguiente y diseño de cada libro |
 | **v2.0** | 22–23-10-2026 | **«La pareja primero»** (`PAREJA_PRIMERO.md`): la pareja es la trama A de cada libro y de cada capítulo; su peso se mide en palabras, con objetivo del 80 % y suelo del 70 % por bloque y por libro; suelos de presencia, contacto, calor, voces y ganchos; fuera las adendas de Intriga; la escena necesaria es la que cambia algo entre ellos; las lecturas miden cuánto es romance; sin instrucciones de prosa |

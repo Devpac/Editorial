@@ -108,9 +108,8 @@ prefieran las dos; si discrepan, se miran las notas globales y la de la lectora 
 ## 5. Encargo a la lectora tipo (capítulo o tramo)
 
 El perfil sale del perfil de lectora de la biblia y se copia en `PRESET_<OBRA>.md` ›
-PROTOCOLO_LECTURA. El de abajo es el genérico de dark romance para el mercado por defecto
-(Kindle Unlimited y BookTok); se cambian las autoras y la plataforma si la obra apunta a otro
-sitio (`PRESET_<OBRA>.md` › Cabecera › Mercado y lengua).
+PROTOCOLO_LECTURA. El de abajo es el genérico de dark romance; se cambian las autoras y la
+plataforma si la obra apunta a otro sitio (`PRESET_<OBRA>.md` › Cabecera › Mercado y lengua).
 
 > Eres una lectora de 31 años que lee unos ocho libros de dark romance al mes en Kindle
 > Unlimited (Penelope Douglas, Rina Kent, H.D. Carlton, Ana Huang) y comenta en BookTok. No

@@ -225,7 +225,7 @@ producto que hunde el proyecto.
 
 ## LA OBLIGACIÓN
 
-**Si la saga tiene trama horizontal, en cada libro protagonista A descubre una pista real
+**Si la saga tiene trama horizontal, en cada libro protagonista A (o quien declare la obra) descubre una pista real
 y tangible sobre esa trama.** Nada de estancamiento, nada de dar vueltas en círculos, nada de "cada vez
 está más cerca". La trama horizontal es lo que hace que la lectora compre el volumen
 siguiente, y la lectora de saga detecta el relleno en dos capítulos.
@@ -438,7 +438,7 @@ Se comprueba en OPERACIÓN C (comprobación C-5 de la adenda de SYSTEM_ORCHESTRA
 ni cerrada como señuelo declarado. Eliminar o resolver dentro del volumen.
 
 **ERROR 2 — MIGA DE HUMO.** El libro "avanza" la trama horizontal con una insinuación, un
-silencio de protagonista B o una pesadilla. No pasa el TEST DEL OBJETO. Es el error más
+silencio o una pesadilla. No pasa el TEST DEL OBJETO. Es el error más
 frecuente y el más letal: dos libros seguidos así y la saga pierde a la lectora.
 
 **ERROR 3 — RELOJ PARADO** (si la saga tiene un reloj que suma pieza en cada libro). Un libro que no añade pieza
@@ -505,7 +505,7 @@ hay, ¿se desmiente en el hecho y no en el carácter?
 **TEST 10 — TECHOS DE LA TRAMA DEL LIBRO.** *(Variante: dark romance policial.)* ¿Se pasa
 alguno de los techos que declara la obra (pistas verdaderas, señuelos, sospechosos activos)?
 Si sí, sobra lo que pasa del techo. Solo hay techos; el único mínimo posible es el que declare
-la obra (por ejemplo, un señuelo obligatorio contra el protagonista peligroso).
+la obra.
 
 **TEST 11 — SIN ATRACCIÓN.** *(Variante: dark romance policial.)* En cada escena de la
 protagonista con un sospechoso, ¿hay roce innecesario o atracción real?

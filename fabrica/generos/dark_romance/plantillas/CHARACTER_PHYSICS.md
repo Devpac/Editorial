@@ -132,8 +132,8 @@ individual, se corrige aquí, no allí.
 El interno concentra la pregunta moral en dos cuerpos y exige polaridad
 interior: ambos protagonistas contienen las dos respuestas, no una cada uno. Si la
 obra declara antagonismo de sociedad, obliga a que la pregunta **no se resuelva
-empíricamente**: el sistema no se derrota, se sobrevive, y no hay absolución al
-cerrar el volumen.
+empíricamente**: el sistema no se derrota, se sobrevive. Por eso no hay absolución
+al cerrar el volumen y la coda va envenenada por diseño.
 
 ---
 
@@ -408,7 +408,7 @@ defensa**, no desde su deseo profundo.
 
 EXCEPCIÓN (SYSTEM_ORCHESTRATION, precedencia contextual): tras la crisis
 (FASE 3 → FASE 4) puede actuar desde el deseo profundo. Antes de la crisis es
-ruptura de personaje: **protagonista B entregando en un libro lo que le toca
+ruptura de personaje: **quien se rinde (por defecto, protagonista B) entregando en un libro lo que le toca
 entregar en otro posterior no es un regalo a la lectora, es un robo a ese otro
 libro** (saga con la misma pareja; con parejas rotativas, el robo es a otro tramo
 del libro).

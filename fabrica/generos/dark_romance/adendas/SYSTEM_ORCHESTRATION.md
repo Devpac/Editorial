@@ -9,7 +9,7 @@
 > pareja manda `PAREJA_PRIMERO.md` (v2.0).
 > DECISIÓN: ESPECIALIZA. **Es de género:** vale para cualquier saga de dark romance; los valores
 > de la obra (nombres, paletas, contadores, extensión) viven en su preset, `PRESET_<OBRA>.md`
-> (la obra activa la dice el LEEME).
+> (la obra activa la dice su cuaderno: `LEEME.md` §1).
 
 ### 0. QUIÉN HACE QUÉ *(v1.3)*
 
@@ -23,7 +23,8 @@ previas (biblia, preset, escaletas) tienen sus plantillas (`PLANTILLA_BIBLIA.md`
 - **El NEXT** tiene las ocho secciones de `PLANTILLA_NEXT.md`, no las seis de la base, y **lo
   escribe el orquestador**, no la ventana saliente (`ORQUESTADOR.md` §3). `NEXT.md` es el encargo
   vivo de la obra; la plantilla es `PLANTILLA_NEXT.md`. Donde la base manda «emitir NEXT» al
-  cerrar una ventana (AUTONOMÍA Y DECISIÓN, SECUENCIA COMPLETA, TRANSICIÓN ENTRE VENTANAS), la
+  cerrar una ventana (ARQUITECTURA DE CAPAS, AUTONOMÍA Y DECISIÓN, SECUENCIA COMPLETA,
+  TRANSICIÓN ENTRE VENTANAS), la
   ventana de trabajo deja su acta o su informe y el orquestador escribe el NEXT siguiente.
 - **BRIEFING** no es un archivo aparte que cada ventana lea al arrancar y actualice al cerrar: el
   briefing de saga lo forman el cuaderno, el estado de cierre de cada `continuidad.md` y las
@@ -117,8 +118,8 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
 
 - **`PAREJA_PRIMERO.md`** *(v2.0)* — al frente del catálogo: la pareja es la trama A de cada
   libro y de cada capítulo. Manda sobre cualquier plantilla en el peso de la pareja (cómo se
-  mide, §2; por defecto, objetivo 80 % y suelo 70 %) y en los suelos de género (§3). No es instrucción de
-  prosa: se aplica en el diseño y en las comprobaciones de cierre y de lectura (§6).
+  mide, §2; por defecto, objetivo 80 % y suelo 70 %) y en los suelos de género (§3). No es
+  instrucción de prosa: se aplica en el diseño y en las comprobaciones de cierre y de lectura (§6).
 - **ROMANCE_BEAT_MAP.md** — CAPA 1, con prioridad sobre STORY_SPINE *(v2.0)*: la columna de
   cada libro (los beats de la pareja, con su % y su suelo), el calendario de calor y la escala
   de rendición a lo largo de la saga; STORY_SPINE trenza sobre ella la trama B.
@@ -157,13 +158,13 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
   - **C-2 Frase-resumen.** TIC 4 de PROSE_LINE_DISCIPLINE. En el POV del narrador hermético
     (si la obra lo tiene: `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), todo párrafo o remate que
     explique lo que significa algo **se corta**: observa y decide, no interpreta. Se quedan
-    las excepciones que declara su idiolecto (preset; PROSE_LINE_DISCIPLINE, adenda, TIC 4).
-    En el del narrador irónico (si la obra lo tiene), la glosa se corta y el remate de
-    idiolecto se queda.
+    las excepciones que declara su idiolecto (`PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE ›
+    TIC 4: glosa y remate; PROSE_LINE_DISCIPLINE, adenda, TIC 4). En el del narrador irónico
+    (si la obra lo tiene), la glosa se corta y el remate de idiolecto se queda.
   - **C-3 Paleta del POV.** Si la obra declara paletas por narrador
-    (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), el narrador del capítulo trae la suya (lo que
-    pone el entorno no cuenta como paleta). Los
-    contadores de la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), dentro de su techo.
+    (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION › Narradores y cierre), el narrador del capítulo trae la suya (lo que
+    pone el entorno no cuenta como paleta). Los contadores de la obra
+    (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), dentro de su techo.
   - **C-4 Horas y cifras.** Registro 13 de CONTINUITY_PHYSICS: la aritmética de horas,
     duraciones y cifras cuadra con el propio capítulo y con los anteriores.
   - **C-5 Datos horizontales.** Calendario de datos horizontales (CLUE_LEDGER, llevado en
@@ -191,9 +192,9 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
     narradores): si el capítulo pasa por un lugar o un momento ya narrado desde el otro POV,
     comparte con él **un detalle como mucho** (el que hace la ironía); lo demás es lo que el
     otro no vio. Lo que la lectora ya ha leído no se vuelve a describir. (b) **Tics de
-    idiolecto:** los tics vigilados de la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), cada
-    uno dentro del techo que declara la obra y solo donde pesa (régimen estético de la
-    biblia). (c) **Motivos que vuelven** (un chiste, un objeto, una frase
+    idiolecto:** los tics vigilados de la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION › Tics
+    vigilados), cada uno dentro del techo que declara la obra y solo donde pesa (régimen
+    estético de la biblia). (c) **Motivos que vuelven** (un chiste, un objeto, una frase
     hecha de un secundario): la segunda vez tiene que cambiar algo; si no, se corta. Se
     corrige cortando.
   - **C-10 Peso de la pareja** *(v1.2.2; v2.0)*. Con la unidad de `PAREJA_PRIMERO.md` §2
@@ -204,7 +205,8 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
     la fila contada y, si un suelo se rompe, sin su salida anotada en el acta, el capítulo no
     se cierra. Por debajo del objetivo (el de `PAREJA_PRIMERO.md` §2 o el que declare el
     preset; por defecto, 80 %), del capítulo o del bloque, **alarma**; si el bloque cerrado baja
-    del suelo (por defecto, 70 %), **se reescaleta el bloque siguiente, nunca la prosa**. En la misma línea del acta (✔, o la que da alarma), las comprobaciones de pareja que otras
+    del suelo (por defecto, 70 %), **se reescaleta el bloque siguiente, nunca la prosa**. En la
+    misma línea del acta (✔, o la que da alarma), las comprobaciones de pareja que otras
     plantillas mandan aquí: la tensión dominante (TENSION_MECHANICS, TEST 7), «nosotros dos»
     (CHARACTER_PHYSICS, TEST 13), el vector (RELATIONSHIP_PHYSICS, TEST 6), el hecho de
     pareja (INFORMATION_CHOREOGRAPHY, TEST 6), qué cambia entre ellos y la copresencia
@@ -294,20 +296,23 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
 Sustituye a la doble hélice con reparto libre. La pareja es la **trama A** de cada libro y de
 cada capítulo; la trama del libro, la **trama B** (`PAREJA_PRIMERO.md` §1). ROMANCE_BEAT_MAP
 traza la columna y STORY_SPINE trenza la trama B sobre ella. El peso de la pareja tiene
-número, suelo y unidad: por defecto, objetivo 80 % y suelo 70 %, por bloque de cuatro capítulos y por
-libro, en palabras medidas con `PAREJA_PRIMERO.md` §2; lo que no es pareja (trama B, trama
-horizontal y elenco cuando su página no es de pareja), como mucho el 30 %, sin mínimo; la
-trama horizontal y el elenco no tienen cuota propia (GENRE_CONVENTIONS, regla 1). La obra lo
-declara en la biblia (B1, 🔒) y en el preset (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION):
-puede subirlo; bajarlo del suelo es decisión del autor. De los ganchos, por defecto al menos dos de cada
-tres son de pareja (C-7); el emocional es el más valioso.
+número, suelo y unidad: por defecto, objetivo 80 % y suelo 70 %, por bloque de cuatro
+capítulos y por libro, en palabras medidas con `PAREJA_PRIMERO.md` §2; lo que no es pareja
+(trama B, trama horizontal y elenco cuando su página no es de pareja), como mucho el 30 %, sin
+mínimo; la trama horizontal y el elenco no tienen cuota propia (GENRE_CONVENTIONS, regla 1).
+La obra lo declara en la biblia (B1, 🔒) y en el preset (`PRESET_<OBRA>.md` ›
+SYSTEM_ORCHESTRATION › Peso de la pareja): puede subirlo; bajarlo del suelo es decisión del
+autor. De los ganchos, por defecto al menos dos de cada tres son de pareja (C-7); el emocional
+es el más valioso.
 
 **Por defecto, sin excepción:** ningún capítulo cierra en imagen estática de personaje. La obra
-puede declarar cierres de descarga, con su tope (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION).
+puede declarar cierres de descarga, con su tope (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION ›
+Gancho y primer capítulo).
 
 ### 6. EL PRIMER CAPÍTULO DE CADA LIBRO
 
-Además de abrir como manden las reglas duras que declare la obra, el capítulo 1 **contiene la promesa de la pareja**: el otro protagonista visto, presente
+Además de abrir como manden las reglas duras que declare la obra, el capítulo 1 **contiene la
+promesa de la pareja**: el otro protagonista visto, presente
 o en tensión con el narrador. Un capítulo 1 que solo promete la trama del libro es una muestra
 gratuita de thriller (GENRE_CONVENTIONS, TEST 1). Del libro 2 en adelante, además, cobra el gancho
 con que cerró el libro anterior y arranca en su estado (SERIES_GLUE, adenda, TEST A3).

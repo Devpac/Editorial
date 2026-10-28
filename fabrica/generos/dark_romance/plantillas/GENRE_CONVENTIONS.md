@@ -123,8 +123,8 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
 ## LOS CINCO PILARES DEL SUBGÉNERO
 
 1. **La Protagonista Ancla.** Una protagonista joven, atractiva y brillante
-   (*Variante: dark romance policial:* uno de los dos está del lado de la ley —a menudo
-   ella, investigadora—; quién, lo declara la obra) que genera comunidad y
+   (*Variante: dark romance policial:* uno de los dos está del lado de la ley; quién, lo
+   declara la obra) que genera comunidad y
    fidelidad, pero con una vida afectiva y sexual visceral y magnética.
 2. **Estructura Dual (romance + adrenalina), con jerarquía.** La catarsis y el calor del
    Dark Romance, con la trama B como fuente de peligro y de proximidad
@@ -188,7 +188,8 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
    directo a la obsesión desde dentro; la lectora sabe lo que él ha hecho mucho antes que
    ella. La persona, el tiempo (presente o pasado) y si hay uno o dos narradores los fija
    la biblia (🔒, decisión del autor); lo que fije rige sin excepción. Con dos narradores,
-   el reparto entre las voces lo declara la obra.
+   el reparto entre las voces lo declara la obra (`PRESET_<OBRA>.md` › Cabecera ›
+   Correspondencia de roles).
 5. **Prohibición de la escena limpia.** Una escena que solo avanza la trama del libro
    (*Variante: dark romance policial:* una escena de investigación que solo avanza el caso),
    sin ser página de pareja (regla 1; con una sombra que no ocupa a quien narra no basta, y
@@ -219,7 +220,7 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
     abierto es el mundo y la pareja siguiente.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Convenciones en la obra.
-> *Qué declara aquí la obra:* su peso de pareja y sus suelos, si sube alguno (si el autor baja alguno, la decisión de la biblia que lo autoriza), el reparto entre sus voces, si tiene dos narradores, el número y la longitud de sus capítulos, sus cierres de descarga con su tope, si los tiene, de qué trata su trama horizontal y qué sabe la lectora antes que la protagonista.
+> *Qué declara aquí la obra:* su peso de pareja y sus suelos, si sube alguno (si el autor baja alguno, la decisión de la biblia que lo autoriza), el número y la longitud de sus capítulos, sus cierres de descarga con su tope, si los tiene, de qué trata su trama horizontal y qué sabe la lectora antes que la protagonista.
 
 ---
 
@@ -274,8 +275,7 @@ pierde la simpatía del público y la saga se cae.
 - Si la obra pone condiciones al defecto de la protagonista (en qué terrenos se activa), no
   se activa con esos terceros.
 
-Si la obra lo tiene, declara la forma de ese acercamiento (en la variante policial, por
-ejemplo, una seducción táctica con las armas de su oficio) y por qué medio lo ve o lo sabe él.
+Si la obra lo tiene, declara la forma de ese acercamiento y por qué medio lo ve o lo sabe él.
 
 ### PELIGRO 2 — Incompetencia vs. tropo stalker (si uno de los dos vigila al otro)
 
@@ -290,7 +290,7 @@ a su favor). La vigilancia es una transgresión no consentida y no sexual
 lo declara la obra.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Peligros en la obra.
-> *Qué declara aquí la obra:* cómo gestiona los dos peligros: si la protagonista se acerca a terceros, con quién y de qué forma (en la variante policial, si seduce tácticamente, con qué formación) y por qué medio lo ve o lo sabe el otro; si su defecto tiene condiciones, en qué terrenos se activa; y, si uno de los dos vigila al otro, con qué medios, cuándo lo descubre el vigilado y qué hace con ello (en saga, en qué libros), o «no aplica».
+> *Qué declara aquí la obra:* cómo gestiona los dos peligros: si la protagonista se acerca a terceros, con quién y de qué forma (y con qué oficio o formación, si lo usa) y por qué medio lo ve o lo sabe el otro; si su defecto tiene condiciones, en qué terrenos se activa; y, si uno de los dos vigila al otro, con qué medios, cuándo lo descubre el vigilado y qué hace con ello (en saga, en qué libros), o «no aplica».
 
 ---
 
@@ -307,7 +307,7 @@ lo declara la obra.
 - **Libro por debajo del suelo de pareja** (regla 1).
 - Persona, tiempo o POV distintos de los que fija la biblia (por defecto: primera
   persona; ningún POV que no sea el de uno de los protagonistas).
-- Capítulo sin gancho de cierre.
+- Capítulo sin gancho de cierre (salvo los cierres de descarga que declare la obra, dentro de su tope).
 - Elipsis del acto sexual por pudor. Eufemismo anatómico. Metáfora floral.
 - *Saga con la misma pareja:* **HEA cerrado por libro** o coda cálida que desactive la
   tensión de saga.
@@ -316,8 +316,8 @@ lo declara la obra.
 - *Saga con la misma pareja:* **el protagonista peligroso redimido, blanqueado o convertido
   en buen chico.** (En un dúo o un libro único, el cierre puede pedir otra cosa: lo declara
   la obra.)
-- Él explicando sus sentimientos con verborrea, si la obra lo declara hermético. Rompe
-  su economía del lenguaje.
+- El protagonista hermético, si la obra lo declara, explicando sus sentimientos con
+  verborrea. Rompe su economía del lenguaje.
 - Describir desde el POV de un narrador lo que solo se ve desde fuera (su mirada, su
   cara, el cambio que el otro nota en él).
 - *Variante: dark romance policial.* Procedimiento como espectáculo: autopsia de tres
@@ -328,14 +328,14 @@ lo declara la obra.
   (con las herramientas que la obra le da a cada uno).
 - El antagonista del libro (*Variante: dark romance policial:* el villano de la semana)
   ascendido a interés romántico real.
-- Si la obra reserva un nombre de él para un libro posterior: decirlo antes, en boca de
-  nadie.
+- Si la obra reserva un nombre de uno de los dos para un libro posterior: decirlo antes,
+  en boca de nadie.
 - Si la obra declara recursos racionados (los que declare: por ejemplo, una señal
   sensorial, un gesto reservado, un apodo): usarlos más veces de las que declara, o sin que
   signifiquen lo que la obra les asigna.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Pecados propios de la obra.
-> *Qué declara aquí la obra:* qué nombre de él reserva y hasta qué libro, si reserva alguno; qué recursos racionados tiene, si los tiene, con lo que significa cada uno y su techo por libro; y cómo cierra al protagonista peligroso, si no es saga con la misma pareja.
+> *Qué declara aquí la obra:* qué nombre de un protagonista reserva y hasta qué libro, si reserva alguno; qué recursos racionados tiene, si los tiene, con lo que significa cada uno y su techo por libro; y cómo cierra al protagonista peligroso, si no es saga con la misma pareja.
 
 ---
 
@@ -402,8 +402,8 @@ evita. De qué está hecha la oscuridad de la saga lo declara la obra.
   (3) conflicto en una línea. El subtítulo no es literatura: es el escaparate y el campo
   de keywords visible.
 - **Categorías:** las de romance, nunca las del género secundario.
-  *Variante: dark romance policial:* ✅ Romance > Suspense · ✅ Romance > Contemporáneo ·
-  ❌ **NUNCA** Novela negra / Policíaca / Misterio.
+  *Variante: dark romance policial* (en una tienda con árbol de categorías): ✅ Romance >
+  Suspense · ✅ Romance > Contemporáneo · ❌ **NUNCA** Novela negra / Policíaca / Misterio.
 - **Advertencias de contenido:** página propia antes del capítulo 1, tono directo, sin
   disculpas. En dark romance no son un trámite legal: **son una señal de pertenencia.**
 
@@ -435,13 +435,13 @@ evita. De qué está hecha la oscuridad de la saga lo declara la obra.
 - **TEST 5 — MIGA DE PAN** *(si hay trama horizontal)*. ¿Qué descubre ella en este libro
   sobre la trama horizontal? Si no hay respuesta concreta y tangible, el libro no se
   entrega.
-- **TEST 6 — RENDICIÓN.** ¿Qué entrega él en este libro que no había entregado antes? Si
+- **TEST 6 — RENDICIÓN.** ¿Qué entrega quien se rinde (por defecto, él; lo declara la obra) en este libro que no había entregado antes? Si
   nada, la moneda real de la saga no ha circulado. (En un libro único o en el último de
   un dúo, la entrega es la que cierra la relación.)
 - **TEST 7 — GANCHOS.** ¿Todos los capítulos cierran en gancho (salvo los cierres de
   descarga que declare la obra, dentro de su tope)? ¿Al menos dos de cada tres son de
   pareja (`PAREJA_PRIMERO.md` §3, o lo que declare el preset)? Ninguno cierra en imagen estática.
-- **TEST 8 — FIDELIDAD DEL HOMBRE HERMÉTICO** *(si la obra lo declara hermético)*. ¿Se
+- **TEST 8 — FIDELIDAD DEL HERMÉTICO** *(si la obra declara hermético a uno de los dos)*. ¿Se
   ha blandido? Contar cuántas veces explica lo que siente. Más de las pactadas para ese
   libro en la escala de rendición: revertir.
 - **TEST 9 — SIN ATRACCIÓN POR TERCEROS.** En cada escena de ella con el antagonista del
@@ -456,11 +456,11 @@ evita. De qué está hecha la oscuridad de la saga lo declara la obra.
   que declara la obra aparece como máximo las veces que declara?
 - **TEST 13 — PRESENCIA.** ¿Algún capítulo sin el otro (pecados capitales), o, desde el
   primer cara a cara, más de dos seguidos sin los dos en escena fuera de una ausencia
-  declarada con tope? ¿El primer cara a cara cae en el primer 10 % del libro? Si falla la escaleta, no se encarga; si falla lo
+  declarada con tope? ¿El primer cara a cara cae en el primer 10 % del libro (o donde lo adelante el preset)? Si falla la escaleta, no se encarga; si falla lo
   escrito, se reescaleta el bloque siguiente.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Tests en la obra.
-> *Qué declara aquí la obra:* su peso de pareja, su número de capítulos, el techo de sus recursos racionados, si los tiene, la forma de acercamiento a terceros que audita el TEST 9 y la regla de impunidad que audita el TEST 10, si la tiene (en la variante policial, por ejemplo, que quien está del lado de la ley nunca pida nada).
+> *Qué declara aquí la obra:* su peso de pareja, su número de capítulos, el techo de sus recursos racionados, si los tiene, la forma de acercamiento a terceros que audita el TEST 9 y la regla de impunidad que audita el TEST 10, si la tiene, con lo que la sostiene y lo que la rompe.
 
 ---
 

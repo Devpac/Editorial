@@ -47,7 +47,7 @@ con su porqué en la biblia.
 | Primer beso o equivalente | Como tarde, al 45 % |
 | Primera escena explícita | Como tarde, al 60 % |
 | Calor | Desde el contacto con carga, nunca más de cuatro capítulos seguidos sin una escena con carga (ventana móvil, no bloques fijos); desde la primera escena explícita, de calor o *edging* |
-| Voces (si hay dos narradores) | El reparto entre narradores que declare la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), medido por libro |
+| Voces (si hay dos narradores) | El reparto entre narradores que declare la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION › Extensión, persona y narradores), medido por libro |
 | Ganchos | De pareja: por libro, al menos dos de cada tres cierres (objetivo: tres de cada cuatro); por bloque de cuatro capítulos, al menos dos (objetivo: tres); cuenta el de la trama B que cae sobre la pareja |
 | Trama B | Sin mínimo. Lo que no es pareja (trama B, trama horizontal y elenco cuando su página no es de pareja), como mucho el 30 % del libro; la trama B, con sus mecanismos (pistas, señuelos, sospechosos, procedimiento), se dimensiona para caber en ese techo y se cierra en el libro |
 

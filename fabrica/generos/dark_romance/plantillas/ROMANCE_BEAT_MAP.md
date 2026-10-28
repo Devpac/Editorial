@@ -52,7 +52,7 @@ autor, con su porqué en la biblia.
 |---|---|---|
 | **Apertura con él.** Él, o su presencia o su amenaza, antes que la trama B; el capítulo 1 promete la pareja (GENRE_CONVENTIONS, regla 3) | 0–5 % | Capítulo 1 |
 | **Primer cara a cara.** Los dos en la misma escena (un prólogo que adelanta una escena de los dos cuenta) | 0–10 % | 10 % |
-| **Contacto con carga.** El primer roce que pesa: combate, cura, proximidad forzada | 10–20 % | 20 % |
+| **Contacto con carga.** El primer roce que pesa (el que tenga la obra: combate, cura, proximidad forzada…) | 10–20 % | 20 % |
 | **Lo que los ata.** Una decisión de uno de los dos (no soltar al otro, vigilarlo, no delatarlo, aceptar un trato) los deja pegados; la trama B pone la excusa | 15–30 % | — |
 | **Primer beso o equivalente** | 25–45 % | 45 % |
 | **Punto de no retorno.** La pareja cruza una línea (ética, legal o entre ellos) y eso mueve la trama B | ≈ 50 % | — |
@@ -139,7 +139,7 @@ encargar; lo que falla en lo escrito se corrige en el bloque siguiente (`PAREJA_
 |---|---|---|
 | Primera pág. | Él o su perspectiva, presencia o amenaza; el capítulo 1 promete la pareja | Alerta: si abre con la trama del libro (*Variante: dark romance policial:* si hay cadáver, es procedimental). Revertir. |
 | 10 · 20 · 45 · 60 % | Primer cara a cara, contacto con carga, primer beso, primera escena explícita: cada uno en su suelo o antes | **Alerta crítica:** la trama A va tarde. |
-| Cada bloque de cuatro capítulos | Peso de pareja ≥ 70 %; ningún capítulo sin el otro; desde el primer cara a cara, nunca más de dos seguidos sin los dos en escena (salvo ausencia declarada con tope); desde el contacto con carga, nunca más de cuatro capítulos seguidos sin escena con carga (HEAT_DISCIPLINE) | **Alerta crítica:** se reescaleta el bloque siguiente. |
+| Cada bloque de cuatro capítulos | Peso de pareja ≥ 70 % (o el suelo que declare el preset); ningún capítulo sin el otro; desde el primer cara a cara, nunca más de dos seguidos sin los dos en escena (salvo ausencia declarada con tope); desde el contacto con carga, nunca más de cuatro capítulos seguidos sin escena con carga (HEAT_DISCIPLINE) | **Alerta crítica:** se reescaleta el bloque siguiente. |
 | Por capítulo | Escena limpia: cuenta en el cupo de una de cada cuatro escenas que mueven solo la trama B (GENRE_CONVENTIONS, regla 5) | Alerta: con el cupo lleno, la escena que avanza solo la trama del libro sin ser página de pareja es resumen. |
 | 60-85 % | La Miga de Pan Horizontal (si la saga tiene trama horizontal), cobrada entre ellos | Alerta crítica: si no hay pista tangible de la trama horizontal, el libro se estanca. |
 | 95-100 % | Cliffhanger emocional / Coda envenenada (saga con la misma pareja) | Alerta crítica: si hay sensación de HEA cerrado, se ha roto el contrato Dark Romance. |
@@ -168,7 +168,7 @@ encargar; lo que falla en lo escrito se corrige en el bloque siguiente (`PAREJA_
 ROMANCE_BEAT_MAP.md recibe de:
 - `PAREJA_PRIMERO.md` (manda en el peso de la pareja y en los suelos de género).
 - GENRE_CONVENTIONS.md (mandatos de Dark Romance, peso de pareja, prohibición de HEA por libro en la saga con la misma pareja, prohibición de escena limpia).
-- CHARACTER_PHYSICS.md (la escala de rendición es el arco de defensa de él).
+- CHARACTER_PHYSICS.md (la escala de rendición es el arco de defensa de quien se rinde).
 
 ROMANCE_BEAT_MAP.md alimenta:
 - STORY_SPINE.md (la trama A, sobre la que se trenza la trama del libro como espejo).
