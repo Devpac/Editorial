@@ -42,10 +42,10 @@ biblia»; y dos ranuras que las plantillas citan como «`PRESET_<OBRA>.md` › C
 
 Una tabla que dice quién es en la obra cada rol que nombran las plantillas, con «no aplica» en los
 que no tenga: protagonista A y protagonista B, y los géneros de la pareja (las plantillas dicen
-«ella» y «él» por A y B mientras la obra no declare otra cosa); quién narra (cada narrador y su
-parte del libro, si hay más de uno); quién es el narrador hermético y quién el irónico, si alguno
-lo es; quién raciona su rendición o su confesión (la escala de rendición); quién da miedo; quién
-vigila, si alguien vigila; quién guarda el secreto de la trama horizontal, si lo hay; en la
+«ella» y «él» por A y B mientras la obra no declare otra cosa); quién narra (su parte del libro, si hay más de uno, la declara › SYSTEM_ORCHESTRATION ›
+Extensión, persona y narradores); quién es el narrador hermético y quién el irónico, si alguno
+lo es (si la obra no dice nada, rige el valor por defecto: `PAREJA_PRIMERO.md` §7); quién raciona su rendición o su confesión (la escala de rendición); quién da miedo; quién
+vigila, si alguien vigila; quién guarda el secreto de la trama horizontal, si lo hay, y quién descubre sus migas; en la
 variante policial, quién está del lado de la ley; y el antagonista del libro, el de saga, la
 herida de cada uno, el espacio propio y los recursos racionados. Con parejas rotativas, la tabla
 lleva una columna por libro (la pareja de cada uno) y las fichas de cada pareja entran al abrir
@@ -69,13 +69,15 @@ La adenda de género apunta aquí por el nombre de cada ranura. Declara:
   (`PAREJA_PRIMERO.md` §3, «Voces»); dónde está el régimen estético de la biblia (sus medidas son
   siempre alarma de cierre: PROSE_LINE_DISCIPLINE, adenda).
 - **Instancia y canon oculto:** el nombre del archivo de la biblia; qué partes guardan canon oculto;
-  el criterio para la investigación sin informante; y, si la biblia cita archivos de un modelo
+  el criterio para la investigación sin informante y si una pregunta de procedimiento puede
+  bloquear la escritura (por defecto, no: RESEARCH_LEDGER, adenda); y, si la biblia cita archivos de un modelo
   anterior, a qué archivo de este corresponde cada uno (por defecto, «no aplica»).
 - **Peso de la pareja:** objetivo, suelo y unidad, de la biblia §14 🔒 (por defecto, los de
   `PAREJA_PRIMERO.md` §2); los suelos de su §3 que la obra sube y, si el autor baja alguno, cuál y
   por qué; y la cuota de ganchos de pareja si se aparta de la de §3 (adenda §5, «La pareja es la
   trama A»; C-7 y C-10).
-- **Narradores y cierre:** cuál es el narrador hermético y cuál el irónico (si los hay); el rasgo
+- **Narradores y cierre:** el narrador hermético y el irónico son los de › Cabecera ›
+  Correspondencia de roles (C-2 los lee de allí); el rasgo
   que cada narrador lleva también en la narración (C-6); las paletas de cada narrador, si las tiene
   (C-3); los contadores de la obra y su techo; los datos de la trama horizontal que el calendario
   vigila (C-5).
@@ -84,15 +86,16 @@ La adenda de género apunta aquí por el nombre de cada ranura. Declara:
   pesa (C-9b); o «no aplica».
 - **Lectora tipo:** el perfil de lectora (de la biblia).
 - **Gancho y primer capítulo:** cómo abre cada libro (las reglas duras de apertura de la biblia,
-  si las tiene: adenda §6); y, si la obra declara cierres de descarga, cuáles y con qué tope (por
-  defecto, ninguno: todos los cierres empujan a pasar página, adenda §5 y C-7).
+  si las tiene: adenda §6). Los cierres de descarga, si los hay, no se declaran aquí: los declara
+  › SEAMS_AND_HINGES › Gancho en todos los cierres (por defecto, ninguno; adenda §5 y C-7).
 
 ## PROTOCOLO_LECTURA
 
 - **Descripción para lectoras:** persona, tiempo y narradores, una línea cada uno.
 - **Lectora tipo:** el perfil que se pega en los encargos (`PROTOCOLO_LECTURA.md` §5).
 - **Lectura externa:** subgénero, título de la saga y preguntas propias de la obra: las del
-  capítulo (§5) y las de la pareja (§8, punto 3), con los nombres de la obra. El perfil de la
+  capítulo (§5), las de la pareja (§8, punto 3) y la del libro siguiente en la lectura de plan
+  (§6 bis; por defecto, «¿Te da miedo [quien da miedo]?»), con los nombres de la obra. El perfil de la
   lectora externa está en › Cabecera › Mercado y lengua.
 - **Listón de comparaciones:** la marca de comparación de la lengua de la obra, su listón por 1.000
   palabras y cómo se mide (`PROTOCOLO_LECTURA.md` §1 y §2; por defecto, en español, «como» por
