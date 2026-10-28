@@ -382,7 +382,7 @@ argumenta.
 > *Qué declara aquí la obra:* qué licencia de interpretar tiene cada voz, si alguna la tiene, y de dónde le viene (su oficio, su historia o su carácter).
 
 ### TEMPERATURA DE CODA
-Fría y envenenada por diseño en saga con la misma pareja (la forma de la saga la
+Fría y envenenada por diseño en saga con la misma pareja (formas A y B, salvo el último libro de la B, que cierra la pareja) (la forma de la saga la
 declara la obra: SERIES_GLUE, adenda de dark romance). Ningún cierre de libro puede
 desactivar la tensión de saga: el último párrafo deja regusto amargo, no alivio
 (SERIES_GLUE.md). En el libro que cierra la relación —cada uno, con parejas
@@ -448,7 +448,7 @@ Leer en voz alta el último párrafo de diez capítulos seguidos. ¿Cierran en g
 la cadencia lo remata, o el gancho está en el contenido y la línea lo desinfla?
 Zona de atención alta: aquí el test es crítico, no orientativo.
 
-TEST 10 — TEMPERATURA DE CODA (saga con la misma pareja)
+TEST 10 — TEMPERATURA DE CODA (saga con la misma pareja, formas A y B, salvo el último libro de la B, que cierra la pareja)
 Leer el último capítulo. ¿Deja regusto amargo o alivio? Si alivia, se ha
 desactivado la tensión de saga y hay que reescribir el cierre.
 

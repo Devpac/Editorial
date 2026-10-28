@@ -22,7 +22,7 @@ es el respiro de la trama B: es tensión de anhelo, con su propia carga acumulad
 3. **Descargas falsas permitidas en el anhelo.** La reconciliación falsa y la
    interrupción física son herramientas del género (del catálogo de torturas de la biblia, si la
    obra lo tiene), no faltas. Tampoco hay descarga total irreversible del anhelo: no hay HEA por libro (saga con
-   la misma pareja; la forma la declara la obra: SERIES_GLUE, adenda de dark romance).
+   la misma pareja, formas A y B, salvo el último libro de la B; la forma la declara la obra: SERIES_GLUE, adenda de dark romance).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › TENSION_MECHANICS › La amenaza dentro de la pareja.
 > *Qué declara aquí la obra:* cuál de los dos protagonistas es la fuente posesiva de peligro.

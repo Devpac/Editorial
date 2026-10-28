@@ -311,7 +311,7 @@ lo declara la obra.
   persona; ningún POV que no sea el de uno de los protagonistas).
 - Capítulo sin gancho de cierre (salvo los cierres de descarga que declare la obra, dentro de su tope).
 - Elipsis del acto sexual por pudor. Eufemismo anatómico. Metáfora floral.
-- *Saga con la misma pareja:* **HEA cerrado por libro** o coda cálida que desactive la
+- *Saga con la misma pareja (formas A y B, salvo el último libro de la B, que cierra la pareja):* **HEA cerrado por libro** o coda cálida que desactive la
   tensión de saga.
 - La protagonista como damisela en apuros, o rescatada de forma que anule su agencia.
 - **La protagonista genuinamente atraída por un tercero.** Infidelidad emocional: vetada.

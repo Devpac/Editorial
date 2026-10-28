@@ -53,9 +53,10 @@
 5. **SERIES_ARCHITECTURE › Declaración de la saga**, en la línea de la escala de rendición:
    > El arco de Mara, en la forma A, se mide en lo que se descubre dispuesta a ser o a hacer.
 6. **PROTOCOLO_LECTURA › Lectura externa**: «Lucía, tal cual.» pasa a «El perfil, en Cabecera › Mercado y lengua.»; a las preguntas se suma la de §8, punto 3: «¿Él da miedo? ¿Ella te cae bien o te desespera?», y la del libro siguiente en la lectura de plan (§6 bis): «¿Te da miedo él?» (en la v2.0 la traía fija el protocolo; la v3.0 la lee de aquí).
-7. **SYSTEM_ORCHESTRATION › Gancho y primer capítulo**: la línea «Gancho sin excepción: biblia §20.1 y A82…» se queda como está, pero la decisión «sin cierres de descarga» la lee ahora la fábrica de › SEAMS_AND_HINGES › Gancho en todos los cierres (renombrada, §2): comprobar que esa ranura dice «ninguno».
-8. **CHAPTER_BRIEF › Gancho de cierre**: hoy dice «sin excepción (A82…)»; con la v3.0 los cierres de descarga se declaran solo en › SEAMS_AND_HINGES › Gancho en todos los cierres. Esta sección se queda con la cuota de ganchos de pareja y remite a SEAMS para los cierres («ninguno»).
-9. **SYSTEM_ORCHESTRATION › Instancia y canon oculto**: añadir «Las preguntas de procedimiento no bloquean la escritura (criterio del autor desde V-10)», que ahora es la ranura donde la fábrica lo busca (RESEARCH_LEDGER, adenda).
+7. **Los cierres de descarga, en una sola ranura.** En la v3.0 solo los declara › SEAMS_AND_HINGES › Gancho en todos los cierres (renombrada, §2), que en MyP dice «ninguno: todos los cierres en gancho (A82; biblia §20.1)». Las otras dos secciones de MyP que hoy lo repiten dejan de declararlo:
+   - **SYSTEM_ORCHESTRATION › Gancho y primer capítulo:** la línea «Gancho sin excepción: biblia §20.1 y A82…» pasa a «Los cierres: › SEAMS_AND_HINGES › Gancho en todos los cierres». La cuota de ganchos de pareja («al menos dos de cada tres; objetivo, tres de cada cuatro…») se mueve a › SYSTEM_ORCHESTRATION › Peso de la pareja. El primer capítulo se queda donde está.
+   - **CHAPTER_BRIEF › Gancho de cierre:** «no aplica: los cierres, en › SEAMS_AND_HINGES › Gancho en todos los cierres; la cuota de ganchos de pareja, en › SYSTEM_ORCHESTRATION › Peso de la pareja».
+8. **SYSTEM_ORCHESTRATION › Instancia y canon oculto**: añadir «Las preguntas de procedimiento no bloquean la escritura (criterio del autor desde V-10)», que ahora es la ranura donde la fábrica lo busca (RESEARCH_LEDGER, adenda).
 
 ## 4. Secciones nuevas del preset (añadirlas también al índice)
 

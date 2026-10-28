@@ -30,6 +30,6 @@ python herramientas/montar.py --genero dark_romance --destino <carpeta>
 ## Estado
 
 - **Paso 1 (28-10-2026):** el MODELO_DarkRomance v2.0 de `Devpac/Dark` (`fcd6839`), repartido en capas sin cambios. El montaje es idéntico byte a byte al original (`historia/ORIGEN.md`). Todavía arrastra lo que encontró la auditoría.
-- **Paso 2 (28-10-2026): Fábrica v3.0.** La cirugía de la auditoría: la fábrica ya no lleva valores de ninguna obra (`CHANGELOG.md`, `cirugia/`). Lo que el preset de MyP tiene que recibir al migrar: `cirugia/MIGRACION_MyP.md`.
+- **Paso 2 (28-10-2026): Fábrica v3.0.** La cirugía de la auditoría: la fábrica ya no lleva valores de ninguna obra (`CHANGELOG.md`, `cirugia/`). Auditada después de operar (`auditorias/2026-10-28_v3/`) y corregida: 72 hallazgos, 67 resueltos, 5 dejados así a propósito, ninguno pendiente. Lo que el preset de MyP tiene que recibir al migrar: `cirugia/MIGRACION_MyP.md`.
 - **Siguiente:** el manual de producción y la plantilla de saga nueva.
 - *Madera y Pólvora* termina su libro 1 con la v2.0 de Dark y migra a esta fábrica al abrir el libro 2.

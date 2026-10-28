@@ -71,7 +71,7 @@ Lista cerrada. No admite deliberación por escena, ni "por ritmo", ni "porque ya
 
 Fuera de estos cuatro, toda omisión es sospechosa y se justifica por escrito o se revierte.
 
-### USO A — EL FUERA DE PLANO DEL PROTAGONISTA B (la negación plausible)
+### USO A — EL FUERA DE PLANO DEL PROTAGONISTA B (y, si la obra la declara, la negación plausible)
 
 Siempre que el protagonista B actúe fuera del plano de A, es el uso mayor del archivo. **Lo que el protagonista B hace mientras la
 protagonista A no mira no se narra desde el POV de ella: llega por el resultado.** Y **el
@@ -319,7 +319,7 @@ posición en la escala de rendición o estado de la trama horizontal. Se declara
 ```
 ELIPSIS MAYOR [ID]:
 - EVENTO ELIDIDO: [descripción; remisión a NARRATIVE_CHRONOLOGY]
-- USO: [A negación plausible / B ausencia / C procedimiento / D memoria racionada]
+- USO: [A fuera de plano de B / B ausencia / C procedimiento / D memoria racionada]
 - DÓNDE OCURRE EN LA FÁBULA: [fecha/momento]
 - POR QUÉ NO SE NARRA: [función dramática de la omisión]
 - ¿QUÉ GANA LA LECTORA AL NO VERLO?: [obligatorio; si es "no ver algo incómodo", se revierte]

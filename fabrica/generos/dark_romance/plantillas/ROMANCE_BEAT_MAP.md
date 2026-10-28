@@ -61,7 +61,7 @@ autor, con su porqué en la biblia.
 | **La entrega del libro.** Lo que entrega de sí en este libro quien se rinde (escala de rendición, abajo) | Donde la declare la obra | Una por libro |
 | **El cierre**, según la forma de la saga (SERIES_GLUE, adenda de dark romance) | 95–100 % | — |
 
-**El cierre en la saga con la misma pareja:** cliffhanger emocional. **No hay HEA (final feliz)
+**El cierre en la saga con la misma pareja (formas A y B, salvo el último libro de la B, que cierra la pareja):** cliffhanger emocional. **No hay HEA (final feliz)
 por libro.** El libro termina con una herida abierta en la relación, un secreto revelado a medias
 o un avance crítico del reloj que cerca a la pareja, si la saga lo tiene, garantizando el salto al siguiente
 volumen.
@@ -141,7 +141,7 @@ encargar; lo que falla en lo escrito se corrige en el bloque siguiente (`PAREJA_
 | Cada bloque de cuatro capítulos | Peso de pareja ≥ 70 % (o el suelo que declare el preset); ningún capítulo sin el otro; desde el primer cara a cara, nunca más de dos seguidos sin los dos en escena (salvo ausencia declarada con tope); desde el contacto con carga, nunca más de cuatro capítulos seguidos sin escena con carga (HEAT_DISCIPLINE) | **Alerta crítica:** se reescaleta el bloque siguiente. |
 | Por capítulo | Escena limpia: cuenta en el cupo de una de cada cuatro escenas que mueven solo la trama B (GENRE_CONVENTIONS, regla 5) | Alerta: con el cupo lleno, la escena que avanza solo la trama del libro sin ser página de pareja es resumen. |
 | 60-85 % | La Miga de Pan Horizontal (si la saga tiene trama horizontal), cobrada entre ellos | Alerta crítica: si no hay pista tangible de la trama horizontal, el libro se estanca. |
-| 95-100 % | Cliffhanger emocional / Coda envenenada (saga con la misma pareja) | Alerta crítica: si hay sensación de HEA cerrado, se ha roto el contrato Dark Romance. |
+| 95-100 % | Cliffhanger emocional / Coda envenenada (saga con la misma pareja, formas A y B, salvo el último libro de la B, que cierra la pareja) | Alerta crítica: si hay sensación de HEA cerrado, se ha roto el contrato Dark Romance. |
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ROMANCE_BEAT_MAP › Umbrales en la obra.
 > *Qué declara aquí la obra:* quién abre la primera página y, si la saga tiene trama horizontal, de qué trata la pista que se audita.
@@ -150,7 +150,7 @@ encargar; lo que falla en lo escrito se corrige en el bloque siguiente (`PAREJA_
 
 ## TESTS DE FUNCIONAMIENTO
 
-- **TEST 1 — SIN HEA (saga con la misma pareja):** ¿La trama del libro cerró pero la relación quedó en tensión con un cliffhanger emocional?
+- **TEST 1 — SIN HEA (saga con la misma pareja, formas A y B, salvo el último libro de la B, que cierra la pareja):** ¿La trama del libro cerró pero la relación quedó en tensión con un cliffhanger emocional?
 - **TEST 2 — ESCENA LIMPIA:** ¿Más de una de cada cuatro escenas de la trama del libro no es página de pareja (*Variante: dark romance policial:* reunión de comisaría o autopsia)? La que pasa del cupo va a resumen o se funde en una escena de pareja.
 - **TEST 3 — LA MIGA (si la saga tiene trama horizontal):** ¿Se ha entregado información firme sobre la trama horizontal, y se ha cobrado entre ellos?
 - **TEST 4 — RENDICIÓN MACRO:** ¿Se ha forzado una confesión emocional de quien se rinde que toca en un libro posterior (o en un tramo posterior del libro) según el canon? Si habla de más, recortar la confesión; nunca el contacto ni el deseo (`PAREJA_PRIMERO.md` §4).
