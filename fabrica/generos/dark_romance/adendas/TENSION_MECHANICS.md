@@ -1,8 +1,7 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen y deroga la adenda de Intriga que traía este
-> archivo: la tensión que manda es la de la pareja. La base agnóstica de arriba sigue vigente.
-> Reescribe la adenda de dark romance v1.3 y conserva sus tres cambios (§2).
+> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: la tensión que manda es la de la pareja. La
+> base agnóstica de arriba sigue vigente.
 
 ### 1. LAS DOS TENSIONES, Y CUÁL MANDA
 
@@ -13,23 +12,23 @@ tiene tensión que no pase por ellos. Cada pico suyo se diseña por su efecto en
 proximidad forzada, obstáculo o moneda (`PAREJA_PRIMERO.md` §5). Una escena de calma entre ellos no
 es el respiro de la trama B: es tensión de anhelo, con su propia carga acumulada.
 
-### 2. LOS TRES CAMBIOS DE GÉNERO (v1.3)
+### 2. LOS TRES CAMBIOS DE GÉNERO
 
 1. **El anhelo puede ser trágico.** Admite el caso B de incertidumbre (el lector sabe: registro
    trágico) y la duda sobre el *si*, no solo sobre el cómo: la lectora de dark romance **sí** teme
    que la pareja se pierda, y ese miedo es producto.
-2. **La amenaza también viene de dentro de la pareja.** La intensidad posesiva del
-   protagonista B es una fuente de tensión de peligro, no solo de anhelo (GENRE_CONVENTIONS).
-3. **Descargas falsas permitidas en el anhelo.** La reconciliación que dura veinte páginas
-   y el beso cortado en seco son herramientas del catálogo de torturas de la biblia, no
-   faltas. Tampoco hay descarga total irreversible del anhelo: no hay HEA por libro (saga con
+2. **La amenaza también viene de dentro de la pareja.** La intensidad posesiva de uno
+   de los dos (lo declara la obra) es una fuente de tensión de peligro, no solo de anhelo (GENRE_CONVENTIONS).
+3. **Descargas falsas permitidas en el anhelo.** La reconciliación falsa y la
+   interrupción física son herramientas del género (del catálogo de torturas de la biblia, si la
+   obra lo tiene), no faltas. Tampoco hay descarga total irreversible del anhelo: no hay HEA por libro (saga con
    la misma pareja; la forma la declara la obra: SERIES_GLUE, adenda de dark romance).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › TENSION_MECHANICS › La amenaza dentro de la pareja.
 > *Qué declara aquí la obra:* cuál de los dos protagonistas es la fuente posesiva de peligro.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › TENSION_MECHANICS › Catálogo de torturas.
-> *Qué declara aquí la obra:* en qué sección de su biblia está el catálogo de torturas al que pertenecen esas descargas falsas.
+> *Qué declara aquí la obra:* si lo tiene, en qué sección de su biblia está su catálogo de torturas y qué descargas falsas admite, o «no aplica».
 
 ### 3. LOS MECANISMOS, EN SU VERSIÓN DE PAREJA
 
@@ -50,7 +49,8 @@ entre ellos; la trama B los alimenta:
 
 ### 4. GANCHOS Y PICOS
 
-Cierres de capítulo de pareja (`PAREJA_PRIMERO.md` §3): por libro, al menos dos de cada tres
+Cierres de capítulo de pareja (`PAREJA_PRIMERO.md` §3, o los que declare el preset): por defecto,
+por libro, al menos dos de cada tres
 (objetivo, tres de cada cuatro); por bloque de cuatro capítulos, al menos dos de cuatro (objetivo,
 tres de cuatro). Por debajo del suelo hay alarma en el acta (C-7). Cuenta como de pareja el gancho
 de la trama B que cae sobre la pareja (sobre los dos, o sobre uno por el otro). El emocional es el

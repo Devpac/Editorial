@@ -1,4 +1,4 @@
-<!-- MODELO_DarkRomance v2.0 — SEAMS_AND_HINGES: base agnóstica v7 (verbatim) + ADENDA DE GÉNERO (dark romance; los valores de la obra viven en PRESET_<OBRA>.md) al final. La adenda de Intriga (AGATHA_ROSA) se derogó en la v2.0 (PAREJA_PRIMERO.md §5). Decisión: ESPECIALIZA. Ver LEEME.md -->
+<!-- MODELO_DarkRomance v2.0 — SEAMS_AND_HINGES: base agnóstica v7 (verbatim) + ADENDA DE GÉNERO (dark romance; los valores de la obra viven en PRESET_<OBRA>.md) al final. Decisión: ESPECIALIZA. Ver LEEME.md -->
 
 # SEAMS_AND_HINGES.md
 

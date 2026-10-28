@@ -1,7 +1,6 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen y deroga la adenda de Intriga que traía este
-> archivo: la primera pregunta del brief es la de la pareja (trama A); la segunda, qué hace la trama
+> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: la primera pregunta del brief es la de la pareja (trama A); la segunda, qué hace la trama
 > del libro (trama B) para provocarlo. La base agnóstica de arriba sigue vigente.
 
 ### EL BRIEF ES CORTO
@@ -20,13 +19,14 @@ hora de `continuidad.md`, fila de la escaleta) y contesta, en este orden:
 3. **Función única** en una frase.
 4. **Qué sabe cada uno al entrar** y qué no puede saber todavía (`continuidad.md`,
    `CLUE_LEDGER` y calendario de datos horizontales, si lo hay).
-5. **Gancho de cierre:** sin excepción, de la pareja o de la trama B (de pareja, al menos dos de
-   cuatro por bloque de cuatro capítulos y dos de cada tres en el libro: lo cuenta la escaleta,
-   `PAREJA_PRIMERO.md` §3).
+5. **Gancho de cierre:** por defecto en todos los capítulos (la obra puede declarar cierres de
+   descarga, con su tope: SEAMS_AND_HINGES, adenda), de la pareja o de la trama B (de pareja, los
+   suelos de `PAREJA_PRIMERO.md` §3 o los que declare el preset; por defecto, al menos dos de cuatro
+   por bloque de cuatro capítulos y dos de cada tres en el libro: lo cuenta la escaleta).
 6. **Lo que se decide al escribir** (lo deja abierto la escaleta).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHAPTER_BRIEF › Gancho de cierre.
-> *Qué declara aquí la obra:* la decisión de su biblia que fija el cierre en gancho sin excepción.
+> *Qué declara aquí la obra:* si sus cierres son todos en gancho (por defecto) o declara cierres de descarga, cuáles y con qué tope, y la decisión de su biblia que lo fija.
 
 El brief **no prescribe prosa**: no lleva cuotas, listas de palabras vetadas ni metáforas
 permitidas. Eso es oído de fondo al escribir y comprobación en la OPERACIÓN C

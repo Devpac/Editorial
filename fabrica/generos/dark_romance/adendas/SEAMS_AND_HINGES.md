@@ -1,14 +1,13 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Única adenda de género de este archivo: la de Intriga (AGATHA_ROSA) quedó derogada en la
-> v2.0 (`PAREJA_PRIMERO.md` §5). La base agnóstica sigue vigente; donde choquen, gana esta
-> adenda. v2.0 · 22-10-2026.
+> La base agnóstica sigue vigente; donde choquen, gana esta adenda.
 
-### GANCHO SIN EXCEPCIÓN, Y DE PAREJA
+### GANCHO EN TODOS LOS CIERRES, Y DE PAREJA
 
-Especializa «LA ÚLTIMA FRASE DE UN CAPÍTULO»: todos los capítulos cierran en gancho, sin
-excepción (GENRE_CONVENTIONS, regla 6); ni la descarga ni la imagen estática cierran un
-capítulo. **Ganchos de pareja** (`PAREJA_PRIMERO.md` §3): por libro, al menos dos de cada tres
+Especializa «LA ÚLTIMA FRASE DE UN CAPÍTULO»: por defecto, todos los capítulos cierran en
+gancho (GENRE_CONVENTIONS, regla 6); ni la descarga ni la imagen estática cierran un capítulo,
+salvo los cierres de descarga que declare la obra, con su tope. **Ganchos de pareja**
+(`PAREJA_PRIMERO.md` §3, o los que declare el preset): por defecto, por libro, al menos dos de cada tres
 (objetivo, tres de cada cuatro); por bloque de cuatro capítulos, al menos dos de cuatro
 (objetivo, tres de cuatro). Un gancho es de
 pareja si lo que deja abierto es entre ellos: qué hará uno con el otro, qué sabe uno del otro,
@@ -16,8 +15,8 @@ qué se acaba de romper o de cruzar. También cuenta el gancho de la trama B que
 pareja: lo que deja abierto cae sobre los dos, o sobre uno por el otro. El cliffhanger romántico
 es herramienta central del género: ningún archivo del catálogo lo prohíbe.
 
-> **Valores de la obra →** `PRESET_<OBRA>.md` › SEAMS_AND_HINGES › Gancho sin excepción.
-> *Qué declara aquí la obra:* la sección de su biblia que ratifica el gancho en todos los capítulos.
+> **Valores de la obra →** `PRESET_<OBRA>.md` › SEAMS_AND_HINGES › Gancho en todos los cierres.
+> *Qué declara aquí la obra:* si sus cierres son todos en gancho (por defecto) o declara cierres de descarga, cuáles y con qué tope, y la sección de su biblia que lo ratifica.
 
 ### TAXONOMÍA DE GANCHOS
 
@@ -33,7 +32,7 @@ pareja.
 | 5. **RELOJ** | Declara o recuerda una cuenta atrás |
 | 6. **MIRADA** | Uno mira al otro sin que el otro lo sepa, o más tiempo del necesario |
 | 7. **CORTE** | Contacto, beso o confesión interrumpidos, por el otro o por el mundo |
-| 8. **TRANSGRESIÓN** | Él cruza una línea por ella (o sobre ella) y la lectora lo sabe |
+| 8. **TRANSGRESIÓN** | Uno cruza una línea por el otro (o sobre el otro) y la lectora lo sabe |
 | 9. **ASIMETRÍA** | La lectora sabe algo de la pareja que el narrador no sabe |
 
 ### COSTURA ENTRE CAPÍTULOS
@@ -50,8 +49,8 @@ cuando el pico necesita las dos caras.
 
 ### TIC PROHIBIDO: EL PÁRRAFO DE UNA PALABRA
 
-Vetado el fragmento de una sola palabra como remate mecánico de cada cierre (firma McFadden;
-origen: `Referencia_modelo/INFORME_CONVENCIONES_Intriga.md`, apéndice, ítem 8). Se hereda de
+Vetado el fragmento de una sola palabra como remate mecánico de cada cierre (tic de modelo
+de lenguaje frecuente en el género). Se hereda de
 PROSE_LINE_DISCIPLINE la disciplina de frase-fragmento, pero en la última línea del capítulo su
 cuota máxima es de **dos de cada diez cierres** (alarma en el cierre). Variar el tipo de gancho
 capítulo a capítulo (taxonomía de arriba) es la herramienta principal contra el tic; el mismo tipo
@@ -61,8 +60,10 @@ TEST 6).
 ### TESTS AÑADIDOS
 
 - **TEST GANCHO DE PAREJA.** Por bloque de cuatro capítulos y por libro: ¿todos los cierres
-  empujan a pasar página? ¿Cuántos son de pareja? Por libro, objetivo tres de cada cuatro y suelo
-  dos de cada tres; por bloque, objetivo tres de cuatro y suelo dos de cuatro. Por debajo del
+  (salvo los de descarga que declare la obra) empujan a pasar página? ¿Cuántos son de pareja?
+  Con los valores de `PAREJA_PRIMERO.md` §3 o los que declare el preset (por defecto, por libro,
+  objetivo tres de cada cuatro y suelo dos de cada tres; por bloque, objetivo tres de cuatro y
+  suelo dos de cuatro). Por debajo del
   suelo, alarma en el acta (C-7), y se corrige en la escaleta del bloque siguiente
   (`PAREJA_PRIMERO.md` §2).
 - **TEST VARIEDAD.** En un bloque de diez cierres, ningún tipo se repite más de cuatro veces.

@@ -1,7 +1,6 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen y deroga la adenda de Intriga que traía este
-> archivo: la pregunta que mueve el libro es de ellos. La base agnóstica de arriba sigue vigente, con
+> Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: la pregunta que mueve el libro es de ellos. La base agnóstica de arriba sigue vigente, con
 > su irresolubilidad (TEST 3).
 
 ### 1. UNA SOLA PREGUNTA CENTRAL: LA DE LA PAREJA
@@ -14,7 +13,8 @@ que más la pone a prueba es lo que se hacen ellos dos (TEST 5).
 
 La trama B no tiene una pregunta que compita. La suya (*Variante: dark romance policial:* quién lo
 hizo y por qué) es la versión monstruosa de la de ellos (regla del espejo: GENRE_CONVENTIONS,
-regla 2): la refleja, nunca la sustituye, y se cierra dentro del libro.
+regla 2): la refleja, nunca la sustituye, y se cierra donde lo declare la obra (por defecto, dentro del
+libro).
 
 ### 2. POLARIDADES Y ENCARNACIÓN
 
@@ -23,11 +23,12 @@ de la trama B lleva una de ellas hasta el monstruo. Ningún polo gana por contra
 
 ### 3. EVOLUCIÓN DE LA PREGUNTA
 
-- **Inicial (Acto I):** sobre el otro (quién es, qué quiere, hasta dónde dejarle llegar), no sobre
-  la trama B («qué está pasando aquí»).
-- **Media (Acto II):** sobre uno mismo con el otro: qué está dispuesto a ser o a hacer por él, o
-  contra él.
-- **Final (Acto III):** la versión que este libro agota; en una saga, la inicial del libro siguiente.
+Las tres formulaciones de la base (inicial, media y final) son de la pareja, no de la trama B
+(«qué está pasando aquí»), y la obra las declara libro a libro. La final es la versión que este
+libro agota; en una saga, la inicial del libro siguiente.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › THEMATIC_ENGINE › Evolución de la pregunta.
+> *Qué declara aquí la obra:* la formulación inicial, media y final de la pregunta de pareja de cada libro escrito o diseñado, o dónde la declara su biblia.
 
 ### 4. TESTS
 

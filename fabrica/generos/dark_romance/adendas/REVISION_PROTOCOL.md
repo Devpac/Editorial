@@ -1,9 +1,7 @@
 ## ADENDA DE ESPECIALIZACIÓN — MODELO_DarkRomance v2.0 (género)
 
-> Es la única adenda de género del archivo: la de intriga (AGATHA_ROSA), con sus cinco auditorías
-> de género, está derogada y se ha retirado (`PAREJA_PRIMERO.md`, §5). La base agnóstica sigue
-> vigente; donde choquen, gana esta adenda. Todo lo de aquí se aplica sobre el borrador completo,
-> nunca antes de escribir (`PAREJA_PRIMERO.md`, §6). v2.0 · 23-10-2026.
+> La base agnóstica sigue vigente; donde choquen, gana esta adenda. Todo lo de aquí se aplica
+> sobre el borrador completo, nunca antes de escribir (`PAREJA_PRIMERO.md`, §6).
 
 ### PASADA 1 — AUDITORÍAS DE GÉNERO
 
@@ -12,20 +10,23 @@ completo y con el mismo rango.
 
 **(a) PESO DE PAREJA.** Con la medida de `PAREJA_PRIMERO.md` (§2), por capítulo, por bloque de
 cuatro y por libro, como en el acta (C-10) y en la OPERACIÓN D (D-21), sobre el borrador completo:
-objetivo 80 %, suelo 70 %, lo que no es pareja (trama B, trama horizontal y elenco cuando su página
-no es de pareja) en el 30 % como mucho, sin mínimo, y los suelos de presencia y de voces
-(§3; GENRE_CONVENTIONS, tests 3 y 13). **Alarma:** todo capítulo de ella sin él en escena ni en directo (§2, a y b) entra en la
+los valores de §3 o los que declare el preset (por defecto, objetivo 80 %, suelo 70 %, lo que no
+es pareja —trama B, trama horizontal y elenco cuando su página no es de pareja— en el 30 % como
+mucho, sin mínimo), los suelos de presencia y, si la obra lo declara, el reparto de voces y su suelo
+(§3; GENRE_CONVENTIONS, tests 3 y 13). **Alarma:** todo capítulo de un narrador sin el otro en escena ni en directo (§2, a y b) entra en la
 lista con su peso, aunque cumpla el suelo de presencia. Lo que falte se corrige en la estructura
 (fundir, mover, reescaletar), no puliendo la prosa.
 
-**(b) GANCHOS DE PAREJA.** Todos los capítulos cierran en gancho (GENRE_CONVENTIONS, regla 6), y
-al menos dos de cada tres ganchos son de pareja (`PAREJA_PRIMERO.md`, §3; DIALOGUE_MECHANICS,
+**(b) GANCHOS DE PAREJA.** Todos los capítulos cierran en gancho, salvo los cierres de descarga
+que declare la obra, con su tope (GENRE_CONVENTIONS, regla 6), y al menos dos de cada tres ganchos
+son de pareja, o los que declare el preset (`PAREJA_PRIMERO.md`, §3; DIALOGUE_MECHANICS,
 TEST 11; SEAMS_AND_HINGES, adenda). Cuenta como de pareja el gancho de la trama B que cae sobre la
 pareja: lo que deja abierto cae sobre los dos, o sobre uno por el otro. Si no se llega al suelo,
 los cierres que hay que cambiar van a la lista de cambios estructurales (mover el corte,
 reescaletar).
 
-**(c) JUEGO LIMPIO DE LA TRAMA B.** ¿La revelación que resuelve la trama B (quién, cómo, por qué)
+**(c) JUEGO LIMPIO DE LA TRAMA B** (si la trama B se resuelve por revelación; *Variante: dark
+romance policial:* el caso). ¿La revelación que resuelve la trama B (quién, cómo, por qué)
 tiene siembra publicada antes de su cobro (CLUE_LEDGER, regla 1)? Solo esa pista bloquea el cierre
 de la PASADA 1, y su siembra entra por una escena de pareja (`PAREJA_PRIMERO.md`, §5). Otra pista
 cobrada sin siembra se anota y se arregla moviendo o quitando el cobro, no sembrando hacia atrás:
@@ -41,20 +42,19 @@ romance, tests A1 y A2; ROMANCE_BEAT_MAP, el cierre y TEST 1):
 - *Parejas rotativas:* final feliz (HEA o HFN) de la pareja del libro; el puente siembra la
   siguiente sin poner en duda a la que cierra.
 
-**El calor** no tiene auditoría aquí: no hay umbral de puerta que vigilar (GENRE_CONVENTIONS,
-regla 7). Lo audita HEAT_DISCIPLINE donde él lo pide (sus tests en el cierre, su calendario en la
+**El calor** no tiene auditoría aquí: con la explicitud plena del género no hay umbral de puerta
+que vigilar (GENRE_CONVENTIONS, regla 7), y el nivel que declare la obra lo audita HEAT_DISCIPLINE donde lo pide (sus tests en el cierre, su calendario en la
 OPERACIÓN D), y la PASADA 1 recoge sus hallazgos abiertos. Sobre el libro entero corren además los
-tests que lo miran: los de GENRE_CONVENTIONS 2 (escena limpia), 5 (miga) y 11 (anti-firma), y el 3
+tests que lo miran: los de GENRE_CONVENTIONS 2 (escena limpia), 5 (miga, si hay trama horizontal) y 11 (anti-firma), y el 3
 de CLUE_LEDGER (relojes, si la saga los tiene).
 
 Salida: a la lista de cambios estructurales de la base se suman los bloques y capítulos bajo el
-suelo de pareja, los capítulos de ella sin él, los cierres por cambiar, la pista que resuelve sin
-siembra y los ajustes del final a la forma de la saga.
+suelo de pareja, los capítulos de un narrador sin el otro, los cierres por cambiar, la pista que
+resuelve sin siembra (si rige la (c)) y los ajustes del final a la forma de la saga.
 
 ### FEEDBACK EXTERNO — EL REPARTO ES ESTRUCTURAL
 
-Un comentario sobre cuánto del libro es romance y cuánto trama B («se lee como un 80 % de trama B
-y un 20 % de romance») es **estructural**, no de voz ni de tono: va a la PASADA 1, a la auditoría
+Un comentario sobre cuánto del libro es romance y cuánto trama B («aquí hay más trama que pareja») es **estructural**, no de voz ni de tono: va a la PASADA 1, a la auditoría
 (a), y no a la PASADA 3. No se descarta como «problema percibido por el lector que el diseño exige
 mantener» salvo que el autor haya bajado ese suelo en la biblia, con su porqué
 (`PAREJA_PRIMERO.md`, §3): un diseño heredado no es razón.
@@ -69,7 +69,7 @@ exceso (GENRE_CONVENTIONS, reglas 7 y 8).
 ### TESTS DE FUNCIONAMIENTO DEL PROTOCOLO — nuevo
 
 TEST 6 — AUDITORÍA DE GÉNERO COMPLETADA: ¿están ejecutadas y documentadas las auditorías (a)–(d) de
-la PASADA 1 y los tests que la acompañan? Si alguna queda pendiente, la PASADA 1 no está completa.
+la PASADA 1 (la (c), si rige) y los tests que la acompañan? Si alguna queda pendiente, la PASADA 1 no está completa.
 
 ### CRITERIO DE TERMINACIÓN — matiz
 
