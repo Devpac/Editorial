@@ -24,8 +24,8 @@ previas (biblia, preset, escaletas) tienen sus plantillas (`PLANTILLA_BIBLIA.md`
   escribe el orquestador**, no la ventana saliente (`ORQUESTADOR.md` §3). `NEXT.md` es el encargo
   vivo de la obra; la plantilla es `PLANTILLA_NEXT.md`. Donde la base manda «emitir NEXT» al
   cerrar una ventana (ARQUITECTURA DE CAPAS, AUTONOMÍA Y DECISIÓN, SECUENCIA COMPLETA,
-  TRANSICIÓN ENTRE VENTANAS), la
-  ventana de trabajo deja su acta o su informe y el orquestador escribe el NEXT siguiente.
+  TRANSICIÓN ENTRE VENTANAS), la ventana de trabajo deja su acta o su informe y el orquestador
+  escribe el NEXT siguiente.
 - **BRIEFING** no es un archivo aparte que cada ventana lea al arrancar y actualice al cerrar: el
   briefing de saga lo forman el cuaderno, el estado de cierre de cada `continuidad.md` y las
   ranuras de saga del preset (`ORQUESTADOR.md` §9), y `BRIEFING.md` es la plantilla de género de
@@ -311,11 +311,12 @@ Gancho y primer capítulo).
 
 ### 6. EL PRIMER CAPÍTULO DE CADA LIBRO
 
-Además de abrir como manden las reglas duras que declare la obra, el capítulo 1 **contiene la
-promesa de la pareja**: el otro protagonista visto, presente
-o en tensión con el narrador. Un capítulo 1 que solo promete la trama del libro es una muestra
-gratuita de thriller (GENRE_CONVENTIONS, TEST 1). Del libro 2 en adelante, además, cobra el gancho
-con que cerró el libro anterior y arranca en su estado (SERIES_GLUE, adenda, TEST A3).
+Además de abrir como manden las reglas duras que declare la obra (`PRESET_<OBRA>.md` ›
+SYSTEM_ORCHESTRATION › Gancho y primer capítulo), el capítulo 1 **contiene la promesa de la
+pareja**: el otro protagonista visto, presente o en tensión con el narrador. Un capítulo 1 que
+solo promete la trama del libro es una muestra gratuita de thriller (GENRE_CONVENTIONS, TEST 1).
+Del libro 2 en adelante, además, cobra el gancho con que cerró el libro anterior y arranca en su
+estado (SERIES_GLUE, adenda, TEST A3).
 
 ### 7. PRUEBAS A CIEGAS *(v1.2)*
 

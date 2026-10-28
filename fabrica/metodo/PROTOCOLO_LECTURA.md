@@ -126,8 +126,8 @@ plataforma si la obra apunta a otro sitio (`PRESET_<OBRA>.md` › Cabecera › M
 >   contaban otra vez algo que ya habías leído?
 > - A ojo, ¿qué porcentaje del capítulo es romance y qué porcentaje es [LA OTRA TRAMA, en
 >   palabras de lectora: «la investigación», «la mafia»…]?
-> - [Siempre que el protagonista que no narra ([PROTAGONISTA B] en un capítulo de
->   [PROTAGONISTA A]) no esté en escena en el capítulo:] ¿Has echado de menos a [ese protagonista]?
+> - [Siempre que el protagonista que no narra el capítulo no esté en escena:] ¿Has echado de
+>   menos a [PROTAGONISTA B, o A si narra B]?
 > - [Una pregunta del capítulo, si la hay. Ejemplos: «¿Te da miedo [PROTAGONISTA B]?», «¿Te ha
 >   molestado algo de cómo reacciona [PROTAGONISTA A]?».]
 > - ¿Seguirías leyendo? ¿Lo recomendarías? ¿Qué le falta para que no puedas soltarlo?
