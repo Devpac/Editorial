@@ -81,5 +81,5 @@ La fábrica nombra a la pareja como **protagonista A** y **protagonista B**. Por
 y B, en la forma más común del género: ella narra y él es el narrador hermético que raciona su rendición.
 Cada obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles: los géneros de los
 dos, quién narra, quién es hermético o irónico (si alguno), quién raciona su rendición, quién vigila (si
-alguien) y, en la *Variante: dark romance policial*, quién está del lado de la ley. Donde su pareja no sea la de por defecto, «ella» y «él» se leen como A y B, y cada papel, como lo
-declara la obra.
+alguien) y, en la *Variante: dark romance policial*, quién está del lado de la ley. Donde su pareja no sea
+la de por defecto, «ella» y «él» se leen como A y B, y cada papel, como lo declara la obra.

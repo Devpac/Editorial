@@ -1,6 +1,8 @@
-<!-- MODELO_DarkRomance v2.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: convertida desde el modelo agnóstico v7 el 08-08-2026; separada de la obra el 22-10-2026; v2.0, «la pareja primero» (PAREJA_PRIMERO.md), el 22-10-2026. -->
+<!-- MODELO_DarkRomance v2.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
 
 # ROMANCE_BEAT_MAP.md — MODELO_DarkRomance v2.0
+
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
 > Reescrita en la v2.0 con la pareja como trama A (`PAREJA_PRIMERO.md`, que manda en el peso de
 > la pareja). DECISIÓN: SUSTITUYE.
@@ -48,8 +50,8 @@ autor, con su porqué en la biblia.
 
 | Beat | Posición por defecto | Suelo (como tarde) |
 |---|---|---|
-| **Apertura con él.** Él, o su vigilancia, antes que la trama B; el capítulo 1 promete la pareja (GENRE_CONVENTIONS, regla 3) | 0–5 % | Capítulo 1 |
-| **Primer cara a cara.** Los dos en la misma escena (un prólogo en pleno pico cuenta) | 0–10 % | 10 % |
+| **Apertura con él.** Él, o su presencia o su amenaza, antes que la trama B; el capítulo 1 promete la pareja (GENRE_CONVENTIONS, regla 3) | 0–5 % | Capítulo 1 |
+| **Primer cara a cara.** Los dos en la misma escena (un prólogo que adelanta una escena de los dos cuenta) | 0–10 % | 10 % |
 | **Contacto con carga.** El primer roce que pesa: combate, cura, proximidad forzada | 10–20 % | 20 % |
 | **Lo que los ata.** Una decisión de uno de los dos (no soltar al otro, vigilarlo, no delatarlo, aceptar un trato) los deja pegados; la trama B pone la excusa | 15–30 % | — |
 | **Primer beso o equivalente** | 25–45 % | 45 % |
@@ -57,7 +59,7 @@ autor, con su porqué en la biblia.
 | **Primera escena explícita** | 40–60 % | 60 % |
 | **Desde el contacto con carga: una escena con carga** (desde la primera escena explícita, de calor o *edging*) | cada 3–4 capítulos | nunca más de 4 capítulos seguidos sin ella |
 | **La crisis de la pareja.** Lo que se rompe entre ellos (una verdad, una traición, una retirada); el clímax de la trama B sale de aquí | 75–90 % | — |
-| **La entrega del libro.** Lo que él entrega de sí en este libro (escala de rendición, abajo) | Donde la declare la obra | Una por libro |
+| **La entrega del libro.** Lo que entrega de sí en este libro quien se rinde (escala de rendición, abajo) | Donde la declare la obra | Una por libro |
 | **El cierre**, según la forma de la saga (SERIES_GLUE, adenda de dark romance) | 95–100 % | — |
 
 **El cierre en la saga con la misma pareja:** cliffhanger emocional. **No hay HEA (final feliz)
@@ -80,35 +82,34 @@ Ninguno tiene escena propia si puede ocurrir dentro de una escena de pareja.
 - **EL DETONANTE ESPEJO (5–15 %).** Refleja de forma monstruosa la grieta entre ellos y los pone
   en la misma habitación. *Variante: dark romance policial:* el caso espejo, detonante policial.
 - **LA ESCALADA (15–75 %).** Cada paso de la trama B es choque, proximidad forzada, obstáculo o
-  moneda entre ellos. Ella puede usarla tácticamente, sabiendo que él vigila, para forzar su
-  intervención o sus celos, sin llegar jamás a la infidelidad emocional real.
+  moneda entre ellos, sin llegar jamás a la infidelidad emocional real (GENRE_CONVENTIONS,
+  PELIGRO 1).
 - **LA MIGA DE PAN HORIZONTAL (60–85 %)**, si la saga tiene trama horizontal: obligatoria por libro
   (GENRE_CONVENTIONS, regla 9); llega en una coyuntura crítica de la pareja y se cobra entre ellos.
-- **LA RESOLUCIÓN DE LA TRAMA B (85–95 %).** Cae el antagonista del libro, a menudo mediante la
-  violencia de él (justicia negociada u oscura, no institucional), y la desencadena una decisión
-  de la pareja. La trama del libro se cierra en el volumen. *Variante: dark romance policial:*
+- **LA RESOLUCIÓN DE LA TRAMA B (85–95 %).** Cae el antagonista del libro (justicia negociada u
+  oscura, no institucional), y la desencadena una decisión de la pareja. La trama del libro se cierra en el volumen. *Variante: dark romance policial:*
   resolución del caso; cae el monstruo de la semana.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ROMANCE_BEAT_MAP › Beats en la obra.
-> *Qué declara aquí la obra:* cuántos libros tiene la saga; el porcentaje de cada beat de pareja en sus libros, si adelanta algún suelo (o el autor retrasa alguno, con la decisión de su biblia); y, si los tiene, cuáles son sus dos paletas, de qué trata su trama horizontal y quién cerca a la pareja.
+> *Qué declara aquí la obra:* cuántos libros tiene la saga; el porcentaje de cada beat de pareja en sus libros, si adelanta algún suelo (o el autor retrasa alguno, con la decisión de su biblia); y, si los tiene, sus paletas, de qué trata su trama horizontal, quién o qué cerca a la pareja y cómo usa la pareja la trama B en la escalada.
 
 ---
 
 ## LA ESCALERA DE RENDICIÓN MACRO (Arcos de la saga)
 
 El sexo explícito en página es recurrente, no es la moneda escasa. La verdadera moneda es la
-rendición del hermetismo de él. **De un libro a otro se raciona la confesión, no el contacto**
+rendición del protagonista que declare la obra (por defecto, el hermetismo de él). **De un libro a otro se raciona la confesión, no el contacto**
 (`PAREJA_PRIMERO.md` §4): la identidad, los secretos, las verdades que se dicen, los nombres. El
 deseo, el contacto y el sexo tienen su suelo en todos los libros (tabla de beats). La escala mide
 lo que se entregan, no lo que se tocan.
 
 La obra declara cada peldaño con su libro o, si la escalera cabe en un libro, con su tramo:
-- **Libro [N]:** [qué se entregan en ese libro: qué confiesa él, qué sabe ella de él].
+- **Libro [N]:** [qué se entregan en ese libro: qué confiesa quien se rinde, qué sabe el otro de él].
 - **Libro [N]:** […]
 - **Libros posteriores:** [progresión hacia la entrega mayor, con su libro].
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ROMANCE_BEAT_MAP › Escalera de rendición de la obra.
-> *Qué declara aquí la obra:* en qué libro (o, si la escalera cabe en un libro, en qué tramo) cae cada peldaño de la rendición de él, hasta la entrega mayor, y el ritmo de consumación de cada libro dentro de los suelos (HEAT_DISCIPLINE).
+> *Qué declara aquí la obra:* quién se rinde, en qué libro (o, si la escalera cabe en un libro, en qué tramo) cae cada peldaño de su rendición, hasta la entrega mayor, y el ritmo de consumación de cada libro dentro de los suelos (HEAT_DISCIPLINE).
 
 ---
 
@@ -117,18 +118,14 @@ La obra declara cada peldaño con su libro o, si la escalera cabe en un libro, c
 Una decisión de la pareja mueve la trama B; nunca al revés.
 
 1. Lo que uno hace con el otro (acercarse, apartarse, protegerlo, vigilarlo, darle celos) abre o
-   empuja la trama B: ella se acerca al antagonista del libro para resolverla o para mover al
-   otro, y lo que él hace con lo que ve cambia el estado de esa trama. *Variante: dark romance
-   policial:* ella usa al sospechoso o villano de la semana de forma táctica y fría; él lo ve, y
-   lo que hace con sus celos mueve el caso.
+   empuja la trama B, y lo que el otro hace con ello cambia el estado de esa trama.
 2. Cada línea que la pareja cruza (ética, legal o entre ellos) produce la siguiente revelación o
-   el siguiente obstáculo de la trama B. *Variante: dark romance policial:* ella diseña la
-   impunidad y él ejecuta la violencia; el caso avanza por lo que eso destapa.
+   el siguiente obstáculo de la trama B.
 3. Si la saga tiene trama horizontal, la miga de pan cae en una coyuntura crítica de la pareja y
-   se cobra entre ellos: cambia lo que ella sabe de él, o lo que él le calla.
+   se cobra entre ellos: cambia lo que uno sabe del otro, lo que uno le calla, o algo entre ellos.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ROMANCE_BEAT_MAP › Puntos de cruce en la obra.
-> *Qué declara aquí la obra:* de qué trata la miga de pan horizontal de su protagonista, si la saga tiene trama horizontal, y quién detona en él los instintos posesivos.
+> *Qué declara aquí la obra:* cómo cruza su pareja las dos tramas (qué hace uno con el otro que mueve la trama B, y qué líneas cruzan y qué destapa eso), de qué trata la miga de pan horizontal de su protagonista, si la saga tiene trama horizontal, y quién detona los instintos posesivos del protagonista posesivo, si lo hay.
 
 ---
 
@@ -140,7 +137,7 @@ encargar; lo que falla en lo escrito se corrige en el bloque siguiente (`PAREJA_
 
 | Checkpoint | Elemento a auditar | Si no lo está |
 |---|---|---|
-| Primera pág. | Él o su perspectiva/vigilancia; el capítulo 1 promete la pareja | Alerta: si abre con la trama del libro (*Variante: dark romance policial:* si hay cadáver, es procedimental). Revertir. |
+| Primera pág. | Él o su perspectiva, presencia o amenaza; el capítulo 1 promete la pareja | Alerta: si abre con la trama del libro (*Variante: dark romance policial:* si hay cadáver, es procedimental). Revertir. |
 | 10 · 20 · 45 · 60 % | Primer cara a cara, contacto con carga, primer beso, primera escena explícita: cada uno en su suelo o antes | **Alerta crítica:** la trama A va tarde. |
 | Cada bloque de cuatro capítulos | Peso de pareja ≥ 70 %; ningún capítulo sin el otro; desde el primer cara a cara, nunca más de dos seguidos sin los dos en escena (salvo ausencia declarada con tope); desde el contacto con carga, nunca más de cuatro capítulos seguidos sin escena con carga (HEAT_DISCIPLINE) | **Alerta crítica:** se reescaleta el bloque siguiente. |
 | Por capítulo | Escena limpia: cuenta en el cupo de una de cada cuatro escenas que mueven solo la trama B (GENRE_CONVENTIONS, regla 5) | Alerta: con el cupo lleno, la escena que avanza solo la trama del libro sin ser página de pareja es resumen. |
@@ -157,7 +154,7 @@ encargar; lo que falla en lo escrito se corrige en el bloque siguiente (`PAREJA_
 - **TEST 1 — SIN HEA (saga con la misma pareja):** ¿La trama del libro cerró pero la relación quedó en tensión con un cliffhanger emocional?
 - **TEST 2 — ESCENA LIMPIA:** ¿Más de una de cada cuatro escenas de la trama del libro no es página de pareja (*Variante: dark romance policial:* reunión de comisaría o autopsia)? La que pasa del cupo va a resumen o se funde en una escena de pareja.
 - **TEST 3 — LA MIGA (si la saga tiene trama horizontal):** ¿Se ha entregado información firme sobre la trama horizontal, y se ha cobrado entre ellos?
-- **TEST 4 — RENDICIÓN MACRO:** ¿Se ha forzado una confesión emocional de él que toca en un libro posterior (o en un tramo posterior del libro) según el canon? Si habla de más, recortar la confesión; nunca el contacto ni el deseo (`PAREJA_PRIMERO.md` §4).
+- **TEST 4 — RENDICIÓN MACRO:** ¿Se ha forzado una confesión emocional de quien se rinde que toca en un libro posterior (o en un tramo posterior del libro) según el canon? Si habla de más, recortar la confesión; nunca el contacto ni el deseo (`PAREJA_PRIMERO.md` §4).
 - **TEST 5 — LA TRAMA A EN SU SITIO:** ¿Cada beat de pareja cae en su suelo o antes, y el libro llega al peso de pareja? Un beat que llega tarde es un fallo de escaleta.
 - **TEST 6 — CRUCE INVERTIDO:** ¿Cada beat de la trama B lo dispara o lo resuelve una decisión de la pareja? El que se mueve solo va a resumen o se funde en una escena de pareja.
 
@@ -176,6 +173,6 @@ ROMANCE_BEAT_MAP.md recibe de:
 ROMANCE_BEAT_MAP.md alimenta:
 - STORY_SPINE.md (la trama A, sobre la que se trenza la trama del libro como espejo).
 - La escaleta del libro (coloca los beats y el calendario de calor en % del libro; cada ficha empieza por «Entre ellos» y estima su peso de pareja: `PAREJA_PRIMERO.md` §5).
-- TENSION_MECHANICS.md (tensión de posesión, weaponized stalking).
+- TENSION_MECHANICS.md (tensión de posesión; la vigilancia, si la obra la tiene).
 - HEAT_DISCIPLINE.md (los beats de calor y sus suelos; sexo explícito sin elipsis como campo de batalla).
 - CLUE_LEDGER (la miga de pan horizontal, cobrada entre ellos; la trama B, dimensionada para caber en el techo de lo que no es pareja, el 30 %).
