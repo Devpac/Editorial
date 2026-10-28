@@ -10,7 +10,8 @@ subtrama a cualquier escala: ocupa la primera plaza de subtrama significativa qu
 en novela corta, es la única. Se declara con la ficha de la base: FUNCIÓN de ESPEJO (regla del
 espejo: GENRE_CONVENTIONS, regla 2) con forma de ESCALADA PARALELA; su distribución y sus giros
 internos son sus 4–5 beats (STORY_SPINE, adenda §2). La obra puede declarar un libro «sin trama B
-propia»: la presión la ponen entonces la trama horizontal o el elenco, dentro del mismo techo.
+propia»: la presión sobre la pareja viene entonces de otra parte (la trama horizontal, el elenco o
+la pareja misma), dentro del mismo techo.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › SUBPLOT_ARCHITECTURE › Trama B.
 > *Qué declara aquí la obra:* si cada libro tiene trama B propia o va «sin trama B propia», qué es y dónde se cierra: en el libro (por defecto), en el arco o en la saga (SERIES_GLUE, forma de la saga).

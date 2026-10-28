@@ -2,102 +2,59 @@
 
 ## PROPÓSITO
 
-Este archivo declara el protocolo formal por el cual los proyectos creativos que usan el modelo agnóstico v7 alimentan al modelo con aprendizaje empírico. Sin protocolo, las fricciones detectadas durante la práctica se capturan en formato fragmentario, con contexto específico de cada proyecto, y resultan difíciles de descontextualizar cuando el modelo intenta generalizarlas. Con protocolo, cada fricción produce registro estructurado que el modelo puede procesar limpiamente.
-
-El protocolo cumple la regla 2 del proyecto agnóstico v7 (flujo unidireccional desde proyectos hacia v7) y la regla 3 (inputs aceptados). Los registros generados según este protocolo son el único input que v7 acepta de forma rutinaria. Cualquier otra forma de propuesta de modificación al modelo merece evaluación específica fuera del flujo regular.
+Cómo aprende la fábrica de las obras que se escriben con ella: qué se aprende, dónde se registra y cómo pasa a la fábrica sin traerse la obra. Sin protocolo, las fricciones se quedan en las actas de una obra, con sus nombres y sus cifras, y no hay forma de pasárselas a la siguiente. Con protocolo, cada fricción deja un registro que se puede procesar en limpio.
 
 ---
 
-## CUÁNDO ACTIVAR EL PROTOCOLO
+## QUÉ SE APRENDE Y CUÁNDO
 
-El autor de un proyecto creativo activa el protocolo cuando detecta cualquiera de las cinco situaciones siguientes durante el trabajo con plantillas v7:
+- **Al cerrar cada capítulo** (OPERACIÓN C): las **fricciones de catálogo** del acta, las reglas que no ayudaron o chocaron (adenda de `SYSTEM_ORCHESTRATION.md`, §4: la salida del cierre es el acta).
+- **En cada lectura** (C.5, externa, de plan, a ciegas, OPERACIÓN D; `PROTOCOLO_LECTURA.md`): lo que las lectoras señalan y viene de una regla o de su falta (una repetición que vuelve en varios capítulos, un suelo que se cumple y no se nota, una comprobación que no vio lo que la lectora sí). El orquestador separa lo que es de la obra (va a su biblia, preset o escaleta) de lo que es del modelo.
+- **Al cerrar un libro**: lo que dicen juntas las actas, las lecturas y el historial del libro.
 
-**Situación 1 — Fricción operativa.** El autor intenta usar una plantilla y descubre que no contempla algo que necesita. Tiene que improvisar fuera de la plantilla, parchear ad hoc, o rediseñar parcialmente el flujo de trabajo. La plantilla funciona pero no completamente.
+Es del modelo cuando entra en una de estas cinco situaciones:
 
-**Situación 2 — Deriva del modelo.** El sistema produce decisión que en retrospectiva el autor reconoce como subóptima, y el análisis de por qué pasó revela que alguna plantilla orientó incorrectamente. La plantilla no falló por ausencia sino por dirección equivocada.
-
-**Situación 3 — Hueco estructural.** El autor identifica que falta archivo entero del catálogo, o falta sección entera dentro de archivo existente. No es ausencia menor; es laguna que producirá fricción recurrente en proyectos futuros del mismo tipo.
-
-**Situación 4 — Redundancia o contradicción.** El autor detecta que dos plantillas v7 se solapan en función, o se contradicen en directrices, o producen interpretaciones ambiguas cuando se aplican juntas. La acumulación de archivos ha generado tensión interna no resuelta.
-
-**Situación 5 — Limitación de alcance agnóstico.** El autor detecta que una plantilla, supuestamente agnóstica, en realidad asume implícitamente cierto género o cierta escala o cierta voz, y falla cuando se aplica fuera de esos supuestos. La plantilla no es tan agnóstica como su declaración sugiere.
-
-Las cinco situaciones se distinguen porque producen tipos distintos de modificación en v7. Fricción operativa típicamente produce ajuste menor en plantilla existente. Deriva del modelo produce reformulación de directriz. Hueco estructural produce archivo nuevo o sección nueva. Redundancia produce consolidación. Limitación de alcance produce ampliación o desdoblamiento. Cada tipo merece tratamiento distinto durante el procesamiento.
+1. **Fricción operativa.** La plantilla no contempla algo que hace falta y hay que improvisar fuera de ella.
+2. **Deriva.** La plantilla orientó mal: una decisión que, vista después, fue peor por seguirla.
+3. **Hueco.** Falta una sección o un archivo, y la falta volverá en otras obras.
+4. **Redundancia o contradicción.** Dos plantillas se solapan o se contradicen.
+5. **Limitación de alcance.** Una plantilla supone un subgénero, una pareja, una forma de saga o un valor de una obra, y falla fuera de ese supuesto.
 
 ---
 
-## ESTRUCTURA DEL REGISTRO
+## DÓNDE SE REGISTRA
 
-Cada activación del protocolo produce un registro con cinco campos. Los registros se acumulan en archivo de bitácora del proyecto v7 (REGISTROS_APRENDIZAJE.md o equivalente, decidido por v7). Cada registro es entre 5 y 20 líneas; suficientemente corto para ser fácil de generar al calor del momento, suficientemente largo para tener contexto cuando se procese.
+**Una mejora que nace de una obra se registra en la obra y se propone a la fábrica.** En la obra queda dónde se vio (el acta o la lectura, con su código). El orquestador lo propone a la fábrica (Editorial) con un registro en su `REGISTROS_APRENDIZAJE.md` (el de `fabrica/metodo/`, no la copia montada en la obra), al cerrar el encargo en que lo vio. Cada registro tiene cinco campos y ocupa de 5 a 20 líneas:
 
-**Campo 1 — Identificador y fecha.** Numeración secuencial del registro y fecha de captura. El identificador permite cruces y referencias cuando varios registros toquen tema similar.
+- **Campo 1 — Identificador y fecha.** Número correlativo y fecha de captura.
+- **Campo 2 — Síntoma observado.** Qué pasó, con la lengua de la obra si hace falta (nombres, capítulos, cifras) y el código del acta o la lectura de donde sale. Es testimonio: los datos de la obra son historia del registro, no regla.
+- **Campo 3 — Diagnóstico del modelo.** Por qué pasó, en términos del modelo (archivo, sección, operación, comprobación).
+- **Campo 4 — Patrón general implícito.** El defecto formulado sin nada de la obra. Prueba: una autora de otra saga, sin ver los campos 2 y 3, lo entendería como suyo.
+- **Campo 5 — Implicación para el modelo.** Qué cambiar y dónde: propuesta, no decisión.
 
-**Campo 2 — Síntoma observado.** Descripción concreta de qué pasó en el proyecto vivo. Qué archivo se quedó corto, qué decisión tuvo que improvisarse, qué fricción se sintió. Lenguaje específico del proyecto (nombres de personajes, nombres de mundo, decisiones específicas) está permitido aquí porque ayuda a precisar el síntoma. Este campo es testimonio de la experiencia, no análisis.
+Al procesarlo se añade la **marca**: APLICADO (dónde y en qué versión), DESCARTADO (por qué), HISTÓRICO (de un modelo anterior, solo traza) o PENDIENTE. Ningún registro se borra.
 
-**Campo 3 — Diagnóstico del modelo.** Análisis de por qué pasó el síntoma desde la perspectiva del modelo. Qué falta en v7, qué sobra, qué dirige mal. Este campo ya no es testimonio: es diagnóstico técnico. Lenguaje del modelo (capas, archivos, secciones, dependencias). El autor traduce el síntoma específico a hipótesis sobre el defecto del modelo.
-
-**Campo 4 — Patrón general implícito.** Formulación agnóstica del defecto. El autor abstrae del proyecto concreto y formula el patrón en términos que sirven para cualquier proyecto futuro. Esta es la operación crítica del protocolo: si el campo 4 sigue mencionando elementos específicos del proyecto, el registro no está descontextualizado y v7 no podrá usarlo limpiamente. Lenguaje del modelo, sin nombres de obra.
-
-**Campo 5 — Implicación para v7.** Acción concreta que v7 debería tomar. Qué archivo modificar, qué sección reformular, qué archivo nuevo crear, qué dependencia revisar. Este campo es propositivo, no decisivo: la decisión final se toma en sesión de procesamiento de aprendizaje en el proyecto v7, no en este registro. Pero el campo orienta al chat de procesamiento sobre la dirección esperada.
-
----
-
-## REGLAS DE REDACCIÓN DEL REGISTRO
-
-**Regla A — Brevedad.** Cada registro entre 5 y 20 líneas. Si un registro requiere más espacio, probablemente está mezclando varios aprendizajes en uno; conviene desdoblarlo en registros separados.
-
-**Regla B — Disciplina del campo 4.** El campo de patrón general implícito debe estar limpio de referencias específicas al proyecto que generó el registro. Si menciona personajes, mundos o decisiones concretas, no está descontextualizado. La prueba operativa: si un autor de otro proyecto leyera el campo 4 sin haber visto los campos 2 y 3, ¿entendería el patrón como aplicable a su proyecto? Si la respuesta es sí, el campo está bien formulado.
-
-**Regla C — Fidelidad al síntoma.** El campo 2 (síntoma observado) no debe maquillarse para hacer el aprendizaje más vendible o limpio. Si la fricción fue ambigua o difícil de describir, el campo lo refleja con honestidad. Los registros con síntomas inflados o disfrazados producen procesamiento de baja calidad en v7.
-
-**Regla D — Captura al calor del momento.** El registro se genera lo antes posible después de detectar la fricción, idealmente dentro de la misma sesión de trabajo. La memoria del autor sobre por qué algo se sintió fricción se desvanece rápido. Capturar tres días después produce registros donde el campo 2 es vago.
-
-**Regla E — Sin filtrado prematuro.** El autor no decide en el momento de captura si la fricción merece o no llegar a v7. Cualquier fricción legítima de las cinco situaciones produce registro. La decisión de qué se incorpora a v7 y qué se descarta se toma después, en sesión de procesamiento. Filtrar al capturar produce sesgo del autor sobre qué considera importante; el procesamiento posterior, con varios registros acumulados, identifica patrones que un solo registro aislado no revelaría.
+Reglas de redacción: breve (si pide más de 20 líneas, son dos registros); fiel al síntoma, sin maquillarlo; al calor del momento, en el mismo encargo; sin filtrar al capturar: lo que entra o no se decide al procesar.
 
 ---
 
-## CICLO DE VIDA DEL REGISTRO
+## CÓMO PASA A LA FÁBRICA
 
-**Generación.** El autor del proyecto creativo genera el registro en su espacio de trabajo cuando detecta una de las cinco situaciones. Lo guarda en archivo local del proyecto creativo, en bitácora propia del autor, o directamente lo sube al proyecto v7. Recomendación operativa: subirlo al proyecto v7 al final de cada sesión de trabajo donde se haya generado al menos un registro, para que v7 acumule sin pérdida.
-
-**Acumulación.** El proyecto v7 mantiene archivo REGISTROS_APRENDIZAJE.md (o equivalente, según convención que el primer chat de v7 establezca) donde los registros se acumulan en orden cronológico. No se procesan inmediatamente; se acumulan hasta que el autor decide que hay materia suficiente para sesión de procesamiento.
-
-**Umbral de procesamiento.** El autor decide cuándo procesar. Heurística operativa: procesar cuando se acumulen entre 5 y 15 registros, o cuando un proyecto creativo principal cierre fase significativa (libro 1 terminado, primera novela completa, proyecto descartado). Procesar con menos de 5 registros produce sesiones de bajo rendimiento; procesar con más de 20 puede saturar capacidad de la sesión.
-
-**Procesamiento.** Sesión de trabajo en el proyecto v7 donde se revisan los registros acumulados, se identifican patrones (varios registros que apuntan al mismo defecto), se decide qué cambios aplicar al modelo. Resultado: modificaciones de plantillas, archivos nuevos, secciones reformuladas, según corresponda. Las modificaciones siguen la regla 6 del proyecto v7 (versionado explícito): cada cambio produce nueva versión documentada.
-
-**Archivo del registro.** Tras procesamiento, los registros que motivaron cambios quedan archivados en el proyecto v7 con marca de "procesado en sesión X, motivó cambio Y". Los registros que no motivaron cambios (descartados como específicos de un proyecto, no generalizables, o duplicados) quedan archivados con marca correspondiente. Ningún registro se borra. La traza completa permite auditar la evolución del modelo.
+- **Regla del fork:** ninguna mejora añade instrucciones antes de escribir. Va al cierre (OPERACIÓN C), a la lectura (C.5, `PROTOCOLO_LECTURA.md`) o a los tests de las plantillas de fase. La que necesita decirle a quien escribe cómo escribir se descarta.
+- **Si solo corta** (una comprobación de cierre, una pregunta de lectura, una regla que sobra), puede ir directa y se vigila en las lecturas siguientes. **Si no**, va en una rama y con prueba a ciegas (adenda de `SYSTEM_ORCHESTRATION.md`, §7).
+- **A la fábrica va la regla; el valor se queda en la obra.** La regla se escribe en abstracto, con «si la obra lo declara» y su ranura del preset (bloque «Valores de la obra →»); el valor (la cifra, el nombre, la decisión) va al preset o a la biblia de la obra. Ningún archivo de la fábrica lleva valores de una obra.
+- **Quién decide:** por delegación, el orquestador, las mejoras que solo añaden comprobaciones de cierre o de lectura; el autor, cualquier cambio que toque la escritura (`ORQUESTADOR.md`, §7).
+- **Cuándo:** con 5 a 15 registros acumulados o al cerrar un libro. Cada cambio se apunta y llega a las obras como dice `ORQUESTADOR.md` §10, y su registro recibe la marca.
 
 ---
 
-## QUÉ NO ES UN REGISTRO LEGÍTIMO
+## QUÉ NO ES UN REGISTRO
 
-Para preservar la calidad del flujo, conviene declarar qué tipo de inputs no son registros legítimos y deben rechazarse:
-
-- **Quejas estilísticas sin diagnóstico.** "Esta plantilla me molesta" sin análisis de por qué, dónde, cómo. Falta campo 3.
-- **Propuestas de archivo nuevo sin síntoma asociado.** Querer un archivo nuevo porque "podría ser útil" sin haber detectado fricción real que lo justifique. Falta campo 2.
-- **Especulación sobre proyectos hipotéticos.** "Si alguien escribiera tal proyecto, faltaría tal cosa." El protocolo se alimenta de práctica real, no de especulación.
-- **Modificaciones de gusto.** "Prefiero que esta plantilla diga X en lugar de Y." Sin diagnóstico de por qué Y produce fricción operativa, es preferencia personal del autor, no aprendizaje del modelo.
-- **Registros que duplican otro ya capturado.** El autor revisa la bitácora antes de capturar para evitar duplicados directos.
-
-Estos inputs pueden ser conversación legítima sobre el modelo en otros contextos, pero no entran al protocolo de captura.
-
----
-
-## RELACIÓN CON LAS REGLAS OPERATIVAS DE v7
-
-El protocolo es la implementación práctica de la regla 2 (flujo unidireccional desde proyectos hacia v7) y la regla 3 (inputs aceptados). Su aplicación rigurosa es lo que diferencia un modelo que mejora con cada uso de un modelo que se contamina con cada uso. La regla 1 (no contaminación) se sostiene gracias a este protocolo: las plantillas en uso no se modifican; la captura genera registro que después produce modificación controlada en sesión dedicada.
-
----
-
-## RELACIÓN CON OTROS ARCHIVOS
-
-Este archivo es plantilla operativa del proyecto agnóstico v7, no plantilla del catálogo. Convive con:
-- El documento de apertura del proyecto agnóstico v7 (que declara las reglas operativas que este protocolo implementa).
-- Las treinta plantillas del catálogo v7.
-- El archivo REGISTROS_APRENDIZAJE.md (o equivalente) que el primer chat de v7 establecerá para acumular los registros.
-- Los reportes de sesiones de procesamiento que se vayan generando.
-
-Cuando v7 evolucione hacia v8 (futuro hipotético), este protocolo puede revisarse según la experiencia acumulada. Cualquier modificación al protocolo sigue la regla 6 del proyecto (versionado explícito).
+- Una queja sin diagnóstico (falta el campo 3) o un archivo nuevo sin síntoma (falta el campo 2).
+- Una especulación sobre obras hipotéticas: el protocolo se alimenta de práctica real.
+- Una preferencia de gusto sin fricción que la sostenga.
+- Un valor de la obra: va a su preset o a su biblia, no a la fábrica.
+- Una instrucción de prosa previa: la regla del fork no la admite.
+- Un duplicado: antes de capturar se mira la bitácora.
 
 Fin de la plantilla del protocolo de captura de aprendizaje.

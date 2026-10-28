@@ -1,3 +1,11 @@
+# REGISTROS_APRENDIZAJE.md — la bitácora de aprendizaje de la fábrica
+
+> Los registros que proponen las obras (`PROTOCOLO_CAPTURA_APRENDIZAJE.md`), con su marca: APLICADO,
+> DESCARTADO, HISTÓRICO o PENDIENTE. Los datos de una obra en el campo 2 son la historia del
+> registro, no una regla. Ningún registro se borra.
+
+---
+
 REGISTRO 001 — 2026-04-27
 
 Campo 1 — Identificador: 001 / Captura 2026-04-27.
@@ -30,7 +38,7 @@ en proyectos ligeros. El modelo no ofrece mecanismo de
 elevación condicional, paralelo al condicional ya implementado
 para BRIEFING en OP 0 paso 14.
 
-Campo 5 — Implicación para v7: (a) Añadir a SEAMS_AND_HINGES,
+Campo 5 — Implicación para el modelo: (a) Añadir a SEAMS_AND_HINGES,
 TENSION_MECHANICS, DIALOGUE_MECHANICS, SUBTEXT_MECHANICS y
 SENSORY_HIERARCHY sección "MOMENTO DE CIERRE" declarando
 cuándo conviene elevar a disciplina previa. (b) Añadir a
@@ -40,16 +48,19 @@ según densidad declarada. (c) Enriquecer VERIFICACIÓN AL
 FINALIZAR OP 0 con criterio de exhaustividad por tipo
 operativo, no solo coherencia entre presentes.
 
-Marca de procesamiento — MODELO_DarkRomance v2.0, 23-10-2026:
-(a) y (b), DESCARTADAS (regla del fork). Piden elevar reglas a
-disciplina previa, es decir, aplicarlas antes de escribir. En
-este modelo DIALOGUE_MECHANICS, SUBTEXT_MECHANICS y
-SENSORY_HIERARCHY se leen después del borrador (adenda de
-SYSTEM_ORCHESTRATION, §2), y lo que se decide antes es diseño
-—biblia, preset y escaleta—, donde ya viven las decisiones de
-SEAMS_AND_HINGES y TENSION_MECHANICS (apertura, ganchos,
-picos). Se conservan como traza; no se aplican. (c), sin
-procesar.
+Marca: DESCARTADO (a y b) · HISTÓRICO (c) — MODELO_DarkRomance
+v2.0, 23-10-2026 y 28-10-2026. (a) y (b), DESCARTADAS (regla del
+fork). Piden elevar reglas a disciplina previa, es decir,
+aplicarlas antes de escribir. En este modelo DIALOGUE_MECHANICS,
+SUBTEXT_MECHANICS y SENSORY_HIERARCHY se leen después del
+borrador (adenda de SYSTEM_ORCHESTRATION, §2), y lo que se decide
+antes es diseño —biblia, preset y escaleta—, donde ya viven las
+decisiones de SEAMS_AND_HINGES y TENSION_MECHANICS (apertura,
+ganchos, picos). Se conservan como traza; no se aplican. (c),
+HISTÓRICA: en este método la OPERACIÓN 0 vive en la biblia, el
+preset y la escaleta, y su verificación se hace contra ellos
+(adenda de SYSTEM_ORCHESTRATION, §2), no plantilla a plantilla.
+No queda nada pendiente.
 
 ---
 
@@ -97,7 +108,7 @@ naturalmente limitado por escala declarada. El modelo no
 distingue cardinalidad acotada de cardinalidad multiplicativa, y
 trata ambas como si la nomenclatura emergiera sola.
 
-Campo 5 — Implicación para v7: (a) Declarar política de
+Campo 5 — Implicación para el modelo: (a) Declarar política de
 instanciación por defecto para las tres plantillas de capa 2 con
 cardinalidad multiplicativa (CHAPTER_BRIEF, SCENE_NECESSITY,
 SCENE_SHAPE): instancia única por archivo con crecimiento
@@ -124,6 +135,16 @@ archivo-por-entidad, dado que su conteo está acotado por escala
 y no produce inflación. La distinción cardinalidad acotada vs
 multiplicativa se documenta explícitamente en
 MODELO_AGNOSTICO_v7_APERTURA sección de política de instanciación.
+
+Marca: HISTÓRICO — MODELO_DarkRomance v2.0, 28-10-2026. Registro
+de la v7, que no se aplica: sus propuestas citan archivos de la v7
+(MODELO_AGNOSTICO_v7_APERTURA) que no están en esta fábrica. El
+método resolvió el síntoma por otro camino: las plantillas no se
+rellenan durante la escritura; de cada capítulo queda un brief de
+una hoja (`capNN_brief.md`), y la necesidad y la forma de cada
+escena se piensan sin rellenar SCENE_NECESSITY ni SCENE_SHAPE
+(adenda de SYSTEM_ORCHESTRATION, §2; `PLANTILLA_CUADERNO.md`, §6). No
+queda nada pendiente.
 
 ---
 
@@ -153,11 +174,12 @@ suelo medible por capítulo, por bloque y por libro, aplicado al
 diseñar y comprobado tras el borrador, nunca como consigna de
 escritura.
 
-Campo 5 — Implicación para v7: (a) Al derivar un modelo,
+Campo 5 — Implicación para el modelo: (a) Al derivar un modelo,
 retirar las adendas del modelo de origen en vez de apilarlas.
 (b) Un archivo rector con la trama A del género, su medida y
 sus suelos. (c) Que las lecturas digan qué parte del libro es
 trama A.
 
-Marca de procesamiento: procesado en la v2.0 del
-MODELO_DarkRomance (22–23-10-2026); motivó PAREJA_PRIMERO.md.
+Marca: APLICADO — v2.0 del MODELO_DarkRomance (22–23-10-2026);
+motivó PAREJA_PRIMERO.md. Las cifras del campo 2 son de la primera
+obra: historia del registro, no valores de la fábrica.

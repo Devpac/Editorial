@@ -11,7 +11,7 @@ Las de `AESTHETIC_REGISTER.md`: el material táctil, olfativo y sexual, a densid
 mezcla y su máximo por libro (SISTEMA DE IMÁGENES). La mezcla se cuenta con el TEST 5 de aquel
 archivo y el contador de la obra.
 
-### B EN LOS SENTIDOS DE A (comprobación de cierre) *(v2.0)*
+### B EN LOS SENTIDOS DE A (comprobación de cierre)
 
 En un capítulo de protagonista A, después del borrador: ¿algún detalle sensorial de B —de su
 paleta, si la obra las tiene— supera el test de eliminación (TEST 2)? Si ninguno, se anota en

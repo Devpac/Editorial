@@ -6,7 +6,7 @@
 > sostenido o por escena de crisis) lo declara la obra: `PRESET_<OBRA>.md` › AESTHETIC_REGISTER ›
 > Efecto sobre Capa 3.
 
-### EL DESEO QUE ACABA EN LA TRAMA DEL LIBRO (comprobación de cierre) *(v2.0)*
+### EL DESEO QUE ACABA EN LA TRAMA DEL LIBRO (comprobación de cierre)
 
 En un capítulo de protagonista A, después del borrador: ¿algún deseo de A ha acabado en un
 objeto que solo se lee como trama del libro (un desplazamiento, MECANISMO 1, o un objeto
