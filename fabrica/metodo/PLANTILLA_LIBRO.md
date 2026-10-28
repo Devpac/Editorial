@@ -39,7 +39,7 @@ el capítulo anterior. El hueco hasta el siguiente: cuánto y si se narra.
 Quién trata de tú o de usted a quién; con qué nombre o apodo; quién ha visto a quién y dónde.
 
 ## 4. Objetos y lugares ya instalados
-Lo que existe en página, con su capítulo: objetos, aparatos, marcas en el cuerpo, lugares y sus
+Lo que existe en página, con su capítulo: objetos (y aparatos, si los hay), marcas en el cuerpo, lugares y sus
 detalles ya dados (lo que un capítulo posterior no puede contradecir).
 
 ## 5. Registro 13 · Hora y cifras
@@ -71,7 +71,7 @@ PAREJA_PRIMERO.md §3, o los que declare el preset).
 Una sección por lectura que corrija capítulos: qué se cortó, qué costura se arregló.
 
 ## Estado al cerrar el libro N              (lo escribe el orquestador al cerrar el libro)
-Dónde está cada uno; qué sabe cada uno y qué sabe la lectora; objetos y aparatos en juego;
+Dónde está cada uno; qué sabe cada uno y qué sabe la lectora; objetos (y aparatos, si los hay) en juego;
 contadores de saga; peldaño alcanzado de la escala de rendición; el peso de pareja del libro
 (medido en la OPERACIÓN D, D-21); deudas de serie y relojes, con su libro siguiente. Es el
 volcado de saga (`ORQUESTADOR.md`, §2.7) y la §0 del libro siguiente.

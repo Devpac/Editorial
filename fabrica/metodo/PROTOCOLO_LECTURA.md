@@ -208,11 +208,12 @@ encargos, con estos cambios:
   publicados del libro anterior (con la línea del narrador) y el diseño o las fichas del nuevo. En
   lugar de «¿cuándo esperas el primer encuentro?»: «¿Te paga lo que te dejó el final del libro
   anterior? ¿Cuándo esperas volver a verlos juntos, y [lo que anuncia el diseño: un
-  descubrimiento, una primera vez], y cuándo llega? [Una pregunta del libro, si la hay; por
-  ejemplo: ¿Te da miedo [PROTAGONISTA B]?]».
+  descubrimiento, una primera vez], y cuándo llega? [La pregunta del libro: por defecto, ¿Te da
+  miedo [quien da miedo: `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles]?; o la que
+  declare la obra en › PROTOCOLO_LECTURA › Lectura externa]».
 - **Correctora de coherencia:** el paquete suma el estado de cierre del libro anterior
   (`libro_<N-1>/continuidad.md`) y su escaleta; busca además que el libro arranque donde lo dejó
-  el anterior (lo que sabe cada uno, el peldaño de la escala, objetos en juego) y que
+  el anterior (lo que sabe cada uno, el peldaño de la escala, objetos (y aparatos, si los hay) en juego) y que
   ningún canon oculto salga antes de su libro.
 - **Lectora tipo sin el libro anterior** (si la obra declara cada libro autónomo): lee solo las
   fichas de la muestra gratuita del nuevo (o sus primeros capítulos escritos): «¿Entiendes quiénes

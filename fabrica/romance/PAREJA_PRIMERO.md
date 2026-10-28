@@ -49,7 +49,7 @@ con su porqué en la biblia.
 | Calor | Desde el contacto con carga, nunca más de cuatro capítulos seguidos sin una escena con carga (ventana móvil, no bloques fijos); desde la primera escena explícita, de calor o *edging* |
 | Voces (si hay dos narradores) | El reparto entre narradores que declare la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION › Extensión, persona y narradores), medido por libro |
 | Ganchos | De pareja: por libro, al menos dos de cada tres cierres (objetivo: tres de cada cuatro); por bloque de cuatro capítulos, al menos dos (objetivo: tres); cuenta el de la trama B que cae sobre la pareja |
-| Trama B | Sin mínimo. Lo que no es pareja (trama B, trama horizontal y elenco cuando su página no es de pareja), como mucho el 30 % del libro; la trama B, con sus mecanismos (pistas, señuelos, sospechosos, procedimiento), se dimensiona para caber en ese techo y se cierra en el libro |
+| Trama B | Sin mínimo. Lo que no es pareja (trama B, trama horizontal y elenco cuando su página no es de pareja), como mucho el 30 % del libro; la trama B, con sus mecanismos (pistas, señuelos, sospechosos, procedimiento), se dimensiona para caber en ese techo y, si el libro la tiene, se cierra (y paga sus deudas) dentro del libro; lo que cruza libros es la trama horizontal |
 
 ## 4. Lo que se dosifica en una saga
 
@@ -78,7 +78,8 @@ borrador. Quien escribe lo hace libre, con la ficha delante y las reglas como o�
 ## 7. Roles
 
 La fábrica nombra a la pareja como **protagonista A** y **protagonista B**. Por defecto, «ella» y «él» son A
-y B, en la forma más común del género: ella narra y él es el narrador hermético que raciona su rendición.
+y B, en la forma más común del género, y, si la obra no declara otra cosa en Correspondencia de roles, ella
+narra y él es el narrador hermético que raciona su rendición.
 Cada obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles: los géneros de los
 dos, quién narra, quién es hermético o irónico (si alguno), quién raciona su rendición, quién vigila (si
 alguien) y, en la *Variante: dark romance policial*, quién está del lado de la ley. Donde su pareja no sea

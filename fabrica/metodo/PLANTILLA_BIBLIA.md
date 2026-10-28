@@ -69,7 +69,8 @@
     capas o arcos, si los tiene.
 11. **Lo que sostiene y lo que cerca a la protagonista** (o a la pareja) — Qué la sostiene y qué la
     amenaza en su mundo (la familia, el clan, la institución, la ley), y quién la persigue, si
-    alguien la persigue.
+    alguien la persigue. (*Variante: dark romance policial:* la arquitectura legal: quién la
+    protege, quién la persigue y cómo sobrevive su carrera.)
 12. **Escenario y logística** — Los escenarios recurrentes, como la obra los organice, y el
     **espacio propio** de la pareja o de un protagonista, si lo tiene (el que se carga de sentido a
     lo largo de la saga).
@@ -118,6 +119,8 @@
     hace este libro que el anterior no podía hacer**.
 20. **Extensión, ritmo y puertas de salida** — Palabras por libro, capítulos, horquilla de capítulo;
     cuántos libros están comprometidos y dónde puede cerrarse la saga limpiamente si hace falta.
+    Si todos los capítulos cierran en gancho (por defecto) o hay cierres de descarga, cuáles y con
+    qué tope (pasa al preset: › SEAMS_AND_HINGES › Gancho en todos los cierres).
 
 ## PARTE III — RÉGIMEN (ventana B3)
 

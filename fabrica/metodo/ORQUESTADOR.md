@@ -216,7 +216,7 @@ relevo). Ninguna ventana del libro nuevo se lanza antes.
    de publicación aprobado. Lo que falte se termina antes.
 2. **Volcado de saga** (lo exige `BRIEFING.md`, regla F, en las sagas con trama horizontal):
    - en `libro_<N-1>/continuidad.md`, la sección «Estado al cerrar el libro» (`PLANTILLA_LIBRO.md`):
-     dónde está cada uno, qué sabe cada uno y qué sabe la lectora, objetos en juego,
+     dónde está cada uno, qué sabe cada uno y qué sabe la lectora, objetos (y aparatos, si los hay) en juego,
      contadores de saga, peldaño de la escala alcanzado, deudas y relojes (si los hay) con su libro
      siguiente;
    - en el preset, las ranuras que llevan la cuenta de la saga (registro de migas, relojes si los

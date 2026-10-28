@@ -17,7 +17,7 @@
 - **Extensión**: palabras (horquilla), número de capítulos, capítulos de una escena o de varias,
   suelo y techo por capítulo y excepciones (el capítulo largo del pico, el más hablado).
 - **Persona, tiempo y narradores**: reparto entre narradores (con más de uno, el que declare la
-  obra: `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles);
+  obra: `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION › Extensión, persona y narradores);
   capítulos partidos (empieza uno y termina el otro).
 - **Peso de la pareja**: el declarado (biblia §14 🔒 y preset; por defecto, objetivo 80 % y suelo
   70 % por bloque de cuatro capítulos y por libro, en palabras medidas con `PAREJA_PRIMERO.md` §2)
@@ -151,8 +151,9 @@ desarrollo; la lectora tipo los confirma en su lectura de plan. Los suelos son l
    de calor y TEST 6).
 6. **Quien da miedo lo da en página** (protagonista B por defecto; lo declara la obra), no solo en
    la ficha: algún capítulo suyo muestra lo que podría hacer y lo que se contiene.
-7. **Ganchos sin excepción, y de pareja**: cada «Cierra con» tira del siguiente (por defecto, sin
-   excepción; la obra puede declarar cierres de descarga con su tope), y son de pareja
+7. **Ganchos en todos los cierres, y de pareja**: cada «Cierra con» tira del siguiente (por
+   defecto, todos, salvo los cierres de descarga que declare la obra en `PRESET_<OBRA>.md` ›
+   SEAMS_AND_HINGES › Gancho en todos los cierres), y son de pareja
    (lo que dejan abierto es entre ellos, incluido el gancho de la trama B que cae sobre la pareja:
    SEAMS_AND_HINGES, adenda) al menos dos de cada tres por libro (objetivo, tres de cada cuatro) y
    al menos dos de cuatro por bloque de cuatro capítulos (objetivo, tres de cuatro), o los que
@@ -191,4 +192,4 @@ libros). Y se suman:
     apuntan al objetivo (80 %) y no bajan del suelo (70 %), o de lo que declare la obra (biblia §14
     🔒). Un bloque por debajo no se encarga.
 16. **Voces**: con más de un narrador, el reparto que declare la obra (`PRESET_<OBRA>.md` ›
-    Cabecera › Correspondencia de roles).
+    SYSTEM_ORCHESTRATION › Extensión, persona y narradores).

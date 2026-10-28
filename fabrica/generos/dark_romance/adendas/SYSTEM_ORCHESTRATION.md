@@ -20,12 +20,15 @@ previas (biblia, preset, escaletas) tienen sus plantillas (`PLANTILLA_BIBLIA.md`
 `PLANTILLA_PRESET.md`, `PLANTILLA_ESCALETA.md`) y se encargan igual, con `PLANTILLA_NEXT.md`.
 
 **Lo que la base dice de los traspasos entre ventanas y aquí no rige:**
-- **El NEXT** tiene las ocho secciones de `PLANTILLA_NEXT.md`, no las seis de la base, y **lo
+- **El NEXT** tiene las siete secciones de `PLANTILLA_NEXT.md`, con la variante de su fase (§8),
+  no las seis de la base, y **lo
   escribe el orquestador**, no la ventana saliente (`ORQUESTADOR.md` §3). `NEXT.md` es el encargo
   vivo de la obra; la plantilla es `PLANTILLA_NEXT.md`. Donde la base manda «emitir NEXT» al
-  cerrar una ventana (ARQUITECTURA DE CAPAS, AUTONOMÍA Y DECISIÓN, SECUENCIA COMPLETA,
-  TRANSICIÓN ENTRE VENTANAS), la ventana de trabajo deja su acta o su informe y el orquestador
-  escribe el NEXT siguiente.
+  cerrar una ventana, en toda la base (ARQUITECTURA DE CAPAS, AUTONOMÍA Y DECISIÓN, SECUENCIA
+  COMPLETA, TRANSICIÓN ENTRE VENTANAS, y también ERRORES 16-17, TEST 8 y CICLO DE VIDA DEL NEXT),
+  la ventana de trabajo deja su acta o su informe y el orquestador escribe el NEXT siguiente. Lo
+  que la base llama «voz del modelo saliente» son las fricciones de catálogo del acta o del
+  informe, y su protocolo de captura es `PROTOCOLO_CAPTURA_APRENDIZAJE.md`.
 - **BRIEFING** no es un archivo aparte que cada ventana lea al arrancar y actualice al cerrar: el
   briefing de saga lo forman el cuaderno, el estado de cierre de cada `continuidad.md` y las
   ranuras de saga del preset (`ORQUESTADOR.md` §9), y `BRIEFING.md` es la plantilla de género de
@@ -34,6 +37,9 @@ previas (biblia, preset, escaletas) tienen sus plantillas (`PLANTILLA_BIBLIA.md`
 - **`MODELO_AGNOSTICO_v7_APERTURA.md`** no forma parte de la fábrica: la referencia de la base a
   su SECCIÓN 11 queda sin efecto. Los tres sesgos que la base nombra se leen como aviso, y su
   adaptación local es legítima cuando está formulada.
+- **El LECTOR IMPLÍCITO** de la base (sus cinco perfiles, en OPERACIÓN 0, su verificación y el
+  TEST 14): rige la LECTORA IMPLÍCITA de `AESTHETIC_REGISTER.md`, y su TEST 11 sustituye al
+  TEST 6 que cita la base.
 
 ### 1. PRECEDENCIA SOBRE LAS ADENDAS HEREDADAS *(v2.0)*
 
@@ -95,8 +101,8 @@ en página en ese capítulo, no sale**, aunque esté en la biblia. El NEXT nombr
 más tentadores del capítulo.
 
 **Investigación sin informante.** Si la escaleta marca un capítulo como bloqueado por una
-pregunta de investigación y no hay informante, **no se para**: se declara la licencia
-siguiente libre (RL-LIC-NN) en el acta, se escribe sin detalle de procedimiento y la
+pregunta de investigación y no hay informante, **no se para**: se declara en el acta la licencia
+siguiente del registro de investigación de la obra (RESEARCH_LEDGER), se escribe sin detalle de procedimiento y la
 pregunta sigue abierta (criterio por defecto; el autor puede cambiarlo en el cuaderno de la
 obra).
 
@@ -154,9 +160,9 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
 - **OPERACIÓN C — Cierre. OBLIGATORIA.** Un capítulo no está escrito hasta que tiene su
   acta de cierre. A los pasos de la base se añaden diez comprobaciones de género:
   - **C-1 Relectura de superficie.** Erratas, concordancias, persona verbal («cuando
-    trabajo bien», no «cuando trabaja bien» en primera persona).
+    llego tarde», no «cuando llega tarde» en primera persona).
   - **C-2 Frase-resumen.** TIC 4 de PROSE_LINE_DISCIPLINE. En el POV del narrador hermético
-    (si la obra lo tiene: `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION), todo párrafo o remate que
+    (si la obra lo tiene: `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles), todo párrafo o remate que
     explique lo que significa algo **se corta**: observa y decide, no interpreta. Se quedan
     las excepciones que declara su idiolecto (`PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE ›
     TIC 4: glosa y remate; PROSE_LINE_DISCIPLINE, adenda, TIC 4). En el del narrador irónico
@@ -168,15 +174,16 @@ obra dice a qué archivo de este corresponden (`PRESET_<OBRA>.md` › SYSTEM_ORC
   - **C-4 Horas y cifras.** Registro 13 de CONTINUITY_PHYSICS: la aritmética de horas,
     duraciones y cifras cuadra con el propio capítulo y con los anteriores.
   - **C-5 Datos horizontales.** Calendario de datos horizontales (CLUE_LEDGER, llevado en
-    `continuidad.md`): ningún dato de la trama horizontal (la herida de cada protagonista,
-    el antagonista de saga) aparece en página antes de su capítulo asignado. Antes de su fecha, se alude
+    `continuidad.md`): si la obra tiene trama horizontal, ningún dato suyo (por ejemplo, la
+    herida de cada protagonista o el antagonista de saga) aparece en página antes de su capítulo asignado. Antes de su fecha, se alude
     sin dato.
   - **C-6 Asimetría de voces.** Test de VOICE_ARCHITECTURE (adenda Dark Romance): cada
     narrador lleva su rasgo también en la narración, no solo en el diálogo (el que la obra le
     declara en `PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION); si hay dos narradores, las voces se
     distinguen con el nombre tapado.
   - **C-7 Gancho.** El capítulo cierra empujando a pasar página (§5: por defecto, todos los
-    cierres; la obra puede declarar cierres de descarga con su tope). *(v2.0)*
+    cierres, salvo los cierres de descarga que declare la obra en `PRESET_<OBRA>.md` ›
+    SEAMS_AND_HINGES › Gancho en todos los cierres). *(v2.0)*
     Y se anota si es de pareja (lo que deja abierto es entre ellos, o el gancho de la trama B
     que cae sobre los dos o sobre uno por el otro: SEAMS_AND_HINGES, adenda), con la cuenta en
     `continuidad.md`, contra los suelos de `PAREJA_PRIMERO.md` §3 o los que declare el preset
@@ -305,9 +312,9 @@ SYSTEM_ORCHESTRATION › Peso de la pareja): puede subirlo; bajarlo del suelo es
 autor. De los ganchos, por defecto al menos dos de cada tres son de pareja (C-7); el emocional
 es el más valioso.
 
-**Por defecto, sin excepción:** ningún capítulo cierra en imagen estática de personaje. La obra
-puede declarar cierres de descarga, con su tope (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION ›
-Gancho y primer capítulo).
+**Por defecto, en todos los cierres:** ningún capítulo cierra en imagen estática de personaje,
+salvo los cierres de descarga que declare la obra en `PRESET_<OBRA>.md` › SEAMS_AND_HINGES ›
+Gancho en todos los cierres.
 
 ### 6. EL PRIMER CAPÍTULO DE CADA LIBRO
 

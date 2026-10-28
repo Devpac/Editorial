@@ -30,7 +30,8 @@ Una ventana que llega a mitad de trabajo salta las partes hechas.
   `SYSTEM_ORCHESTRATION.md`; los capítulos anteriores (siempre el último de cada narrador);
   `continuidad.md`; la ficha del capítulo en las dos escaletas; las secciones de la biblia que
   toca (con número); las plantillas de género que toca **y su sección del preset**
-  (`PRESET_<OBRA>.md` › <PLANTILLA>), **como contrato de canon**.
+  (`PRESET_<OBRA>.md` › <PLANTILLA>), **como contrato de canon**. La ventana de trabajo no lee el
+  cuaderno: el NEXT le nombra el preset, la biblia y las escaletas vigentes.
 - **Después del borrador** (cierre): los filtros de CAPA 3 y los tests (adenda de
   VOICE_ARCHITECTURE, TIC 4 de PROSE_LINE_DISCIPLINE, registro 13 de CONTINUITY_PHYSICS,
   HEAT_DISCIPLINE, SEMANTIC_OMISSION, SUBTEXT_MECHANICS, SENSORY_HIERARCHY), el protocolo
@@ -48,16 +49,17 @@ Una ventana que llega a mitad de trabajo salta las partes hechas.
   enfrenta o los separa. Qué, nunca cómo; el peso de pareja se mide después del borrador (C-10).
 - **Tiempo y lugar**, con la hora de entrada y cómo se enlaza con el capítulo anterior (si
   hay espera o hueco, cuánto, y que no se dice en página si no hace falta).
-- **Lo que el narrador del capítulo no sabe y no puede intuir.**
+- **Lo que no sabe cada protagonista y no puede intuir (empezando por el narrador del capítulo).**
 - **Vetos de canon oculto** que el capítulo tienta especialmente: los dos o tres datos que la
   biblia guarda para un capítulo o un libro posterior y que esta escena pone al alcance de la
   mano (un nombre, una causa, una fecha).
-- **Investigación**: si la escaleta lo bloquea, licencia que se declara (RL-LIC siguiente
-  libre) y qué se escribe sin detalle.
+- **Investigación**: si la escaleta lo bloquea, licencia que se declara (la siguiente del
+  registro de investigación de la obra: RESEARCH_LEDGER) y qué se escribe sin detalle.
 - **Plan de la lectora** que toca a ese capítulo (`libro_NN/plan_lectora.md` y notas «vN» de
   las escaletas).
 - **Cierre** que pide la escaleta (gancho; por defecto, en todos los cierres, salvo los de
-  descarga que declare la obra).
+  descarga que declare la obra en `PRESET_<OBRA>.md` › SEAMS_AND_HINGES › Gancho en todos los
+  cierres).
 - **Comprobaciones extra** del cierre (fechas, contadores, datos horizontales; y los de pareja:
   capítulos seguidos sin cara a cara, peso acumulado del bloque).
 
