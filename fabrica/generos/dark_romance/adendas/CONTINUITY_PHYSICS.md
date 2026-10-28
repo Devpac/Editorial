@@ -14,7 +14,7 @@ de la trama B se cuentan por separado (SCALE_CALIBRATION, adenda).
 
 ### 11. REGISTRO DE LA TRAMA B SIN AGUJEROS
 
-Si la trama B lleva pistas o se resuelve por revelación (*Variante: dark romance policial:* el caso;
+Se lleva si la trama B lleva pistas o se resuelve por revelación (*Variante: dark romance policial:* el caso;
 otra, si la obra lo declara). Espejo de CLUE_LEDGER, que lleva el detalle y lo pone al día en la OPERACIÓN D. Aquí va solo lo que
 haría un agujero: cada pista, señuelo o coartada que ya está en página, con sus capítulos de siembra
 y de cobro, y, si la trama B la necesita, la línea temporal de su hecho detonante (quién estuvo
@@ -37,7 +37,7 @@ de pareja de los contadores del libro (`PLANTILLA_LIBRO.md`).
 |---|---|---|---|---|---|---|---|
 
 **Al pie, por bloque de cuatro capítulos y acumulado del libro:** el peso de pareja medio, ponderado
-por palabras (los de `PAREJA_PRIMERO.md` §3 o los que declare el preset; por defecto, objetivo
+por palabras (los de `PAREJA_PRIMERO.md` §2, y los suelos de su §3, o los que declare el preset; por defecto, objetivo
 80 %, suelo 70 %); con más de un narrador, la parte de cada voz (y su suelo, si la obra declara
 uno); el calor (desde el contacto con carga, los capítulos seguidos sin
 escena con carga: nunca más de cuatro, HEAT_DISCIPLINE, suelo de calor); y los ganchos de pareja
@@ -79,14 +79,14 @@ el registro. Si una no cuadra, el capítulo no se cierra.
 
 ### OPERATIVA (amplía la de la base)
 
-- **OPERACIÓN C:** el registro 12, siempre (C-7, C-8 y C-10); el 13 (C-4); el 11, si se lleva, una línea si
+- **OPERACIÓN C:** el registro 12, siempre (C-7, C-8 y C-10); el 13 (C-4); el 11, si rige (trama B con pistas o revelación), una línea si
   hubo siembra, eco o cobro.
 - **OPERACIÓN D:** del registro 12, el peso de pareja por bloque y el acumulado del libro, el cara a
-  cara, el calor y los ganchos; el registro 11, si se lleva, contra CLUE_LEDGER.
+  cara, el calor y los ganchos; el registro 11, si rige, contra CLUE_LEDGER.
 
 ### TESTS (se suman a los de la base)
 
-TEST 5 — LA TRAMA B SIN AGUJEROS (si se lleva el registro 11). Con solo el registro 11, ¿cada pista, señuelo o coartada que se
+TEST 5 — LA TRAMA B SIN AGUJEROS (si rige el registro 11: trama B con pistas o revelación). Con solo el registro 11, ¿cada pista, señuelo o coartada que se
 cobra tiene su siembra en un capítulo anterior? Si no, hay agujero, en el registro o en el
 manuscrito.
 
@@ -99,6 +99,6 @@ cerrado.
 
 ### RELACIÓN CON OTROS ARCHIVOS
 
-Recibe además de CLUE_LEDGER (registro 11, si se lleva), de ROMANCE_BEAT_MAP y HEAT_DISCIPLINE (registro 12) y de
+Recibe además de CLUE_LEDGER (registro 11, si rige), de ROMANCE_BEAT_MAP y HEAT_DISCIPLINE (registro 12) y de
 la biblia (registro 13). Alimenta además el acta (C-4, C-7, C-8 y C-10), la OPERACIÓN D y la lectura
 editorial.

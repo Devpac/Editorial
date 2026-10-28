@@ -2,9 +2,9 @@
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
-> Especializa la base de arriba, que sigue vigente. Cuándo opera el subtexto (como régimen
-> sostenido o por escena de crisis) lo declara la obra: `PRESET_<OBRA>.md` › AESTHETIC_REGISTER ›
-> Efecto sobre Capa 3.
+> Especializa la base de arriba, que sigue vigente. Por defecto, SUBTEXT_MECHANICS opera por
+> escena de crisis, no como régimen sostenido; la obra declara qué escenas de crisis lo abren (o
+> declara otro régimen): `PRESET_<OBRA>.md` › AESTHETIC_REGISTER › Efecto sobre Capa 3.
 
 ### EL DESEO QUE ACABA EN LA TRAMA DEL LIBRO (comprobación de cierre)
 

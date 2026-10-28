@@ -14,12 +14,12 @@ propia»: la presión sobre la pareja viene entonces de otra parte (la trama hor
 la pareja misma), dentro del mismo techo.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › SUBPLOT_ARCHITECTURE › Trama B.
-> *Qué declara aquí la obra:* si cada libro tiene trama B propia o va «sin trama B propia», qué es y dónde se cierra: en el libro (por defecto), en el arco o en la saga (SERIES_GLUE, forma de la saga).
+> *Qué declara aquí la obra:* si cada libro tiene trama B propia o va «sin trama B propia», y cuál es (se cierra en el libro; lo que cruza libros es la trama horizontal).
 
 **Techo, sin mínimo.** Lo que no es pareja (trama B, trama horizontal y elenco cuando su página no
 es de pareja): por defecto, como mucho el 30 % del libro, o el techo que declare el preset
-(`PAREJA_PRIMERO.md` §3). La trama B se dimensiona para caber en ese techo y se cierra donde lo
-declare la obra (por defecto, en el libro). Se mide como lo que no es pareja según
+(`PAREJA_PRIMERO.md` §3). La trama B se dimensiona para caber en ese techo y se cierra (y paga sus
+deudas) dentro del libro. Se mide como lo que no es pareja según
 `PAREJA_PRIMERO.md` §2: los dos en escena y algo pasa entre ellos (choque, deseo, miedo, control, lo
 que se callan) es pareja; si están juntos y esa parte solo mueve la trama B, cuenta como trama B.
 Por encima del techo, por bloque o por libro, alarma.

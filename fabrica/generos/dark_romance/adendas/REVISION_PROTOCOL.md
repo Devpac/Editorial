@@ -10,7 +10,7 @@ completo y con el mismo rango.
 
 **(a) PESO DE PAREJA.** Con la medida de `PAREJA_PRIMERO.md` (§2), por capítulo, por bloque de
 cuatro y por libro, como en el acta (C-10) y en la OPERACIÓN D (D-21), sobre el borrador completo:
-los valores de §3 o los que declare el preset (por defecto, objetivo 80 %, suelo 70 %, lo que no
+los valores de §2 (y los suelos de su §3) o los que declare el preset (por defecto, objetivo 80 %, suelo 70 %, lo que no
 es pareja —trama B, trama horizontal y elenco cuando su página no es de pareja— en el 30 % como
 mucho, sin mínimo), los suelos de presencia y, si la obra lo declara, el reparto de voces y su suelo
 (§3; GENRE_CONVENTIONS, tests 3 y 13). **Alarma:** todo capítulo de un narrador sin el otro en escena ni en directo (§2, a y b) entra en la
@@ -18,7 +18,8 @@ lista con su peso, aunque cumpla el suelo de presencia. Lo que falte se corrige 
 (fundir, mover, reescaletar), no puliendo la prosa.
 
 **(b) GANCHOS DE PAREJA.** Todos los capítulos cierran en gancho, salvo los cierres de descarga
-que declare la obra, con su tope (GENRE_CONVENTIONS, regla 6), y al menos dos de cada tres ganchos
+que declare la obra en `PRESET_<OBRA>.md` › SEAMS_AND_HINGES › Gancho en todos los cierres, con su
+tope (GENRE_CONVENTIONS, regla 6), y al menos dos de cada tres ganchos
 son de pareja, o los que declare el preset (`PAREJA_PRIMERO.md`, §3; DIALOGUE_MECHANICS,
 TEST 11; SEAMS_AND_HINGES, adenda). Cuenta como de pareja el gancho de la trama B que cae sobre la
 pareja: lo que deja abierto cae sobre los dos, o sobre uno por el otro. Si no se llega al suelo,
@@ -42,9 +43,8 @@ romance, tests A1 y A2; ROMANCE_BEAT_MAP, el cierre y TEST 1):
 - *Parejas rotativas:* final feliz (HEA o HFN) de la pareja del libro; el puente siembra la
   siguiente sin poner en duda a la que cierra.
 
-**El calor** no tiene auditoría aquí: con la explicitud plena del género no hay umbral de puerta
-que vigilar (GENRE_CONVENTIONS, regla 7), y el nivel que declare la obra lo audita HEAT_DISCIPLINE donde lo pide (sus tests en el cierre, su calendario en la
-OPERACIÓN D), y la PASADA 1 recoge sus hallazgos abiertos. Sobre el libro entero corren además los
+**El calor** no tiene auditoría aquí (GENRE_CONVENTIONS, regla 7): lo audita HEAT_DISCIPLINE
+donde lo pide (sus tests en el cierre, su calendario en la OPERACIÓN D), y la PASADA 1 recoge sus hallazgos abiertos. Sobre el libro entero corren además los
 tests que lo miran: los de GENRE_CONVENTIONS 2 (escena limpia), 5 (miga, si hay trama horizontal) y 11 (anti-firma), y el 3
 de CLUE_LEDGER (relojes, si la saga los tiene).
 

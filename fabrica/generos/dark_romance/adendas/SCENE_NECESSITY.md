@@ -18,8 +18,7 @@ responde a una más: **¿qué cambia entre ellos?** Cuenta lo que se puede decir
 
 Una escena de la trama B que cambia algo entre ellos es escena de pareja: la trama B entra por la
 pareja como choque, proximidad forzada, obstáculo o moneda (`PAREJA_PRIMERO.md` §5). **Como mucho
-una de cada cuatro escenas mueve solo la trama B**, por defecto (`PAREJA_PRIMERO.md` §5, o el cupo
-que declare el preset). La que solo la mueve y cabe en una línea va a resumen (ELLIPSIS_PROTOCOL) o
+una de cada cuatro escenas mueve solo la trama B** (`PAREJA_PRIMERO.md` §5). La que solo la mueve y cabe en una línea va a resumen (ELLIPSIS_PROTOCOL) o
 se funde en una escena de pareja; la que no cambia nada no existe (PROHIBICIÓN EXPLÍCITA de la
 base).
 
@@ -39,7 +38,7 @@ escaleta y en el cierre:
 ### 3. TESTS (se suman a los de la base)
 
 TEST 7 — ¿QUÉ CAMBIA ENTRE ELLOS? Por escena, en la escaleta y en el cierre: decirlo en una frase.
-Si no sale, la escena es de trama B y entra en el cupo de §1 (por defecto, una de cada cuatro); con
+Si no sale, la escena es de trama B y entra en el cupo de §1 (una de cada cuatro); con
 el cupo lleno, va a resumen o se funde.
 
 TEST 8 — COPRESENCIA. Los dos suelos de §2, capítulo a capítulo. Si fallan en la escaleta, se

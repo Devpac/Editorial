@@ -13,7 +13,7 @@ esos beats: el detonante, los puntos de giro, las escaladas, el punto medio, la 
 son momentos entre los dos. La trama B no protagoniza ninguna fase: las presiona.
 
 El peso de pareja que tiene que dar la columna (por defecto, objetivo 80 % y suelo 70 %, o los que
-declare el preset: `PAREJA_PRIMERO.md` §3) y cómo se mide:
+declare el preset: `PAREJA_PRIMERO.md` §2, y los suelos de su §3) y cómo se mide:
 GENRE_CONVENTIONS, regla 1, y `PAREJA_PRIMERO.md` §2.
 
 ### 2. LA TRAMA B: CUATRO O CINCO BEATS TRENZADOS SOBRE LA COLUMNA
@@ -31,9 +31,9 @@ TRAMA B · BEAT [N]: [qué pasa, en una línea]
 - ENTRE ELLOS: [choque / proximidad forzada / obstáculo / moneda: qué cambia, en una frase]
 
 Un beat sin conversión no entra en la escaleta. La trama B refleja la pregunta de la pareja (regla
-del espejo: GENRE_CONVENTIONS, regla 2) y nunca la sustituye. Se cierra donde lo declare la obra
-(por defecto, en el libro: SUBPLOT_ARCHITECTURE, adenda §1), y el cierre del libro no es suyo: es de
-la pareja o, si la saga la tiene, de la trama horizontal (GENRE_CONVENTIONS, regla 10). Si la obra
+del espejo: GENRE_CONVENTIONS, regla 2) y nunca la sustituye. Se cierra (y paga sus deudas) dentro
+del libro (SUBPLOT_ARCHITECTURE, adenda §1); lo que cruza libros es la trama horizontal. El cierre
+del libro no es suyo: es de la pareja o, si la saga la tiene, de la trama horizontal (GENRE_CONVENTIONS, regla 10). Si la obra
 declara el libro «sin trama B propia», esta sección no aplica.
 
 ### 3. DEUDAS: DOS INVENTARIOS, DOS PLAZOS
@@ -41,7 +41,7 @@ declara el libro «sin trama B propia», esta sección no aplica.
 Las deudas estructurales de este archivo son las de la columna, las de la pareja: lo que se
 prometen, se deben o se callan, y los peldaños de la escala de rendición. Cuáles quedan abiertas al
 cerrar el libro lo decide la forma de la saga (SERIES_GLUE, adenda de dark romance). Las de la trama
-B se llevan en CLUE_LEDGER y se pagan todas donde se cierra la trama B (por defecto, dentro del libro).
+B se llevan en CLUE_LEDGER y se pagan todas dentro del libro.
 
 ### 4. TESTS (se suman a los de la base)
 
@@ -51,7 +51,7 @@ la trama B, la columna es de la trama B: reabrir el spine.
 
 TEST 5 — PESO POR TERCIO. Con el peso que estima cada ficha (escaleta) y con el medido (OPERACIÓN
 D): ¿cada tercio del libro apunta al objetivo de pareja y no baja del suelo (por defecto, 80 % y
-70 %: los de `PAREJA_PRIMERO.md` §3 o los del preset; unidad, §2)? Por bloque de cuatro capítulos
+70 %: los de `PAREJA_PRIMERO.md` §2, y los suelos de su §3, o los del preset)? Por bloque de cuatro capítulos
 rigen los umbrales de ROMANCE_BEAT_MAP. Lo que falla en lo escrito no se arregla en la prosa: se
 reescaleta el bloque siguiente.
 

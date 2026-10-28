@@ -13,8 +13,7 @@ que más la pone a prueba es lo que se hacen ellos dos (TEST 5).
 
 La trama B no tiene una pregunta que compita. La suya (*Variante: dark romance policial:* quién lo
 hizo y por qué) es la versión monstruosa de la de ellos (regla del espejo: GENRE_CONVENTIONS,
-regla 2): la refleja, nunca la sustituye, y se cierra donde lo declare la obra (por defecto, dentro del
-libro).
+regla 2): la refleja, nunca la sustituye, y se cierra dentro del libro.
 
 ### 2. POLARIDADES Y ENCARNACIÓN
 

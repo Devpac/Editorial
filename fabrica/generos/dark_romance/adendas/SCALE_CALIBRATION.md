@@ -7,7 +7,7 @@
 - **Libro:** [extensión por libro de la saga; la del libro en curso] (biblia y escaleta).
 - **Capítulos:** [número por libro y banda de palabras por capítulo; los del libro en curso,
   con sus escenas por capítulo y sus excepciones].
-- **Peso de pareja:** por defecto, el de `PAREJA_PRIMERO.md` §3, objetivo 80 %, suelo 70 %, en palabras,
+- **Peso de pareja:** por defecto, el de `PAREJA_PRIMERO.md` §2 (y los suelos de su §3), objetivo 80 %, suelo 70 %, en palabras,
   por bloque de cuatro capítulos y por libro, medido como en `PAREJA_PRIMERO.md` §2. Lo que no es
   pareja (trama B, trama horizontal y elenco cuando su página no es de pareja), como mucho el 30 %,
   sin mínimo; la trama horizontal y el elenco no tienen banda propia (cuentan como pareja cuando su
@@ -15,8 +15,8 @@
   bajarlos del de género es decisión del autor, con su porqué (`PAREJA_PRIMERO.md` §3). Lo cuenta el registro
   12 de CONTINUITY_PHYSICS después del borrador; lo auditan GENRE_CONVENTIONS (TEST 3) y la
   OPERACIÓN D (D-21 de la adenda de SYSTEM_ORCHESTRATION).
-- **Subtramas:** las de la biblia y la escaleta; la trama B es la obligatoria (SUBPLOT_ARCHITECTURE,
-  adenda).
+- **Subtramas:** las de la biblia y la escaleta; la trama B, si el libro la tiene, es la primera
+  subtrama y se cierra en el libro (SUBPLOT_ARCHITECTURE, adenda).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › SCALE_CALIBRATION › Declaración de escala.
 > *Qué declara aquí la obra:* la extensión por libro, el número y la banda de palabras de sus capítulos, su peso de pareja (objetivo y suelo, si cambia alguno, y su porqué si lo baja) y las cifras y excepciones del libro en curso.

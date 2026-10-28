@@ -12,21 +12,18 @@ hora de `continuidad.md`, fila de la escaleta) y contesta, en este orden:
    ¿Está el otro, y cómo: en escena, en directo u ocupando a quien narra (`PAREJA_PRIMERO.md` §2)?
    ¿Qué cambia entre ellos? ¿Con qué intensidad: choque, deseo, calor (el beat de ROMANCE_BEAT_MAP
    y, si toca, el peldaño de la escala de rendición)?
-2. **La trama B** (*Variante: dark romance policial:* el caso): qué hace para provocar lo del campo
-   1 (choque, proximidad forzada, obstáculo o moneda: `PAREJA_PRIMERO.md` §5), qué se mueve en ella
+2. **La trama B** (*Variante: dark romance policial:* el caso), si el libro la tiene; si no, qué
+   presiona a la pareja: qué hace para provocar lo del campo 1 (choque, proximidad forzada, obstáculo o moneda: `PAREJA_PRIMERO.md` §5), qué se mueve en ella
    y qué pista siembra, hace eco o cobra, si la hay (CLUE_LEDGER). La escena que solo la mueve entra
    en el cupo de una de cada cuatro o va a resumen (SCENE_NECESSITY, adenda).
 3. **Función única** en una frase.
 4. **Qué sabe cada uno al entrar** y qué no puede saber todavía (`continuidad.md`,
    `CLUE_LEDGER` y calendario de datos horizontales, si lo hay).
-5. **Gancho de cierre:** por defecto en todos los capítulos (la obra puede declarar cierres de
-   descarga, con su tope: SEAMS_AND_HINGES, adenda), de la pareja o de la trama B (de pareja, los
+5. **Gancho de cierre:** por defecto en todos los capítulos, salvo los cierres de descarga que
+   declare la obra en `PRESET_<OBRA>.md` › SEAMS_AND_HINGES › Gancho en todos los cierres; de la pareja o de la trama B (de pareja, los
    suelos de `PAREJA_PRIMERO.md` §3 o los que declare el preset; por defecto, al menos dos de cuatro
    por bloque de cuatro capítulos y dos de cada tres en el libro: lo cuenta la escaleta).
 6. **Lo que se decide al escribir** (lo deja abierto la escaleta).
-
-> **Valores de la obra →** `PRESET_<OBRA>.md` › CHAPTER_BRIEF › Gancho de cierre.
-> *Qué declara aquí la obra:* si sus cierres son todos en gancho (por defecto) o declara cierres de descarga, cuáles y con qué tope, y la decisión de su biblia que lo fija.
 
 El brief **no prescribe prosa**: no lleva cuotas, listas de palabras vetadas ni metáforas
 permitidas. Eso es oído de fondo al escribir y comprobación en la OPERACIÓN C
@@ -45,5 +42,5 @@ de la escaleta y lo cuenta, después del borrador, el registro 12 de CONTINUITY_
 ### TEST (se suma a los de la base)
 
 TEST 7 — LA PAREJA PRIMERO. ¿El campo 1 contesta sus tres preguntas con hechos de la escaleta, y el
-campo 2 dice cómo la trama B lo provoca? Si «¿qué cambia entre ellos?» queda vacío, el brief no se
+campo 2 dice cómo la trama B (si el libro la tiene; si no, qué presiona a la pareja) lo provoca? Si «¿qué cambia entre ellos?» queda vacío, el brief no se
 cierra: el capítulo vuelve a la escaleta, donde se funde o se rediseña.

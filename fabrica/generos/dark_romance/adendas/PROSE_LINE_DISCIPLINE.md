@@ -47,17 +47,18 @@ capítulo nuevo muy lejos de esta franja se mira; no se corrige por número.
 | Palabras por frase | | |
 | Frases de 4 palabras o menos | | |
 | Diálogo | | |
-| Comparaciones con «como» (como si, como quien, como un…) por 1.000 | | |
+| Comparaciones (la marca de comparación de la lengua de la obra; en español, «como»: como si, como quien, como un…) por 1.000 | | |
 | Palabras por párrafo | | |
 
 Si la obra declara que un tipo de capítulo mueve una medida de un narrador, esa variación
 no es alarma por sí sola.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › PROSE_LINE_DISCIPLINE › Medidas observadas.
-> *Qué declara aquí la obra:* las medidas de sus capítulos de referencia, una columna por capítulo con su narrador, la variación de un narrador que no es alarma y, si no vale el de por defecto, el umbral de comparaciones por 1.000 de cada voz.
+> *Qué declara aquí la obra:* las medidas de sus capítulos de referencia, una columna por capítulo con su narrador, y la variación de un narrador que no es alarma.
 
-Si un capítulo pasa del umbral de comparaciones por 1.000 de su voz (el que declare la obra; por
-defecto, ≈5), la lectura editorial revisa cada una:
+Si un capítulo pasa del listón de comparaciones (`PRESET_<OBRA>.md` › PROTOCOLO_LECTURA › Listón
+de comparaciones; por defecto, en español, ≈5 con «como» por 1.000), la lectura editorial revisa
+cada una:
 ¿la imagen sale de la cabeza del narrador o está puesta para sonar a literatura?
 
 **Cómo se miden** *(v2.0)*:
@@ -65,7 +66,8 @@ defecto, ≈5), la lectura editorial revisa cada una:
 - **Palabras por frase:** sobre el capítulo entero, no sobre una muestra.
 - **Frases de 4 palabras o menos:** su parte del total de frases del capítulo.
 - **Diálogo:** palabras en marca de diálogo sobre las palabras del capítulo.
-- **Comparaciones con «como»:** solo cuando «como» introduce la comparación («como si», «como
+- **Comparaciones** (la marca de comparación de la lengua de la obra; en español, «como»): solo
+  cuando la marca introduce la comparación («como si», «como
   quien», «como un…», «como se apaga una luz»); como marcador de discurso («como se sabe») no
   cuenta aquí, sino en la CUOTA 3.
 

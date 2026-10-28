@@ -46,7 +46,7 @@ Especializa PRESIONES INTERNAS y EVOLUCIÓN DEL VECTOR.
 La INSTRUCCIÓN OPERATIVA de la base da por hecha la escena de pareja; aquí la garantiza el
 diseño: la escaleta pone a los dos juntos según los suelos de presencia y de cara a cara
 (`PAREJA_PRIMERO.md` §3). Sus cuatro preguntas se leen en el cierre, como comprobación
-(SYSTEM_ORCHESTRATION, adenda §2), no como consigna antes de escribir.
+(SYSTEM_ORCHESTRATION, adenda §4), no como consigna antes de escribir.
 
 ### TESTS AÑADIDOS
 

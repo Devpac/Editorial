@@ -57,7 +57,8 @@ de la trama B que cae sobre la pareja (sobre los dos, o sobre uno por el otro). 
 más valioso (GENRE_CONVENTIONS, regla 6). Los
 picos los fija la escaleta del libro, con la escala de rendición de ROMANCE_BEAT_MAP y los suelos
 de calor de `PAREJA_PRIMERO.md` §3. Al final
-del libro: trama del libro descargada (*Variante: dark romance policial:* caso descargado); relación
+del libro: trama del libro, si el libro la tiene, cerrada y descargada dentro del libro (*Variante:
+dark romance policial:* caso descargado); relación
 **abierta** (cliffhanger emocional o miga grande), nunca coda cálida (saga con la misma pareja; la
 forma la declara la obra: SERIES_GLUE, adenda de dark romance).
 

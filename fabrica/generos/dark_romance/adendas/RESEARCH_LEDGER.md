@@ -29,8 +29,8 @@ pregunta de procedimiento no cuenta como bloqueo.
 «La escena existe por el dato» incluye la escena que existe para mostrar cómo se hace la trama B
 (*Variante: dark romance policial:* una autopsia, un interrogatorio por el protocolo, una reunión de
 brigada). Si no cambia nada entre ellos, es una escena limpia (GENRE_CONVENTIONS, regla 5): entra en
-el cupo de escenas que mueven solo la trama B (por defecto, una de cada cuatro: `PAREJA_PRIMERO.md`
-§5, o el del preset), y pasar del cupo rompe el contrato; la que pasa del cupo, o cabe en una línea,
+el cupo de escenas que mueven solo la trama B (como mucho una de cada cuatro: `PAREJA_PRIMERO.md`
+§5), y pasar del cupo rompe el contrato; la que pasa del cupo, o cabe en una línea,
 va a resumen o se funde en una escena de pareja. Dentro del cupo, la escena da el hecho y no la
 técnica: el procedimiento como espectáculo se elide siempre (ELLIPSIS_PROTOCOL, uso C). Lo detectan
 el cierre y la OPERACIÓN D (VERIFICACIÓN EN OPERACIÓN D y TEST 3 de la base).

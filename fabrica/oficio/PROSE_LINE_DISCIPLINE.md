@@ -417,8 +417,8 @@ calibrados:
   bloque tiene su cuota.
 
 Estas extrapolaciones son punto de partida, ajustables por el proyecto
-concreto. El proyecto que instancie este archivo puede declarar
-cuotas custom dentro de su instancia.
+concreto. El proyecto puede declarar sus cuotas en su régimen estético
+(biblia; › PROSE_LINE_DISCIPLINE › Régimen estético).
 
 **Nota sobre POPULAR-EFICIENTE.** El régimen popular-eficiente
 (thriller comercial moderno, novela negra contemporánea, suspense
@@ -958,7 +958,8 @@ La regla operativa de prevención: antes de aplicar una cuota o un
 filtro, consultar AESTHETIC_REGISTER y verificar el régimen vigente.
 Si una corrección rompe el régimen para satisfacer la cuota, la
 corrección está mal: o la cuota está mal calibrada para ese régimen
-y debe ajustarse en la instancia del proyecto, o el filtro se aplica
+y debe ajustarse en su régimen estético (biblia; › PROSE_LINE_DISCIPLINE
+› Régimen estético), o el filtro se aplica
 con menos agresividad.
 
 El segundo error frecuente es **declarar régimen y no respetarlo en

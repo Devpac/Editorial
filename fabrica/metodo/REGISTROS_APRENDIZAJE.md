@@ -49,7 +49,7 @@ FINALIZAR OP 0 con criterio de exhaustividad por tipo
 operativo, no solo coherencia entre presentes.
 
 Marca: DESCARTADO (a y b) · HISTÓRICO (c) — MODELO_DarkRomance
-v2.0, 23-10-2026 y 28-10-2026. (a) y (b), DESCARTADAS (regla del
+v2.0, 23-10-2026; Fábrica v3.0, 28-10-2026. (a) y (b), DESCARTADAS (regla del
 fork). Piden elevar reglas a disciplina previa, es decir,
 aplicarlas antes de escribir. En este modelo DIALOGUE_MECHANICS,
 SUBTEXT_MECHANICS y SENSORY_HIERARCHY se leen después del
@@ -136,7 +136,7 @@ y no produce inflación. La distinción cardinalidad acotada vs
 multiplicativa se documenta explícitamente en
 MODELO_AGNOSTICO_v7_APERTURA sección de política de instanciación.
 
-Marca: HISTÓRICO — MODELO_DarkRomance v2.0, 28-10-2026. Registro
+Marca: HISTÓRICO — Fábrica v3.0, 28-10-2026. Registro
 de la v7, que no se aplica: sus propuestas citan archivos de la v7
 (MODELO_AGNOSTICO_v7_APERTURA) que no están en esta fábrica. El
 método resolvió el síntoma por otro camino: las plantillas no se
