@@ -1,0 +1,95 @@
+/* Estilo del ebook. Sencillo a propósito: Kindle impone su tipografía
+   y respeta poco más que sangrías, alineación y saltos. */
+
+body {
+  margin: 0;
+  padding: 0;
+  orphans: 2;
+  widows: 2;
+}
+
+p {
+  margin: 0;
+  text-indent: 1.2em;
+  text-align: justify;
+  line-height: 1.45;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+p.inicial { text-indent: 0; }
+
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+  page-break-after: avoid;
+  break-after: avoid;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+/* Apertura de capítulo */
+h1.num {
+  font-size: 2.2em;
+  margin: 3em 0 0.25em 0;
+}
+
+p.pov {
+  text-align: center;
+  text-indent: 0;
+  font-variant: small-caps;
+  letter-spacing: 0.15em;
+  margin: 0 0 2.5em 0;
+}
+
+h1.num.titulo {
+  font-size: 1.5em;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+}
+
+p.pov-dentro {
+  margin: 0 0 1.5em 0;
+}
+
+p.sep {
+  text-align: center;
+  text-indent: 0;
+  margin: 1em 0;
+}
+
+/* Preliminares */
+.portada { margin: 0; padding: 0; text-align: center; }
+.portada img { max-width: 100%; height: auto; }
+
+.portadilla { text-align: center; margin-top: 25%; }
+.portadilla p, .creditos p, .dedicatoria p, .final p, .otros p { text-indent: 0; }
+.portadilla .serie { font-variant: small-caps; letter-spacing: 0.12em; text-align: center; margin-bottom: 1.5em; }
+.portadilla h1.titulo { font-size: 2em; margin: 0 0 0.5em 0; }
+.portadilla .subtitulo { font-style: italic; text-align: center; }
+.portadilla .autor { font-variant: small-caps; letter-spacing: 0.12em; text-align: center; margin-top: 3em; }
+
+.creditos { margin-top: 30%; font-size: 0.8em; }
+.creditos p { text-align: left; margin-bottom: 0.6em; }
+
+.dedicatoria { margin-top: 30%; }
+.dedicatoria p { text-align: right; font-style: italic; }
+
+.aviso h2 { font-size: 1.2em; margin: 3em 0 1.5em 0; font-variant: small-caps; letter-spacing: 0.1em; }
+.aviso p { text-indent: 0; margin-bottom: 0.8em; }
+
+/* Páginas finales */
+.final { margin-top: 15%; text-align: center; }
+.final h2 { font-size: 1.4em; margin-bottom: 2em; }
+.final p { text-align: center; margin-bottom: 0.8em; }
+.final .siguiente { font-size: 1.6em; margin: 0.3em 0; }
+.final .serie { font-variant: small-caps; letter-spacing: 0.12em; margin-bottom: 1.5em; }
+.final .gancho { font-style: italic; text-align: justify; }
+.final .boton { margin: 1.5em 0; font-weight: bold; }
+.final .resena { margin-top: 2em; font-size: 0.9em; }
+
+.otros h2 { font-size: 1.3em; margin: 3em 0 1.5em 0; }
+.otros p { text-align: center; margin-bottom: 0.6em; }
+
+.indice ol { list-style-type: none; padding-left: 0; }
+.indice li { margin: 0.3em 0; }

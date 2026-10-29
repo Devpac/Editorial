@@ -36,10 +36,10 @@ línea de lo que va a hacer y empieza.
 **(a) Obra nueva**
 
 > Eres el orquestador de una obra nueva con la fábrica de Editorial. Autorizo conectar con acceso
-> de escritura el repo de GitHub `[usuario/repo-de-la-obra]` (vacío) y el del modelo
-> `[usuario/repo-del-modelo]` (solo lectura). Lee `ORQUESTADOR.md` y `LEEME.md` del modelo y
+> de escritura el repo de GitHub `[usuario/repo-de-la-obra]` (vacío) y `Devpac/Editorial` (solo
+> lectura). Lee `ARRANQUE.md` de Editorial y síguelo: prepara el repo de la obra con la fábrica y
 > empieza por la fase 0. Mi idea, en bruto: [premisa, subgénero, lo que quiero]. Mi criterio de
-> delegación: [el que trae el modelo por defecto / el mío: …]. Todo en [LENGUA].
+> delegación: [el que trae la fábrica por defecto / el mío: …]. Todo en [LENGUA].
 
 **(b) Libro nuevo de una saga que ya existe**
 
@@ -89,9 +89,12 @@ entra por la fase 1b (preset desde su biblia) o por la 2, según lo que traiga.
 
 ### 2.0 Arranque de la obra (fase 0)
 
-1. El autor crea el repo vacío en GitHub y da acceso. El orquestador copia en él los **archivos del
-   modelo** (lista en `LEEME.md`, «Qué es modelo y qué es obra») y nada de ninguna otra obra; la
-   obra activa la dice su cuaderno, no el `LEEME.md`.
+1. El autor crea el repo vacío en GitHub y da acceso (escritura a él, lectura a Editorial). El
+   orquestador lo prepara con `herramientas/nueva_saga.py` de Editorial (`ARRANQUE.md`): la
+   fábrica montada en `fabrica/` para el paquete del género de la obra, con su sello; el `LEEME.md`
+   de la obra en la raíz; y `publicacion/` para el maquetador. Nada de ninguna otra obra. Si el
+   género de la obra no tiene paquete en Editorial, se dice al autor antes de seguir: hay que
+   crearlo primero (`ARRANQUE.md`). Commit: «Fase 0: saga montada con la Fábrica vX.Y».
    **Nombre de trabajo:** hasta que haya título, `<OBRA>` es un nombre de trabajo que el autor
    aprueba con la ficha de premisa (en mayúsculas y con guiones bajos en los nombres de archivo:
    `CUADERNO_<OBRA>.md`, `PRESET_<OBRA>.md`); si después cambia, se renombran los archivos y se
@@ -239,10 +242,14 @@ relevo). Ninguna ventana del libro nuevo se lanza antes.
    §7) y los sube al repo de la obra; las ventanas de trabajo no los buscan.
 6. **El autor** (§7): si tiene notas propias para el libro nuevo, van a la biblia como A-NN antes
    del diseño; si no, el diseño se hace por delegación, dentro de la tabla de títulos de la biblia.
-7. **Cuaderno:** libro N en curso, `libro_NN/` en el índice, fase 2a. Los códigos
+7. **Versión de la fábrica:** si Editorial tiene una versión más nueva que la montada
+   (`fabrica/_FABRICA.txt`), se le propone al autor ponerla al día ahora, con lo que trae según el
+   `CHANGELOG.md` de Editorial; si dice que sí, se vuelve a montar `fabrica/` (`montar.py`), se
+   pasan al preset las ranuras que haya cambiado (§10) y se apunta en el cuaderno.
+8. **Cuaderno:** libro N en curso, `libro_NN/` en el índice, fase 2a. Los códigos
    de ventana del libro nuevo llevan su número delante (L2-D1, L2-E1, L2-A1, L2-C01…), y se apunta
    en el cuaderno.
-8. **NEXT del diseño** (D1) y commit: «Libro N-1 cerrado; puente al libro N».
+9. **NEXT del diseño** (D1) y commit: «Libro N-1 cerrado; puente al libro N».
 
 ### 2.8 Diseño del libro (fase 2a, del libro 2 en adelante)
 
@@ -437,7 +444,7 @@ Commit y push al cerrar cada paso, con un mensaje que diga qué cambió. Nunca s
 
 ---
 
-## 10. Mejorar el modelo
+## 10. Mejorar la fábrica
 
 - **Regla del fork:** ninguna mejora añade instrucciones antes de escribir. Lo que se aprende va al
   cierre (OPERACIÓN C), a la lectura (C.5 y `PROTOCOLO_LECTURA.md`) o a los tests de las plantillas
@@ -445,7 +452,13 @@ Commit y push al cerrar cada paso, con un mensaje que diga qué cambió. Nunca s
 - Las mejoras que **solo cortan** (comprobaciones de cierre, preguntas de lectura) pueden ir directas
   y se vigilan en las lecturas de los capítulos siguientes. Las demás, en una rama y con prueba a
   ciegas (adenda de `SYSTEM_ORCHESTRATION.md`, §7).
-- **El modelo no lleva valores de ninguna obra.** Lo que es de la obra va a su preset o a su
-  biblia. Cada mejora se registra en `SYSTEM_ORCHESTRATION.md` (adenda, §8) y en el `LEEME.md` del
-  modelo; si la obra vive en otro repo, el orquestador copia allí los archivos del modelo que
-  cambiaron.
+- **La fábrica no lleva valores de ninguna obra.** Lo que es de la obra va a su preset o a su
+  biblia.
+- **La fábrica no se edita en la saga.** `fabrica/` se monta desde Editorial y se vuelve a montar
+  igual. La mejora se registra en la obra y se propone a Editorial
+  (`PROTOCOLO_CAPTURA_APRENDIZAJE.md`), donde se escribe en abstracto, se prueba, se apunta en su
+  `CHANGELOG.md` y sube de versión.
+- **La saga se pone al día cuando el autor lo decide**, de preferencia en el paso al libro
+  siguiente (§2.7) y nunca con un capítulo a medias: se vuelve a montar `fabrica/`
+  (`montar.py --destino fabrica`), y si la versión nueva cambia o crea ranuras del preset, el
+  orquestador rellena las de la obra antes de lanzar ninguna ventana. Se apunta en el cuaderno.

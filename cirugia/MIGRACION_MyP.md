@@ -92,6 +92,18 @@
 2. **Lucía:** el nombre y la ciudad de la lectora externa coinciden con Lucía Ferrándiz, de la Consignataria del puerto de Valencia (biblia l. 2041). La fábrica ya no la lleva; en MyP, ¿se queda o se cambia?
 3. **Precio** de las lecturas externas: 3,99 € (no lo fija la biblia).
 
-## 8. Cómo se comprueba la migración
+## 8. La estructura del repo y la publicación
+
+Con la v3.0, la fábrica de una saga vive en `fabrica/` y la obra en la raíz (`ARRANQUE.md`). En `Devpac/Dark`, al migrar:
+
+1. **La fábrica a `fabrica/`:** se borran de la raíz los 47 archivos de modelo (la lista de `historia/ORIGEN.md`) y se monta `python3 -I Editorial/herramientas/montar.py --genero dark_romance --destino Dark/fabrica`. Quedan en la raíz solo los de la obra.
+2. **El `LEEME.md` de la raíz** pasa a ser el de la obra (el de `plantilla_saga/LEEME.md`, con `{{OBRA}}` = `MADERA_Y_POLVORA`), en lugar del de la fábrica.
+3. **`Referencia_modelo/`** sale de la raíz de Dark o se queda como histórico de la obra (§5); la traza ya está en Editorial (`historia/Referencia_modelo/`).
+4. **La publicación:** `Dark/publicacion/` recibe de `Devpac/maquetador` `obra/serie.yaml` y `obra/libro_NN.yaml` (con `capitulos: ../libro_01` y su `orden:`), `portadas/` (las instrucciones de la saga y las imágenes) y, si hay, fuentes propias en `publicacion/fuentes/`. El código pasa a ser el de `Editorial/maquetador` (mismo resultado, comprobado el 29-10-2026), y `Devpac/maquetador` queda como archivo.
+5. **El cuaderno** apunta la versión montada (`fabrica/_FABRICA.txt`) y la fecha.
+
+La publicación del libro 1 no tiene que esperar a la migración: `Devpac/maquetador` sigue funcionando tal cual.
+
+## 9. Cómo se comprueba la migración
 
 Una correctora sin contexto monta la v2.0 (`Devpac/Dark`, `fcd6839`, o `herramientas/montar.py` sobre el commit del paso 1 de Editorial) y la v3.0, cada una con su preset de MyP, y comprueba, plantilla por plantilla, que lo que una ventana de capítulo de MyP lee es lo mismo. Lo que falte, al preset antes de lanzar ninguna ventana del libro 2.

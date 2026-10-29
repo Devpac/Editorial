@@ -1,0 +1,7 @@
+# Serie de prueba: comprueba la instalación sin tocar ninguna obra.
+serie:
+  nombre: Serie de Prueba
+  total_previsto: 3
+autor: Autora de Prueba
+idioma: es-ES
+ia: {texto: "no", imagenes: "no", traduccion: "no"}

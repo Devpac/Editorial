@@ -1,0 +1,6 @@
+Fuentes del maquetador.
+
+BodoniModa/  Bodoni Moda (Indestructible Type), licencia SIL Open Font License 1.1 (OFL.txt).
+             Se usa en las cubiertas.
+
+Puedes añadir aquí otras .ttf/.otf para el interior impreso (ver README).

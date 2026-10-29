@@ -24,7 +24,7 @@ Es del modelo cuando entra en una de estas cinco situaciones:
 
 ## DÓNDE SE REGISTRA
 
-**Una mejora que nace de una obra se registra en la obra y se propone a la fábrica.** En la obra queda dónde se vio (el acta o la lectura, con su código). El orquestador lo propone a la fábrica (Editorial) con un registro en su `REGISTROS_APRENDIZAJE.md` (el de `fabrica/metodo/`, no la copia montada en la obra), al cerrar el encargo en que lo vio. Cada registro tiene cinco campos y ocupa de 5 a 20 líneas:
+**Una mejora que nace de una obra se registra en la obra y se propone a la fábrica.** En la obra queda dónde se vio (el acta o la lectura, con su código). El orquestador lo propone a la fábrica, al cerrar el encargo en que lo vio, con un registro en `informes/propuestas_fabrica.md` de la obra (no en la copia montada en `fabrica/`, que no se edita). Quien mantiene Editorial lo pasa a su `REGISTROS_APRENDIZAJE.md` (el de `fabrica/metodo/`) y lo procesa allí. Cada registro tiene cinco campos y ocupa de 5 a 20 líneas:
 
 - **Campo 1 — Identificador y fecha.** Número correlativo y fecha de captura.
 - **Campo 2 — Síntoma observado.** Qué pasó, con la lengua de la obra si hace falta (nombres, capítulos, cifras) y el código del acta o la lectura de donde sale. Es testimonio: los datos de la obra son historia del registro, no regla.

@@ -1,0 +1,13 @@
+# Libro de prueba:  python maquetar.py ejemplo/libro_01.yaml
+serie_config: serie.yaml
+numero: 1
+titulo: El libro de prueba
+capitulos: capitulos
+orden:
+  - prologo.md
+  - "capitulo_*.md"
+descripcion: Libro de prueba del maquetador.
+siguiente:
+  titulo: El segundo libro de prueba
+  gancho: |
+    Nada de lo que pasó en el andén se queda en el andén.

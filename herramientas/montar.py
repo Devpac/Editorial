@@ -11,15 +11,73 @@ Lo que es común a todo romance va arriba; lo de cada subgénero, en su paquete.
 nuevo (romantasy, dark academia…) es una carpeta más en fabrica/generos/, con sus plantillas
 y sus adendas, sin tocar las capas de arriba.
 
+Con --destino, además de los archivos, escribe en la carpeta el sello `_FABRICA.txt` (versión,
+género, commit de Editorial, fecha y la lista de archivos). Si la carpeta ya tenía un sello, es una
+actualización: se borran los archivos de la fábrica anterior que ya no existen y no se toca nada
+que no figure en el sello viejo. Así se monta y se pone al día la carpeta `fabrica/` de una saga:
+
+    python herramientas/montar.py --genero dark_romance --destino <repo_de_la_saga>/fabrica
+
 Con --comprobar <carpeta>, en vez de escribir, compara byte a byte el montaje con los archivos
 de esa carpeta y dice si son idénticos.
 """
 import argparse
+import datetime as dt
+import subprocess
 import sys
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parent.parent / "fabrica"
+EDITORIAL = Path(__file__).resolve().parent.parent
+RAIZ = EDITORIAL / "fabrica"
 CAPAS = ["metodo", "oficio", "romance"]
+SELLO = "_FABRICA.txt"
+
+
+def version() -> str:
+    v = EDITORIAL / "VERSION"
+    return v.read_text(encoding="utf-8").strip() if v.is_file() else "?"
+
+
+def commit() -> str:
+    try:
+        r = subprocess.run(["git", "-C", str(EDITORIAL), "rev-parse", "--short", "HEAD"],
+                           capture_output=True, text=True, check=True)
+        sucio = subprocess.run(["git", "-C", str(EDITORIAL), "status", "--porcelain", "fabrica"],
+                               capture_output=True, text=True).stdout.strip()
+        return r.stdout.strip() + (" (con cambios sin subir)" if sucio else "")
+    except (OSError, subprocess.CalledProcessError):
+        return "desconocido"
+
+
+def leer_sello(carpeta: Path) -> list:
+    """Archivos que la fábrica montada anteriormente dejó en la carpeta."""
+    sello = carpeta / SELLO
+    if not sello.is_file():
+        return []
+    lineas = sello.read_text(encoding="utf-8").splitlines()
+    return [l[2:].strip() for l in lineas if l.startswith("- ") and l.strip().endswith(".md")]
+
+
+def escribir(destino: Path, genero: str, archivos: dict) -> None:
+    destino.mkdir(parents=True, exist_ok=True)
+    viejos = set(leer_sello(destino))
+    sueltos = sorted(p.name for p in destino.glob("*.md") if p.name not in viejos and p.name not in archivos)
+    if sueltos:
+        sys.exit(f"{destino} tiene archivos que no son de la fábrica: {', '.join(sueltos)}. "
+                 "La carpeta de la fábrica solo lleva la fábrica (la obra va en la raíz del repo).")
+    quitados = sorted(viejos - set(archivos))
+    for n in quitados:
+        (destino / n).unlink(missing_ok=True)
+    for n, datos in archivos.items():
+        (destino / n).write_bytes(datos)
+    hoy = dt.date.today().isoformat()
+    (destino / SELLO).write_text(
+        f"Fábrica v{version()} · género: {genero} · Editorial {commit()} · montada el {hoy}\n"
+        "No se edita a mano: se monta desde Devpac/Editorial (herramientas/montar.py).\n"
+        "Las mejoras se proponen a Editorial (PROTOCOLO_CAPTURA_APRENDIZAJE.md).\n\n"
+        + "\n".join(f"- {n}" for n in sorted(archivos)) + "\n", encoding="utf-8")
+    print(f"{len(archivos)} archivos montados en {destino} (Fábrica v{version()}, {genero})"
+          + (f"; retirados: {', '.join(quitados)}" if quitados else ""))
 
 
 def montar(genero: str) -> dict:
@@ -49,10 +107,7 @@ def main() -> None:
     archivos = montar(a.genero)
 
     if a.destino:
-        a.destino.mkdir(parents=True, exist_ok=True)
-        for n, datos in archivos.items():
-            (a.destino / n).write_bytes(datos)
-        print(f"{len(archivos)} archivos montados en {a.destino}")
+        escribir(a.destino, a.genero, archivos)
         return
 
     distintos = [n for n, d in archivos.items()

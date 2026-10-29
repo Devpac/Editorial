@@ -2,6 +2,12 @@
 
 Las reglas no llevan historia: lo que pasó y por qué está aquí. El detalle de cada frase de historia que salió de las reglas en la v3.0, archivo por archivo, está en `cirugia/historia/`.
 
+## v3.0 (29-10-2026) · arranque y maquetador
+
+- **Una saga nueva se prepara con un comando** (`herramientas/nueva_saga.py`, `ARRANQUE.md`): la fábrica montada en `fabrica/` con su sello (`_FABRICA.txt`: versión, género, commit, archivos), el `LEEME.md` de la obra en la raíz y `publicacion/` para el maquetador. `montar.py` pone al día la `fabrica/` de una saga sin tocar nada que no sea de la fábrica.
+- `LEEME.md` de la fábrica reescrito para ese esquema; `ORQUESTADOR.md` §1a, §2.0, §2.7 y §10 (la fábrica no se edita en la saga; se pone al día cuando el autor lo decide, entre libros); las propuestas de mejora se dejan en `informes/propuestas_fabrica.md` de la obra.
+- **El maquetador entra en Editorial**, sin la configuración de ninguna obra (sale el mismo EPUB, interior, portada y ficha que con el de *Madera y Pólvora*): la salida va junto a la ficha del libro, admite fuentes de la saga y el texto del botón final; plantilla de instrucciones de portada genérica; ejemplo neutro con prólogo y cambio de narrador.
+
 ## v3.0 · 28-10-2026 · Editorial
 
 **La fábrica se separa de su primera obra.** Mismo método, mismas plantillas de oficio, mismas comprobaciones: ninguna regla de prosa nueva (regla del fork). Lo que cambia es dónde vive cada cosa.

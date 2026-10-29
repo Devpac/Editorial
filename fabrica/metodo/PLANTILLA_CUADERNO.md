@@ -25,6 +25,7 @@ Con sus palabras y la fecha. Lo leen el orquestador, los NEXT y los prompts de l
   las ventanas; prioridades (p. ej., «primero que enganche, luego lo demás»); líneas rojas.
 
 ## 3. Estado de la obra
+- Fábrica: versión y género montados en `fabrica/` (`fabrica/_FABRICA.txt`), y desde cuándo.
 - Biblia: versión <vX.Y>, última decisión <A-NN>.
 - Preset: al día con la biblia <sí/no>.
 - Forma de la saga: <A, la misma pareja en muchos libros · B, dúo o trilogía · C, parejas rotativas>.
