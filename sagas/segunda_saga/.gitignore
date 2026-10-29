@@ -1,0 +1,4 @@
+publicacion/salida/
+__pycache__/
+*.pyc
+.venv/

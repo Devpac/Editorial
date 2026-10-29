@@ -1,0 +1,576 @@
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
+
+# CLUE_LEDGER.md — Fábrica
+
+> *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
+
+> Rige `PAREJA_PRIMERO.md`: la trama del libro es la trama B. Sus
+> mecanismos (pistas, señuelos, sospechosos, coartadas) tienen techo y caben en el de lo que no es
+> pareja (trama B, trama horizontal y elenco cuando su página no es de pareja: como mucho el 30 %
+> del libro, sin mínimo); su estado se pone al día en la auditoría (OPERACIÓN D), no en cada
+> capítulo.
+
+> **ARCHIVO DE CONTABILIDAD.** No tiene contenido dramático propio: lleva las cuentas.
+> En una saga larga con trama del libro autoconclusiva (*Variante: dark romance policial:*
+> caso autoconclusivo) y trama horizontal continua, este registro es lo único que impide
+> los dos desastres simétricos: que un libro cierre su trama con un dato que nadie sembró,
+> y que un libro se entregue **sin haber movido la trama horizontal ni un milímetro**.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Cabecera: escala de la saga y trama horizontal.
+> *Qué declara aquí la obra:* cuántos libros tiene la saga y, si tiene trama horizontal, qué hecho de ella tiene que moverse en cada libro.
+
+---
+
+## PROPÓSITO
+
+El libro de contabilidad de pistas de esta saga puede ser **triple**: no registra un solo
+juego, sino hasta tres a la vez, que se pagan en plazos distintos:
+
+- **CAPA A — Pistas de la trama del libro** (*Variante: dark romance policial:* del caso).
+  La trama del libro se abre y se cierra dentro del volumen. Todo lo que la resuelve se
+  siembra dentro del volumen. Aquí sigue vigente la vieja disciplina: nada se cobra sin
+  siembra previa.
+- **CAPA B — Migas de pan horizontales** (si la saga tiene trama horizontal). En cada libro,
+  protagonista A descubre **una pista real y tangible** sobre esa trama. No una sensación,
+  no una sospecha, no una conversación que insinúa. Una pista con forma. **Un libro sin
+  miga no se entrega.**
+- **CAPA C — Los relojes de saga** (saga con la misma pareja; la forma de la saga la
+  declara la obra: SERIES_GLUE, adenda de dark romance). Cuentas atrás que empiezan en un
+  libro y suenan en otro, a varios volúmenes de distancia. No gastan páginas de trama, pero
+  se pudren si nadie anota qué pieza se puso y cuándo.
+
+A esas tres se les suma un registro menor y muy rentable: **la firma del antagonista de
+saga** (si la hay), el rastro que la lectora aprende a reconocer libro tras libro sin que
+nadie se lo explique.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Propósito: las capas y la firma en la obra.
+> *Qué declara aquí la obra:* si los tiene, sobre qué hecho trata su trama horizontal, cuántos relojes lleva y a qué distancia suenan, y qué antagonista deja firma y con qué rastro.
+
+La función de este archivo no es que la lectora adivine al culpable. En Dark Romance la
+lectora no viene a competir con la narradora: viene a saber más que ella y a sufrir por
+eso. El registro existe para que ese desnivel de información esté **diseñado**, no
+improvisado, y para que la trama horizontal avance con pruebas contables en la mano.
+
+**JERARQUÍA:** Capa 2 transversal. Es el registro único del material de la trama del libro y
+de la trama horizontal: INFORMATION_CHOREOGRAPHY.md no lo duplica (lleva los hechos de pareja y,
+con su ID de este registro, los de doble rango). Comparte con CONTINUITY_PHYSICS.md (registro 6)
+el estatuto de espejo retrospectivo de quién sabe qué. Obedece a `PAREJA_PRIMERO.md` (la trama
+del libro es trama B) y a GENRE_CONVENTIONS.md, que le impone la obligación de miga
+(convención 9) y el veto al libro estancado.
+
+---
+
+## LA REGLA RECTORA, RECALIBRADA
+
+El juego limpio de la trama con revelaciones (*Variante: dark romance policial:* el del
+misterio clásico) se sustituye por un contrato distinto y más duro cuando un narrador miente
+por omisión (por defecto, con dos POV, el del narrador hermético, si la obra lo declara).
+
+1. **Nada se cobra sin siembra.** Toda revelación mayor de la trama del libro —quién,
+   cómo, por qué— tiene entrada de siembra anterior en este registro, publicada antes del
+   capítulo de cobro. Vale igual para las migas: la miga de un libro tardío no puede caer del cielo, se
+   prepara desde libros anteriores.
+2. **La reinterpretación no reescribe.** Cada pista que sostiene una inversión debe poder
+   releerse con el sentido nuevo sin contradecir una sola palabra de lo ya escrito. Si
+   sostenerla exige cambiar un hecho ya narrado, es trampa.
+3. **Ningún narrador oculta lo que HACE; el que oculta (si lo hay) oculta solo lo que SABE.**
+   Regla nuclear. Los capítulos de cada POV muestran íntegramente sus actos en escena y la
+   lectora los conoce mucho antes que el otro protagonista. Lo que sí puede retener su POV es lo
+   que sabe de antes: eso es memoria, no percepción presente, y su ocultación puede ser el
+   motor de un reloj de saga. **Usar el POV de ese narrador para esconder una acción de
+   escena es hacer trampas con el único recurso que no admite trampas.**
+4. **Lo que ve quien narra, lo ve la lectora.** Quien narra puede callar su
+   interpretación, nunca el dato físico que percibe. Se retiene la lectura, jamás el objeto.
+5. **Toda pista falsa tiene causa propia.** Un señuelo que se descarta sin explicación
+   diegética se percibe como estafa.
+
+6. **Si la obra declara una regla de impunidad** (GENRE_CONVENTIONS, TEST 10), las pistas
+   que la tocan se registran aquí, con **cómo** llegaron sin romperla.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › La regla rectora en la obra.
+> *Qué declara aquí la obra:* si un narrador oculta información, quién es y cuánto calla, qué sabe de antes y qué reloj mueve esa ocultación, si lo mueve; la causa propia habitual de sus señuelos; y, si tiene una regla de impunidad, dónde la fija su biblia y por qué vías llega una pista sin romperla.
+
+---
+
+# CAPA A — PISTAS DE LA TRAMA DEL LIBRO
+
+*Variante: dark romance policial:* la trama del libro es el caso autoconclusivo y sus pistas
+son las del caso. Lo que solo rige en esta variante va marcado.
+
+## REGISTRO DE PISTAS VERDADERAS
+
+FORMATO por pista:
+
+PISTA [P-0X]
+- QUÉ ES: dato concreto (objeto, incoherencia física, frase, **ausencia**).
+- QUÉ REVELA: verdad a la que apunta, formulada como HECHO (ver
+  INFORMATION_CHOREOGRAPHY.md).
+- SIEMBRA: capítulo.
+- ECO(S): capítulo(s).
+- COBRO: capítulo de confirmación.
+- VÍA DE COBRO: protagonista A / protagonista B / la que declare la obra
+  (*Variante: dark romance policial:* también la institucional).
+- VISTA POR LA LECTORA: sí desde cap. N / parcial / no.
+- VISTA POR PROTAGONISTA A: sí y la registra / sí y la interpreta mal / no la advierte.
+- VISTA POR PROTAGONISTA B: no la tiene / la tiene desde cap. N y calla / se la entrega a
+  protagonista A.
+- REINTERPRETABLE: qué cambia en la segunda lectura.
+- COSTE: qué le cuesta a quien la cobra (una deuda con el otro, una pieza para un reloj de
+  saga si lo tiene, lo que declare la obra).
+
+| ID | Qué revela | Siembra | Eco | Cobro | Vía | Lectora | Protagonista A | Protagonista B |
+|---|---|---|---|---|---|---|---|---|
+| P-0X | […] | cap. […] | cap. […] | cap. […] | […] | […] | […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Registro de pistas verdaderas: ficha, tabla y figura de la obra.
+> *Qué declara aquí la obra:* qué vías de cobro tiene (en la variante policial, qué instituciones) y qué precio concreto tiene cada cobro, su tabla de pistas verdaderas y, si la tiene, su figura propia de pista con la frecuencia de uso.
+
+**Presupuesto: techos, no cuotas.** Los mecanismos de la trama del libro se dimensionan para
+caber en el techo de lo que no es pareja, como mucho el 30 % del libro (`PAREJA_PRIMERO.md`
+§3). Cuántas pistas verdaderas caben por libro, como mucho, y a partir de qué punto del
+manuscrito ya no se siembra (solo ecos y cobros), lo declara la obra a su escala. El peso de
+la pareja no se negocia: si una pista no cabe, sobra la pista.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Presupuesto de pistas a la escala de la obra.
+> *Qué declara aquí la obra:* la extensión y el número de capítulos de cada libro, su peso de pareja, su techo de pistas verdaderas por libro y el punto del manuscrito después del cual no se siembra y dónde empieza su tramo final.
+
+---
+
+## PISTAS FALSAS (RED HERRINGS)
+
+*Variante: dark romance policial.*
+
+| ID | A quién incrimina | Causa diegética propia | Siembra | Desmentido |
+|---|---|---|---|---|
+| RH-0X | […] | […] | cap. […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Pistas falsas: tabla y señuelo de la obra.
+> *Qué declara aquí la obra:* su techo de señuelos por libro; sus señuelos de ejemplo (a quién incriminan, causa propia, siembra y desmentido); y, si el protagonista peligroso es sospechable, si un señuelo apunta a él en cada libro y cómo formula sus reglas, o «no aplica».
+
+**Presupuesto: techo de señuelos por libro, el que declare la obra a su escala.**
+
+**Si el protagonista peligroso es sospechable** (por defecto, protagonista B; lo declara la
+obra), un señuelo que apunta a él es la forma legítima de sostener la pregunta *"¿hasta
+dónde llega lo que ha hecho?"* sin recurrir a un candidato romántico alternativo, que está
+**vetado** por GENRE_CONVENTIONS.md. **Regla dura de ese señuelo:** se desmiente en el
+hecho, **nunca en el carácter**. Se demuestra que no hizo *eso*; jamás que sea incapaz de
+hacerlo. Un desmentido que lo blanquea destruye el producto. La coda correcta de ese
+señuelo no es el alivio, es la incomodidad.
+
+---
+
+## COARTADAS
+
+*Variante: dark romance policial.*
+
+| Sospechoso | Coartada declarada | Cap. declaración | Verificación | Cap. ruptura/sostén |
+|---|---|---|---|---|
+| […] | […] | cap. […] | […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Coartadas: tabla de la obra.
+> *Qué declara aquí la obra:* las coartadas de ejemplo de sus sospechosos y, si el protagonista peligroso es sospechoso recurrente, si lleva fila fija en la tabla y cómo se rellena.
+
+Una coartada se pone a prueba solo si la escaleta lo necesita, y la que se rompe se rompe por
+dato diegético —otra pista, otro testigo, una hora que no cuadra—, nunca por conveniencia de
+guion.
+
+---
+
+## TABLA DE SOSPECHOSOS
+
+*Variante: dark romance policial.*
+
+| Sospechoso | Medio | Móvil | Oportunidad | Estado | Cap. introducción | Cap. resolución |
+|---|---|---|---|---|---|---|
+| […] | […] | […] | […] | […] | cap. […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Sospechosos: tabla, reparto y veto de la obra.
+> *Qué declara aquí la obra:* sus sospechosos de ejemplo, su techo de sospechosos activos por libro (y si cuenta aparte al protagonista peligroso, si es sospechoso recurrente) y su reparto de páginas.
+
+**Techo de sospechosos activos, el que declare la obra a su escala**, con medio, móvil y
+oportunidad reales. No hay mínimo. Por encima del techo, lo que no es pareja pasa del 30 % y
+la relación pierde páginas.
+
+**Veto de género (PELIGRO 1, GENRE_CONVENTIONS).** Cuando la protagonista trabaja a un
+sospechoso, ninguna atracción real ni roce físico innecesario. Ningún sospechoso asciende a
+interés romántico.
+
+---
+
+## CRUCE OBLIGATORIO: LA PISTA-ESPEJO
+
+**Regla del espejo (GENRE_CONVENTIONS, convención 2):** la trama del libro
+(*Variante: dark romance policial:* el caso) es la versión monstruosa del tema emocional de
+la pareja. La contabilidad tiene que demostrarlo con una pista concreta, no con una
+intención. Declarar por libro:
+
+PISTA-ESPEJO: [ID de la tabla de pistas]
+- QUÉ RESUELVE DE LA TRAMA DEL LIBRO: […]
+- QUÉ OBLIGA A MIRAR EN LA PAREJA: la misma verdad, aplicada a ellos dos.
+- QUÉ HACE PROTAGONISTA B CON ELLA: la entrega, la destruye, la usa antes que ella o la
+  contamina. Siempre hace algo. Una pista-espejo que él no toca no es una pista-espejo.
+- POR QUÉ NO PUDO COBRARSE ANTES: motivo diegético del retraso.
+- COSTE: qué pieza añade este cobro a un reloj de saga, si la saga lo tiene.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › La pista-espejo en la obra.
+> *Qué declara aquí la obra:* dónde fija su biblia la regla del espejo, su ejemplo de pista-espejo y, si lo tiene, qué reloj recibe la pieza del coste.
+
+Sin esta declaración, la trama A y la trama B resuelven por separado y el libro se convierte en
+una novela del género secundario con una historia de amor encima, que es exactamente el
+producto que hunde el proyecto.
+
+---
+
+# CAPA B — MIGAS DE PAN HORIZONTALES
+
+## LA OBLIGACIÓN
+
+**Si la saga tiene trama horizontal, en cada libro protagonista A (o quien declare la obra en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles) descubre una pista real
+y tangible sobre esa trama.** Nada de estancamiento, nada de dar vueltas en círculos, nada de "cada vez
+está más cerca". La trama horizontal es lo que hace que la lectora compre el volumen
+siguiente, y la lectora de saga detecta el relleno en dos capítulos.
+
+**Un libro sin miga tangible no se entrega.** No es una recomendación de estilo: es
+condición de entrega, igual que las escenas fijas que exige la obra o el gancho de cierre.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › La obligación de miga en la obra.
+> *Qué declara aquí la obra:* si la saga tiene trama horizontal, sobre qué hecho de ella se descubre una pista en cada libro, y qué escena fija suya es también condición de entrega.
+
+## TEST DEL OBJETO: qué es una miga y qué no
+
+Una miga tiene forma. Si no se puede fotografiar, citar textualmente o guardar en un cajón,
+no es una miga.
+
+| **SÍ es miga** | **NO es miga** |
+|---|---|
+| […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Test del objeto: ejemplos de la obra.
+> *Qué declara aquí la obra:* sus ejemplos de lo que es miga y lo que no.
+
+**Corolario:** la escena en la que un protagonista calla puede existir —y es de las
+mejores—, pero **no cuenta como miga**. El silencio es tensión; la miga es material.
+
+## LOS CANALES DE MIGA
+
+La miga tiene que llegar por un canal declarado. Cuáles tiene la obra, y cómo se reparten las
+migas entre ellos, lo declara la obra. Canales posibles, por ejemplo:
+
+- **Un protagonista que sabe y guarda** (si guarda parte de la trama horizontal). Cada miga
+  que sale de ahí se registra además en el reloj de lo que oculta (Capa C), si la saga lo
+  tiene, porque cada entrega revela cuánto llevaba callándose.
+- **El papel** (*Variante: dark romance policial:* expedientes, atestados, registros,
+  actas). Frío y creíble.
+- **Un personaje del elenco con acceso técnico**, si la obra lo tiene: sus migas son
+  técnicas y verificables.
+- **El elenco, sin querer.** Alguien suelta un dato que para él no significa nada. Canal
+  escaso, porque abusado se convierte en casualidad.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Los canales de miga en la obra.
+> *Qué declara aquí la obra:* qué canales de miga tiene y cómo se reparten a lo largo de la saga; si un protagonista guarda parte de la trama horizontal, qué guarda y cómo lo obtuvo; si lo tiene, qué personaje del elenco tiene acceso técnico, cuándo ve y calla y qué migas aporta; qué miembros del elenco pueden soltar datos y con qué techo; y, si su antagonista de saga tiene papel institucional, qué deja ver ese papel.
+
+## FICHA DE MIGA
+
+MIGA [MP-XX] · libro [N]
+- QUÉ ES (objeto o dato con forma): […]
+- QUÉ AÑADE que no se supiera al cerrar el libro anterior: […]
+- CANAL: el que declare la obra.
+- CÓMO LLEGA (si la obra tiene regla de impunidad, cómo llega sin romperla): […]
+- SIEMBRA / ENTREGA: capítulo.
+- QUÉ ABRE PARA EL LIBRO SIGUIENTE: […]
+- QUÉ LE CUESTA A PROTAGONISTA A: […]
+- ESTADO: sembrada / entregada / interpretada / cobrada en el libro [N].
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Ficha de miga en la obra.
+> *Qué declara aquí la obra:* los nombres de sus canales y, si tiene regla de impunidad, los modos en que una miga llega sin romperla.
+
+## REGISTRO ACUMULADO DE LA SAGA
+
+Se rellena libro a libro y **no se borra nunca**: es la memoria larga del proyecto y la
+única defensa contra repetir una miga o contradecir una anterior. En negrita, lo que la
+biblia fija como canon; el resto es hueco de instancia.
+
+| Libro | Miga tangible | Canal | Qué abre |
+|---|---|---|---|
+| [N] | […] | […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Registro acumulado de migas de la obra.
+> *Qué declara aquí la obra:* la miga de cada libro de la saga, con su canal y lo que abre, y en negrita lo que su biblia fija como canon.
+
+**Regla de reparto por arco** (si la saga tiene arcos): cada arco compone la trama
+horizontal en una capa distinta, en el orden que declara la obra. Nunca al revés: si una
+miga temprana entrega la capa de un arco posterior, la saga se queda sin ese arco.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Reparto de migas por arco en la obra.
+> *Qué declara aquí la obra:* si los tiene, qué libros forman cada arco, en qué capa compone cada uno la trama horizontal y qué piezas concretas entrega.
+
+---
+
+# CAPA C — LOS RELOJES DE SAGA
+
+En la saga con la misma pareja, cuentas atrás que no gastan páginas de trama y que
+sostienen la adicción de la lectora entre volúmenes. Aquí se registra **qué pieza se ha puesto en cada libro**; sin ese
+registro, un reloj se para sin que nadie lo note y el libro en el que debía sonar suena a
+hueco.
+
+| Reloj | ID | Empieza | Suena |
+|---|---|---|---|
+| […] | RELOJ-X | Libro [N] | Libro [N] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Los relojes de la obra.
+> *Qué declara aquí la obra:* si los tiene, cuántos relojes lleva la saga, qué cuenta cada uno, su ID y los libros en que empieza y suena.
+
+## FICHA DE TIC (una por reloj y por libro)
+
+TIC [RELOJ-X · libro N]
+- PIEZA AÑADIDA: qué se suma esta vez. Concreta.
+- DÓNDE: capítulo.
+- QUIÉN LO PERCIBE: la lectora / protagonista A / protagonista B / nadie todavía.
+- ¿ES CONTABLE PARA LA LECTORA? Si la obra declara que este reloj se cuenta, sí: la lectora
+  tiene que poder llevar la cuenta de sus piezas sin esfuerzo.
+- CUÁNTO QUEDA: libros hasta que suene.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Ficha de tic en la obra.
+> *Qué declara aquí la obra:* cuál de sus relojes se cuenta en voz alta, si alguno, y qué piezas se cuentan en él.
+
+## REGISTRO DE TICS
+
+| Reloj | Libro | Pieza añadida | Cap. | Quién lo percibe |
+|---|---|---|---|---|
+| RELOJ-X | [N] | […] | […] | […] |
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Registro de tics y reglas de los relojes de la obra.
+> *Qué declara aquí la obra:* los tics ya puestos en cada reloj y, si los tiene, las reglas propias de cada reloj (cómo se siembra y si se cuenta en voz alta), con sus libros y su ejemplo.
+
+**Reglas de cada reloj (si la obra las declara).** Cada reloj se siembra con la regla que le
+fija la obra, y aquí se audita. Por ejemplo, un reloj que se siembra **sin señalarlo** (ni un
+párrafo de énfasis ni una frase colgando: el placer está en que, al releer, la lectora
+compruebe que estaba escrito) o uno que se **cuenta en voz alta** (cada pieza enunciable en
+una frase por la lectora).
+
+---
+
+## REGISTRO DE LA FIRMA DEL ANTAGONISTA
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › El antagonista de la firma en la obra.
+> *Qué declara aquí la obra:* si lo tiene, quién es el antagonista de saga que deja firma, en qué libros actúa, en qué consiste su método y qué capacidad de la pareja hace falta contra él.
+
+**Si el antagonista de saga deja una firma, se registra aquí. Cada libro puede sembrar una
+miga de firma: un hecho que huele igual** (*Variante: dark romance policial:* un caso).
+
+FIRMA [FN-XX] · libro [N]
+- QUÉ HECHO: ajeno a la trama del libro, o pieza de ella que viene de antes.
+- QUÉ GESTO DEFINE LA FIRMA: […].
+- QUÉ LO DELATA: la misma huella concreta que se repite: […].
+- QUIÉN FIRMA: […] (nunca el antagonista por su nombre antes del libro en que se revela).
+- QUIÉN LO NOTA: un protagonista / otro personaje que declare la obra / nadie, solo la lectora.
+- ESTADO: sembrado y abierto / conectado con otro FN / cobrado en el libro en que se
+  revela el antagonista.
+
+**Reglas duras del registro de firma:**
+- **Máximo uno por libro.** Es especia, no plato.
+- **No se conecta del todo antes del libro en que se revela el antagonista.**
+  Los protagonistas pueden alinear dos, nunca la serie completa. La serie completa es la
+  revelación del antagonista.
+- **Los hechos firmados canónicos, los que declare la obra** (por ejemplo, el que funda la
+  trama horizontal): cuando un protagonista vea por primera vez otro hecho con su misma
+  huella, la lectora ya sabe lo que significa. Ese reconocimiento sin diálogo es el producto.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Ficha y reglas de firma en la obra.
+> *Qué declara aquí la obra:* qué gesto compone la firma de su antagonista, en qué libro se revela, quién puede notarla y cuáles son sus hechos firmados canónicos, si los tiene, con sus rasgos.
+
+---
+
+## CALENDARIO DE DATOS HORIZONTALES
+
+La miga es lo que protagonista A **descubre**. Los datos que ella **ya
+sabe** —cifras, fechas, lugares, objetos desaparecidos (*Variante: dark romance policial:*
+números de diligencias y atestado, folios), de la herida de cada protagonista o del
+antagonista de saga— también se gastan, y se gastan una
+sola vez. Cada dato concreto tiene un capítulo asignado de primera aparición en página.
+Antes de esa fecha, el texto **alude sin dato**: el peso se nota, la cifra no aparece.
+
+DATO [DH-XX]
+- QUÉ ES: […]
+- QUIÉN LO SABE YA (personaje) y DESDE CUÁNDO: […]
+- PRIMERA APARICIÓN EN PÁGINA: libro [N], capítulo [N], en boca de […]
+- ANTES DE ESA FECHA, CÓMO SE ALUDE: […]
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Calendario de datos horizontales en la obra.
+> *Qué declara aquí la obra:* de quién son los datos que protagonista A ya sabe y su ejemplo de dato aplazado a su capítulo, con la frase con que se alude antes.
+
+Se comprueba en OPERACIÓN C (comprobación C-5 de la adenda de SYSTEM_ORCHESTRATION).
+
+---
+
+## LO QUE NO SE PUEDE SEMBRAR (vetos de contabilidad)
+
+- **Un dato horizontal antes de su capítulo asignado** en el calendario de datos
+  horizontales. Volcarlo antes de tiempo gasta de golpe lo que vale muchos capítulos
+  después.
+
+- **Una miga que la lectora no pueda distinguir de la anterior.** Si la miga de un libro
+  se parece a la del anterior, no hay avance: hay repetición disfrazada.
+- **Una revelación horizontal fuera de calendario.** Un nombre o una implicación antes del
+  libro que la obra le asigna.
+
+**Variante: dark romance policial.**
+
+- **Una pista del caso resuelta por el sistema.** Deus ex machina institucional: si el
+  caso lo cierra un cruce de bases de datos, se ha robado la escena a la pareja.
+- **Una pista o una miga que rompa la regla de impunidad** de la obra, si la declara.
+- **Una pista sembrada en una escena de investigación limpia**, sin página de pareja en el
+  sentido de `PAREJA_PRIMERO.md` §2: los dos en escena y algo pasa entre ellos, él en directo a
+  distancia (vigilancia en tiempo real, una llamada, un mensaje) u ocupando a quien narra; si
+  están juntos y esa parte solo mueve la trama B, cuenta como trama B. Un recuerdo de pasada, o
+  una «sombra» que no ocupa a quien narra, no cuenta. Aunque la escena quepa en el cupo de una
+  de cada cuatro (GENRE_CONVENTIONS, regla 5), la pista no se siembra en ella: el dato tendrá
+  que sembrarse en otro sitio, a ser posible dentro de una escena de pareja.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Vetos de contabilidad en la obra.
+> *Qué declara aquí la obra:* qué nombres e implicaciones tienen libro asignado y sus ejemplos de cada veto.
+
+---
+
+## ERRORES COMUNES
+
+**ERROR 1 — PISTA HUÉRFANA.** Sembrada, nunca cobrada
+ni cerrada como señuelo declarado. Eliminar o resolver dentro del volumen.
+
+**ERROR 2 — MIGA DE HUMO.** El libro "avanza" la trama horizontal con una insinuación, un
+silencio o una pesadilla. No pasa el TEST DEL OBJETO. Es el error más
+frecuente y el más letal: dos libros seguidos así y la saga pierde a la lectora.
+
+**ERROR 3 — RELOJ PARADO** (si la saga tiene un reloj que suma pieza en cada libro). Un libro que no añade pieza
+a ese reloj desde el libro en que empieza. La lectora deja de contar y el libro en que suena llega sin peso.
+
+**ERROR 4 — SOBRECARGA DE SOSPECHOSOS.** *(Variante: dark romance policial.)* Más
+sospechosos activos que el techo que declara la obra. Se come la cuota de relación. Priorizar densidad sobre
+cantidad.
+
+**ERROR 5 — COARTADA DE CONVENIENCIA.** *(Variante: dark romance policial.)* Se rompe justo
+cuando la trama lo necesita, sin pista que lo explique.
+
+**ERROR 6 — SEÑUELO QUE BLANQUEA AL PROTAGONISTA PELIGROSO** (si es sospechable). El
+RH que lo incrimina se desmiente demostrando que él "no sería capaz". Se desmiente el
+hecho, jamás el carácter.
+
+**ERROR 7 — FIRMA SOBREEXPLICADA.** Un personaje enuncia el patrón del antagonista en voz
+alta antes de tiempo. El patrón se reconoce, no se explica.
+
+**ERROR 8 — MIGA GRATIS.** La miga llega sin que nadie pague nada: sin mentir, sin
+deber nada al otro, sin sumar pieza a un reloj de saga si lo hay. Toda miga tiene
+precio; si no lo tiene, no tensa.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Errores comunes en la obra.
+> *Qué declara aquí la obra:* los nombres, libros y cifras con que formula estos errores.
+
+---
+
+## TESTS DE FUNCIONAMIENTO
+
+**TEST 1 — MIGA TANGIBLE** (si la saga tiene trama horizontal). ¿Qué descubre protagonista A en este libro sobre la trama
+horizontal? Enunciarlo en una frase, nombrando el objeto o el dato. Si la frase contiene
+"intuye", "sospecha" o "empieza a entender", no hay miga y **el libro no se entrega**.
+
+**TEST 2 — NO REPETICIÓN.** Poner la miga de este libro junto a las de los tres
+anteriores. ¿Se distinguen? ¿Cada una añade algo que la previa no tenía?
+
+**TEST 3 — CALENDARIO DE RELOJES** (si la saga tiene relojes). ¿Se ha añadido pieza a cada reloj que la obra declara de
+una pieza por libro (desde el libro en que empieza)? ¿Los relojes que suenan en este volumen suenan con todo lo sembrado, o con
+material improvisado en los últimos capítulos?
+
+**TEST 4 — TRAZABILIDAD DEL COBRO.** *(Variante: dark romance policial.)* Cada pista cobrada
+en el tramo final tiene siembra registrada antes del punto de corte que declara la obra
+(Presupuesto de pistas). Si no, deus ex machina.
+
+**TEST 5 — RELECTURA SIN CONTRADICCIÓN.** Releer cada pista con el sentido final. ¿Choca
+con algo ya escrito? Si sí, no es inversión: es trampa.
+
+**TEST 6 — LA REGLA DEL NARRADOR QUE OCULTA.** ¿Algún capítulo, de cualquier POV, oculta una
+**acción** de su narrador en escena? Si sí, corregir: un POV solo puede callar lo que sabe, nunca lo
+que hace.
+
+**TEST 7 — PISTA-ESPEJO DECLARADA.** ¿Existe la declaración de cruce con el tema
+emocional? ¿Protagonista B hace algo con esa pista? Si no,
+la trama A y la trama B han resuelto por separado.
+
+**TEST 8 — IMPUNIDAD** (si la obra declara una regla de impunidad). Recorrer las migas y las
+pistas que la tocan: ¿alguna la rompe?
+
+**TEST 9 — CAUSA PROPIA DEL SEÑUELO.** *(Variante: dark romance policial.)* Cada pista falsa
+descartada tiene explicación diegética. El señuelo que apunta al protagonista peligroso, si lo
+hay, ¿se desmiente en el hecho y no en el carácter?
+
+**TEST 10 — TECHOS DE LA TRAMA DEL LIBRO.** *(Variante: dark romance policial.)* ¿Se pasa
+alguno de los techos que declara la obra (pistas verdaderas, señuelos, sospechosos activos)?
+Si sí, sobra lo que pasa del techo. Solo hay techos; el único mínimo posible es el que declare
+la obra.
+
+**TEST 11 — SIN ATRACCIÓN.** *(Variante: dark romance policial.)* En cada escena de la
+protagonista con un sospechoso, ¿hay roce innecesario o atracción real?
+
+**TEST 12 — FIRMA DEL ANTAGONISTA** (si el antagonista de saga deja firma). ¿Se ha sembrado
+un hecho que huela igual? ¿Uno solo?
+¿Queda abierto, sin que nadie enuncie el patrón completo antes del libro en que se revela el
+antagonista?
+
+**TEST 13 — EL PRECIO.** ¿Qué le ha costado a protagonista A cada cobro y cada miga? Si la
+columna COSTE está vacía, la contabilidad está mintiendo.
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Tests en la obra.
+> *Qué declara aquí la obra:* los nombres, libros y relojes con que formula estos tests.
+
+---
+
+## RELACIÓN CON OTROS ARCHIVOS
+
+**CLUE_LEDGER.md recibe de:**
+- GENRE_CONVENTIONS.md — el contrato de género: obligación de miga por libro si la saga
+  tiene trama horizontal (convención 9), veto a la escena limpia del género secundario,
+  veto al libro estancado, veto a la infidelidad emocional (*Variante: dark romance
+  policial:* prohibición de ascender a un sospechoso a interés romántico).
+- INFORMATION_CHOREOGRAPHY.md — calendario maestro de los hechos de pareja; el material de
+  la trama del libro y de la trama horizontal se lleva solo aquí (allí van, con su ID de este
+  registro, los de doble rango).
+- STORY_SPINE.md — los 4–5 beats de la trama del libro (trama B), cada uno con la decisión
+  de la pareja que lo mueve y lo que cambia entre ellos; las pistas se reparten entre esos
+  beats.
+- THEMATIC_ENGINE.md — el tema emocional del libro, del que se deriva la trama del libro
+  y, con ella, la pista-espejo.
+- TENSION_MECHANICS.md — cuando operan sobre la trama del libro, los mecanismos de
+  información parcial, testigo inoportuno y punto ciego visible se ejecutan sobre pistas
+  declaradas aquí.
+- SERIES_ARCHITECTURE.md y WORLD_ARC.md — el calendario largo de la saga: qué se revela en
+  cada libro.
+
+**CLUE_LEDGER.md alimenta:**
+- CHAPTER_BRIEF.md — declaración por capítulo de qué pista siembra, hace eco o cobra, **si
+  la hay** (un capítulo sin pista es normal), y si aporta el tic de reloj o la miga del libro.
+- SEAMS_AND_HINGES.md — los ganchos de cierre de tipo revelación e inversión se surten de
+  este registro; la miga del libro suele alimentar el gancho de cierre del volumen.
+- SERIES_GLUE.md — en la saga con la misma pareja, la pista grande de la trama horizontal
+  que cierra el libro y sostiene la compra del siguiente sale de la Capa B o de la Capa C.
+- CONTINUITY_PHYSICS.md (registro 6) — espejo retrospectivo: confirma lo que aquí se
+  diseñó prospectivamente, incluida la memoria larga de migas ya usadas.
+- SUBPLOT_ARCHITECTURE.md — la trama horizontal como subtrama de saga, sin cuota propia: su
+  adenda dice en qué lado del peso de pareja cuenta.
+- REVISION_PROTOCOL.md — pasada específica de auditoría de migas, relojes y trazabilidad.
+- RESEARCH_LEDGER.md — cada pista documental exige verificación de forma real
+  (*Variante: dark romance policial:* atestado, registro de armería, acta de archivo), que no
+  bloquea la escritura: sin ella, el capítulo se escribe con licencia en el acta y la
+  verificación queda abierta (RESEARCH_LEDGER, adenda §2).
+
+> **Valores de la obra →** `PRESET_<OBRA>.md` › CLUE_LEDGER › Relación con otros archivos en la obra.
+> *Qué declara aquí la obra:* en qué libros revela su calendario largo y qué tipo propio de pista documental exige verificación.
+
+**CLUE_LEDGER.md se revisa:**
+- **OPERACIÓN 0** — diseño completo de sus capas antes del capítulo 1, con la miga del
+  libro y los tics de reloj decididos por escrito, si la saga los tiene.
+- **OPERACIÓN C** — no se recorre el registro: solo la comprobación C-5 (datos horizontales)
+  y, si el capítulo sembró, hizo eco o cobró algo, una línea en `continuidad.md`.
+- **OPERACIÓN D** — en la corta que acompaña cada lectura externa (`ORQUESTADOR.md` §2.5) y en
+  la de cierre del libro, y no en cada capítulo, se pone al día el estado de cada pista, cada
+  miga y cada tic; en la de cierre, TESTS 1–13 completos.
+- **CIERRE DE VOLUMEN** — antes de entregar: TEST 1, TEST 2 y TEST 3. Los tres son
+  bloqueantes.

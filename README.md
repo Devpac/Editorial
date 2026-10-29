@@ -23,7 +23,13 @@ maquetador/                 de los capítulos a EPUB, interior PDF, cubiertas y 
 cirugia/                    la separación de la fábrica (v3.0): guía, registros y la migración de MyP
 auditorias/                 auditorías de la fábrica
 historia/                   origen y restos de modelos anteriores (no se montan)
+sagas/                      sagas que el autor decide alojar aquí (cada una con su fabrica/ montada)
 ```
+
+**Excepción a «aquí no se escribe ninguna obra» (decisión del autor, 29-10-2026):** la segunda saga vive
+en `sagas/segunda_saga/`, con la misma forma que tendría en un repo propio (la fábrica montada en su
+`fabrica/` y la obra en su raíz). Las herramientas no la tocan; si algún día pasa a repo propio, se
+mueve la carpeta entera.
 
 Para empezar una saga: `ARRANQUE.md`.
 

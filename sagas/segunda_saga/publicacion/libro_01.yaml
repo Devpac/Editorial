@@ -1,0 +1,46 @@
+serie_config: serie.yaml
+
+numero: 1
+titulo: POR DEFINIR
+subtitulo: ""
+
+# Carpeta con los capítulos, relativa a este archivo.
+capitulos: ../libro_01
+
+# Orden de publicación: de qué archivo sale cada capítulo publicado (admite comodines).
+# El número publicado lo pone el maquetador por posición; el prólogo va sin número.
+# Se rellena cuando el libro tiene escaleta (y se mantiene igual que ella).
+orden:
+  - "capitulo_*.md"
+
+isbn:
+  ebook: ""                  # vacío: Amazon asigna ASIN
+  tapa_blanda: ""            # vacío: ISBN gratuito de KDP
+
+dedicatoria: ""
+
+aviso_contenido: |
+  POR DEFINIR
+
+descripcion: |
+  POR DEFINIR
+
+palabras_clave: []           # hasta 7
+categorias: []               # hasta 3 en KDP
+
+siguiente:
+  titulo: ""
+  gancho: ""                 # dos o tres frases para la última página
+  enlace: ""                 # URL de Amazon (preventa) cuando exista
+
+otros_libros: []             # [{titulo: ..., enlace: ...}]
+
+portada:
+  imagen: portadas/libro_01_objeto.png      # objeto sobre negro (portadas/INSTRUCCIONES_GPT.md)
+  titulo_lineas: []                         # cómo se parte el título en la cubierta; vacío = automático
+  lema: ""
+  gancho_contraportada: ""
+  contraportada: ""                         # vacío = se usa la descripción
+  zoom: 1.0
+  desplazar_x: 0.0
+  desplazar_y: 0.0

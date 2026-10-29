@@ -1,0 +1,57 @@
+# Datos comunes a todos los libros de la serie (los lee el maquetador de Editorial).
+# Cada libro (libro_NN.yaml) puede sobrescribir cualquier campo. Valores de la obra: su preset
+# (Cabecera › Mercado y lengua) y su biblia (§4 y §5, marca y paquete de publicación).
+
+serie:
+  nombre: POR DEFINIR
+  total_previsto: null
+
+autor: POR DEFINIR           # seudónimo tal como sale en cubierta y en KDP
+sello: ""                    # editorial propia; vacío = «Independently published»
+idioma: es-ES
+anio: 2026
+edicion: Primera edición
+
+derechos: "© {anio} {autor}. Todos los derechos reservados."
+creditos_extra: []           # p. ej. ["Diseño de cubierta: …", "Corrección: …"]
+
+newsletter: ""               # URL de la lista de correo (sale al final del libro)
+web: ""                      # web de autora
+
+# Declaración de IA para KDP (generado / asistido / no). Solo informativo: va a la ficha.
+ia:
+  texto: POR DEFINIR
+  imagenes: POR DEFINIR
+  traduccion: "no"
+
+impresion:
+  formato: 5.5x8.5           # 5x8 · 5.06x7.81 · 5.25x8 · 5.5x8.5 · 6x9
+  papel: crema               # crema · blanco
+  fuente: Libertinus Serif   # cualquier fuente instalada o metida en publicacion/fuentes/
+  cuerpo: 11
+  interlineado: 0.62
+  capitulo_en_impar: false
+  separador: "⁂"
+  sangrar_primero: false
+  exterior: 0.6
+  superior: 0.75
+  inferior: 0.7
+
+ebook:
+  separador: "⁂"
+
+# Diseño de cubierta, común a todos los tomos
+cubierta:
+  fuente: Bodoni Moda
+  color_texto: "#ECE5D8"
+  condensar: 0.8
+  ancho_titulo: 0.84
+  proporcion_max_lineas: 1.5
+  autor_tam: 0.052
+  contra_tam: 10.5
+  lomo: descendente          # descendente (de arriba abajo) · ascendente
+
+final:
+  gracias: Gracias por leer.
+  resena: Si te ha gustado, una reseña en Amazon ayuda más de lo que imaginas a que otras lectoras encuentren la serie.
+  boton_siguiente: Léelo ya en Kindle
