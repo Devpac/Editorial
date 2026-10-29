@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — SCALE_CALIBRATION: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — SCALE_CALIBRATION: base de oficio + adenda de dark romance (v2.0) -->
 
 # SCALE_CALIBRATION.md
 

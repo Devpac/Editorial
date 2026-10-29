@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica (género)
 
 > Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: la columna es la escalada de la pareja y la
 > trama del libro es la trama B. La base agnóstica de arriba sigue vigente.

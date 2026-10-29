@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — SUBTEXT_MECHANICS: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — SUBTEXT_MECHANICS: base de oficio + adenda de dark romance (v2.0) -->
 
 # SUBTEXT_MECHANICS.md
 

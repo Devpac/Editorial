@@ -1,6 +1,6 @@
-<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: convertida desde el modelo agnóstico v7 el 08-08-2026; separada de la obra el 22-10-2026; v2.0, «la pareja primero» (PAREJA_PRIMERO.md), el 22-10-2026. -->
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: convertida desde el modelo agnóstico v7 el 08-08-2026; separada de la obra el 22-10-2026; v2.0, «la pareja primero» (PAREJA_PRIMERO.md), el 22-10-2026. -->
 
-# BRIEFING.md — Fábrica v3.0
+# BRIEFING.md — Fábrica
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
@@ -207,4 +207,4 @@ Añadir y quitar bloques es decisión autoral. Los dos primeros, si la saga los 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › BRIEFING › Relación con otros archivos en la obra.
 > *Qué declara aquí la obra:* cómo se llama su biblia, qué peso de pareja declara, cuántos volúmenes tiene y qué puertas de salida, si las tiene, y qué investigación lleva.
 
-Fin de la plantilla BRIEFING — Fábrica v3.0.
+Fin de la plantilla BRIEFING — Fábrica.

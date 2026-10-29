@@ -1,6 +1,6 @@
-<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: nació en el modelo de Intriga (AGATHA_ROSA: standalones con final feliz y parejas rotativas); adenda de dark romance con las tres formas de saga el 22-10-2026 (v1.3); v2.0, «la pareja primero» (PAREJA_PRIMERO.md): fuera el cuerpo de Intriga, el 23-10-2026. -->
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: nació en el modelo de Intriga (AGATHA_ROSA: standalones con final feliz y parejas rotativas); adenda de dark romance con las tres formas de saga el 22-10-2026 (v1.3); v2.0, «la pareja primero» (PAREJA_PRIMERO.md): fuera el cuerpo de Intriga, el 23-10-2026. -->
 
-# SERIES_GLUE.md — Fábrica v3.0
+# SERIES_GLUE.md — Fábrica
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
@@ -23,7 +23,7 @@ feliz:
 | Forma | Qué cierra cada libro | Qué queda abierto entre libros | El final feliz |
 |---|---|---|---|
 | **A. La misma pareja en muchos libros** (saga larga, con trama horizontal si la tiene) | La trama del libro (*Variante: dark romance policial:* el caso), su pregunta de pareja y su calor | La relación (lo que la pareja todavía no se ha revelado —quién raciona, lo declara la obra—: un peldaño más de la escala de rendición, nunca el último) y la trama horizontal, si la tiene | Al final de la saga, a la manera del género: juntos, no limpios |
-| **B. Dúo o trilogía de una pareja** | En los libros que no son el último, su pregunta de pareja (sin final feliz) y, si la hay, una trama propia | La relación, en su punto más alto de daño o de deseo | En el último libro |
+| **B. Dúo o trilogía de una pareja** (dúo = dos libros, no «la pareja») | En los libros que no son el último, su pregunta de pareja (sin final feliz) y, si la hay, una trama propia | La relación, en su punto más alto de daño o de deseo | En el último libro |
 | **C. Parejas rotativas en un mundo compartido** (familia, clan, club, academia) | La pareja del libro, con su final feliz (o feliz por ahora), y su trama | El mundo, su amenaza de fondo y la pareja siguiente | En cada libro, para su pareja |
 
 ## EL PRINCIPIO EN LAS FORMAS A Y B: EL LIBRO CERRADO, LA RELACIÓN ABIERTA

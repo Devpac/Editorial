@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — STORY_SPINE: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — STORY_SPINE: base de oficio + adenda de dark romance (v2.0) -->
 
 # STORY_SPINE.md
 

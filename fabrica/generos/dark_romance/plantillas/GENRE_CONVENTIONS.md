@@ -1,6 +1,6 @@
-<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
 
-# GENRE_CONVENTIONS.md — Fábrica v3.0
+# GENRE_CONVENTIONS.md — Fábrica
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
@@ -45,9 +45,11 @@ AESTHETIC_REGISTER.
   el motor de escenarios. Las reglas marcadas
   «Variante: dark romance policial» rigen solo cuando la obra declara ese subgénero.
   **Otro subgénero escribe su variante:** la biblia (fase 1, `PLANTILLA_BIBLIA.md` §2)
-  recorre, regla por regla, las que llevan marca de variante y
-  dice qué es en su subgénero la trama del libro, la escena limpia, el antagonista del
-  libro, la impunidad, la anti-firma…; el preset la copia
+  recorre, regla por regla, **las de este archivo** que llevan marca de variante, y escribe una
+  **tabla de equivalencias** que vale para todas las demás plantillas: qué es en su subgénero
+  la trama del libro («el caso»), su escenario de trámite («la comisaría»), la escena limpia,
+  el antagonista del libro, la impunidad, la anti-firma… Con esa tabla, una marca policial de
+  otra plantilla se lee traducida o «no aplica», sin recorrerlas una a una; el preset la copia
   (`PRESET_<OBRA>.md` › GENRE_CONVENTIONS › Variante del subgénero). Una regla con marca
   policial que no tenga equivalente se declara «no aplica»; ninguna se aplica a otro
   subgénero por inercia.
@@ -55,12 +57,13 @@ AESTHETIC_REGISTER.
   Aporta el caso autoconclusivo (la trama B), la credibilidad de mundo y el motor
   inagotable de escenarios.
 - **FIDELIDAD AL GÉNERO:** estricta en las convenciones de Dark Romance (posesión,
-  toxicidad consentida, morally grey, POV del obseso, explicitud); deliberadamente
+  toxicidad consentida, morally grey, la obsesión vista de cerca —desde su POV, si narra—,
+  explicitud); deliberadamente
   **infiel** al género secundario (*Variante: dark romance policial:* al procedimiento
   policial), que se sacrifica sin nostalgia cada vez que compite con la relación.
 - **LECTORA ESPERADA:** la que declara la obra (`PRESET_<OBRA>.md` › Cabecera › Mercado y
-  lengua). Busca hombre posesivo con código, protagonista
-  femenina competente que no sea damisela, tensión sostenida, escenas explícitas y, si la
+  lengua). Busca un protagonista peligroso y posesivo con código, una pareja para él
+  competente que no sea víctima pasiva, tensión sostenida, escenas explícitas y, si la
   obra es una saga, una en la que instalarse. **Tolera mal:** el procedimiento extenso
   (*Variante: dark romance policial*), el héroe blando, la protagonista pasiva, el libro
   que no avanza la trama horizontal (si la saga la tiene) y la contención pudorosa.
@@ -122,8 +125,9 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
 
 ## LOS CINCO PILARES DEL SUBGÉNERO
 
-1. **La Protagonista Ancla.** Una protagonista joven, atractiva y brillante que genera
-   comunidad y fidelidad, pero con una vida afectiva y sexual visceral y magnética.
+1. **El protagonista ancla.** Un protagonista (por defecto, ella: protagonista A) adulto,
+   atractivo y brillante que genera comunidad y fidelidad, con una vida afectiva y sexual
+   visceral y magnética.
    *Variante: dark romance policial:* uno de los dos está del lado de la ley; quién, lo
    declara la obra.
 2. **Estructura Dual (romance + adrenalina), con jerarquía.** La catarsis y el calor del
@@ -185,9 +189,11 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
    narrador. Abrir con él solo, sin el otro, promete thriller.
 4. **Primera persona y POV alterno ella / él, por defecto.** Es la señal de género más
    potente que existe y no cuesta nada: la lectora sabe qué está leyendo en el primer
-   párrafo, antes de la sinopsis y antes de la portada. Los capítulos de él dan acceso
-   directo a la obsesión desde dentro; la lectora sabe lo que él ha hecho mucho antes que
-   ella. La persona, el tiempo (presente o pasado) y si hay uno o dos narradores los fija
+   párrafo, antes de la sinopsis y antes de la portada. Con dos narradores, los capítulos
+   de él dan acceso directo a la obsesión desde dentro, y la lectora sabe lo que él ha hecho
+   mucho antes que ella; con uno solo, la obra declara qué hace ese trabajo (lo que el
+   narrador ve, deduce o teme del otro: `PRESET_<OBRA>.md` › Cabecera › Correspondencia de
+   roles). La persona, el tiempo (presente o pasado) y si hay uno o dos narradores los fija
    la biblia (🔒, decisión del autor); lo que fije rige siempre. Con dos narradores,
    el reparto entre las voces lo declara la obra (`PRESET_<OBRA>.md` › SYSTEM_ORCHESTRATION ›
    Extensión, persona y narradores).
@@ -207,8 +213,9 @@ más peligroso, porque se parece por fuera y es lo contrario por dentro.
    SEAMS_AND_HINGES.
 7. **Explicitud plena.** El sexo se muestra en página, con vocabulario directo. No hay
    umbral de puerta ni elipsis por pudor. Autoridad: HEAT_DISCIPLINE.
-8. **Violencia mostrada.** Ejecuciones, tortura, cuerpos. La elipsis se usa por ritmo o
-   por efecto de subtexto, nunca por decoro. Autoridad: ELLIPSIS_PROTOCOL.
+8. **Violencia mostrada.** La violencia que tenga la obra (en la variante policial y en la
+   de mafia: ejecuciones, tortura, cuerpos; en otras, la que declare) se muestra. La elipsis se
+   usa por ritmo o por efecto de subtexto, nunca por decoro. Autoridad: ELLIPSIS_PROTOCOL.
 9. **Migas de pan obligatorias** *(si la saga tiene trama horizontal)*. En cada libro,
    la protagonista descubre **una pista real y tangible** sobre la trama horizontal. Un
    libro sin miga no se entrega. Autoridad: CLUE_LEDGER.
@@ -298,6 +305,10 @@ lo declara la obra.
 
 ## PECADOS CAPITALES (lista negra que rompe el contrato)
 
+- **Cualquier personaje menor de 18 años, o que la página presente como menor, en una escena
+  con carga romántica o sexual.** No es una convención: es una regla dura que ninguna obra
+  cambia (`PAREJA_PRIMERO.md` §8).
+
 - *Variante: dark romance policial.* **Abrir el libro con un cadáver o una escena del
   crimen.** Novela negra a la primera página, público perdido en la muestra gratuita.
 - *Variante: dark romance policial.* **Escenas de investigación limpias por encima del
@@ -313,7 +324,7 @@ lo declara la obra.
 - Elipsis del acto sexual por pudor. Eufemismo anatómico. Metáfora floral.
 - *Saga con la misma pareja (formas A y B, salvo el último libro de la B, que cierra la pareja):* **HEA cerrado por libro** o coda cálida que desactive la
   tensión de saga.
-- La protagonista como damisela en apuros, o rescatada de forma que anule su agencia.
+- Quien no es el peligroso, como víctima en apuros, o rescatado de forma que anule su agencia.
 - **La protagonista genuinamente atraída por un tercero.** Infidelidad emocional: vetada.
 - **El protagonista peligroso redimido, blanqueado o convertido en buen chico.** Vetado en
   cualquier forma de saga: el final feliz no lo blanquea; sigue siendo peligroso, ahora para
@@ -397,7 +408,7 @@ evita. De qué está hecha la oscuridad de la saga lo declara la obra.
 - **Fórmula de títulos:** [la declara la obra: de dónde sale cada título y qué nombra a
   la vez].
 - **Subtítulo en la tienda, siempre en este orden** (si el canal lo admite): (1) género declarado
-  (*Variante: dark romance policial:* "dark romance policial"), (2) arquetipo masculino,
+  (*Variante: dark romance policial:* "dark romance policial"), (2) arquetipo del protagonista peligroso,
   (3) conflicto en una línea. El subtítulo no es literatura: es el escaparate y el campo
   de keywords visible.
 - **Categorías:** las de romance, nunca las del género secundario.

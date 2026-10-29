@@ -1,6 +1,6 @@
-<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: convertida desde el modelo agnóstico v7 el 08-08-2026; separada de la obra el 22-10-2026; v2.0, «la pareja primero» (PAREJA_PRIMERO.md), el 22-10-2026. -->
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). Historia: convertida desde el modelo agnóstico v7 el 08-08-2026; separada de la obra el 22-10-2026; v2.0, «la pareja primero» (PAREJA_PRIMERO.md), el 22-10-2026. -->
 
-# ELLIPSIS_PROTOCOL.md — Fábrica v3.0
+# ELLIPSIS_PROTOCOL.md — Fábrica
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
@@ -86,14 +86,16 @@ escrito**. La negación plausible de la protagonista A y la elipsis del texto so
 visto desde dos sitios. Si la obra le da además un alcance jurídico, lo declara en su preset.
 
 Regla de equilibrio, para que no sea coartada del propio libro: **el fuera de plano lo es del
-POV de la protagonista A, no del libro.** El POV alterno del protagonista B existe para que
-la lectora vea, cada cierto número de capítulos, lo que él ha hecho: la lectora sabe, la
+POV de la protagonista A, no del libro.** Con dos narradores, el POV alterno del protagonista B
+existe para que la lectora vea, cada cierto número de capítulos, lo que él ha hecho; con uno
+solo, la obra declara por dónde lo sabe la lectora (lo que A ve, deduce o le cuentan) o que no
+lo sabe: la lectora sabe, la
 protagonista A sospecha y, si alguien la investiga, no puede probar (asimetría administrada
 en INFORMATION_CHOREOGRAPHY). Se rompe cuando el conflicto ético lo exige: si la pelea posterior
 es por método, necesita que ambos —y la lectora— hayan visto lo mismo.
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › ELLIPSIS_PROTOCOL › Uso A.
-> *Qué declara aquí la obra:* si B actúa fuera del plano de A (si no, «no aplica»), los resultados concretos por los que ella deduce lo que hizo él; si declara negación plausible, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
+> *Qué declara aquí la obra:* si B actúa fuera del plano de A (si no, «no aplica»), los resultados concretos por los que ella deduce lo que hizo él; si declara negación plausible, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano; y, con un solo narrador, por dónde sabe la lectora lo que hizo B.
 
 ### USO B — LA AUSENCIA
 

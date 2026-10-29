@@ -1,4 +1,4 @@
-# PLANTILLA_BIBLIA.md — la biblia de una saga (Fábrica v3.0)
+# PLANTILLA_BIBLIA.md — la biblia de una saga (Fábrica)
 
 > Archivo de **modelo**. Es la forma de la biblia que escriben las ventanas B1, B2 y B3 en la fase 1
 > (`ORQUESTADOR.md`, §2.1). **No es una lista para rellenar a ciegas:** cada sección dice qué
@@ -54,7 +54,7 @@
 5. **Marca** 🔒 — Nombre de la saga, fórmula de títulos, los datos de catálogo que pide el canal
    de publicación que declare la obra (título y subtítulo de tienda, palabras clave, categorías),
    dirección de portada, **advertencias de contenido**.
-6. **Protagonista A** 🔒 — Datos duros; cronología verificada (y absoluta de la saga, año a año);
+6. **Protagonista A** 🔒 — Datos duros (la edad, 18 o más: `PAREJA_PRIMERO.md` §8); cronología verificada (y absoluta de la saga, año a año);
    descripción física; personalidad; su refugio sensorial (un oficio, un objeto, un lugar), si lo
    tiene; **el defecto** (el que la lectora le perdona y la saga explota); el trauma motor; el
    idiolecto.
@@ -63,7 +63,7 @@
 8. **El sistema de trauma** — Lo que cada uno carga y cómo se tocan las dos heridas (el nexo, si lo
    hay). Si la saga tiene trama horizontal que sale de ellas: el remate y la **regla de migas**
    (cuánto se revela y cuándo).
-9. **Elenco fijo** — Pocos (el número lo fija la obra, con su porqué), cada uno con función, voz y
+9. **Elenco fijo** — Pocos (el número lo fija la obra, con su porqué), con su edad, cada uno con función, voz y
    destino. Notas de uso.
 10. **El antagonista de la saga** 🔒 (si la obra lo tiene) — Su identidad y cuándo se revela; por
     capas o arcos, si los tiene.
@@ -173,3 +173,7 @@
 6. **¿La pareja mueve la saga y cada libro?** *(v2.0)* La pregunta de cada libro (§19) y la columna
    (§23) son de ellos; el peso de la pareja (§14) tiene número, suelo y unidad, y si algo baja del
    suelo de género, la decisión del autor está escrita.
+
+7. **¿Son todos mayores de edad?** La pareja y todo personaje con carga romántica o sexual tienen 18 años o
+   más en su ficha, el escenario no los presenta como menores y ningún pasado anterior a los 18 lleva
+   carga (`PAREJA_PRIMERO.md` §8). Si falla, la biblia no se aprueba.

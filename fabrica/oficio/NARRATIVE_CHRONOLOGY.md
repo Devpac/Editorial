@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — NARRATIVE_CHRONOLOGY: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — NARRATIVE_CHRONOLOGY: base de oficio + adenda de dark romance (v2.0) -->
 
 # NARRATIVE_CHRONOLOGY.md
 

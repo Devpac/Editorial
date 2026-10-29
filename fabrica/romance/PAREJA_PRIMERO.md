@@ -1,4 +1,4 @@
-# PAREJA_PRIMERO.md — el principio rector de la Fábrica v3.0
+# PAREJA_PRIMERO.md — el principio rector de la Fábrica
 
 > Archivo de **modelo** (v2.0, 22-10-2026). Manda sobre cualquier plantilla en lo que regula: el peso de la
 > pareja frente a la trama del libro. Nace de un diagnóstico de la primera obra, que encontró la causa en el
@@ -79,8 +79,24 @@ borrador. Quien escribe lo hace libre, con la ficha delante y las reglas como o�
 
 La fábrica nombra a la pareja como **protagonista A** y **protagonista B**. Por defecto, «ella» y «él» son A
 y B, en la forma más común del género, y, si la obra no declara otra cosa en Correspondencia de roles, ella
-narra y él es el narrador hermético que raciona su rendición.
+narra y él es el narrador hermético que raciona su rendición. Si B no narra (un solo narrador), sigue siendo
+quien raciona su rendición por defecto, pero no es «narrador»: las reglas del narrador hermético no se le
+aplican, y lo que el POV de B daba a la lectora lo declara la obra en Correspondencia de roles.
 Cada obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles: los géneros de los
 dos, quién narra, quién es hermético o irónico (si alguno), quién raciona su rendición, quién vigila (si
 alguien) y, en la *Variante: dark romance policial*, quién está del lado de la ley. Donde su pareja no sea
 la de por defecto, «ella» y «él» se leen como A y B, y cada papel, como lo declara la obra.
+
+## 8. Mayores de edad (regla dura: ninguna obra la cambia)
+
+- **Toda la pareja, y todo personaje que entre en una escena con carga romántica o sexual, tiene 18 años o
+  más**, cumplidos antes de la primera de esas escenas. La edad está escrita en la biblia (ficha de cada
+  protagonista y del elenco) y la página no deja dudas.
+- **Nada en el texto los presenta como menores**: ni el escenario (en dark academia y *bully*, la
+  universidad o una institución de adultos; nunca un colegio ni un instituto de secundaria), ni su
+  cuerpo, su ropa, su trato o su vocabulario. Un pasado de la pareja anterior a los 18 se cuenta sin
+  ninguna carga sexual.
+- **No es una ranura del preset ni una variante del subgénero**: no hay valor de obra que la sustituya. Si
+  una premisa la necesita para funcionar, la premisa se cambia antes de la ficha (`ORQUESTADOR.md` §2.0).
+- **Se comprueba** en la ficha de premisa, en la biblia (test 7), en el cierre de cada capítulo
+  (`HEAT_DISCIPLINE.md`, TEST 7) y en cada lectura editorial (`PROTOCOLO_LECTURA.md`, §3).

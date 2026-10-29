@@ -1,6 +1,6 @@
-<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
 
-# HEAT_DISCIPLINE.md — Fábrica v3.0
+# HEAT_DISCIPLINE.md — Fábrica
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
@@ -97,6 +97,8 @@ Escala de rendición: [entrega] ([libro]) → [entrega] ([libro]) → … → [l
 
 ## CONSENTIMIENTO
 
+- **Mayores de edad, siempre** (`PAREJA_PRIMERO.md` §8, regla dura que ninguna obra cambia): todo
+  personaje en una escena con carga tiene 18 años o más, y nada lo presenta como menor.
 - **Sexo, beso y contacto físico:** consentimiento explícito, aunque sea en conflicto.
 - **Combate con carga sexual** (si la obra lo tiene): consentido como combate; la carga no
   se recodifica después.
@@ -142,6 +144,10 @@ calendario.
   llega tarde rompe el libro como el adelantado rompe la escalera. En la escaleta, se
   reescaleta antes de encargar; en lo escrito, se reescaleta el bloque siguiente y la prosa
   no se toca (`PAREJA_PRIMERO.md` §2).
+
+- **TEST 7 — MAYORES DE EDAD.** ¿Todo personaje en una escena con carga tiene 18 años o más según la
+  biblia, y nada en la página (escenario, cuerpo, ropa, trato, vocabulario) lo presenta como menor? Si
+  no, el capítulo no se cierra: se corrige antes de la lectura (`PAREJA_PRIMERO.md` §8).
 
 > **Valores de la obra →** `PRESET_<OBRA>.md` › HEAT_DISCIPLINE › Tests en la obra.
 > *Qué declara aquí la obra:* qué señales y contadores vigila el TEST 5, si los tiene.

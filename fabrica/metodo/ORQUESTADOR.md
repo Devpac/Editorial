@@ -1,4 +1,4 @@
-# ORQUESTADOR.md — la ventana principal (Fábrica v3.0)
+# ORQUESTADOR.md — la ventana principal (Fábrica)
 
 > Archivo de **modelo** (vale para cualquier obra). Define el rol de la ventana que dirige una
 > obra de principio a fin: la biblia, el preset, las escaletas, los capítulos, el cierre de cada
@@ -95,26 +95,35 @@ entra por la fase 1b (preset desde su biblia) o por la 2, según lo que traiga.
    de la obra en la raíz; y `publicacion/` para el maquetador. Nada de ninguna otra obra. Si el
    género de la obra no tiene paquete en Editorial, se dice al autor antes de seguir: hay que
    crearlo primero (`ARRANQUE.md`). Commit: «Fase 0: saga montada con la Fábrica vX.Y».
-   **Nombre de trabajo:** hasta que haya título, `<OBRA>` es un nombre de trabajo que el autor
-   aprueba con la ficha de premisa (en mayúsculas y con guiones bajos en los nombres de archivo:
+   **Nombre de trabajo:** hasta que haya título, `<OBRA>` es un nombre de trabajo, provisional
+   desde que se monta el repo (el script lo pide) y que el autor confirma con la ficha de premisa (en mayúsculas y con guiones bajos en los nombres de archivo:
    `CUADERNO_<OBRA>.md`, `PRESET_<OBRA>.md`); si después cambia, se renombran los archivos y se
    apunta en el cuaderno.
-2. Entrevista corta al autor, una pregunta cada vez y solo lo que cambia el trabajo: premisa,
+2. Entrevista corta al autor, una pregunta cada vez, solo lo que cambia el trabajo y **sin repetir
+   lo que su prompt ya contesta**: premisa,
    subgénero (policial, mafia, bully, romantasy oscura…), público y comparables, **forma de la
    saga** (la misma pareja en muchos libros, dúo o trilogía, o parejas rotativas: `SERIES_GLUE.md`,
    adenda de dark romance) y número de libros previsto, **el reparto entre la pareja y la trama del
    libro** (se le propone el de `PAREJA_PRIMERO.md`: objetivo 80 % de pareja y suelo 70 %, por
    bloque de cuatro capítulos y por libro, en palabras medidas con su §2; bajarlo del suelo es
    decisión suya), nivel de calor y cuándo llega la primera consumación (con los suelos de aquel
-   archivo, §3), líneas rojas (contenidos que no quiere), extensión por libro, persona y tiempo, si
+   archivo, §3), **las edades de la pareja** (18 o más, y un escenario que no los presente como
+   menores: `PAREJA_PRIMERO.md` §8; si la premisa lo pide de otra forma, se cambia aquí, antes de la
+   ficha), líneas rojas (contenidos que no quiere), extensión por libro, persona y tiempo, si
    quiere uno o dos narradores, su pareja (géneros, quién narra, quién raciona su rendición:
    `PAREJA_PRIMERO.md`, «Roles»), su mercado y lengua (`PRESET_<OBRA>.md` › Cabecera › Mercado y
    lengua) y su criterio de delegación (se le propone el de §1; va a `CUADERNO_<OBRA>.md` §2).
-3. Escribe la **ficha de premisa** (una página: la pareja, **su pregunta y qué cambia entre ellos**
+3. Escribe la **ficha de premisa** en `FICHA_PREMISA.md`, en la raíz (una página: la pareja, **su pregunta y qué cambia entre ellos**
    en el libro 1 y en la saga; **el reparto** 🔒, con número, suelo y unidad; tesis; la trama del
    libro, como lo que los junta, los enfrenta o los separa; subgénero, forma de la saga, promesa de
-   la saga, promesa del libro 1, calor, líneas rojas) y la enseña al autor. Con su visto bueno, crea
-   `CUADERNO_<OBRA>.md` (§9) y pasa a la fase 1.
+   la saga, promesa del libro 1, calor, edades, líneas rojas) y la enseña al autor. Con su visto
+   bueno, crea `CUADERNO_<OBRA>.md` (§9) y pasa a la fase 1.
+4. **Si el autor no está** (§7): cada pregunta de la entrevista se contesta con la lectura más
+   razonable, marcada en la ficha como supuesto **F0-NN** («por delegación, a confirmar»); se
+   escriben la ficha, el cuaderno (con los supuestos en «Pendientes abiertos») y el NEXT de B1,
+   que copia los F0-NN al Anexo A de la biblia como «a confirmar». **B1 no se lanza** hasta que
+   el autor apruebe la ficha: es su puerta (la premisa, el reparto 🔒, el calor y las líneas rojas
+   son suyos).
 
 ### 2.1 Biblia (fase 1)
 
@@ -125,6 +134,9 @@ peligros del género para esta obra, refuerzo intermitente, ritmo de consumació
 de la saga y arcos, tabla de títulos, diseño del libro 1, extensión) y **B3 régimen** (estético,
 idiolectos, contrato de género declarado, calendario de fábula, mundo, principio de serie). Cada ventana parte de la ficha de premisa y de
 lo ya aprobado; lo que decide va al Anexo A como A-NN con fecha y origen.
+
+**Versión de la biblia:** v0.1 al cerrar B1, v0.2 al cerrar B2 y v1.0 al cerrar B3 y su
+auditoría; después, cada decisión del Anexo A sube la versión menor.
 
 Tras cada ventana: auditoría (§5) → el orquestador aplica cortes y arreglos de coherencia →
 **puerta del autor** para cada decisión 🔒 (se le presentan en una lista corta, con la opción que

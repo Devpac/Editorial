@@ -25,14 +25,17 @@ Si la saga es de un género sin paquete (romantasy que no es oscura, romance con
 > empieza por la fase 0. Mi idea, en bruto: [premisa, subgénero, lo que quiero]. Mi criterio de
 > delegación: [el que trae la fábrica por defecto / el mío: …]. Todo en español.
 
-3. Contesta la entrevista de la fase 0 (una pregunta cada vez) y aprueba la ficha de premisa. A
+3. Contesta la entrevista de la fase 0 (una pregunta cada vez) y aprueba la ficha de premisa
+   (`FICHA_PREMISA.md`). Si no puedes contestar en ese momento, el orquestador deja la ficha con
+   sus supuestos marcados y espera a tu visto bueno para lanzar la primera ventana. A
    partir de ahí, el orquestador te pide lo que es tuyo (`ORQUESTADOR.md` §7) y te da el prompt de
    cada ventana de trabajo.
 
 **Pasos del orquestador** (con los dos repos clonados uno junto al otro):
 
-1. Elige el paquete del género con el autor (arriba) y un **nombre de trabajo** en mayúsculas con
-   guiones bajos (se cambia cuando haya título).
+1. Elige el paquete del género (arriba, con lo que diga el prompt del autor) y un **nombre de
+   trabajo** en mayúsculas con guiones bajos: es provisional, el autor lo confirma con la ficha de
+   premisa y se cambia cuando haya título (`ORQUESTADOR.md` §2.0).
 2. Prepara el repo:
 
    ```

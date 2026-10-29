@@ -1,4 +1,4 @@
-# LÉEME — Fábrica v3.0
+# LÉEME — la Fábrica
 
 La **fábrica** es un método para escribir sagas de romance con ventanas de IA: un **orquestador**
 que no escribe la obra la diseña, la encarga a **ventanas de trabajo** con el contexto limpio, la
@@ -24,7 +24,7 @@ En el repo de una saga hay dos cosas, separadas:
 - **La fábrica**, en `fabrica/`: este archivo y todos los que el método nombra en mayúsculas
   (`ORQUESTADOR.md`, `PAREJA_PRIMERO.md`, `PLANTILLA_*.md`, `GENRE_CONVENTIONS.md`…). Cuando una
   plantilla cita uno de ellos, está aquí.
-- **La obra**, en la raíz del repo: `CUADERNO_<OBRA>.md` (dónde estamos, rama de trabajo,
+- **La obra**, en la raíz del repo: `FICHA_PREMISA.md` (la de la fase 0), `CUADERNO_<OBRA>.md` (dónde estamos, rama de trabajo,
   decisiones del autor, versión de la fábrica e índice de los archivos de la obra), la biblia,
   `PRESET_<OBRA>.md` (los valores de la obra que leen las plantillas: donde una plantilla diga
   `PRESET_<OBRA>.md`, es el de la raíz), `NEXT.md` (el encargo vivo), `libro_NN/`, `informes/` y
@@ -51,7 +51,7 @@ En el repo de una saga hay dos cosas, separadas:
   `THEMATIC_ENGINE.md`, `WORLD_ARC.md`, `WORLD_TEXTURE.md`, `RESEARCH_LEDGER.md`; y, sin adenda,
   `SCENE_SHAPE.md`.
 
-**Obra** (en la raíz): `<obra>_biblia.md`, `PRESET_<OBRA>.md`, `CUADERNO_<OBRA>.md`, `NEXT.md`,
+**Obra** (en la raíz): `FICHA_PREMISA.md`, `<obra>_biblia.md`, `PRESET_<OBRA>.md`, `CUADERNO_<OBRA>.md`, `NEXT.md`,
 `libro_NN/`, `informes/`, `publicacion/` y cualquier carpeta de referencia de la obra.
 
 **Regla:** ningún archivo de la fábrica lleva valores de una obra (nombres, paletas, contadores,
@@ -96,6 +96,7 @@ mínimas y canon a la biblia. Lo dirige un **orquestador** que no escribe la obr
 | v1.1–v1.2.2 | 21-10-2026 | Cierre obligatorio (OPERACIÓN C, con acta) y lectura editorial (C.5); lectora tipo en cada capítulo; pruebas a ciegas; C-9 y C-10 |
 | v1.3 | 22-10-2026 | Orquestador y plantillas de fase; los valores de cada obra, en su preset; variante del subgénero y tres formas de saga |
 | v2.0 | 22–23-10-2026 | **«La pareja primero»** (`PAREJA_PRIMERO.md`): objetivo del 80 % y suelo del 70 % de pareja; suelos de presencia, contacto, calor, voces y ganchos |
-| **v3.0** | 28-10-2026 | **La fábrica se separa de su primera obra**: repo propio (Editorial), por capas y paquetes de género; sin valores de ninguna obra; pareja en roles A/B; mercado, lengua y criterio, de cada obra; se monta en `fabrica/` de cada saga |
+| v3.0 | 28-10-2026 | **La fábrica se separa de su primera obra**: repo propio (Editorial), por capas y paquetes de género; sin valores de ninguna obra; pareja en roles A/B; mercado, lengua y criterio, de cada obra; se monta en `fabrica/` de cada saga |
+| **v3.1** | 29-10-2026 | Arranque de saga con un comando; **mayores de edad, regla dura** (`PAREJA_PRIMERO.md` §8); un solo narrador y parejas de cualquier género, sin fricción; la fase 0 sin el autor |
 
 La historia completa, con el porqué de cada cambio, está en el `CHANGELOG.md` de Editorial.

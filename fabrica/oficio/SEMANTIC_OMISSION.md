@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — SEMANTIC_OMISSION: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — SEMANTIC_OMISSION: base de oficio + adenda de dark romance (v2.0) -->
 
 # SEMANTIC_OMISSION.md
 

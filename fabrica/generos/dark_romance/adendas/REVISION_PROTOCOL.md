@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica (género)
 
 > La base agnóstica sigue vigente; donde choquen, gana esta adenda. Todo lo de aquí se aplica
 > sobre el borrador completo, nunca antes de escribir (`PAREJA_PRIMERO.md`, §6).

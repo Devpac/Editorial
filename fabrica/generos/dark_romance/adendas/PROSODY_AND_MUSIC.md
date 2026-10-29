@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica (género)
 
 > Especializa la base de arriba, que sigue vigente. El nivel de atención prosódica lo declara
 > `AESTHETIC_REGISTER.md` (DECLARACIÓN PRIMARIA, por defecto) o, si la obra declara otro, su

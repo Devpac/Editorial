@@ -73,7 +73,7 @@ def main() -> None:
 
     escribir(destino / "fabrica", a.genero, archivos)
     print(f"Saga {a.obra} preparada en {destino} (Fábrica v{version()}, {a.genero}).")
-    print("Siguiente: commit «Fase 0: saga montada con la Fábrica» y la fase 0 "
+    print(f"Siguiente: commit «Fase 0: saga montada con la Fábrica v{version()}» y la fase 0 "
           "(fabrica/ORQUESTADOR.md §2.0).")
 
 

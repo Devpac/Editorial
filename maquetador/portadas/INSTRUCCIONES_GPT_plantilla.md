@@ -5,8 +5,10 @@
 > condiciones que necesita el maquetador para poner el texto y alargar el lienzo (fondo negro
 > puro, sin texto, zonas vacías arriba y abajo). Lo que va entre corchetes es el sistema visual de
 > la saga (el objeto, sus materiales, su único color), y se decide una vez con el autor.
+> Es el sistema de cubiertas por defecto del maquetador. Una saga que quiera otro diseño entrega
+> la portada terminada (`portada.ebook` en `libro_NN.yaml`) y no usa esta plantilla.
 
-Sistema de cubiertas de *[TÍTULO DE LA SAGA]*, una saga de [N] libros de [SUBGÉNERO] escrita por [AUTORA].
+Sistema de cubiertas de *[TÍTULO DE LA SAGA]*, una saga de [N] libros de [SUBGÉNERO] escrita por [AUTORA O AUTOR].
 
 **Reparto del trabajo:** el generador pinta solo el objeto sobre fondo negro, sin texto. El maquetador añade el título, la autora y la línea de serie con una plantilla común, para que la tipografía sea idéntica en todos los tomos y no haya erratas ni tildes mal puestas. Como el fondo es negro puro, el lienzo se puede alargar al tamaño del ebook y a la cubierta completa de papel (contraportada + lomo + portada) sin que se note el añadido.
 

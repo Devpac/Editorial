@@ -1,4 +1,4 @@
-# PLANTILLA_PRESET.md — el preset de una obra (Fábrica v3.0)
+# PLANTILLA_PRESET.md — el preset de una obra (Fábrica)
 
 > Archivo de **modelo**. Cada obra tiene un `PRESET_<OBRA>.md` en la raíz de su repo con **los
 > valores que leen las plantillas de género**: fichas, voces, idiolectos y tics vigilados, paletas,
@@ -247,7 +247,7 @@ con lo que la plantilla pide que se declare).
 
 - **Propósito.** Qué violencia o crueldad hace el protagonista B en página, y quién investiga a la protagonista A y no puede probar lo que el texto no narra, si la obra lo tiene.
 - **Lo que no se elide nunca.** Dónde está el punto más bajo de la saga porque su violencia se mira entera, si lo tiene, dónde caen los hitos de la escala de rendición, sobre qué trata el hallazgo horizontal, si la saga tiene trama horizontal, y qué decisiones concretas de la protagonista A no se eliden.
-- **Uso A.** Si B actúa fuera del plano de A (si no, «no aplica»), los resultados concretos por los que ella deduce lo que hizo él; si declara negación plausible, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano.
+- **Uso A.** Si B actúa fuera del plano de A (si no, «no aplica»), los resultados concretos por los que ella deduce lo que hizo él; si declara negación plausible, qué no puede pedir ella y qué alcance jurídico tiene, si lo tiene; quién la investiga, si alguien la investiga, y en qué libro y con qué escena se rompe el fuera de plano; y, con un solo narrador, por dónde sabe la lectora lo que hizo B.
 - **Uso B.** Si tiene una ausencia larga del protagonista B, cuánto dura (dentro del tope, o la decisión de su biblia que lo pasa) y dónde cae (después de la primera consumación), y desde dónde se sustituye por otras retiradas.
 - **Uso C.** Adónde van los traslados que se saltan y qué trámites de la trama del libro se narran porque en ellos ocurre otra cosa.
 - **Uso D.** Cuál es la memoria racionada del protagonista B, si la tiene, dónde se cuenta entera y con qué fragmentos asoma antes; cuál es la herida de fondo de la protagonista A y por qué astillas llega.

@@ -1,4 +1,4 @@
-## ADENDA DE ESPECIALIZACIÓN — Fábrica v3.0 (género)
+## ADENDA DE ESPECIALIZACIÓN — Fábrica (género)
 
 > Aplica `PAREJA_PRIMERO.md`, que manda donde choquen: una escena es necesaria si cambia algo entre
 > ellos. La base agnóstica de arriba sigue vigente, con sus tres preguntas.

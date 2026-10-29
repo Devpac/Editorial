@@ -5,7 +5,7 @@ Saga hecha con la **Fábrica** (`Devpac/Editorial`). En este repo hay dos cosas,
 - **`fabrica/`** — el método y las plantillas, montados desde Editorial (versión y género en
   `fabrica/_FABRICA.txt`). **No se editan aquí:** las mejoras se proponen a Editorial
   (`fabrica/PROTOCOLO_CAPTURA_APRENDIZAJE.md`) y la carpeta se vuelve a montar.
-- **La obra**, en la raíz: `CUADERNO_{{OBRA}}.md` (dónde estamos, decisiones del autor, índice),
+- **La obra**, en la raíz: `FICHA_PREMISA.md` (la de la fase 0), `CUADERNO_{{OBRA}}.md` (dónde estamos, decisiones del autor, índice),
   `PRESET_{{OBRA}}.md`, la biblia, `NEXT.md` (el encargo vivo), `libro_NN/`, `informes/` y
   `publicacion/` (la configuración del maquetador de Editorial).
 

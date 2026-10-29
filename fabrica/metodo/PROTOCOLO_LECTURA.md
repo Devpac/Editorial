@@ -1,6 +1,6 @@
 # PROTOCOLO_LECTURA.md — cómo se lee un capítulo antes de darlo por bueno
 
-> Archivo de servicio del modelo (v2.0, 22-10-2026; genérico: los datos de la obra que usan
+> Archivo de servicio de la fábrica (genérico: los datos de la obra que usan
 > los encargos están en su preset, `PRESET_<OBRA>.md` › PROTOCOLO_LECTURA, y en su cabecera:
 > › Cabecera › Mercado y lengua, para `[LENGUA]`, `[PLATAFORMA Y PÚBLICO]`, `[PRECIO]`, `[SU RED]` y
 > `[PERFIL DE LECTORA EXTERNA]`; › Cabecera › Correspondencia de roles, para `[PROTAGONISTA A]` y
@@ -84,7 +84,7 @@ print(round(1000*c/w,1))
 >
 > Evalúa el candidato de 1 a 10 (decimales) en: disfrute de la lectora de dark romance (¿engancha?, ¿repone el anhelo?, ¿el cierre empuja a pasar página?); pareja (¿qué cambia entre los dos?; y estima qué parte del capítulo, en %, es de pareja: los dos en escena y algo pasa entre ellos (choque, deseo, miedo, control, lo que se callan) —si están juntos y esa parte solo mueve la trama B, cuenta como trama B—, uno con el otro en directo o quien narra ocupado con el otro; un recuerdo de pasada no cuenta); continuidad de voz con los capítulos anteriores del mismo POV; cumplimiento de la ficha y coherencia con los anteriores [en especial: lo que deba cuadrar en este capítulo —horas, quién sabe qué, la escena que el otro narrador ya contó—]; repeticiones: ¿cuenta otra vez cosas que la lectora ya leyó [con dos narradores: o solo lo que el otro narrador no vio]?; calidad de prosa (imágenes que salen del personaje frente a imágenes puestas para sonar literarias, frases que explican lo ya mostrado, tics de IA, ritmo); y nota global, comparada con el nivel de los publicados (dales también una nota de referencia).
 >
-> Después: los tres mejores momentos y los tres peores (con cita), errores de coherencia concretos, y como máximo tres correcciones mínimas para publicarlo (cortar antes que añadir; sin tocar la voz). Sé severa y concreta. En [LENGUA], máximo 600 palabras.
+> Después: los tres mejores momentos y los tres peores (con cita), errores de coherencia concretos, y como máximo tres correcciones mínimas para publicarlo (cortar antes que añadir; sin tocar la voz). Y una línea aparte, siempre: ¿algún personaje en una escena con carga romántica o sexual podría leerse como menor de 18 años, por su edad, el escenario, su cuerpo, su ropa, su trato o su vocabulario? (sí, con la cita, o no). Sé severa y concreta. En [LENGUA], máximo 600 palabras.
 
 ## 4. Encargo a la editora (prueba a ciegas, dos versiones)
 
@@ -226,11 +226,13 @@ encargos, con estos cambios:
    toca, **tres problemas como máximo** con su corrección mínima aplicada, lo que se queda
    aunque alguien pidiera cortarlo (y por qué), lo que sube a canon y los avisos para los
    capítulos siguientes.
-2. Las correcciones las aplica la ventana principal: **cortar antes que añadir; añadir solo
+2. **Antes que nada:** si la editora marca un personaje que podría leerse como menor en una escena
+   con carga, se corrige eso primero y se vuelve a leer (`PAREJA_PRIMERO.md` §8, regla dura).
+3. Las correcciones las aplica la ventana principal: **cortar antes que añadir; añadir solo
    cuando falta un beat**. Nunca se reescribe el capítulo entero.
-3. Lo que sube a canon se anota en la biblia (Anexo A). Lo que pide un cambio de escaleta
+4. Lo que sube a canon se anota en la biblia (Anexo A). Lo que pide un cambio de escaleta
    pasa antes por la lectura de plan (§6), salvo que lo pidan ya tres lecturas o más.
-4. **Correctora de continuidad** *(v1.2.2)*: si las correcciones tocan más de un capítulo (o
+5. **Correctora de continuidad** *(v1.2.2)*: si las correcciones tocan más de un capítulo (o
    cortan algo que otro capítulo cita), un agente nuevo relee el tramo entero con este encargo:
 
    > Eres correctora de continuidad de una editorial de ficción comercial en [LENGUA]. Lee SOLO
@@ -246,7 +248,7 @@ encargos, con estos cambios:
    > En [LENGUA], máximo 700 palabras, de más grave a menos.
 
    Lo grave se arregla en una línea; lo leve se anota en `continuidad.md`.
-5. Commit y push.
+6. Commit y push.
 
 ## 8. Lectura externa (otros modelos) *(v1.2.2)*
 

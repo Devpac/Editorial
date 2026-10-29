@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — SERIES_ARCHITECTURE: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — SERIES_ARCHITECTURE: base de oficio + adenda de dark romance (v2.0) -->
 
 # SERIES_ARCHITECTURE.md
 

@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — THEMATIC_ENGINE: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — THEMATIC_ENGINE: base de oficio + adenda de dark romance (v2.0) -->
 
 # THEMATIC_ENGINE.md
 

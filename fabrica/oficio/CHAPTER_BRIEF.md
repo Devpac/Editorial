@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — CHAPTER_BRIEF: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — CHAPTER_BRIEF: base de oficio + adenda de dark romance (v2.0) -->
 
 # CHAPTER_BRIEF.md
 

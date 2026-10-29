@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — WORLD_TEXTURE: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — WORLD_TEXTURE: base de oficio + adenda de dark romance (v2.0) -->
 
 # WORLD_TEXTURE.md
 

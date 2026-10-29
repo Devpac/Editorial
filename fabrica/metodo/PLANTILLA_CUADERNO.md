@@ -1,4 +1,4 @@
-# PLANTILLA_CUADERNO.md — el cuaderno del orquestador (Fábrica v3.0)
+# PLANTILLA_CUADERNO.md — el cuaderno del orquestador (Fábrica)
 
 > Archivo de **modelo**. Cada obra tiene un `CUADERNO_<OBRA>.md` en la raíz de su repo, que solo
 > escribe el orquestador (`ORQUESTADOR.md`, §9). Es lo primero que lee un relevo. Corto: una o dos
@@ -43,7 +43,7 @@ Lo que no cabe en el plan de la lectora ni en la continuidad y el relevo necesit
 cómo puntúa la lectora tipo frente a las externas en esta obra; «el cap. X se fundió con el Y»).
 
 ## 6. Índice de archivos de la obra
-- `<obra>_biblia.md` · `PRESET_<OBRA>.md` · `NEXT.md`
+- `FICHA_PREMISA.md` · `<obra>_biblia.md` · `PRESET_<OBRA>.md` · `NEXT.md` · `informes/` (con `propuestas_fabrica.md`) · `publicacion/`
 - `libro_NN/`: `diseño_libro.md` (del libro 2 en adelante), `escaleta.md`, `escaletaAmpliada.md`,
   `continuidad.md`, `plan_lectora.md`, `historial_lecturas.md` (forma: `PLANTILLA_LIBRO.md`),
   `capitulo_NN.md`, `capNN_brief.md`, `capNN_acta.md`, `capNN_lectura_editorial.md`

@@ -1,4 +1,4 @@
-# PLANTILLA_ESCALETA.md — escaleta y escaleta ampliada de un libro (Fábrica v3.0)
+# PLANTILLA_ESCALETA.md — escaleta y escaleta ampliada de un libro (Fábrica)
 
 > Archivo de **modelo**. La parte 1 es la escaleta del libro (ventana E1, fase 2); la parte 2, la
 > escaleta ampliada (ventanas A1, A2…, fase 3). Los **tests** del final los aplica la auditoría,

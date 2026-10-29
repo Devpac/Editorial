@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — REVISION_PROTOCOL: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — REVISION_PROTOCOL: base de oficio + adenda de dark romance (v2.0) -->
 
 # REVISION_PROTOCOL.md
 

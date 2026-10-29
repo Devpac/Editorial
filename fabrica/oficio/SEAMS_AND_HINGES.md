@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — SEAMS_AND_HINGES: base de oficio + ADENDA DE GÉNERO (dark romance; los valores de la obra viven en PRESET_<OBRA>.md) al final. Decisión: ESPECIALIZA. Ver LEEME.md -->
+<!-- Fábrica — SEAMS_AND_HINGES: base de oficio + ADENDA DE GÉNERO (dark romance; los valores de la obra viven en PRESET_<OBRA>.md) al final. Decisión: ESPECIALIZA. Ver LEEME.md -->
 
 # SEAMS_AND_HINGES.md
 

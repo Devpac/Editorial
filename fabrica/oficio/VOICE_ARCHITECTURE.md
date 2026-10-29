@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — VOICE_ARCHITECTURE: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — VOICE_ARCHITECTURE: base de oficio + adenda de dark romance (v2.0) -->
 
 # VOICE_ARCHITECTURE.md
 

@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — PROSE_LINE_DISCIPLINE: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — PROSE_LINE_DISCIPLINE: base de oficio + adenda de dark romance (v2.0) -->
 
 # PROSE_LINE_DISCIPLINE.md
 

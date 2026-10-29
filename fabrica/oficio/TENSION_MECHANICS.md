@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — TENSION_MECHANICS: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — TENSION_MECHANICS: base de oficio + adenda de dark romance (v2.0) -->
 
 # TENSION_MECHANICS.md
 

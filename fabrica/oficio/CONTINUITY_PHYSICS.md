@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — CONTINUITY_PHYSICS: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — CONTINUITY_PHYSICS: base de oficio + adenda de dark romance (v2.0) -->
 
 # CONTINUITY_PHYSICS.md
 

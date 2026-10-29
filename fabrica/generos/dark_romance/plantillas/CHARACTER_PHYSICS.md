@@ -1,6 +1,6 @@
-<!-- Fábrica v3.0 — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
+<!-- Fábrica — plantilla de GÉNERO (vale para cualquier saga de dark romance). Los valores de la obra viven en su preset: PRESET_<OBRA>.md (la obra activa la dice el LEEME). -->
 
-# CHARACTER_PHYSICS.md — Fábrica v3.0
+# CHARACTER_PHYSICS.md — Fábrica
 
 > *Roles:* «ella» y «él» son la protagonista A y el protagonista B por defecto; la obra declara su pareja en `PRESET_<OBRA>.md` › Cabecera › Correspondencia de roles (`PAREJA_PRIMERO.md`, «Roles»).
 
@@ -150,7 +150,7 @@ flota.
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Ficha A1 — protagonista A.
 > *Qué declara aquí la obra:* la ficha completa y cerrada de protagonista A, campo por campo, con sus cifras vinculantes, los planos de su defecto (cuántos y cuáles) y el libro de cada fase.
 
-**Datos duros.** […] *Edad al inicio del libro 1, oficio y antigüedad,
+**Datos duros.** […] *Edad al inicio del libro 1 (18 o más: `PAREJA_PRIMERO.md` §8), su oficio o su lugar en su mundo (y desde cuándo),
 formación, entrenamiento físico, secretos, referencia visual.*
 
 **Física visible (vinculante).** […] *Rasgos, lo que la delata cuando la tensión
@@ -213,12 +213,12 @@ bajo la mirada de él); paleta por sentidos: olfato; tacto; sonido; color.*
 > **Valores de la obra →** `PRESET_<OBRA>.md` › CHARACTER_PHYSICS › Ficha A2 — protagonista B.
 > *Qué declara aquí la obra:* la ficha completa y cerrada de protagonista B, campo por campo, con sus cifras vinculantes y el libro de cada peldaño.
 
-**Datos duros.** […] *Edad y diferencia con protagonista A, de dónde viene,
+**Datos duros.** […] *Edad (18 o más: `PAREJA_PRIMERO.md` §8) y diferencia con protagonista A, de dónde viene,
 oficio actual, código, nombres por los que se le conoce, si importa.*
 
 **Física visible (vinculante).** […] **Si la obra declara un contraste de
 envergadura con protagonista A**, es contraste de poder: parece que podría
-destruirla, y ella es la única que lo pone de rodillas. […]
+destruir al otro, y el otro es el único que lo pone de rodillas. […]
 
 **Las marcas (si la obra se las da).** […] *Marcas del cuerpo que cargan su
 herida, y qué hacen con el defecto de protagonista A.*

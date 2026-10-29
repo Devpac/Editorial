@@ -1,4 +1,4 @@
-<!-- Fábrica v3.0 — PROSODY_AND_MUSIC: base de oficio + adenda de dark romance (v2.0) -->
+<!-- Fábrica — PROSODY_AND_MUSIC: base de oficio + adenda de dark romance (v2.0) -->
 
 # PROSODY_AND_MUSIC.md
 
