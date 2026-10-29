@@ -86,3 +86,34 @@ la horca para su hermano o casarse con el heredero que firma los cortes de agua.
   agua es una oscuridad muy española.
 - **Riesgos:** que la distopía funcione en español no está comprobado; el agua se lee en clave política; el
   mundo cuesta de construir.
+
+---
+
+## Lectura a ciegas (29-10-2026)
+
+Dos lectoras tipo sin contexto y una editora de mercado leyeron las tres premisas sin saber cuál recomendaba el
+orquestador (`lecturas/`).
+
+| | A. *La Compaña* | B. *Sal y sangre* | C. *Los señores del agua* |
+|---|---|---|---|
+| Lectora tipo, 31 años, dark romance en KU | 7 | **8** | 5 |
+| Lectora tipo, 24 años, romantasy y BookTok | **9** | 7 | 5 |
+| Editora de mercado (orden) | **1.ª** | 2.ª | 3.ª |
+
+- **Las tres descartan la C:** «juvenil con boda», política, y la trama de mundo que se come a la pareja.
+- **Entre la A y la B, las lectoras empatan** (16 frente a 15). La B se compraría «hoy mismo» por el gancho de la
+  noche de bodas y el peligro mutuo; la A es «lo único que no he leído mil veces» y «la joya del año que más fácil
+  se tuerce». La editora elige la A: es la única que cumple las diez lecciones desde la premisa, la más lejos de
+  *Madera y Pólvora* y la que Kindle Translate no puede llenar. La B roza *MyP* («la mandan a matarlo» repite su
+  mejor giro), la mafia saturada y una herida real (el Estrecho).
+- **Lo que piden las dos lectoras, sea cual sea:** que él dé miedo de verdad y no se ablande pronto; picante pronto
+  y sin cortes; un final que las deje con la pregunta gorda abierta; portada oscura y adulta.
+
+**Recomendación del orquestador: A**, con los arreglos de la editora: el arco de los libros 2 y 3 cerrado antes de
+la biblia (el libro 1 acaba cuando ella acepta la cruz por decisión propia y él empieza a envejecer; en el 2, ella
+lleva la cruz y él es el mortal); la noite de Defuntos, y no Samaín, como fecha del pacto de 1714; «Santa
+Compaña» para el nombre de la saga y no para el título; el pacto separado de lo sexual y con ella decidiendo ir; y
+lo que piden las lectoras como notas para la biblia. **La B queda como alternativa** si el autor prefiere lo
+contemporáneo, con sus arreglos (contrabando de tabaco y gasoil, pueblo inventado, el arma de ella son las cuentas).
+
+**Decide el autor.**
