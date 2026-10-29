@@ -1,6 +1,6 @@
 # Arranque — cómo se usa la fábrica
 
-Para el autor y para el orquestador. La fábrica vive aquí, en Editorial; cada saga vive en su
+Para el autor y para el orquestador (el proceso entero y su porqué, en `MANUAL.md`). La fábrica vive aquí, en Editorial; cada saga vive en su
 propio repo, con la fábrica montada en `fabrica/` y la obra en la raíz.
 
 ## 1. Empezar una saga

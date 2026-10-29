@@ -5,6 +5,7 @@ La fábrica de novelas: el método (orquestador, ventanas de trabajo, lecturas),
 ## Estructura
 
 ```
+MANUAL.md                   el proceso de la idea a Amazon y por qué funciona (con sus pruebas)
 ARRANQUE.md                 cómo se empieza una saga, cómo se pone al día y cómo se publica
 VERSION · CHANGELOG.md      la versión de la fábrica y su historia (las reglas no llevan historia)
 fabrica/
@@ -31,12 +32,13 @@ en `sagas/segunda_saga/`, con la misma forma que tendría en un repo propio (la 
 `fabrica/` y la obra en su raíz). Las herramientas no la tocan; si algún día pasa a repo propio, se
 mueve la carpeta entera.
 
-Para empezar una saga: `ARRANQUE.md`.
+Para entender el proceso: `MANUAL.md`. Para empezar una saga: `ARRANQUE.md`.
 
 ## Estado
 
 - **Paso 1 (28-10-2026):** el MODELO_DarkRomance v2.0 de `Devpac/Dark` (`fcd6839`), repartido en capas sin cambios. El montaje es idéntico byte a byte al original (`historia/ORIGEN.md`). Todavía arrastra lo que encontró la auditoría.
 - **Paso 2 (28-10-2026): Fábrica v3.0.** La cirugía de la auditoría: la fábrica ya no lleva valores de ninguna obra (`CHANGELOG.md`, `cirugia/`). Auditada después de operar (`auditorias/2026-10-28_v3/`) y corregida: 72 hallazgos, 67 resueltos, 5 dejados así a propósito, ninguno pendiente. Lo que el preset de MyP tiene que recibir al migrar: `cirugia/MIGRACION_MyP.md`.
 - **Paso 3 (29-10-2026): arranque y maquetador.** `ARRANQUE.md`, `plantilla_saga/` y `herramientas/nueva_saga.py`: una saga nueva se prepara con un comando, con la fábrica montada en `fabrica/` (y su sello de versión) y la obra en la raíz. El maquetador vive aquí, sin la configuración de ninguna obra; la de cada libro va en `publicacion/` de su saga.
-- **Siguiente:** el manual de producción, y la prueba de fuego con la segunda saga.
+- **Paso 4 (29-10-2026): el manual de producción** (`MANUAL.md`), con el porqué de cada pieza sacado de la historia de la primera obra (`historia/dossier_por_que_funciona_2026-10-29.md`).
+- **Siguiente:** la prueba de fuego con la segunda saga.
 - *Madera y Pólvora* termina su libro 1 con la v2.0 de Dark y migra a esta fábrica al abrir el libro 2.
