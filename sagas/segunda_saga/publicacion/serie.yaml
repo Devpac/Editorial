@@ -3,10 +3,10 @@
 # (Cabecera › Mercado y lengua) y su biblia (§4 y §5, marca y paquete de publicación).
 
 serie:
-  nombre: POR DEFINIR
-  total_previsto: null
+  nombre: Santa Compaña      # de trabajo
+  total_previsto: 3
 
-autor: POR DEFINIR           # seudónimo tal como sale en cubierta y en KDP
+autor: Mara Orellana          # seudónimo tal como sale en cubierta y en KDP
 sello: ""                    # editorial propia; vacío = «Independently published»
 idioma: es-ES
 anio: 2026
