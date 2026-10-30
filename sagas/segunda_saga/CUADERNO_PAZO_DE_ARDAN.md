@@ -7,12 +7,14 @@
 
 - **Fase:** 0 (arranque) · **Libro:** 1, título de trabajo *Lo que se debe a los muertos* · **Último encargo
   cerrado:** fase 0 por el orquestador (documentación, tres premisas con lectura a ciegas, elección del autor y
-  ficha de premisa).
+  ficha de premisa), revisada el 30-10-2026 con la segunda opinión de la sesión que mantiene la fábrica
+  (`propuestas/segunda_opinion_2026-10-30.md`) y cuatro respuestas del autor.
 - **Próximo encargo:** B1 (biblia, fundación). **No se lanza hasta que el autor apruebe `FICHA_PREMISA.md`**
   (su puerta: la premisa, el reparto 🔒, el calor y las líneas rojas). Su NEXT, por escribir.
 - **Pendiente de auditar:** nada.
 - **Dónde vive la saga:** en `Devpac/Editorial`, carpeta `sagas/segunda_saga/`, por decisión del autor
-  (29-10-2026: «la segunda saga tiene que ir aquí»). Se trabaja en `main` de Editorial. La obra está en la raíz
+  (29-10-2026: «la segunda saga tiene que ir aquí»; **confirmado el 30-10-2026** frente a la propuesta de pasarla
+  a un repo propio antes de B1). Se trabaja en `main` de Editorial. La obra está en la raíz
   de esta carpeta; `fabrica/` se monta desde Editorial y no se edita aquí. Ninguna ventana de esta saga toca
   `Devpac/Dark` (el autor: no hay que dejar nada ahí).
 - **Encargo vivo:** `NEXT.md` (todavía no existe).
@@ -27,7 +29,12 @@
 - **Forma:** trilogía de la misma pareja y derivados si funciona (29-10-2026).
 - **Calor del libro 1:** como el libro 1 de *Madera y Pólvora* (contacto con carga en el primer 10 %, beso hacia
   el 30 %, primera vez hacia el 50 %) (29-10-2026).
-- **Seudónimo:** Mara Orellana, la misma marca que *Madera y Pólvora* (29-10-2026).
+- **Seudónimo:** Mara Orellana, la misma marca que *Madera y Pólvora* (29-10-2026; confirmado el 30-10-2026
+  sabiendo que ata las dos sagas en el algoritmo).
+- **Público principal:** la lectora de dark romance; la saga es dark romance gótico y la romantasy, segundo
+  público; 80.000–90.000 palabras por libro (30-10-2026).
+- **Voces:** dos, él con el 40 % como mínimo; la duda la sostiene que él siga con la entrega, no que calle que la
+  quiere; el giro de él, hacia el 75 % (30-10-2026).
 - **Líneas rojas:** las de *Madera y Pólvora* (29-10-2026; detalle en la ficha).
 - **Reparto:** la pareja primero, 80 % de objetivo y 70 % de suelo (valor por defecto de la fábrica, aprobado por
   el autor el 28-10-2026).
@@ -46,11 +53,16 @@
 
 ## 4. Pendientes abiertos
 
-- **El visto bueno del autor a `FICHA_PREMISA.md`**, con sus supuestos F0-01 a F0-06 (narradores, extensión,
-  mercado, tiempo, fecha del pacto, criterio).
+- **El visto bueno del autor a `FICHA_PREMISA.md`**, con los supuestos que quedan suyos por confirmar: F0-04
+  (tiempo), F0-05 (Defuntos), F0-06 (criterio) y F0-07 (la cruz solo pasa si se acepta). F0-01 a F0-03 ya los
+  decidió el 30-10-2026.
+- **Las reglas de la cruz**, obligatorias en B1 (ficha, «Las reglas de la cruz»): la fábrica no tiene ranura
+  para las reglas de un mundo sobrenatural; propuesto a Editorial en `informes/propuestas_fabrica.md`.
 - **Comprobaciones a mano** antes de cerrar la marca (B1): el top 100 de «Romance oscuro» y «Fantasía romántica»
   de Amazon.es; colisiones del título y del nombre de la saga; lo que KDP no admite (para las líneas rojas).
-- **El arco de los libros 2 y 3** (B2), con la dirección de la ficha.
+- **El arco de los libros 2 y 3** (B2), con la dirección de la ficha (en el 2, él mortal y todavía peligroso).
+- **Lecturas que faltan** (ficha): lectora gallega y lectora que odia los finales abiertos en la lectura de plan
+  de la biblia; la muestra gratuita en cuanto haya capítulos.
 
 ## 5. Notas del libro en curso
 
@@ -65,6 +77,8 @@
 
 - `FICHA_PREMISA.md` · `CUADERNO_PAZO_DE_ARDAN.md` · `LEEME.md` · `publicacion/`
 - `documentacion/`: `00_SINTESIS.md` y los cuatro informes de la fase 0
-- `propuestas/`: `PREMISAS.md` (las tres candidatas, la lectura y la recomendación) y `lecturas/`
+- `propuestas/`: `PREMISAS.md` (las tres candidatas, la lectura y la recomendación), `lecturas/` y
+  `segunda_opinion_2026-10-30.md`
+- `informes/propuestas_fabrica.md`
 - Por crear: `pazo_de_ardan_biblia.md` (B1–B3), `PRESET_PAZO_DE_ARDAN.md` (P1), `NEXT.md`, `informes/`,
   `libro_01/`
